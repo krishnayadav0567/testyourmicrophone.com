@@ -26,8 +26,10 @@
   --radius: 16px;
   --max: 1120px;
   --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Inter, Arial, sans-serif;
+  color-scheme: dark;
 }
 html[data-theme="light"] {
+  color-scheme: light;
   --bg: #f7f8fa;
   --bg-soft: #eef1f5;
   --card: #ffffff;
@@ -261,6 +263,9 @@ button, select, audio { font: inherit; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .js [data-reveal] > *, .js [data-reveal-child] { opacity: 1; transform: none; transition: none; }
+}
+@media (prefers-reduced-transparency: reduce) {
+  .site-header { backdrop-filter: none; }
 }
 @media (max-width: 1100px) {
   .feedback-link { display: none; }
