@@ -7,4 +7,3 @@
 *.log
 .cache/
 tmp/
-dist/

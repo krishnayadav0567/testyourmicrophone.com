@@ -15,13 +15,7 @@ Privacy-first browser microphone testing site.
 
 ## Run locally
 
-This is a static site with a zero-dependency build command. To build the deployable files into `dist/`:
-
-```bash
-npm run build
-```
-
-For local development without a build step, start a static server from the project root:
+This is a static site and does not require a build step or package installation. Start a local static server from the project root:
 
 ```bash
 python3 -m http.server 8000
@@ -29,20 +23,22 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## GitHub Pages deployment
+## Cloudflare Pages deployment
 
-The repository includes `.github/workflows/deploy-pages.yml`. After pushing the `main` branch to GitHub:
+This repository is a plain static site and does not require npm, a package manager, or a build command.
 
-1. Open the repository's **Settings**.
-2. Open **Pages** under **Code and automation**.
-3. Set **Source** to **GitHub Actions**.
-4. Push to `main` or run the workflow manually from the **Actions** tab.
+In Cloudflare Pages, connect this GitHub repository with:
 
-The workflow runs `npm run build` and publishes the generated `dist/` directory as a static GitHub Pages site.
+- **Production branch:** `main`
+- **Framework preset:** `None`
+- **Build command:** leave blank
+- **Build output directory:** `/`
+
+Cloudflare Pages will publish the repository root, where `index.html` is located. After the first deployment, add `testyourmicrophone.com` as a custom domain in the Cloudflare Pages project.
 
 ## Custom domain
 
-The site currently uses `https://testyourmicrophone.com/` in its canonical URL, sitemap, robots file, and social metadata. If the GitHub Pages site will use this domain, configure the domain in GitHub Pages and point the domain DNS records to GitHub before launch. If you use a different domain, update those files before publishing.
+The site currently uses `https://testyourmicrophone.com/` in its canonical URL, sitemap, robots file, and social metadata. Configure this domain as the Cloudflare Pages custom domain before submitting the sitemap to Google Search Console.
 
 ## Project files
 
