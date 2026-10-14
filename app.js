@@ -7,6 +7,10 @@
   const recordButton = $("#record-button");
   const recordButtonLabel = $("#record-button-label");
   const deviceSelect = $("#device-select");
+  const homeDeviceSelect = $("#home-device-select");
+  const loadDevicesButton = $("#load-devices");
+  const loadDevicesLabel = $("#load-devices-label");
+  const homeDeviceHint = $("#home-device-hint");
   const waveform = $("#waveform");
   const waveformBars = [...waveform.querySelectorAll("span")];
   const meterShell = $("#meter-shell");
@@ -27,7 +31,6 @@
   const audioPreview = $("#audio-preview");
   const downloadRecording = $("#download-recording");
   const recordingDuration = $("#recording-duration");
-  const autostartToggle = $("#autostart-toggle");
   const menuToggle = $(".menu-toggle");
   const mobileNav = $("#mobile-nav");
   const themeToggle = $("#theme-toggle");
@@ -51,8 +54,10 @@
   let recordingTimer = null;
   let recordingUrl = null;
   let switchingDevice = false;
+  let homeDeviceId = "";
+  let homeDeviceLabel = "";
+  let loadingHomeDevices = false;
 
-  const storageKey = "testyourmicrophone:autostart-preference";
   const themeStorageKey = "tym-theme";
 
   function setView(view) {
@@ -67,15 +72,38 @@
     }
   }
 
+  function beginTest() {
+    setView("test");
+    startTest(homeDeviceId);
+  }
+
+  function selectedHomeLabel() {
+    if (homeDeviceId && homeDeviceSelect) {
+      const option = homeDeviceSelect.querySelector(`option[value="${CSS.escape(homeDeviceId)}"]`);
+      if (option?.textContent) return option.textContent;
+    }
+    return homeDeviceLabel || "";
+  }
+
+  function updateStartButtonForHomeSelection() {
+    if (homeDeviceId && selectedHomeLabel()) startButtonLabel.textContent = `Test ${selectedHomeLabel()}`;
+    else if (!startButton.disabled) startButtonLabel.textContent = "Start microphone test";
+  }
+
+  function requestTestStart() {
+    if (startButton.disabled) return;
+    beginTest();
+  }
+
   function setTheme(theme) {
     const nextTheme = theme === "light" ? "light" : "dark";
     document.documentElement.dataset.theme = nextTheme;
     document.body.dataset.theme = nextTheme;
     themeColor?.setAttribute("content", nextTheme === "light" ? "#f7f8fa" : "#111111");
     themeToggle?.setAttribute("aria-pressed", String(nextTheme === "light"));
-    themeToggle?.setAttribute("aria-label", nextTheme === "light" ? "Switch to dark theme" : "Switch to light theme");
+    themeToggle?.setAttribute("aria-label", nextTheme === "light" ? "Theme: light. Switch to dark theme" : "Theme: dark. Switch to light theme");
     if (themeToggleIcon) themeToggleIcon.textContent = nextTheme === "light" ? "☾" : "☀";
-    if (themeToggleText) themeToggleText.textContent = nextTheme === "light" ? "Dark" : "Light";
+    if (themeToggleText) themeToggleText.textContent = nextTheme === "light" ? "Light" : "Dark";
   }
 
   function getInitialTheme() {
@@ -166,32 +194,107 @@
     analyser = null;
   }
 
-  function clearDeviceOptions() {
-    deviceSelect.replaceChildren();
-    const option = document.createElement("option");
-    option.value = "";
-    option.textContent = "No microphone detected";
-    deviceSelect.append(option);
-  }
-
-  async function populateDevices(preferredDeviceId = "") {
-    if (!navigator.mediaDevices?.enumerateDevices) return;
-    const devices = await navigator.mediaDevices.enumerateDevices();
-    const microphones = devices.filter((device) => device.kind === "audioinput");
-    deviceSelect.replaceChildren();
+  function fillSelect(select, microphones, emptyLabel) {
+    select.replaceChildren();
     if (!microphones.length) {
-      clearDeviceOptions();
-      return;
+      const option = document.createElement("option");
+      option.value = "";
+      option.textContent = emptyLabel;
+      select.append(option);
+      select.disabled = true;
+      return "";
     }
     microphones.forEach((device, index) => {
       const option = document.createElement("option");
       option.value = device.deviceId;
       option.textContent = formatDeviceLabel(device.label, index);
-      deviceSelect.append(option);
+      select.append(option);
     });
-    const selected = microphones.some((device) => device.deviceId === preferredDeviceId) ? preferredDeviceId : microphones[0].deviceId;
-    deviceSelect.value = selected;
-    deviceSelect.disabled = false;
+    select.disabled = false;
+    return microphones[0].deviceId;
+  }
+
+  async function listMicrophones() {
+    if (!navigator.mediaDevices?.enumerateDevices) {
+      throw new Error("Microphone listing is not available in this browser. Try a recent version of Chrome, Edge, Firefox, or Safari over HTTPS or localhost.");
+    }
+    const devices = await navigator.mediaDevices.enumerateDevices();
+    return devices.filter((device) => device.kind === "audioinput");
+  }
+
+  function setHomeSelection(deviceId, label) {
+    homeDeviceId = deviceId;
+    homeDeviceLabel = label;
+    if (!homeDeviceId) {
+      detectedDevice.textContent = "Not started";
+      liveDeviceName.textContent = "Not started";
+    } else {
+      const displayLabel = selectedHomeLabel() || homeDeviceLabel || "Selected microphone";
+      detectedDevice.textContent = displayLabel;
+    }
+    updateStartButtonForHomeSelection();
+  }
+
+  async function loadHomeDevices() {
+    if (loadingHomeDevices) return;
+    if (!navigator.mediaDevices?.getUserMedia) {
+      homeDeviceHint.textContent = "Microphone access is not available in this browser. Try a recent version of Chrome, Edge, Firefox, or Safari over HTTPS or localhost.";
+      return;
+    }
+    loadingHomeDevices = true;
+    loadDevicesButton.disabled = true;
+    loadDevicesLabel.textContent = "Requesting access…";
+    homeDeviceHint.textContent = "Requesting one-time access to reveal microphone names.";
+    let previewStream = null;
+    try {
+      previewStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const microphones = await listMicrophones();
+      fillSelect(homeDeviceSelect, microphones, "No microphone detected");
+      if (microphones.length) {
+        setHomeSelection(microphones[0].deviceId, formatDeviceLabel(microphones[0].label, 0));
+        homeDeviceHint.textContent = "Names revealed. Choose a microphone, then start the test.";
+      } else {
+        setHomeSelection("", "");
+        homeDeviceHint.textContent = "No microphone was found. Connect an input device and try again.";
+      }
+    } catch (error) {
+      const name = error?.name;
+      homeDeviceHint.textContent = name === "NotAllowedError" || name === "PermissionDeniedError"
+        ? "Microphone permission was denied. Allow access, then try again."
+        : error?.message || "The microphone list could not be loaded. Check the device connection and try again.";
+    } finally {
+      if (previewStream) previewStream.getTracks().forEach((track) => track.stop());
+      loadingHomeDevices = false;
+      loadDevicesButton.disabled = false;
+      loadDevicesLabel.textContent = homeDeviceSelect.options.length ? "Refresh microphones" : "Show microphones";
+    }
+  }
+
+  async function populateDevices(preferredDeviceId = "") {
+    if (!navigator.mediaDevices?.enumerateDevices) return;
+    const microphones = await listMicrophones();
+    const selected = fillSelect(deviceSelect, microphones, "No microphone detected");
+    if (!microphones.length) {
+      homeDeviceSelect.replaceChildren();
+      const option = document.createElement("option");
+      option.value = "";
+      option.textContent = "No microphone detected";
+      homeDeviceSelect.append(option);
+      homeDeviceSelect.disabled = true;
+      return;
+    }
+    const resolved = microphones.some((device) => device.deviceId === preferredDeviceId) ? preferredDeviceId : selected;
+    const matched = microphones.find((device) => device.deviceId === resolved);
+    deviceSelect.value = resolved;
+    if (homeDeviceSelect.options.length) {
+      homeDeviceSelect.value = microphones.some((device) => device.deviceId === homeDeviceSelect.value)
+        ? homeDeviceSelect.value
+        : resolved;
+    }
+    if (preferredDeviceId && matched) {
+      homeDeviceId = resolved;
+      homeDeviceLabel = formatDeviceLabel(matched.label, microphones.indexOf(matched));
+    }
   }
 
   function drawMeter() {
@@ -257,9 +360,11 @@
       recordButton.disabled = false;
       recordButtonLabel.textContent = "Record a clip";
       signalLabel.textContent = "Listening for signal";
-      const deviceLabel = track.label || "Microphone access granted";
+      const deviceLabel = track.label || selectedHomeLabel() || "Microphone access granted";
       detectedDevice.textContent = deviceLabel;
-      liveDeviceName.textContent = deviceLabel;
+      liveDeviceName.textContent = `Testing: ${deviceLabel}`;
+      homeDeviceId = settings.deviceId || deviceId || homeDeviceId;
+      homeDeviceLabel = deviceLabel;
       lastTested.textContent = formatTime(new Date());
       sampleRate.textContent = settings.sampleRate ? `${settings.sampleRate} Hz` : audioContext.sampleRate ? `${audioContext.sampleRate} Hz` : "—";
       channelCount.textContent = settings.channelCount ? `${settings.channelCount}` : "—";
@@ -292,7 +397,6 @@
     startButtonLabel.textContent = "Start microphone test";
     recordButton.disabled = true;
     signalLabel.textContent = "Test stopped";
-    detectedDevice.textContent = "Not started";
     liveDeviceName.textContent = "Not started";
     sampleRate.textContent = "—";
     channelCount.textContent = "—";
@@ -366,9 +470,11 @@
     else recorder.stop();
   }
 
-  startButton.addEventListener("click", () => {
-    setView("test");
-    startTest();
+  startButton.addEventListener("click", requestTestStart);
+  loadDevicesButton.addEventListener("click", loadHomeDevices);
+  homeDeviceSelect.addEventListener("change", () => {
+    const option = homeDeviceSelect.selectedOptions[0];
+    setHomeSelection(homeDeviceSelect.value, option?.textContent || "");
   });
   backToHome.addEventListener("click", async () => {
     await stopTest();
@@ -385,11 +491,6 @@
     const nextTheme = document.documentElement.dataset.theme === "light" ? "dark" : "light";
     setTheme(nextTheme);
     try { localStorage.setItem(themeStorageKey, nextTheme); } catch {}
-  });
-
-  try { autostartToggle.checked = localStorage.getItem(storageKey) === "true"; } catch { autostartToggle.checked = false; }
-  autostartToggle.addEventListener("change", () => {
-    try { localStorage.setItem(storageKey, String(autostartToggle.checked)); } catch {}
   });
 
   menuToggle.addEventListener("click", () => {

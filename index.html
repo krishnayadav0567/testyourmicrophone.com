@@ -165,14 +165,14 @@
         <span>Test<span class="brand-accent">Your</span>Microphone</span>
       </a>
       <nav class="main-nav" aria-label="Primary navigation">
-        <a class="active" href="#tester">Mic test</a>
+        <a class="active" href="#tester" aria-current="location">Mic test</a>
         <a href="#features">Features</a>
         <a href="#how-it-works">How it works</a>
         <a href="#troubleshooting">Troubleshooting</a>
       </nav>
       <a class="feedback-link" href="mailto:hello@testyourmicrophone.com?subject=Microphone%20test%20feedback">Feedback
         <span aria-hidden="true">↗</span></a>
-      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme"
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Theme: dark. Switch to light theme"
         aria-pressed="false"><span class="theme-toggle-icon" aria-hidden="true">☾</span><span
           class="theme-toggle-text">Dark</span></button>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
@@ -190,27 +190,35 @@
     <section class="hero-section" id="tester" data-home-view>
       <div class="container hero-layout">
         <div class="hero-copy">
-          <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> Private and secure
+          <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> Audio stays in your browser
           </div>
           <h1>Test your microphone <span>online</span></h1>
-          <p class="hero-description">Find out if your microphone works — on Windows, PC, Mac, or a laptop — and hear
-            how you actually sound on calls. Everything runs in your browser.</p>
+          <p class="hero-description">Check whether your microphone works on Windows, macOS, or any laptop—and hear how
+            you sound on calls. The test runs entirely in your browser.</p>
           <div class="hero-actions">
             <button class="primary-button" id="start-test" type="button"><span class="button-icon"
-                aria-hidden="true">●</span><span id="start-test-label">Start test</span><span class="button-arrow"
+                aria-hidden="true">●</span><span id="start-test-label">Start microphone test</span><span class="button-arrow"
                 aria-hidden="true">→</span></button>
           </div>
-          <label class="toggle-row" for="autostart-toggle">
-            <input id="autostart-toggle" type="checkbox" />
-            <span class="toggle-switch" aria-hidden="true"><span></span></span>
-            <span><strong>Autostart next time</strong><small>Remembers your preference, but never activates the mic
-                without a click.</small></span>
-          </label>
+          <div class="hero-device-row">
+            <label for="home-device-select">Choose your microphone</label>
+            <div class="hero-device-controls">
+              <select id="home-device-select" disabled>
+                <option value="">Allow access to list microphones</option>
+              </select>
+              <button class="secondary-button" id="load-devices" type="button"><span class="btn-glyph"
+                  aria-hidden="true">↻</span><span id="load-devices-label">Show microphones</span></button>
+            </div>
+            <p class="hero-device-hint" id="home-device-hint">Device names stay hidden until you allow access. Access is
+              used only to list devices, then stopped immediately.</p>
+          </div>
           <div class="hero-mic-status" aria-live="polite">
-            <span class="hero-mic-label"><span class="mic-status-icon" aria-hidden="true">♩</span> Your
-              microphone</span>
-            <span class="hero-mic-chip"><strong id="detected-device">Not started</strong><span>Last tested <time
-                  id="last-tested">Not yet</time></span></span>
+            <div class="hero-mic-label"><span class="mic-status-icon" aria-hidden="true">♩</span><span>Your microphone</span>
+            </div>
+            <dl class="hero-mic-details">
+              <div><dt>Status</dt><dd id="detected-device">Not started</dd></div>
+              <div><dt>Last tested</dt><dd><time id="last-tested">Not yet</time></dd></div>
+            </dl>
           </div>
         </div>
       </div>
