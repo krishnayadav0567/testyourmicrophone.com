@@ -15,7 +15,13 @@ Privacy-first browser microphone testing site.
 
 ## Run locally
 
-This is a static site and does not require a build step or package installation.
+This is a static site with a zero-dependency build command. To build the deployable files into `dist/`:
+
+```bash
+npm run build
+```
+
+For local development without a build step, start a static server from the project root:
 
 ```bash
 python3 -m http.server 8000
@@ -32,7 +38,7 @@ The repository includes `.github/workflows/deploy-pages.yml`. After pushing the 
 3. Set **Source** to **GitHub Actions**.
 4. Push to `main` or run the workflow manually from the **Actions** tab.
 
-The workflow publishes the repository root as a static GitHub Pages site.
+The workflow runs `npm run build` and publishes the generated `dist/` directory as a static GitHub Pages site.
 
 ## Custom domain
 

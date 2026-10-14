@@ -1,0 +1,9 @@
+{
+  "name": "testyourmicrophone.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy-first browser microphone testing site.",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  }
+}
