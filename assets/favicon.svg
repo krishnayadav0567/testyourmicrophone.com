@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Microphone waveform icon">
   <rect width="64" height="64" rx="16" fill="#10151d"/>
-  <path d="M20 32c0-8 4-13 10-13s10 5 10 13-4 13-10 13-10-5-10-13Z" fill="none" stroke="#38bdf8" stroke-width="4"/>
+  <path d="M20 32c0-8 4-13 10-13s10 5 10 13-4 13-10 13-10-5-10-13Z" fill="none" stroke="#287A74" stroke-width="4"/>
   <path d="M16 31v2c0 10 6 17 14 17s14-7 14-17v-2M30 50v6M23 56h14" fill="none" stroke="#e8f2f7" stroke-linecap="round" stroke-width="4"/>
 </svg>

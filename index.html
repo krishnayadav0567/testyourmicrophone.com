@@ -1,40 +1,51 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>How to Test Your Microphone Online | Free Mic Test</title>
-    <meta name="description" content="Learn how to test your microphone online on Windows 10, Windows 11, PC, Mac, Teams, or a laptop with a free live mic test and local playback." />
-    <meta name="theme-color" content="#111111" data-theme-color />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://testyourmicrophone.com/" />
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="TestYourMicrophone.com" />
-    <meta property="og:title" content="How to Test Your Microphone Online | Free Mic Test" />
-    <meta property="og:description" content="Test a microphone online on Windows, PC, Mac, Teams, laptop, or AirPods with live levels and local playback." />
-    <meta property="og:url" content="https://testyourmicrophone.com/" />
-    <meta property="og:image" content="https://testyourmicrophone.com/assets/og-image.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="How to Test Your Microphone Online | Free Mic Test" />
-    <meta name="twitter:description" content="A private browser-based microphone test for Windows, PC, Mac, Teams, laptop, and AirPods." />
-    <meta name="twitter:image" content="https://testyourmicrophone.com/assets/og-image.png" />
-    <link rel="stylesheet" href="styles.css" />
-    <script>
-      (() => {
-        try {
-          const saved = localStorage.getItem("tym-theme");
-          const theme = saved === "light" || saved === "dark"
-            ? saved
-            : (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
-          document.documentElement.classList.add("js");
-          document.documentElement.dataset.theme = theme;
-          document.body?.setAttribute("data-theme", theme);
-          document.querySelector("[data-theme-color]")?.setAttribute("content", theme === "light" ? "#f7f8fa" : "#111111");
-        } catch {}
-      })();
-    </script>
-    <script type="application/ld+json">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to Test your microphone | Free Mic Test</title>
+  <meta name="description"
+    content="Learn how to Test your microphone on Windows 10, Windows 11, PC, Mac, Teams, or a laptop with a free live mic test and local playback." />
+  <meta name="theme-color" content="#111111" data-theme-color />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://testyourmicrophone.com/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TestYourMicrophone.com" />
+  <meta property="og:title" content="How to Test your microphone | Free Mic Test" />
+  <meta property="og:description"
+    content="Test a microphone online on Windows, PC, Mac, Teams, laptop, or AirPods with live levels and local playback." />
+  <meta property="og:url" content="https://testyourmicrophone.com/" />
+  <meta property="og:image" content="https://testyourmicrophone.com/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="How to Test your microphone | Free Mic Test" />
+  <meta name="twitter:description"
+    content="A private browser-based microphone test for Windows, PC, Mac, Teams, laptop, and AirPods." />
+  <meta name="twitter:image" content="https://testyourmicrophone.com/assets/og-image.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5L01FMWM1L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-5L01FMWM1L');
+  </script>
+  <script>
+    (() => {
+      try {
+        const saved = localStorage.getItem("tym-theme");
+        const theme = saved === "light" || saved === "dark"
+          ? saved
+          : (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        document.documentElement.classList.add("js");
+        document.documentElement.dataset.theme = theme;
+        document.body?.setAttribute("data-theme", theme);
+        document.querySelector("[data-theme-color]")?.setAttribute("content", theme === "light" ? "#f7f8fa" : "#111111");
+      } catch { }
+    })();
+  </script>
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "WebApplication",
@@ -55,7 +66,7 @@
         ]
       }
     </script>
-    <script type="application/ld+json">
+  <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",
@@ -143,176 +154,394 @@
         ]
       }
     </script>
-  </head>
-  <body data-view="home">
-    <a class="skip-link" href="#main-content">Skip to content</a>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="./" aria-label="TestYourMicrophone.com home">
-          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
-          <span>Test<span class="brand-accent">Your</span>Microphone</span>
-        </a>
-        <nav class="main-nav" aria-label="Primary navigation">
-          <a class="active" href="#tester">Mic test</a>
-          <a href="#features">Features</a>
-          <a href="#how-it-works">How it works</a>
-          <a href="#troubleshooting">Troubleshooting</a>
-        </nav>
-        <a class="feedback-link" href="mailto:hello@testyourmicrophone.com?subject=Microphone%20test%20feedback">Feedback <span aria-hidden="true">↗</span></a>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" aria-pressed="false"><span class="theme-toggle-icon" aria-hidden="true">☾</span><span class="theme-toggle-text">Dark</span></button>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
-      </div>
-      <nav class="mobile-nav container" id="mobile-nav" aria-label="Mobile navigation">
-        <a href="#tester">Mic test</a>
+</head>
+
+<body data-view="home">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="./" aria-label="TestYourMicrophone.com home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Test<span class="brand-accent">Your</span>Microphone</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a class="active" href="#tester">Mic test</a>
         <a href="#features">Features</a>
         <a href="#how-it-works">How it works</a>
         <a href="#troubleshooting">Troubleshooting</a>
-        <a href="mailto:hello@testyourmicrophone.com?subject=Microphone%20test%20feedback">Send feedback</a>
       </nav>
-    </header>
+      <a class="feedback-link" href="mailto:hello@testyourmicrophone.com?subject=Microphone%20test%20feedback">Feedback
+        <span aria-hidden="true">↗</span></a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme"
+        aria-pressed="false"><span class="theme-toggle-icon" aria-hidden="true">☾</span><span
+          class="theme-toggle-text">Dark</span></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+    </div>
+    <nav class="mobile-nav container" id="mobile-nav" aria-label="Mobile navigation">
+      <a href="#tester">Mic test</a>
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#troubleshooting">Troubleshooting</a>
+      <a href="mailto:hello@testyourmicrophone.com?subject=Microphone%20test%20feedback">Send feedback</a>
+    </nav>
+  </header>
 
-    <main id="main-content">
-      <section class="hero-section" id="tester" data-home-view>
-        <div class="container hero-layout">
-          <div class="hero-copy">
-            <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> Private and secure</div>
-            <h1>Test your microphone <span>online</span></h1>
-            <p class="hero-description">Find out if your microphone works — on Windows, PC, Mac, or a laptop — and hear how you actually sound on calls. Everything runs in your browser.</p>
-            <div class="hero-actions">
-              <button class="primary-button" id="start-test" type="button"><span class="button-icon" aria-hidden="true">●</span><span id="start-test-label">Start test</span><span class="button-arrow" aria-hidden="true">→</span></button>
-            </div>
-            <label class="toggle-row" for="autostart-toggle">
-              <input id="autostart-toggle" type="checkbox" />
-              <span class="toggle-switch" aria-hidden="true"><span></span></span>
-              <span><strong>Autostart next time</strong><small>Remembers your preference, but never activates the mic without a click.</small></span>
-            </label>
-            <div class="hero-mic-status" aria-live="polite">
-              <span class="hero-mic-label"><span class="mic-status-icon" aria-hidden="true">♩</span> Your microphone</span>
-              <span class="hero-mic-chip"><strong id="detected-device">Not started</strong><span>Last tested <time id="last-tested">Not yet</time></span></span>
-            </div>
+  <main id="main-content">
+    <section class="hero-section" id="tester" data-home-view>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> Private and secure
+          </div>
+          <h1>Test your microphone <span>online</span></h1>
+          <p class="hero-description">Find out if your microphone works — on Windows, PC, Mac, or a laptop — and hear
+            how you actually sound on calls. Everything runs in your browser.</p>
+          <div class="hero-actions">
+            <button class="primary-button" id="start-test" type="button"><span class="button-icon"
+                aria-hidden="true">●</span><span id="start-test-label">Start test</span><span class="button-arrow"
+                aria-hidden="true">→</span></button>
+          </div>
+          <label class="toggle-row" for="autostart-toggle">
+            <input id="autostart-toggle" type="checkbox" />
+            <span class="toggle-switch" aria-hidden="true"><span></span></span>
+            <span><strong>Autostart next time</strong><small>Remembers your preference, but never activates the mic
+                without a click.</small></span>
+          </label>
+          <div class="hero-mic-status" aria-live="polite">
+            <span class="hero-mic-label"><span class="mic-status-icon" aria-hidden="true">♩</span> Your
+              microphone</span>
+            <span class="hero-mic-chip"><strong id="detected-device">Not started</strong><span>Last tested <time
+                  id="last-tested">Not yet</time></span></span>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="test-section" id="live-test" data-test-view hidden aria-labelledby="tester-card-title" tabindex="-1">
-        <div class="container test-layout">
-          <button class="back-button" id="back-to-home" type="button"><span aria-hidden="true">←</span> Back</button>
-          <div class="tester-card" aria-labelledby="tester-card-title">
-            <div class="tester-card-topline">
-              <div>
-                <p class="card-kicker">Live input monitor</p>
-                <h2 id="tester-card-title">Your microphone</h2>
-                <p class="tester-device-name" id="live-device-name">Not started</p>
-              </div>
-              <div class="permission-state" id="permission-state"><span class="status-dot"></span><span id="permission-label">Ready</span></div>
+    <section class="test-section" id="live-test" data-test-view hidden aria-labelledby="tester-card-title"
+      tabindex="-1">
+      <div class="container test-layout">
+        <button class="back-button" id="back-to-home" type="button"><span aria-hidden="true">←</span> Back</button>
+        <div class="tester-card" aria-labelledby="tester-card-title">
+          <div class="tester-card-topline">
+            <div>
+              <p class="card-kicker">Live input monitor</p>
+              <h2 id="tester-card-title">Your microphone</h2>
+              <p class="tester-device-name" id="live-device-name">Not started</p>
             </div>
-            <div class="meter-shell" id="meter-shell">
-              <div class="meter-header"><span id="signal-label">Waiting for permission</span><span class="meter-value" id="level-value">0%</span></div>
-              <div class="waveform" id="waveform" aria-label="Live microphone level visualization" role="img">
-                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-              </div>
-              <div class="meter-footer"><span>Low</span><span class="meter-scale"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>High</span></div>
-            </div>
-            <div class="device-row">
-              <label for="device-select">Input device</label>
-              <select id="device-select" disabled>
-                <option value="">Start the test to see devices</option>
-              </select>
-            </div>
-            <div class="metrics-grid" aria-live="polite">
-              <div class="metric"><span>Current level</span><strong id="current-level">—</strong></div>
-              <div class="metric"><span>Peak level</span><strong id="peak-level">—</strong></div>
-              <div class="metric"><span>Sample rate</span><strong id="sample-rate">—</strong></div>
-              <div class="metric"><span>Channels</span><strong id="channel-count">—</strong></div>
-            </div>
-            <div class="recording-row">
-              <button class="secondary-button" id="record-button" type="button" disabled><span class="record-icon" aria-hidden="true"></span><span id="record-button-label">Record a clip</span></button>
-              <div class="recording-status" id="recording-status">Start the test before recording.</div>
-            </div>
-            <div class="audio-preview is-empty" id="audio-preview-wrap">
-              <div class="audio-preview-heading"><span class="preview-label">Latest local recording</span><span id="recording-duration">Ready to play</span></div>
-              <audio id="audio-preview" controls preload="metadata" aria-label="Latest microphone recording"></audio>
-              <a class="download-link is-disabled" id="download-recording" aria-disabled="true" download="microphone-test.webm" href="#">Download clip <span aria-hidden="true">↓</span></a>
-            </div>
-            <div class="tester-error" id="tester-error" role="alert" hidden></div>
-            <div class="tester-card-footer"><span class="privacy-lock" aria-hidden="true">●</span> This test is processed locally. Microphone access is only active while testing.</div>
+            <div class="permission-state" id="permission-state"><span class="status-dot"></span><span
+                id="permission-label">Ready</span></div>
           </div>
-        </div>
-      </section>
-
-      <section class="section section-border" id="features" data-reveal>
-        <div class="container">
-          <div class="section-heading" data-reveal-child><div><p class="section-label">Features</p><h2>Everything you need to check your microphone.</h2></div><p>Simple tools for the checks that matter most: is the right mic selected, is it picking up your voice, and does the recording sound usable?</p></div>
-          <div class="feature-grid">
-            <article class="feature-card feature-card-highlight" data-reveal-child><div class="feature-icon icon-wave" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div><h3>Real-time waveform</h3><p>See your audio input respond as you speak. A moving waveform confirms that the browser is receiving your microphone signal.</p><span class="feature-number">01</span></article>
-            <article class="feature-card" data-reveal-child><div class="feature-icon icon-device" aria-hidden="true">⌁</div><h3>Choose your device</h3><p>Switch between a built-in mic, USB microphone, webcam, or headset input from the devices available to your browser.</p><span class="feature-number">02</span></article>
-            <article class="feature-card" data-reveal-child><div class="feature-icon icon-record" aria-hidden="true"></div><h3>Record and playback</h3><p>Make a short browser recording, play it back immediately, and download it when you need a local reference.</p><span class="feature-number">03</span></article>
-            <article class="feature-card" data-reveal-child><div class="feature-icon icon-chart" aria-hidden="true"><i></i><i></i><i></i><i></i></div><h3>Microphone information</h3><p>Review the active sample rate, channel count, and detected device label to help troubleshoot setup issues.</p><span class="feature-number">04</span></article>
-            <article class="feature-card" data-reveal-child><div class="feature-icon icon-check" aria-hidden="true">✓</div><h3>Permission clarity</h3><p>Clear status messages explain when permission is needed, when the test is running, and when the microphone has stopped.</p><span class="feature-number">05</span></article>
-            <article class="feature-card" data-reveal-child><div class="feature-icon icon-shield" aria-hidden="true">◇</div><h3>Private in your browser</h3><p>The page analyzes the live stream locally. No microphone audio is sent to our server for this test.</p><span class="feature-number">06</span></article>
+          <div class="meter-shell" id="meter-shell">
+            <div class="meter-header"><span id="signal-label">Waiting for permission</span><span class="meter-value"
+                id="level-value">0%</span></div>
+            <div class="waveform" id="waveform" aria-label="Live microphone level visualization" role="img">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="meter-footer"><span>Low</span><span
+                class="meter-scale"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>High</span>
+            </div>
           </div>
+          <div class="device-row">
+            <label for="device-select">Input device</label>
+            <select id="device-select" disabled>
+              <option value="">Start the test to see devices</option>
+            </select>
+          </div>
+          <div class="metrics-grid" aria-live="polite">
+            <div class="metric"><span>Current level</span><strong id="current-level">—</strong></div>
+            <div class="metric"><span>Peak level</span><strong id="peak-level">—</strong></div>
+            <div class="metric"><span>Sample rate</span><strong id="sample-rate">—</strong></div>
+            <div class="metric"><span>Channels</span><strong id="channel-count">—</strong></div>
+          </div>
+          <div class="recording-row">
+            <button class="secondary-button" id="record-button" type="button" disabled><span class="record-icon"
+                aria-hidden="true"></span><span id="record-button-label">Record a clip</span></button>
+            <div class="recording-status" id="recording-status">Start the test before recording.</div>
+          </div>
+          <div class="audio-preview is-empty" id="audio-preview-wrap">
+            <div class="audio-preview-heading"><span class="preview-label">Latest local recording</span><span
+                id="recording-duration">Ready to play</span></div>
+            <audio id="audio-preview" controls preload="metadata" aria-label="Latest microphone recording"></audio>
+            <a class="download-link is-disabled" id="download-recording" aria-disabled="true"
+              download="microphone-test.webm" href="#">Download clip <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="tester-error" id="tester-error" role="alert" hidden></div>
+          <div class="tester-card-footer"><span class="privacy-lock" aria-hidden="true">●</span> This test is processed
+            locally. Microphone access is only active while testing.</div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section promo-section" data-reveal aria-label="Helpful microphone guides">
-        <div class="container promo-grid">
-          <article class="promo-card" data-reveal-child>
-            <div class="promo-icon" aria-hidden="true">✦</div>
-            <div><h3>Want to improve your microphone sound?</h3><p>Check your positioning, room setup, input selection, and browser permissions before your next call.</p><a class="text-link" href="#troubleshooting">Read the troubleshooting guide <span aria-hidden="true">→</span></a></div>
+    <section class="section section-border" id="features" data-reveal>
+      <div class="container">
+        <div class="section-heading" data-reveal-child>
+          <div>
+            <p class="section-label">Features</p>
+            <h2>Everything you need to check your microphone.</h2>
+          </div>
+          <p>Simple tools for the checks that matter most: is the right mic selected, is it picking up your voice, and
+            does the recording sound usable?</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-card-highlight" data-reveal-child>
+            <div class="feature-icon icon-wave" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span></div>
+            <h3>Real-time waveform</h3>
+            <p>See your audio input respond as you speak. A moving waveform confirms that the browser is receiving your
+              microphone signal.</p><span class="feature-number">01</span>
           </article>
-          <article class="promo-card" data-reveal-child>
-            <div class="promo-icon" aria-hidden="true">⌕</div>
-            <div><h3>Microphone not working?</h3><p>Work through the most common permission, connection, and device-selection issues step by step.</p><a class="text-link" href="#troubleshooting">Learn how to fix it <span aria-hidden="true">→</span></a></div>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon icon-device" aria-hidden="true">⌁</div>
+            <h3>Choose your device</h3>
+            <p>Switch between a built-in mic, USB microphone, webcam, or headset input from the devices available to
+              your browser.</p><span class="feature-number">02</span>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon icon-record" aria-hidden="true"></div>
+            <h3>Record and playback</h3>
+            <p>Make a short browser recording, play it back immediately, and download it when you need a local
+              reference.</p><span class="feature-number">03</span>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon icon-chart" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <h3>Microphone information</h3>
+            <p>Review the active sample rate, channel count, and detected device label to help troubleshoot setup
+              issues.</p><span class="feature-number">04</span>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon icon-check" aria-hidden="true">✓</div>
+            <h3>Permission clarity</h3>
+            <p>Clear status messages explain when permission is needed, when the test is running, and when the
+              microphone has stopped.</p><span class="feature-number">05</span>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon icon-shield" aria-hidden="true">◇</div>
+            <h3>Private in your browser</h3>
+            <p>The page analyzes the live stream locally. No microphone audio is sent to our server for this test.</p>
+            <span class="feature-number">06</span>
           </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="section how-section" id="how-it-works" data-reveal>
-        <div class="container how-layout">
-          <div class="how-intro" data-reveal-child><p class="section-label">How to test your microphone</p><h2>Five seconds to a useful answer.</h2><p>You do not need an account or a download. Connect your microphone, allow access, and use the meter and short recording to check it before a Zoom, Teams, Meet, or Discord call.</p><a class="text-link" href="#tester">Start the microphone test <span aria-hidden="true">→</span></a></div>
-          <ol class="steps-list" data-reveal-child>
-            <li><span class="step-number">01</span><div><h3>Click the test button</h3><p>Start the test when you are ready to give this page microphone access.</p></div></li>
-            <li><span class="step-number">02</span><div><h3>Allow microphone access</h3><p>Choose Allow in your browser prompt. The browser controls when a site can use your mic.</p></div></li>
-            <li><span class="step-number">03</span><div><h3>Speak and watch the meter</h3><p>Say a few words at your normal volume. The level bars should move as you speak.</p></div></li>
-            <li><span class="step-number">04</span><div><h3>Switch input devices if needed</h3><p>Use the device list to select your headset, USB microphone, or another available input.</p></div></li>
-            <li><span class="step-number">05</span><div><h3>Record a short clip</h3><p>Play the local recording back to check how your voice actually sounds.</p></div></li>
-          </ol>
-        </div>
-      </section>
-
-      <section class="section troubleshooting-section section-border" id="troubleshooting" data-reveal>
-        <div class="container troubleshooting-layout">
-          <div data-reveal-child><p class="section-label">Microphone FAQs</p><h2>How do I test my microphone?</h2><p class="troubleshooting-intro">Find quick answers for how to test a microphone online, on Windows 10 and 11, on a PC, Mac, laptop, Microsoft Teams, or with AirPods.</p></div>
-          <div class="faq-list" data-reveal-child>
-            <details open><summary><span>How to test microphone online?</span><span class="summary-icon">+</span></summary><p>Click Start microphone test, allow microphone access when your browser asks, and speak normally. The live meter should move as your microphone picks up sound. You can also record a short clip and play it back locally. People searching for how test microphone or how to test my microphone usually want this quick live level check.</p></details>
-            <details><summary><span>How do I test my microphone?</span><span class="summary-icon">+</span></summary><p>Click Start microphone test, allow browser access, speak at a normal volume, and watch the live meter. If the meter responds, your microphone is receiving audio. Record a short clip if you also want to hear the playback.</p></details>
-            <details><summary><span>How to test if microphone is working?</span><span class="summary-icon">+</span></summary><p>Start the microphone test, allow browser access, and speak into the microphone. If the level meter responds and a recorded clip plays back clearly, the microphone is working. If there is no signal, check the selected input, mute switch, and device connection.</p></details>
-            <details><summary><span>How to test microphone Windows 10?</span><span class="summary-icon">+</span></summary><p>To test microphone Windows 10, open Settings, choose System, then Sound, and select your microphone under Input to check the input level. You can also use this online microphone test: click Start microphone test, allow access, speak, and confirm that the live meter responds.</p></details>
-            <details><summary><span>How to test microphone Windows 11?</span><span class="summary-icon">+</span></summary><p>To test microphone Windows 11, open Settings, go to System, then Sound, and choose your microphone under Input. This explains how to test microphone on Windows 11: use the input test to check the signal, or click Start microphone test on this page and speak to see the live level meter respond.</p></details>
-            <details><summary><span>How to test microphone on Mac?</span><span class="summary-icon">+</span></summary><p>To test microphone on Mac, open your Mac sound settings, select Sound, and choose the microphone under Input. Check that the input level changes when you speak. You can also use this page to allow browser access, watch the live meter, and play back a short local recording.</p></details>
-            <details><summary><span>How to test microphone on laptop?</span><span class="summary-icon">+</span></summary><p>Make sure the laptop microphone is not muted, click Start microphone test, and allow access in your browser. Speak at a normal volume and confirm that the level meter moves. If you use a headset or USB microphone, select it from the input device list.</p></details>
-            <details><summary><span>How to test microphone in Teams?</span><span class="summary-icon">+</span></summary><p>To test microphone in Teams, open Microsoft Teams Settings, choose Devices, select the microphone you want to use, and run the available test call or microphone check. This also answers how to test microphone on Teams. You can test the same microphone here first by checking the live meter and local recording.</p></details>
-            <details><summary><span>How to test AirPod microphone?</span><span class="summary-icon">+</span></summary><p>To test AirPod microphone input, connect your AirPods, select them as the input device in your computer or browser, and click Start microphone test. Speak normally and confirm that the meter responds. Record a short clip to check how the AirPods microphone sounds during a call.</p></details>
-            <details><summary><span>How to test my AirPods microphone?</span><span class="summary-icon">+</span></summary><p>To test AirPods microphone input, connect your AirPods, choose AirPods as the input device, and click Start microphone test. If you are searching how to test airpods microphone, speak normally and confirm that the live meter moves. A short local recording helps you check whether the AirPods microphone sounds clear.</p></details>
-            <details><summary><span>How to test microphone on PC?</span><span class="summary-icon">+</span></summary><p>Connect or enable the microphone on your PC, open this page, and click Start microphone test. Allow browser access, speak normally, and confirm that the live meter responds. Select the correct USB, headset, webcam, or built-in microphone if more than one input is available.</p></details>
-            <details><summary><span>How to test microphone on Windows?</span><span class="summary-icon">+</span></summary><p>To test microphone on Windows, open Settings, choose System, then Sound, and select the microphone under Input. For a quick browser check, click Start microphone test here, allow access, and speak until the live input meter responds.</p></details>
-            <details><summary><span>How can I test my microphone?</span><span class="summary-icon">+</span></summary><p>The easiest way to test your microphone is to click Start microphone test, allow access, speak at a normal volume, and watch the live meter. Record a short clip if you also want to hear your microphone playback.</p></details>
-            <details><summary><span>Can I use an online microphone test for singing?</span><span class="summary-icon">+</span></summary><p>Yes. If you are searching for an am I a good singer microphone test online, click Start microphone test, allow access, and sing at the volume you normally use. Watch the live meter for a consistent signal, then record a short clip and play it back to check clarity, volume, and distortion.</p></details>
-            <details><summary><span>Why is my microphone not working?</span><span class="summary-icon">+</span></summary><p>Check browser permission, the selected input device, the microphone mute switch, and the cable or wireless connection. Close other apps that may be using the microphone, then reload this page and try the test again.</p></details>
-            <details><summary><span>Can I test my microphone without uploading audio?</span><span class="summary-icon">+</span></summary><p>Yes. This microphone test processes the live stream in your browser. The test does not upload microphone audio to a server, and recordings made here remain local until you close the page or download a clip.</p></details>
+    <section class="section promo-section" data-reveal aria-label="Helpful microphone guides">
+      <div class="container promo-grid">
+        <article class="promo-card" data-reveal-child>
+          <div class="promo-icon" aria-hidden="true">✦</div>
+          <div>
+            <h3>Want to improve your microphone sound?</h3>
+            <p>Check your positioning, room setup, input selection, and browser permissions before your next call.</p><a
+              class="text-link" href="#troubleshooting">Read the troubleshooting guide <span
+                aria-hidden="true">→</span></a>
           </div>
+        </article>
+        <article class="promo-card" data-reveal-child>
+          <div class="promo-icon" aria-hidden="true">⌕</div>
+          <div>
+            <h3>Microphone not working?</h3>
+            <p>Work through the most common permission, connection, and device-selection issues step by step.</p><a
+              class="text-link" href="#troubleshooting">Learn how to fix it <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how-it-works" data-reveal>
+      <div class="container how-layout">
+        <div class="how-intro" data-reveal-child>
+          <p class="section-label">How to test your microphone</p>
+          <h2>Five seconds to a useful answer.</h2>
+          <p>You do not need an account or a download. Connect your microphone, allow access, and use the meter and
+            short recording to check it before a Zoom, Teams, Meet, or Discord call.</p><a class="text-link"
+            href="#tester">Start the microphone test <span aria-hidden="true">→</span></a>
         </div>
-      </section>
+        <ol class="steps-list" data-reveal-child>
+          <li><span class="step-number">01</span>
+            <div>
+              <h3>Click the test button</h3>
+              <p>Start the test when you are ready to give this page microphone access.</p>
+            </div>
+          </li>
+          <li><span class="step-number">02</span>
+            <div>
+              <h3>Allow microphone access</h3>
+              <p>Choose Allow in your browser prompt. The browser controls when a site can use your mic.</p>
+            </div>
+          </li>
+          <li><span class="step-number">03</span>
+            <div>
+              <h3>Speak and watch the meter</h3>
+              <p>Say a few words at your normal volume. The level bars should move as you speak.</p>
+            </div>
+          </li>
+          <li><span class="step-number">04</span>
+            <div>
+              <h3>Switch input devices if needed</h3>
+              <p>Use the device list to select your headset, USB microphone, or another available input.</p>
+            </div>
+          </li>
+          <li><span class="step-number">05</span>
+            <div>
+              <h3>Record a short clip</h3>
+              <p>Play the local recording back to check how your voice actually sounds.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-      <section class="privacy-section" data-reveal>
-        <div class="container privacy-panel"><div class="privacy-symbol" aria-hidden="true">⌁</div><div data-reveal-child><p class="section-label">A precise privacy promise</p><h2>Your microphone stream stays on this page.</h2><p>Microphone access starts only after you click the test button and approve the browser prompt. Level analysis and recordings happen locally in your browser. Stop the test when you are done; the page stops its audio tracks and does not upload your recording.</p></div><a class="outline-button" data-reveal-child href="#tester">Test privately <span aria-hidden="true">→</span></a></div>
-      </section>
-    </main>
+    <section class="section troubleshooting-section section-border" id="troubleshooting" data-reveal>
+      <div class="container troubleshooting-layout">
+        <div data-reveal-child>
+          <p class="section-label">Microphone FAQs</p>
+          <h2>How do I test my microphone?</h2>
+          <p class="troubleshooting-intro">Find quick answers for how to test a microphone online, on Windows 10 and 11,
+            on a PC, Mac, laptop, Microsoft Teams, or with AirPods.</p>
+        </div>
+        <div class="faq-list" data-reveal-child>
+          <details open>
+            <summary><span>How to test microphone online?</span><span class="summary-icon">+</span></summary>
+            <p>Click Start microphone test, allow microphone access when your browser asks, and speak normally. The live
+              meter should move as your microphone picks up sound. You can also record a short clip and play it back
+              locally. People searching for how test microphone or how to test my microphone usually want this quick
+              live level check.</p>
+          </details>
+          <details>
+            <summary><span>How do I test my microphone?</span><span class="summary-icon">+</span></summary>
+            <p>Click Start microphone test, allow browser access, speak at a normal volume, and watch the live meter. If
+              the meter responds, your microphone is receiving audio. Record a short clip if you also want to hear the
+              playback.</p>
+          </details>
+          <details>
+            <summary><span>How to test if microphone is working?</span><span class="summary-icon">+</span></summary>
+            <p>Start the microphone test, allow browser access, and speak into the microphone. If the level meter
+              responds and a recorded clip plays back clearly, the microphone is working. If there is no signal, check
+              the selected input, mute switch, and device connection.</p>
+          </details>
+          <details>
+            <summary><span>How to test microphone Windows 10?</span><span class="summary-icon">+</span></summary>
+            <p>To test microphone Windows 10, open Settings, choose System, then Sound, and select your microphone under
+              Input to check the input level. You can also use this online microphone test: click Start microphone test,
+              allow access, speak, and confirm that the live meter responds.</p>
+          </details>
+          <details>
+            <summary><span>How to test microphone Windows 11?</span><span class="summary-icon">+</span></summary>
+            <p>To test microphone Windows 11, open Settings, go to System, then Sound, and choose your microphone under
+              Input. This explains how to test microphone on Windows 11: use the input test to check the signal, or
+              click Start microphone test on this page and speak to see the live level meter respond.</p>
+          </details>
+          <details>
+            <summary><span>How to test microphone on Mac?</span><span class="summary-icon">+</span></summary>
+            <p>To test microphone on Mac, open your Mac sound settings, select Sound, and choose the microphone under
+              Input. Check that the input level changes when you speak. You can also use this page to allow browser
+              access, watch the live meter, and play back a short local recording.</p>
+          </details>
+          <details>
+            <summary><span>How to test microphone on laptop?</span><span class="summary-icon">+</span></summary>
+            <p>Make sure the laptop microphone is not muted, click Start microphone test, and allow access in your
+              browser. Speak at a normal volume and confirm that the level meter moves. If you use a headset or USB
+              microphone, select it from the input device list.</p>
+          </details>
+          <details>
+            <summary><span>How to test microphone in Teams?</span><span class="summary-icon">+</span></summary>
+            <p>To test microphone in Teams, open Microsoft Teams Settings, choose Devices, select the microphone you
+              want to use, and run the available test call or microphone check. This also answers how to test microphone
+              on Teams. You can test the same microphone here first by checking the live meter and local recording.</p>
+          </details>
+          <details>
+            <summary><span>How to test AirPod microphone?</span><span class="summary-icon">+</span></summary>
+            <p>To test AirPod microphone input, connect your AirPods, select them as the input device in your computer
+              or browser, and click Start microphone test. Speak normally and confirm that the meter responds. Record a
+              short clip to check how the AirPods microphone sounds during a call.</p>
+          </details>
+          <details>
+            <summary><span>How to test my AirPods microphone?</span><span class="summary-icon">+</span></summary>
+            <p>To test AirPods microphone input, connect your AirPods, choose AirPods as the input device, and click
+              Start microphone test. If you are searching how to test airpods microphone, speak normally and confirm
+              that the live meter moves. A short local recording helps you check whether the AirPods microphone sounds
+              clear.</p>
+          </details>
+          <details>
+            <summary><span>How to test microphone on PC?</span><span class="summary-icon">+</span></summary>
+            <p>Connect or enable the microphone on your PC, open this page, and click Start microphone test. Allow
+              browser access, speak normally, and confirm that the live meter responds. Select the correct USB, headset,
+              webcam, or built-in microphone if more than one input is available.</p>
+          </details>
+          <details>
+            <summary><span>How to test microphone on Windows?</span><span class="summary-icon">+</span></summary>
+            <p>To test microphone on Windows, open Settings, choose System, then Sound, and select the microphone under
+              Input. For a quick browser check, click Start microphone test here, allow access, and speak until the live
+              input meter responds.</p>
+          </details>
+          <details>
+            <summary><span>How can I test my microphone?</span><span class="summary-icon">+</span></summary>
+            <p>The easiest way to test your microphone is to click Start microphone test, allow access, speak at a
+              normal volume, and watch the live meter. Record a short clip if you also want to hear your microphone
+              playback.</p>
+          </details>
+          <details>
+            <summary><span>Can I use an online microphone test for singing?</span><span class="summary-icon">+</span>
+            </summary>
+            <p>Yes. If you are searching for an am I a good singer microphone test online, click Start microphone test,
+              allow access, and sing at the volume you normally use. Watch the live meter for a consistent signal, then
+              record a short clip and play it back to check clarity, volume, and distortion.</p>
+          </details>
+          <details>
+            <summary><span>Why is my microphone not working?</span><span class="summary-icon">+</span></summary>
+            <p>Check browser permission, the selected input device, the microphone mute switch, and the cable or
+              wireless connection. Close other apps that may be using the microphone, then reload this page and try the
+              test again.</p>
+          </details>
+          <details>
+            <summary><span>Can I test my microphone without uploading audio?</span><span class="summary-icon">+</span>
+            </summary>
+            <p>Yes. This microphone test processes the live stream in your browser. The test does not upload microphone
+              audio to a server, and recordings made here remain local until you close the page or download a clip.</p>
+          </details>
+        </div>
+      </div>
+    </section>
 
-    <footer class="site-footer" id="feedback" data-reveal>
-      <div class="container footer-main"><div class="footer-brand"><a class="brand" href="./" aria-label="TestYourMicrophone.com home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>Test<span class="brand-accent">Your</span>Microphone</span></a><p>A fast, focused microphone checker for calls, recordings, and everyday troubleshooting.</p></div><div class="footer-links"><div><h3>Microphone tools</h3><a href="#tester">Online mic test</a><a href="#tester">Live level meter</a><a href="#tester">Record a test clip</a></div><div><h3>Help &amp; guides</h3><a href="#how-it-works">How to test a mic</a><a href="#troubleshooting">Mic not working</a><a href="#troubleshooting">Browser permissions</a></div><div><h3>About</h3><a href="mailto:hello@testyourmicrophone.com?subject=Feedback">Contact</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div></div></div>
-      <div class="container footer-bottom"><span>© 2026 TestYourMicrophone.com</span><span>Built for a better call.</span><span>Made with browser APIs, no upload required.</span></div>
-    </footer>
-    <script src="app.js" defer></script>
-  </body>
+    <section class="privacy-section" data-reveal>
+      <div class="container privacy-panel">
+        <div class="privacy-symbol" aria-hidden="true">⌁</div>
+        <div data-reveal-child>
+          <p class="section-label">A precise privacy promise</p>
+          <h2>Your microphone stream stays on this page.</h2>
+          <p>Microphone access starts only after you click the test button and approve the browser prompt. Level
+            analysis and recordings happen locally in your browser. Stop the test when you are done; the page stops its
+            audio tracks and does not upload your recording.</p>
+        </div><a class="outline-button" data-reveal-child href="#tester">Test privately <span
+            aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="feedback" data-reveal>
+    <div class="container footer-main">
+      <div class="footer-brand"><a class="brand" href="./" aria-label="TestYourMicrophone.com home"><span
+            class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>Test<span
+              class="brand-accent">Your</span>Microphone</span></a>
+        <p>A fast, focused microphone checker for calls, recordings, and everyday troubleshooting.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h3>Microphone tools</h3><a href="#tester">Online mic test</a><a href="#tester">Live level meter</a><a
+            href="#tester">Record a test clip</a>
+        </div>
+        <div>
+          <h3>Help &amp; guides</h3><a href="#how-it-works">How to test a mic</a><a href="#troubleshooting">Mic not
+            working</a><a href="#troubleshooting">Browser permissions</a>
+        </div>
+        <div>
+          <h3>About</h3><a href="mailto:hello@testyourmicrophone.com?subject=Feedback">Contact</a><a
+            href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 TestYourMicrophone.com</span><span>Built for a better
+        call.</span><span>Made with browser APIs, no upload required.</span></div>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+
 </html>

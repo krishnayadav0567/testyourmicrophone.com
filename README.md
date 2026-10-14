@@ -40,6 +40,14 @@ Cloudflare Pages will publish the repository root, where `index.html` is located
 
 The site currently uses `https://testyourmicrophone.com/` in its canonical URL, sitemap, robots file, and social metadata. Configure this domain as the Cloudflare Pages custom domain before submitting the sitemap to Google Search Console.
 
+## Google Analytics and Search Console
+
+Google Analytics 4 is installed on the homepage, privacy policy, and terms pages with measurement ID `G-5L01FMWM1L`. The privacy policy explains the analytics data and cookie use.
+
+For Google Search Console, add a **Domain property** for `testyourmicrophone.com`. Verify ownership by adding the TXT record Google provides to the domain's DNS records in Cloudflare. The record is added at the DNS layer; do not replace it with a made-up value or add a verification tag to the site. After DNS verification succeeds, submit:
+
+`https://testyourmicrophone.com/sitemap.xml`
+
 ## Project files
 
 - `index.html` — homepage, SEO metadata, visible FAQs, and structured data
