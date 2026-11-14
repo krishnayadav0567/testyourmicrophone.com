@@ -5,6 +5,7 @@
   "description": "Privacy-first browser microphone testing site with Google Search Console and SEO health automation",
   "type": "module",
   "scripts": {
+    "build": "echo 'Static site ready'",
     "gsc:fetch": "node scripts/fetch-gsc-issues.mjs",
     "gsc:mock": "node scripts/fetch-gsc-issues.mjs --mock",
     "gsc:submit": "node scripts/submit-sitemap.mjs",
