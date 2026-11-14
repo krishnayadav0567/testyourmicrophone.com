@@ -1,0 +1,19 @@
+{
+  "name": "testyourmicrophone.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Privacy-first browser microphone testing site with Google Search Console and SEO health automation",
+  "type": "module",
+  "scripts": {
+    "gsc:fetch": "node scripts/fetch-gsc-issues.mjs",
+    "gsc:mock": "node scripts/fetch-gsc-issues.mjs --mock",
+    "gsc:submit": "node scripts/submit-sitemap.mjs",
+    "monitor:production": "node scripts/monitor-production.mjs",
+    "test": "node --test tests/gsc-automation.test.mjs",
+    "test:seo": "node scripts/monitor-production.mjs --local",
+    "gsc:automate": "node scripts/automate-gsc-issues.mjs"
+  },
+  "devDependencies": {
+    "googleapis": "^189.0.0"
+  }
+}

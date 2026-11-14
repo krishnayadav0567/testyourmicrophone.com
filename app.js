@@ -20,6 +20,12 @@
   const levelValue = $("#level-value");
   const currentLevel = $("#current-level");
   const peakLevel = $("#peak-level");
+  const dbfsLevel = $("#dbfs-level");
+  const frequencyValue = $("#frequency-value");
+  const loopbackButton = $("#loopback-button");
+  const loopbackLabel = $("#loopback-label");
+  const audioVisualizer = $("#audio-visualizer");
+  const canvasCtx = audioVisualizer?.getContext ? audioVisualizer.getContext("2d") : null;
   const sampleRate = $("#sample-rate");
   const channelCount = $("#channel-count");
   const detectedDevice = $("#detected-device");
@@ -57,6 +63,49 @@
   let homeDeviceId = "";
   let homeDeviceLabel = "";
   let loadingHomeDevices = false;
+  let monitorGain = null;
+  let isLoopbackActive = false;
+
+  const NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+  function freqToNote(freq) {
+    if (!freq || freq < 40) return "";
+    const noteNum = 12 * (Math.log(freq / 440) / Math.log(2)) + 69;
+    const rounded = Math.round(noteNum);
+    const noteIndex = (rounded % 12 + 12) % 12;
+    const octave = Math.floor(rounded / 12) - 1;
+    return `${NOTE_NAMES[noteIndex]}${octave}`;
+  }
+
+  function detectPitch(buffer, sampleRate) {
+    const SIZE = buffer.length;
+    let sumSquares = 0;
+    for (let i = 0; i < SIZE; i++) {
+      const val = (buffer[i] - 128) / 128;
+      sumSquares += val * val;
+    }
+    const rms = Math.sqrt(sumSquares / SIZE);
+    if (rms < 0.035) return null;
+
+    let maxCorrelation = 0;
+    let bestOffset = -1;
+    const minOffset = Math.max(2, Math.floor(sampleRate / 900));
+    const maxOffset = Math.min(SIZE - 1, Math.floor(sampleRate / 70));
+
+    for (let offset = minOffset; offset < maxOffset; offset++) {
+      let correlation = 0;
+      for (let i = 0; i < SIZE - offset; i++) {
+        correlation += ((buffer[i] - 128) / 128) * ((buffer[i + offset] - 128) / 128);
+      }
+      if (correlation > maxCorrelation) {
+        maxCorrelation = correlation;
+        bestOffset = offset;
+      }
+    }
+    if (bestOffset > 0 && maxCorrelation > 0.45 * sumSquares) {
+      return Math.round(sampleRate / bestOffset);
+    }
+    return null;
+  }
 
   const themeStorageKey = "tym-theme";
 
@@ -183,11 +232,27 @@
     levelValue.textContent = "0%";
     currentLevel.textContent = "—";
     peakLevel.textContent = "—";
+    if (dbfsLevel) dbfsLevel.textContent = "—";
+    if (frequencyValue) frequencyValue.textContent = "—";
     signalLabel.textContent = "Waiting for permission";
+    if (canvasCtx && audioVisualizer) {
+      canvasCtx.clearRect(0, 0, audioVisualizer.width, audioVisualizer.height);
+    }
   }
 
   function stopAudioResources() {
     stopAnimation();
+    if (monitorGain) {
+      try { monitorGain.disconnect(); } catch {}
+      monitorGain = null;
+    }
+    isLoopbackActive = false;
+    if (loopbackButton) {
+      loopbackButton.classList.remove("is-active");
+      loopbackButton.setAttribute("aria-pressed", "false");
+      loopbackButton.disabled = true;
+      if (loopbackLabel) loopbackLabel.textContent = "Hear myself (off)";
+    }
     if (source) { source.disconnect(); source = null; }
     if (audioContext) { audioContext.close().catch(() => {}); audioContext = null; }
     if (stream) { stream.getTracks().forEach((track) => track.stop()); stream = null; }
@@ -309,6 +374,24 @@
     const rms = Math.sqrt(sum / data.length);
     const level = Math.min(100, Math.round(rms * 300));
     peak = Math.max(peak * 0.992, level);
+
+    // Decibels (dBFS) calculation
+    const dbfs = rms > 0.0001 ? Math.max(-60, Math.min(0, 20 * Math.log10(rms))) : -60;
+    if (dbfsLevel) {
+      dbfsLevel.textContent = dbfs > -58 ? `${dbfs.toFixed(1)} dBFS` : "Silent (<-60 dBFS)";
+    }
+
+    // Pitch / frequency detection
+    if (frequencyValue && audioContext) {
+      const pitch = detectPitch(data, audioContext.sampleRate || 48000);
+      if (pitch && pitch >= 60 && pitch <= 1000) {
+        const note = freqToNote(pitch);
+        frequencyValue.textContent = `${pitch} Hz (${note})`;
+      } else if (level <= 4) {
+        frequencyValue.textContent = "—";
+      }
+    }
+
     const chunkSize = Math.max(1, Math.floor(data.length / waveformBars.length));
     waveformBars.forEach((bar, index) => {
       let localPeak = 0;
@@ -319,6 +402,29 @@
       bar.style.height = `${height}%`;
     });
     waveform.classList.add("is-active");
+
+    // Canvas visualizer rendering
+    if (canvasCtx && audioVisualizer) {
+      const width = audioVisualizer.width;
+      const height = audioVisualizer.height;
+      canvasCtx.clearRect(0, 0, width, height);
+      const isDark = document.documentElement.dataset.theme !== "light";
+      canvasCtx.lineWidth = 2.2;
+      canvasCtx.strokeStyle = level > 4 ? (isDark ? "#818cf8" : "#4f46e5") : (isDark ? "#3f3f46" : "#cbd5e1");
+      canvasCtx.beginPath();
+      const sliceWidth = width / data.length;
+      let x = 0;
+      for (let i = 0; i < data.length; i++) {
+        const v = (data[i] - 128) / 128;
+        const y = (height / 2) + v * (height / 2) * (level > 4 ? 1.5 : 0.25);
+        if (i === 0) canvasCtx.moveTo(x, y);
+        else canvasCtx.lineTo(x, y);
+        x += sliceWidth;
+      }
+      canvasCtx.lineTo(width, height / 2);
+      canvasCtx.stroke();
+    }
+
     levelValue.textContent = `${level}%`;
     currentLevel.textContent = `${level}%`;
     peakLevel.textContent = `${Math.round(peak)}%`;
@@ -332,10 +438,32 @@
     audioContext = new AudioContextClass();
     await audioContext.resume();
     analyser = audioContext.createAnalyser();
-    analyser.fftSize = 128;
-    analyser.smoothingTimeConstant = 0.76;
+    analyser.fftSize = 512;
+    analyser.smoothingTimeConstant = 0.78;
     source = audioContext.createMediaStreamSource(stream);
     source.connect(analyser);
+
+    // Zero-latency live loopback monitor (muted by default)
+    monitorGain = audioContext.createGain();
+    monitorGain.gain.setValueAtTime(0, audioContext.currentTime);
+    source.connect(monitorGain);
+    monitorGain.connect(audioContext.destination);
+  }
+
+  function toggleLoopback() {
+    if (!audioContext || !monitorGain) return;
+    isLoopbackActive = !isLoopbackActive;
+    if (isLoopbackActive) {
+      monitorGain.gain.setTargetAtTime(1.0, audioContext.currentTime, 0.05);
+      loopbackButton?.classList.add("is-active");
+      loopbackButton?.setAttribute("aria-pressed", "true");
+      if (loopbackLabel) loopbackLabel.textContent = "Hear myself: ON (Live)";
+    } else {
+      monitorGain.gain.setTargetAtTime(0, audioContext.currentTime, 0.05);
+      loopbackButton?.classList.remove("is-active");
+      loopbackButton?.setAttribute("aria-pressed", "false");
+      if (loopbackLabel) loopbackLabel.textContent = "Hear myself (off)";
+    }
   }
 
   async function startTest(deviceId = "") {
@@ -359,6 +487,7 @@
       startButton.disabled = false;
       recordButton.disabled = false;
       recordButtonLabel.textContent = "Record a clip";
+      if (loopbackButton) loopbackButton.disabled = false;
       signalLabel.textContent = "Listening for signal";
       const deviceLabel = track.label || selectedHomeLabel() || "Microphone access granted";
       detectedDevice.textContent = deviceLabel;
@@ -396,6 +525,12 @@
     startButton.classList.remove("is-stop");
     startButtonLabel.textContent = "Start microphone test";
     recordButton.disabled = true;
+    if (loopbackButton) {
+      loopbackButton.classList.remove("is-active");
+      loopbackButton.setAttribute("aria-pressed", "false");
+      loopbackButton.disabled = true;
+      if (loopbackLabel) loopbackLabel.textContent = "Hear myself (off)";
+    }
     signalLabel.textContent = "Test stopped";
     liveDeviceName.textContent = "Not started";
     sampleRate.textContent = "—";
@@ -481,6 +616,7 @@
     setView("home");
   });
   recordButton.addEventListener("click", toggleRecording);
+  loopbackButton?.addEventListener("click", toggleLoopback);
   deviceSelect.addEventListener("change", switchDevice);
   downloadRecording.addEventListener("click", (event) => {
     if (downloadRecording.classList.contains("is-disabled")) event.preventDefault();

@@ -48,6 +48,46 @@ For Google Search Console, add a **Domain property** for `testyourmicrophone.com
 
 `https://testyourmicrophone.com/sitemap.xml`
 
+## Google Search Console & SEO Automation
+
+The repository includes automated tools to audit technical SEO health, submit sitemaps, inspect indexing status, and pull Search Analytics via the Google Search Console API.
+
+### 1. Granting Search Console API Access
+
+If using a service account (e.g. `gsc-reader@online-stopwatch-timer.iam.gserviceaccount.com` or your own Google Cloud service account):
+
+1. Open [Google Search Console](https://search.google.com/search-console).
+2. Select the `testyourmicrophone.com` property (`sc-domain:testyourmicrophone.com` or `https://testyourmicrophone.com/`).
+3. Navigate to **Settings** > **Users and permissions** > **Add user**.
+4. Enter the service account email (e.g. `gsc-reader@online-stopwatch-timer.iam.gserviceaccount.com`).
+5. Select **Full** (allows sitemap submission and URL inspection) or **Restricted** (read-only).
+6. Save the service account JSON key as `gsc-credentials.json` in the project root (it is git-ignored).
+
+### 2. Available Commands
+
+```bash
+# Run production SEO & live health audit (validates DNS TXT, robots.txt, sitemap.xml, canonical tags)
+npm run monitor:production
+
+# Fetch Google Search Console index status, URL inspections & search analytics
+npm run gsc:fetch
+
+# Test GSC report generation in dry-run/mock mode (no credentials required)
+npm run gsc:mock
+
+# Submit or refresh sitemap.xml in Google Search Console
+npm run gsc:submit
+```
+
+### 3. Automated Scheduled Monitoring
+
+A GitHub Actions workflow is configured at `.github/workflows/production-monitor.yml`:
+- Runs 4 times daily and on manual trigger (`workflow_dispatch`).
+- Audits live sitemaps, robots.txt, and canonical tags.
+- Automatically generates diagnostic reports in the GitHub Actions summary.
+- Automatically opens or updates a GitHub Issue if technical SEO failures are detected.
+- To enable automated GSC fetching in GitHub Actions, add your service account JSON contents to GitHub Repository Secrets as `GSC_CREDENTIALS`.
+
 ## Project files
 
 - `index.html` — homepage, SEO metadata, visible FAQs, and structured data

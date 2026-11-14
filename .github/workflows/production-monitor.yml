@@ -1,0 +1,91 @@
+name: Production SEO & GSC Monitor
+
+on:
+  schedule:
+    # Deliberately offset from the top of the hour to avoid peak Actions runner load
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Unit Tests & Local SEO Audit
+        run: |
+          npm test
+          npm run test:seo
+
+      - name: Run Production SEO & Health Monitor
+        id: monitor
+        run: node scripts/monitor-production.mjs > monitor-report.md
+
+      - name: Run Google Search Console fetch (if secret configured)
+        if: env.GSC_CREDENTIALS != ''
+        env:
+          GSC_CREDENTIALS: ${{ secrets.GSC_CREDENTIALS }}
+        run: |
+          echo "$GSC_CREDENTIALS" > gsc-credentials.json
+          npm run gsc:fetch || true
+
+      - name: Open or update a GitHub issue on failure
+        if: failure() && steps.monitor.outcome == 'failure'
+        uses: actions/github-script@v7
+        env:
+          MONITOR_REPORT: monitor-report.md
+        with:
+          script: |
+            const fs = require('node:fs');
+            const marker = '<!-- testyourmicrophone-seo-monitor -->';
+            const report = fs.readFileSync(process.env.MONITOR_REPORT, 'utf8');
+            const runUrl = `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`;
+            const body = `${marker}\n\n${report}\n- Workflow run: ${runUrl}\n\nThis issue was automatically opened by the scheduled production SEO monitor. Please review the live site diagnostics before making code modifications.`;
+            const { owner, repo } = context.repo;
+            const openIssues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: 'open',
+              per_page: 100
+            });
+            const existing = openIssues.find((issue) => issue.body?.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.update({
+                owner,
+                repo,
+                issue_number: existing.number,
+                title: '[Production Monitor] SEO health check failure',
+                body
+              });
+              core.info(`Updated existing issue #${existing.number}`);
+            } else {
+              const created = await github.rest.issues.create({
+                owner,
+                repo,
+                title: '[Production Monitor] SEO health check failure',
+                body
+              });
+              core.info(`Created new issue #${created.data.number}`);
+            }
+
+      - name: Print the monitor report to Step Summary
+        if: always() && hashFiles('monitor-report.md') != ''
+        run: |
+          cat monitor-report.md >> $GITHUB_STEP_SUMMARY
+          cat monitor-report.md

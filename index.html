@@ -166,6 +166,20 @@
         ]
       }
     </script>
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://testyourmicrophone.com/"
+          }
+        ]
+      }
+    </script>
 </head>
 
 <body data-view="home">
@@ -177,9 +191,12 @@
         <span>Test<span class="brand-accent">Your</span>Microphone</span>
       </a>
       <nav class="main-nav" aria-label="Primary navigation">
-        <a class="active" href="#tester" aria-current="location">Mic test</a>
+        <a class="active" href="./" aria-current="page">Mic test</a>
+        <a href="windows-mic-test.html">Windows</a>
+        <a href="mac-mic-test.html">Mac</a>
+        <a href="teams-mic-test.html">Teams & Zoom</a>
+        <a href="airpods-mic-test.html">AirPods</a>
         <a href="#features">Features</a>
-        <a href="#how-it-works">How it works</a>
         <a href="#troubleshooting">Troubleshooting</a>
       </nav>
       <a class="feedback-link" href="mailto:hello@testyourmicrophone.com?subject=Microphone%20test%20feedback">Feedback
@@ -190,7 +207,11 @@
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
     </div>
     <nav class="mobile-nav container" id="mobile-nav" aria-label="Mobile navigation">
-      <a href="#tester">Mic test</a>
+      <a href="./">Mic test</a>
+      <a href="windows-mic-test.html">Windows 10/11 Mic Test</a>
+      <a href="mac-mic-test.html">Mac & Safari Mic Test</a>
+      <a href="teams-mic-test.html">Teams & Zoom Mic Test</a>
+      <a href="airpods-mic-test.html">AirPods & Bluetooth Mic Test</a>
       <a href="#features">Features</a>
       <a href="#how-it-works">How it works</a>
       <a href="#troubleshooting">Troubleshooting</a>
@@ -256,6 +277,9 @@
             <div class="waveform" id="waveform" aria-label="Live microphone level visualization" role="img">
               <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
             </div>
+            <div class="visualizer-wrap">
+              <canvas id="audio-visualizer" class="audio-visualizer-canvas" height="64" width="700" aria-label="Live oscilloscope sound wave"></canvas>
+            </div>
             <div class="meter-footer"><span>Low</span><span
                 class="meter-scale"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>High</span>
             </div>
@@ -269,8 +293,17 @@
           <div class="metrics-grid" aria-live="polite">
             <div class="metric"><span>Current level</span><strong id="current-level">—</strong></div>
             <div class="metric"><span>Peak level</span><strong id="peak-level">—</strong></div>
+            <div class="metric"><span>Decibels (dBFS)</span><strong id="dbfs-level">—</strong></div>
+            <div class="metric"><span>Pitch / Note</span><strong id="frequency-value">—</strong></div>
             <div class="metric"><span>Sample rate</span><strong id="sample-rate">—</strong></div>
             <div class="metric"><span>Channels</span><strong id="channel-count">—</strong></div>
+          </div>
+          <div class="monitor-row">
+            <button class="monitor-button" id="loopback-button" type="button" aria-pressed="false" disabled>
+              <span aria-hidden="true">🎧</span>
+              <span id="loopback-label">Hear myself (off)</span>
+            </button>
+            <span class="monitor-hint">💡 Connect headphones before enabling to avoid speaker acoustic feedback</span>
           </div>
           <div class="recording-row">
             <button class="secondary-button" id="record-button" type="button" disabled><span class="record-icon"
