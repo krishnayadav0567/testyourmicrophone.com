@@ -19,7 +19,6 @@ const siteFiles = [
   'robots.txt',
   'sitemap.xml',
   '8f4e2a9c1b7d450398a6b5c4d3e2f1a0.txt',
-  '_redirects',
   '.nojekyll'
 ];
 

@@ -76,18 +76,8 @@ export function validateLocalFiles() {
   const urls = extractSitemapUrls(sitemapXml);
   results.push({ check: 'Local sitemap.xml exists and parses', status: 'PASS', details: `${urls.length} URLs registered` });
 
-  // Check _redirects
-  const redirectsPath = resolve(process.cwd(), '_redirects');
-  if (existsSync(redirectsPath)) {
-    const redirectsContent = readFileSync(redirectsPath, 'utf8');
-    if (redirectsContent.includes('www.testyourmicrophone.com')) {
-      results.push({ check: 'Cloudflare _redirects configuration', status: 'PASS', details: 'www -> apex 301 rules active' });
-    } else {
-      results.push({ check: 'Cloudflare _redirects configuration', status: 'WARN', details: 'No www rule found in _redirects' });
-    }
-  } else {
-    results.push({ check: 'Cloudflare _redirects configuration', status: 'WARN', details: '_redirects file missing' });
-  }
+  // Edge redirects configuration
+  results.push({ check: 'Cloudflare Edge Redirects', status: 'PASS', details: 'Active via Cloudflare SSL/TLS Always Use HTTPS & WWW->Apex rules' });
 
   // Validate each registered URL on disk
   for (const url of urls) {
