@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
+    "deploy": "wrangler deploy",
     "gsc:fetch": "node scripts/fetch-gsc-issues.mjs",
     "gsc:mock": "node scripts/fetch-gsc-issues.mjs --mock",
     "gsc:submit": "node scripts/submit-sitemap.mjs",
@@ -24,6 +25,7 @@
     "seo:all": "npm run gsc:automate && npm run bing:automate"
   },
   "devDependencies": {
-    "googleapis": "^189.0.0"
+    "googleapis": "^189.0.0",
+    "wrangler": "^4.162.0"
   }
 }
