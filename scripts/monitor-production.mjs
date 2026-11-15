@@ -38,7 +38,7 @@ async function fetchWithTimeout(url, options = {}) {
       }
     });
     const duration = Date.now() - start;
-    const body = await res.text();
+    const body = options.redirect === 'manual' ? '' : await res.text();
     return { status: res.status, ok: res.ok, headers: res.headers, body, duration };
   } finally {
     clearTimeout(timer);
@@ -176,7 +176,44 @@ export async function runMonitor() {
     results.push({ check: 'DNS GSC Verification TXT', status: 'WARN', details: `DNS check warning: ${err.message}` });
   }
 
-  // 2. robots.txt check
+  // 2. HTTP -> HTTPS Canonical Redirect Check (Prevents Duplicate Title/Desc in Bing)
+  const httpUrl = options.siteUrl.replace(/^https:/, 'http:');
+  try {
+    const res = await fetchWithTimeout(httpUrl, { redirect: 'manual' });
+    const location = res.headers.get('location') || '';
+    if ([301, 302, 307, 308].includes(res.status) && location.startsWith('https:')) {
+      results.push({ check: 'HTTP -> HTTPS 301 Redirect', status: 'PASS', details: `${res.status} -> ${location}` });
+    } else {
+      results.push({
+        check: 'HTTP -> HTTPS 301 Redirect',
+        status: 'WARN',
+        details: `HTTP returned ${res.status} without redirecting to HTTPS (causes duplicate Title & Description in Bing/Google; enable "Always Use HTTPS" in Cloudflare SSL/TLS)`
+      });
+    }
+  } catch (err) {
+    results.push({ check: 'HTTP -> HTTPS 301 Redirect', status: 'WARN', details: err.message });
+  }
+
+  // 3. WWW -> Apex Canonical Redirect Check
+  try {
+    const wwwUrl = new URL(options.siteUrl);
+    wwwUrl.hostname = wwwUrl.hostname.startsWith('www.') ? wwwUrl.hostname : `www.${wwwUrl.hostname}`;
+    const res = await fetchWithTimeout(wwwUrl.toString(), { redirect: 'manual' });
+    const location = res.headers.get('location') || '';
+    if ([301, 302, 307, 308].includes(res.status) && !new URL(location, wwwUrl).hostname.startsWith('www.')) {
+      results.push({ check: 'WWW -> Apex 301 Redirect', status: 'PASS', details: `${res.status} -> ${location}` });
+    } else {
+      results.push({
+        check: 'WWW -> Apex 301 Redirect',
+        status: 'WARN',
+        details: `WWW returned ${res.status} without redirecting to apex (create a Cloudflare Redirect Rule from www to apex)`
+      });
+    }
+  } catch (err) {
+    results.push({ check: 'WWW -> Apex 301 Redirect', status: 'WARN', details: err.message });
+  }
+
+  // 4. robots.txt check
   const robotsUrl = `${options.siteUrl.replace(/\/$/, '')}/robots.txt`;
   try {
     const res = await fetchWithTimeout(robotsUrl);
