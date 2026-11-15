@@ -1,6 +1,6 @@
 # Bing Webmaster Tools & IndexNow Health Report
 
-> Generated: 2026-11-15 07:51:37 UTC | Site: `https://testyourmicrophone.com/`
+> Generated: 2026-11-15 07:56:58 UTC | Site: `https://testyourmicrophone.com/`
 
 ## Executive Status
 
@@ -9,8 +9,8 @@
 | **Site Verification** | 🟢 VERIFIED | Authenticated in Bing Webmaster API |
 | **Sitemap Submission** | 🟢 ACTIVE | `https://testyourmicrophone.com/sitemap.xml` |
 | **Crawl Issues** | 🟢 0 ISSUES | Bing Site Scan & Crawl health |
-| **Daily Submission Quota** | 🟢 ACTIVE | Remaining: **93** / day (Monthly: 1593) |
-| **IndexNow Protocol** | 🟢 PINGED | 7 URLs synced |
+| **Daily Submission Quota** | 🟢 ACTIVE | Remaining: **86** / day (Monthly: 1586) |
+| **IndexNow Protocol** | 🟡 SKIPPED | Simulated/Skipped |
 
 ## Search Performance Summary (Bing)
 
@@ -25,29 +25,29 @@
 | :--- | :--- | :--- | :--- | :--- |
 | `how to test your microphone on your pc` | 3 | 0 | 0.0% | 10 |
 | `f11-2 wireless microphone test to see if they working` | 3 | 0 | 0.0% | 7 |
-| `cmd mic test` | 2 | 0 | 0.0% | 7 |
 | `access to your camera and microphone. click here and count out loud to 10 to ...` | 2 | 0 | 0.0% | 6 |
+| `cmd mic test` | 2 | 0 | 0.0% | 7 |
+| `how to test microphone in simple practice on pc` | 2 | 0 | 0.0% | 10 |
 | `test your microphone` | 2 | 0 | 0.0% | 8 |
 | `how do you test the microphone on a hp desktop rtb1hee` | 2 | 0 | 0.0% | 10 |
-| `how to test microphone in simple practice on pc` | 2 | 0 | 0.0% | 10 |
 | `how test micro phone` | 2 | 0 | 0.0% | 7 |
-| `how to test microphone on my dell latitude 7320 laptop` | 1 | 0 | 0.0% | 7 |
-| `how can i test whether my laptop microphone` | 1 | 0 | 0.0% | 7 |
-| `microphone test for dell monitor` | 1 | 0 | 0.0% | 7 |
-| `how to test my microphone in my computer that are incorporated` | 1 | 0 | 0.0% | 5 |
-| `how can i test the mic in powerpoint live` | 1 | 0 | 0.0% | 5 |
 | `test microphone windows 10 online` | 1 | 0 | 0.0% | 9 |
-| `how to test laptop microphone before first whatsapp call` | 1 | 0 | 0.0% | 2 |
-| `how do i test my microphone on my xps windows 10 laptom` | 1 | 0 | 0.0% | 9 |
 | `how to test micphoeo realtek` | 1 | 0 | 0.0% | 4 |
+| `microphone test for dell monitor` | 1 | 0 | 0.0% | 7 |
+| `how can i test whether my laptop microphone` | 1 | 0 | 0.0% | 7 |
+| `how to test my microphone in my computer that are incorporated` | 1 | 0 | 0.0% | 5 |
+| `how to test laptop microphone before first whatsapp call` | 1 | 0 | 0.0% | 2 |
+| `how can i test the mic in powerpoint live` | 1 | 0 | 0.0% | 5 |
+| `how do i test my microphone on my xps windows 10 laptom` | 1 | 0 | 0.0% | 9 |
+| `how to test microphone on my dell latitude 7320 laptop` | 1 | 0 | 0.0% | 7 |
+| `how to test microphone wow` | 1 | 0 | 0.0% | 5 |
+| `how to test your microphone` | 1 | 0 | 0.0% | 7 |
+| `r input, select your microphone (internal, usb, or headset). test the microph...` | 1 | 0 | 0.0% | 8 |
 | `access to your camera and microphone. click here and count out loud to 10 to ...` | 1 | 0 | 0.0% | 9 |
 | `how to test wired microphone` | 1 | 0 | 0.0% | 9 |
-| `testing microphone on computer locally` | 1 | 0 | 0.0% | 7 |
-| `apps to test your new mic on` | 1 | 0 | 0.0% | 10 |
-| `how to test mictophone on nextgo` | 1 | 0 | 0.0% | 9 |
-| `how to test microphone wow` | 1 | 0 | 0.0% | 5 |
-| `who is my microphone` | 1 | 0 | 0.0% | 8 |
-| `how to test your microphone` | 1 | 0 | 0.0% | 7 |
+| `ho to test your microphone` | 1 | 0 | 0.0% | 9 |
+| `how to test microphone for w610h` | 1 | 0 | 0.0% | 6 |
+| `how to test your microphone on your laptop` | 1 | 0 | 0.0% | 9 |
 
 ## Direct URL Submission (Bingbot Immediate Indexing)
 

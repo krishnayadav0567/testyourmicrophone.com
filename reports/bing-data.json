@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-15T07:51:37.021Z",
+  "generatedAt": "2026-11-15T07:56:58.880Z",
   "siteUrl": "https://testyourmicrophone.com/",
   "verified": true,
   "quota": {
     "__type": "UrlSubmissionQuota:#Microsoft.Bing.Webmaster.Api",
-    "DailyQuota": 93,
-    "MonthlyQuota": 1593
+    "DailyQuota": 86,
+    "MonthlyQuota": 1586
   },
   "sitemaps": [
     {
       "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
       "Compressed": false,
-      "FileSize": 1142,
-      "LastCrawled": "/Date(1794728998000)/",
+      "FileSize": 1144,
+      "LastCrawled": "/Date(1794729086000)/",
       "Status": "Success",
-      "Submitted": "/Date(1794728998047)/",
+      "Submitted": "/Date(1794729086540)/",
       "Type": "Sitemap",
       "Url": "https://testyourmicrophone.com/sitemap.xml",
       "UrlCount": 3
@@ -462,6 +462,15 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
+      "AvgImpressionPosition": 6,
+      "Clicks": 0,
+      "Date": "/Date(1792713600000)/",
+      "Impressions": 2,
+      "Query": "access to your camera and microphone.#R##N#click here and count out loud to 10 to test recording#R##N#   #R##N#microphone#R##N##R##N#default - microphone array (realtek(r) audio)#R##N#   #R##N#camera#R##N##R##N#default camera#R##N#to proceed you must record and play back a test video"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
       "AvgImpressionPosition": 7,
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
@@ -471,11 +480,11 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 6,
+      "AvgImpressionPosition": 10,
       "Clicks": 0,
-      "Date": "/Date(1792713600000)/",
+      "Date": "/Date(1793318400000)/",
       "Impressions": 2,
-      "Query": "access to your camera and microphone.#R##N#click here and count out loud to 10 to test recording#R##N#   #R##N#microphone#R##N##R##N#default - microphone array (realtek(r) audio)#R##N#   #R##N#camera#R##N##R##N#default camera#R##N#to proceed you must record and play back a test video"
+      "Query": "how to test microphone in simple practice on pc"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -498,15 +507,6 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 10,
-      "Clicks": 0,
-      "Date": "/Date(1793318400000)/",
-      "Impressions": 2,
-      "Query": "how to test microphone in simple practice on pc"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
       "AvgImpressionPosition": 7,
       "Clicks": 0,
       "Date": "/Date(1794528000000)/",
@@ -516,20 +516,20 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 7,
+      "AvgImpressionPosition": 9,
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
-      "Query": "how to test microphone on my dell latitude 7320 laptop"
+      "Query": "test microphone windows 10 online"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 7,
+      "AvgImpressionPosition": 4,
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
-      "Query": "how can i test whether my laptop microphone"
+      "Query": "how to test micphoeo realtek"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -543,11 +543,29 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
+      "AvgImpressionPosition": 7,
+      "Clicks": 0,
+      "Date": "/Date(1792713600000)/",
+      "Impressions": 1,
+      "Query": "how can i test whether my laptop microphone"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
       "AvgImpressionPosition": 5,
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
       "Query": "how to test my microphone in my computer that are incorporated"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 2,
+      "Clicks": 0,
+      "Date": "/Date(1792713600000)/",
+      "Impressions": 1,
+      "Query": "how to test laptop microphone before first whatsapp call"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -565,34 +583,43 @@
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
-      "Query": "test microphone windows 10 online"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 2,
-      "Clicks": 0,
-      "Date": "/Date(1792713600000)/",
-      "Impressions": 1,
-      "Query": "how to test laptop microphone before first whatsapp call"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 9,
-      "Clicks": 0,
-      "Date": "/Date(1792713600000)/",
-      "Impressions": 1,
       "Query": "how do i test my microphone on my xps windows 10 laptom"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 4,
+      "AvgImpressionPosition": 7,
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
-      "Query": "how to test micphoeo realtek"
+      "Query": "how to test microphone on my dell latitude 7320 laptop"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 5,
+      "Clicks": 0,
+      "Date": "/Date(1793318400000)/",
+      "Impressions": 1,
+      "Query": "how to test microphone wow"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 7,
+      "Clicks": 0,
+      "Date": "/Date(1793318400000)/",
+      "Impressions": 1,
+      "Query": "how to test your microphone"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 8,
+      "Clicks": 0,
+      "Date": "/Date(1793318400000)/",
+      "Impressions": 1,
+      "Query": "r input, select your microphone (internal, usb, or headset).#R##N#test the microphone by speaking and checking the test your m"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -615,20 +642,20 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 7,
+      "AvgImpressionPosition": 9,
       "Clicks": 0,
       "Date": "/Date(1793318400000)/",
       "Impressions": 1,
-      "Query": "testing microphone on computer locally"
+      "Query": "ho to test your microphone"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 10,
+      "AvgImpressionPosition": 6,
       "Clicks": 0,
       "Date": "/Date(1793318400000)/",
       "Impressions": 1,
-      "Query": "apps to test your new mic on"
+      "Query": "how to test microphone for w610h"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -637,34 +664,7 @@
       "Clicks": 0,
       "Date": "/Date(1793318400000)/",
       "Impressions": 1,
-      "Query": "how to test mictophone on nextgo"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 5,
-      "Clicks": 0,
-      "Date": "/Date(1793318400000)/",
-      "Impressions": 1,
-      "Query": "how to test microphone wow"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 8,
-      "Clicks": 0,
-      "Date": "/Date(1793318400000)/",
-      "Impressions": 1,
-      "Query": "who is my microphone"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 7,
-      "Clicks": 0,
-      "Date": "/Date(1793318400000)/",
-      "Impressions": 1,
-      "Query": "how to test your microphone"
+      "Query": "how to test your microphone on your laptop"
     }
   ],
   "submittedDirectly": [
@@ -697,34 +697,5 @@
       "status": "SUCCESS"
     }
   ],
-  "indexNow": {
-    "success": true,
-    "host": "testyourmicrophone.com",
-    "key": "8f4e2a9c1b7d450398a6b5c4d3e2f1a0",
-    "keyLocation": "https://testyourmicrophone.com/8f4e2a9c1b7d450398a6b5c4d3e2f1a0.txt",
-    "submittedCount": 7,
-    "urls": [
-      "https://testyourmicrophone.com/",
-      "https://testyourmicrophone.com/windows-mic-test.html",
-      "https://testyourmicrophone.com/mac-mic-test.html",
-      "https://testyourmicrophone.com/teams-mic-test.html",
-      "https://testyourmicrophone.com/airpods-mic-test.html",
-      "https://testyourmicrophone.com/privacy.html",
-      "https://testyourmicrophone.com/terms.html"
-    ],
-    "results": [
-      {
-        "endpoint": "https://api.indexnow.org/indexnow",
-        "status": 202,
-        "ok": true,
-        "body": ""
-      },
-      {
-        "endpoint": "https://www.bing.com/indexnow",
-        "status": 202,
-        "ok": true,
-        "body": ""
-      }
-    ]
-  }
+  "indexNow": null
 }

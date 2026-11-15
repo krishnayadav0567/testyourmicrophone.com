@@ -4,6 +4,9 @@
   "private": true,
   "description": "Privacy-first browser microphone testing site with Google Search Console and SEO health automation",
   "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "gsc:fetch": "node scripts/fetch-gsc-issues.mjs",

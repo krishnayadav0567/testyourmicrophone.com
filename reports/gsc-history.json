@@ -1,22 +1,13 @@
 {
-  "recordedAt": "2026-11-14T16:44:19.958Z",
+  "recordedAt": "2026-11-15T07:56:46.417Z",
   "searchAnalytics": {
     "summary": {
       "clicks": 0,
-      "impressions": 401,
+      "impressions": 383,
       "ctr": 0,
-      "position": 81.31172069825436
+      "position": 81.9425587467363
     },
     "topQueries": [
-      {
-        "keys": [
-          "audio mic tester"
-        ],
-        "clicks": 0,
-        "impressions": 1,
-        "ctr": 0,
-        "position": 87
-      },
       {
         "keys": [
           "audio test mic"
@@ -112,9 +103,9 @@
           "check microphone"
         ],
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 1,
         "ctr": 0,
-        "position": 87.5
+        "position": 100
       },
       {
         "keys": [
@@ -139,18 +130,9 @@
           "check your microphone"
         ],
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 2,
         "ctr": 0,
-        "position": 79.33333333333333
-      },
-      {
-        "keys": [
-          "checking mic"
-        ],
-        "clicks": 0,
-        "impressions": 1,
-        "ctr": 0,
-        "position": 80
+        "position": 80.5
       },
       {
         "keys": [
@@ -181,12 +163,30 @@
       },
       {
         "keys": [
-          "headphone microphone test"
+          "how can i test if my microphone is working"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "how can i test my laptop microphone"
         ],
         "clicks": 0,
         "impressions": 1,
         "ctr": 0,
-        "position": 82
+        "position": 62
+      },
+      {
+        "keys": [
+          "how can i test my mic"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 84
       }
     ],
     "topPages": [
@@ -195,18 +195,18 @@
           "https://testyourmicrophone.com/"
         ],
         "clicks": 0,
-        "impressions": 296,
+        "impressions": 321,
         "ctr": 0,
-        "position": 82.21283783783784
+        "position": 82.49221183800623
       },
       {
         "keys": [
           "https://www.testyourmicrophone.com/"
         ],
         "clicks": 0,
-        "impressions": 105,
+        "impressions": 62,
         "ctr": 0,
-        "position": 78.77142857142857
+        "position": 79.09677419354838
       }
     ]
   }

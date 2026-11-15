@@ -4,16 +4,18 @@
   "sitemaps": [
     {
       "path": "https://testyourmicrophone.com/sitemap.xml",
-      "lastSubmitted": "2026-11-12T17:51:54.268Z",
-      "lastDownloaded": "2026-11-13T17:51:54.269Z",
+      "lastSubmitted": "2026-11-14T16:44:35.782Z",
       "isPending": false,
-      "warnings": 0,
-      "errors": 0,
+      "isSitemapsIndex": false,
+      "type": "sitemap",
+      "lastDownloaded": "2026-11-14T16:44:37.309Z",
+      "warnings": "0",
+      "errors": "0",
       "contents": [
         {
           "type": "web",
-          "submitted": "7",
-          "indexed": "7"
+          "submitted": "3",
+          "indexed": "0"
         }
       ]
     }
@@ -26,63 +28,63 @@
       "pageFetchState": "SUCCESSFUL",
       "indexingState": "INDEXING_ALLOWED",
       "crawledAs": "MOBILE",
-      "mobileVerdict": "PASS",
-      "richResultsVerdict": "PASS",
+      "lastCrawlTime": "2026-11-06T03:06:51Z",
       "googleCanonical": "https://testyourmicrophone.com/",
       "userCanonical": "https://testyourmicrophone.com/",
-      "lastCrawlTime": "2026-11-14T05:51:54.269Z"
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
     },
     {
       "url": "https://testyourmicrophone.com/windows-mic-test.html",
-      "coverageState": "Submitted and indexed",
-      "verdict": "PASS",
-      "pageFetchState": "SUCCESSFUL",
-      "indexingState": "INDEXING_ALLOWED",
+      "coverageState": "URL is unknown to Google",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "crawledAs": "MOBILE",
-      "mobileVerdict": "PASS",
-      "richResultsVerdict": "PASS",
-      "googleCanonical": "https://testyourmicrophone.com/windows-mic-test.html",
-      "userCanonical": "https://testyourmicrophone.com/windows-mic-test.html",
-      "lastCrawlTime": "2026-11-13T17:51:54.269Z"
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
     },
     {
       "url": "https://testyourmicrophone.com/mac-mic-test.html",
-      "coverageState": "Submitted and indexed",
-      "verdict": "PASS",
-      "pageFetchState": "SUCCESSFUL",
-      "indexingState": "INDEXING_ALLOWED",
+      "coverageState": "URL is unknown to Google",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "crawledAs": "MOBILE",
-      "mobileVerdict": "PASS",
-      "richResultsVerdict": "PASS",
-      "googleCanonical": "https://testyourmicrophone.com/mac-mic-test.html",
-      "userCanonical": "https://testyourmicrophone.com/mac-mic-test.html",
-      "lastCrawlTime": "2026-11-13T17:51:54.269Z"
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
     },
     {
       "url": "https://testyourmicrophone.com/teams-mic-test.html",
-      "coverageState": "Submitted and indexed",
-      "verdict": "PASS",
-      "pageFetchState": "SUCCESSFUL",
-      "indexingState": "INDEXING_ALLOWED",
+      "coverageState": "URL is unknown to Google",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "crawledAs": "MOBILE",
-      "mobileVerdict": "PASS",
-      "richResultsVerdict": "PASS",
-      "googleCanonical": "https://testyourmicrophone.com/teams-mic-test.html",
-      "userCanonical": "https://testyourmicrophone.com/teams-mic-test.html",
-      "lastCrawlTime": "2026-11-13T17:51:54.269Z"
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
     },
     {
       "url": "https://testyourmicrophone.com/airpods-mic-test.html",
-      "coverageState": "Submitted and indexed",
-      "verdict": "PASS",
-      "pageFetchState": "SUCCESSFUL",
-      "indexingState": "INDEXING_ALLOWED",
+      "coverageState": "URL is unknown to Google",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
       "crawledAs": "MOBILE",
-      "mobileVerdict": "PASS",
-      "richResultsVerdict": "PASS",
-      "googleCanonical": "https://testyourmicrophone.com/airpods-mic-test.html",
-      "userCanonical": "https://testyourmicrophone.com/airpods-mic-test.html",
-      "lastCrawlTime": "2026-11-13T17:51:54.269Z"
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
     },
     {
       "url": "https://testyourmicrophone.com/privacy.html",
@@ -91,11 +93,11 @@
       "pageFetchState": "SUCCESSFUL",
       "indexingState": "INDEXING_ALLOWED",
       "crawledAs": "MOBILE",
-      "mobileVerdict": "PASS",
-      "richResultsVerdict": "PASS",
+      "lastCrawlTime": "2026-11-09T13:09:48Z",
       "googleCanonical": "https://testyourmicrophone.com/privacy.html",
       "userCanonical": "https://testyourmicrophone.com/privacy.html",
-      "lastCrawlTime": "2026-11-12T17:51:54.269Z"
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
     },
     {
       "url": "https://testyourmicrophone.com/terms.html",
@@ -104,65 +106,200 @@
       "pageFetchState": "SUCCESSFUL",
       "indexingState": "INDEXING_ALLOWED",
       "crawledAs": "MOBILE",
-      "mobileVerdict": "PASS",
-      "richResultsVerdict": "PASS",
+      "lastCrawlTime": "2026-11-04T00:33:06Z",
       "googleCanonical": "https://testyourmicrophone.com/terms.html",
       "userCanonical": "https://testyourmicrophone.com/terms.html",
-      "lastCrawlTime": "2026-11-12T17:51:54.269Z"
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
     }
   ],
   "searchAnalytics": {
     "summary": {
-      "clicks": 142,
-      "impressions": 4890,
-      "ctr": 0.029,
-      "position": 14.2
+      "clicks": 0,
+      "impressions": 383,
+      "ctr": 0,
+      "position": 81.9425587467363
     },
     "topQueries": [
       {
         "keys": [
-          "test your microphone"
+          "audio test mic"
         ],
-        "clicks": 58,
-        "impressions": 1650,
-        "ctr": 0.035,
-        "position": 9.8
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
       },
       {
         "keys": [
-          "mic test online"
+          "can i test my microphone"
         ],
-        "clicks": 34,
-        "impressions": 1200,
-        "ctr": 0.028,
-        "position": 12.4
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 88
       },
       {
         "keys": [
-          "test microphone windows 10"
+          "cek mic"
         ],
-        "clicks": 22,
-        "impressions": 780,
-        "ctr": 0.028,
-        "position": 15.1
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 73
       },
       {
         "keys": [
-          "how to test mic on laptop"
+          "check if mic is working"
         ],
-        "clicks": 16,
-        "impressions": 640,
-        "ctr": 0.025,
-        "position": 16.5
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 80
       },
       {
         "keys": [
-          "test mic mac"
+          "check if mic works"
         ],
-        "clicks": 12,
-        "impressions": 620,
-        "ctr": 0.019,
-        "position": 17.3
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 83
+      },
+      {
+        "keys": [
+          "check if my mic is working"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 82
+      },
+      {
+        "keys": [
+          "check laptop mic"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 66
+      },
+      {
+        "keys": [
+          "check laptop microphone"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "check mic pc"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 68
+      },
+      {
+        "keys": [
+          "check mic working"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 76
+      },
+      {
+        "keys": [
+          "check microphone"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 100
+      },
+      {
+        "keys": [
+          "check microphone laptop"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 65
+      },
+      {
+        "keys": [
+          "check my microphone"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 100
+      },
+      {
+        "keys": [
+          "check your microphone"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 80.5
+      },
+      {
+        "keys": [
+          "computer mic test"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 81.5
+      },
+      {
+        "keys": [
+          "computer microphone test"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 84
+      },
+      {
+        "keys": [
+          "headphone mic test"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 85
+      },
+      {
+        "keys": [
+          "how can i test if my microphone is working"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "how can i test my laptop microphone"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "keys": [
+          "how can i test my mic"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 84
       }
     ],
     "topPages": [
@@ -170,10 +307,19 @@
         "keys": [
           "https://testyourmicrophone.com/"
         ],
-        "clicks": 142,
-        "impressions": 4890,
-        "ctr": 0.029,
-        "position": 14.2
+        "clicks": 0,
+        "impressions": 321,
+        "ctr": 0,
+        "position": 82.49221183800623
+      },
+      {
+        "keys": [
+          "https://www.testyourmicrophone.com/"
+        ],
+        "clicks": 0,
+        "impressions": 62,
+        "ctr": 0,
+        "position": 79.09677419354838
       }
     ]
   }
