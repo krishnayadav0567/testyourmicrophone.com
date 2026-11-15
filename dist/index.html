@@ -90,6 +90,38 @@
         "mainEntity": [
           {
             "@type": "Question",
+            "name": "How to test laptop microphone before a WhatsApp or Zoom call?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Click Start microphone test, allow browser access, speak naturally, and toggle 'Hear myself' or record a 5-second test clip. This lets you hear your exact audio volume and clarity before joining your WhatsApp, Zoom, or Teams call."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I test my microphone to hear what other people hear?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Connect headphones, click Start microphone test, and turn on the 'Hear myself' loopback monitor. You will hear your voice in real time with zero latency, allowing you to check background noise, echo, and volume balance exactly as other participants will hear it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I test my PC microphone locally without opening Windows sound settings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Instead of opening Control Panel or Windows Sound Settings, open TestYourMicrophone.com in your browser. It uses the Web Audio API to test your microphone locally on your device with a live decibel (dBFS) meter, pitch detector, and instant playback."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I test a Realtek audio microphone on a PC or laptop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For Dell, HP, Lenovo, or custom PCs using Realtek High Definition Audio, click Start microphone test and choose 'Microphone Array (Realtek Audio)' from the input list. Speak into your microphone and confirm the live waveform and level meter respond."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "How to test microphone online?",
             "acceptedAnswer": { "@type": "Answer", "text": "Click Start microphone test, allow microphone access when your browser asks, and speak normally. The live meter should move as your microphone picks up sound. You can also record a short clip and play it back locally. People searching for how test microphone or how to test my microphone usually want this quick live level check." }
           },
@@ -228,11 +260,10 @@
     <section class="hero-section" id="tester" data-home-view>
       <div class="container hero-layout">
         <div class="hero-copy">
-          <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> Audio stays in your browser
+          <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> 100% In-Browser & Local • No Server Uploads
           </div>
           <h1>Test your microphone <span>online</span></h1>
-          <p class="hero-description">Check whether your microphone works on Windows, macOS, or any laptop—and hear how
-            you sound on calls. The test runs entirely in your browser.</p>
+          <p class="hero-description">Check whether your microphone works on Windows, PC, Mac, or laptop—and hear how you sound before your WhatsApp, Teams, or Zoom calls. 100% private in-browser testing.</p>
           <div class="hero-actions">
             <button class="primary-button" id="start-test" type="button"><span class="button-icon"
                 aria-hidden="true">●</span><span id="start-test-label">Start microphone test</span><span class="button-arrow"
@@ -355,9 +386,8 @@
           </article>
           <article class="feature-card" data-reveal-child>
             <div class="feature-icon icon-record" aria-hidden="true"></div>
-            <h3>Record and playback</h3>
-            <p>Make a short browser recording, play it back immediately, and download it when you need a local
-              reference.</p><span class="feature-number">03</span>
+            <h3>Hear what others hear</h3>
+            <p>Make a short browser recording or use the zero-latency loopback monitor to hear your exact voice, volume, and clarity before your WhatsApp, Teams, or Zoom call.</p><span class="feature-number">03</span>
           </article>
           <article class="feature-card" data-reveal-child>
             <div class="feature-icon icon-chart" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
@@ -554,6 +584,22 @@
             </summary>
             <p>Yes. This microphone test processes the live stream in your browser. The test does not upload microphone
               audio to a server, and recordings made here remain local until you close the page or download a clip.</p>
+          </details>
+          <details>
+            <summary><span>How to test laptop microphone before a WhatsApp or Zoom call?</span><span class="summary-icon">+</span></summary>
+            <p>Click Start microphone test, allow browser access, speak naturally, and toggle 'Hear myself' or record a 5-second test clip. This lets you hear your exact audio volume and clarity before joining your WhatsApp, Zoom, or Teams call.</p>
+          </details>
+          <details>
+            <summary><span>How do I test my microphone to hear what other people hear?</span><span class="summary-icon">+</span></summary>
+            <p>Connect headphones, click Start microphone test, and turn on the 'Hear myself' loopback monitor. You will hear your voice in real time with zero latency, allowing you to check background noise, echo, and volume balance exactly as other participants will hear it.</p>
+          </details>
+          <details>
+            <summary><span>How do I test my PC microphone locally without opening Windows sound settings?</span><span class="summary-icon">+</span></summary>
+            <p>Instead of opening Control Panel or Windows Sound Settings, open TestYourMicrophone.com in your browser. It uses the Web Audio API to test your microphone locally on your device with a live decibel (dBFS) meter, pitch detector, and instant playback.</p>
+          </details>
+          <details>
+            <summary><span>How do I test a Realtek audio microphone on a PC or laptop?</span><span class="summary-icon">+</span></summary>
+            <p>For Dell, HP, Lenovo, or custom PCs using Realtek High Definition Audio, click Start microphone test and choose 'Microphone Array (Realtek Audio)' from the input list. Speak into your microphone and confirm the live waveform and level meter respond.</p>
           </details>
         </div>
       </div>

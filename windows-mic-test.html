@@ -133,6 +133,38 @@
           },
           {
             "@type": "Question",
+            "name": "How to test laptop microphone before a WhatsApp or Zoom call?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Before taking a call on WhatsApp, Teams, or Zoom, click Start Windows mic test on this page and grant browser permission. Speak at your normal speaking distance and toggle 'Hear myself' or record a 5-second test clip to ensure your voice is loud, clear, and unmuted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I test my PC microphone locally without opening Windows sound settings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Instead of opening Control Panel (mmsys.cpl) or navigating Windows Settings, you can test your microphone locally in your browser. This tool runs 100% on your device using Web Audio API—measuring live dBFS levels and playback without sending your voice to any remote server."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I test a Realtek audio microphone on a PC or laptop?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For PCs and laptops using Realtek High Definition Audio or Realtek Microphone Array (common on Dell Latitude, XPS, and HP laptops), click Start test, select 'Microphone Array (Realtek Audio)' from the input dropdown, and verify that the live audio waveform and dBFS meter respond to your voice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I hear what other people will hear through my PC microphone?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Plug in your headphones to avoid acoustic speaker feedback, then click the 'Hear myself' button on this tester. It routes your microphone input directly into your headphones with zero latency so you can hear your volume, background noise, and vocal clarity exactly as meeting participants will hear you."
+            }
+          },
+          {
+            "@type": "Question",
             "name": "Why is my Windows microphone not picking up sound?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -184,9 +216,9 @@
     <section class="hero-section" id="tester" data-home-view>
       <div class="container hero-layout">
         <div class="hero-copy">
-          <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> Windows 10 & 11 Compatible</div>
+          <div class="privacy-badge"><span class="privacy-badge-icon" aria-hidden="true">✓</span> Windows 10 & 11 • Bypass Sound Settings • 100% Local</div>
           <h1>Test your microphone on <span>Windows</span></h1>
-          <p class="hero-description">Free, private microphone check for Windows 10, Windows 11, and PC laptops. Check live input levels, verify audio clarity, and test playback locally.</p>
+          <p class="hero-description">Free, private microphone test for Windows 10, Windows 11, and PC laptops. Test Realtek, USB, or wireless headsets instantly without opening confusing settings—verify dBFS levels and hear what others hear.</p>
           <div class="hero-actions">
             <button class="primary-button" id="start-test" type="button"><span id="start-test-label">Start Windows mic test</span></button>
           </div>
@@ -281,18 +313,23 @@
         <div class="feature-grid">
           <article class="feature-card feature-card-highlight" data-reveal-child>
             <span class="feature-number">01</span>
-            <h3>Windows 11 Sound Settings</h3>
-            <p>Open <strong>Start > Settings > System > Sound</strong>. Under <strong>Input</strong>, click on your microphone to check volume and run Microsoft's built-in input test.</p>
+            <h3>Bypass Windows Sound Settings</h3>
+            <p>Skip digging through Control Panel (<code>mmsys.cpl</code>) or Device Manager. Run a direct browser-based test with live decibel meters and zero installation.</p>
           </article>
           <article class="feature-card" data-reveal-child>
             <span class="feature-number">02</span>
-            <h3>Windows 10 Sound Control</h3>
-            <p>Right-click the speaker icon in the taskbar and select <strong>Open Sound settings</strong>. Under <strong>Input</strong>, choose your device and verify the blue level meter responds.</p>
+            <h3>Hear What Others Hear</h3>
+            <p>Toggle the zero-latency <strong>Hear myself</strong> monitor (with headphones) or record a quick clip to verify your voice is crisp before your WhatsApp, Teams, or Zoom call.</p>
           </article>
           <article class="feature-card" data-reveal-child>
             <span class="feature-number">03</span>
+            <h3>Realtek & Laptop Optimization</h3>
+            <p>Full support for internal Realtek Microphone Arrays, Dell Latitude/XPS laptops, HP desktops, USB-C mics, and bluetooth wireless headsets.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <span class="feature-number">04</span>
             <h3>Microphone Privacy Permissions</h3>
-            <p>Go to <strong>Settings > Privacy & Security > Microphone</strong>. Ensure both <em>Microphone access</em> and <em>Let apps access your microphone</em> are toggled <strong>ON</strong>.</p>
+            <p>If silent, ensure <strong>Settings > Privacy & Security > Microphone</strong> has <em>Microphone access</em> and <em>Let apps access your microphone</em> toggled <strong>ON</strong>.</p>
           </article>
         </div>
       </div>
@@ -319,6 +356,40 @@
           <article class="feature-card" data-reveal-child>
             <h3>3. Adjust Input Boost & Format</h3>
             <p>In Sound Properties > <strong>Levels</strong>, increase microphone volume to 80-100%. Under <strong>Advanced</strong>, choose <em>2 channel, 16 bit, 48000 Hz (DVD Quality)</em>.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <h3>4. Dell, HP, & Realtek Driver Fixes</h3>
+            <p>If 'Microphone Array (Realtek Audio)' shows 0% volume on Dell or HP laptops, open Waves MaxxAudio or Dell Optimizer, ensure the headset jack is set to 'Headset' (not Headphones), and disable aggressive noise suppression.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-border" id="faq" data-reveal>
+      <div class="container">
+        <div class="section-heading" data-reveal-child>
+          <div>
+            <p class="section-label">Frequently Asked Questions</p>
+            <h2>Windows Microphone Testing FAQs</h2>
+          </div>
+          <p>Quick answers to common questions about testing PC and laptop microphones.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card" data-reveal-child>
+            <h3>How to test laptop microphone before a WhatsApp or Zoom call?</h3>
+            <p>Click Start Windows mic test on this page and grant browser permission. Speak at your normal distance and toggle <strong>Hear myself</strong> or record a 5-second test clip to ensure your voice is loud, clear, and unmuted.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <h3>How do I test my PC mic locally without opening Windows settings?</h3>
+            <p>Instead of opening Control Panel (<code>mmsys.cpl</code>), this tool runs 100% on your device using the Web Audio API—measuring live dBFS levels and playback without sending your voice to any remote server.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <h3>How do I test a Realtek audio microphone on a PC or laptop?</h3>
+            <p>For PCs and laptops using Realtek Audio or Realtek Microphone Array (common on Dell Latitude, XPS, and HP laptops), click Start test, select 'Microphone Array (Realtek Audio)' from the dropdown, and verify the waveform responds.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <h3>How do I hear what others will hear through my PC microphone?</h3>
+            <p>Plug in headphones to avoid feedback, then click the <strong>Hear myself</strong> button. It routes your mic input directly into your headphones with zero latency so you can hear your volume, background noise, and vocal clarity.</p>
           </article>
         </div>
       </div>
