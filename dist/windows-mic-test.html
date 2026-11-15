@@ -170,6 +170,62 @@
               "@type": "Answer",
               "text": "Common causes include microphone privacy restrictions (Settings > Privacy > Microphone), hardware mute switches on headsets, an incorrect default device selected under Sound settings, or outdated audio drivers in Device Manager."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I test a microphone from Windows Command Prompt (CMD)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Windows Command Prompt (CMD) does not provide a native graphical sound meter or live audio waveform. You can query detected audio hardware via PowerShell with 'Get-CimInstance Win32_SoundDevice', but for immediate visual audio levels, frequency detection, and instant playback without scripts, this browser-based tool tests your microphone directly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I do a counting test (1 to 10) for job interviews and online proctoring?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Automated interview systems (such as HireVue, Modern Hire, and ProctorU) require you to count out loud from 1 to 10 to calibrate microphone gain and background noise. You can rehearse and test your recording here: click 'Start test', count out loud to 10, and hit 'Play recording' to confirm your voice is loud, clear, and distortion-free."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I test a microphone built into a Dell or external monitor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For Dell video conferencing or external monitors with integrated microphones, connect the upstream USB cable or USB-C connection to your PC. In the microphone input selector above, choose 'Echo Cancelling Speakerphone' or 'Dell Monitor Audio' and verify the sound waveform responds to your voice."
+            }
+          }
+        ]
+      }
+    </script>
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to Test a Microphone on Windows 10 & 11",
+        "description": "Step-by-step instructions to test your PC, laptop, or Realtek microphone online with live decibel feedback and instant playback.",
+        "totalTime": "PT1M",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "position": 1,
+            "name": "Start the Windows mic test",
+            "text": "Click 'Start Windows mic test' and select Allow when prompted for microphone permissions in your browser.",
+            "url": "https://testyourmicrophone.com/windows-mic-test.html#mic-tester"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Select your input device and speak",
+            "text": "Choose your active microphone (such as Realtek Audio or USB Headset) and speak at normal volume to verify active sound waves.",
+            "url": "https://testyourmicrophone.com/windows-mic-test.html#mic-tester"
+          },
+          {
+            "@type": "HowToStep",
+            "position": 3,
+            "name": "Verify volume levels and play back",
+            "text": "Use the 'Hear myself' toggle or record a 5-second test clip to confirm clear volume and eliminate background hiss before calls.",
+            "url": "https://testyourmicrophone.com/windows-mic-test.html#mic-tester"
           }
         ]
       }
@@ -390,6 +446,18 @@
           <article class="feature-card" data-reveal-child>
             <h3>How do I hear what others will hear through my PC microphone?</h3>
             <p>Plug in headphones to avoid feedback, then click the <strong>Hear myself</strong> button. It routes your mic input directly into your headphones with zero latency so you can hear your volume, background noise, and vocal clarity.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <h3>Can I test a microphone from Windows Command Prompt (CMD)?</h3>
+            <p>Windows CMD has no built-in graphical decibel meter. While you can query audio drivers using PowerShell (<code>Get-CimInstance Win32_SoundDevice</code>), this free browser test gives you instant, visual audio waveform feedback and real-time playback with zero commands required.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <h3>How do I do a counting test (1 to 10) for job interviews?</h3>
+            <p>Automated interview platforms like HireVue, Modern Hire, and ProctorU prompt you to count out loud to 10 to calibrate mic levels. Practice here: click <strong>Start test</strong>, count to 10, and listen back to ensure your volume is steady and clear.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <h3>How do I test a microphone built into a Dell or external monitor?</h3>
+            <p>Make sure your monitor's USB-C or upstream USB cable is plugged into your PC. Select your monitor (e.g., 'Dell Monitor Audio' or 'Echo Cancelling Speakerphone') from the dropdown above to test its clarity and noise suppression.</p>
           </article>
         </div>
       </div>
