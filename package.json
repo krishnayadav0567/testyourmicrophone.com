@@ -10,9 +10,15 @@
     "gsc:mock": "node scripts/fetch-gsc-issues.mjs --mock",
     "gsc:submit": "node scripts/submit-sitemap.mjs",
     "monitor:production": "node scripts/monitor-production.mjs",
-    "test": "node --test tests/gsc-automation.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "test:seo": "node scripts/monitor-production.mjs --local",
-    "gsc:automate": "node scripts/automate-gsc-issues.mjs"
+    "gsc:automate": "node scripts/automate-gsc-issues.mjs",
+    "bing:fetch": "node scripts/automate-bing-issues.mjs --no-sitemap --no-indexnow",
+    "bing:submit": "node scripts/automate-bing-issues.mjs --no-indexnow",
+    "bing:indexnow": "node scripts/submit-indexnow.mjs",
+    "bing:mock": "node scripts/automate-bing-issues.mjs --mock",
+    "bing:automate": "node scripts/automate-bing-issues.mjs",
+    "seo:all": "npm run gsc:automate && npm run bing:automate"
   },
   "devDependencies": {
     "googleapis": "^189.0.0"
