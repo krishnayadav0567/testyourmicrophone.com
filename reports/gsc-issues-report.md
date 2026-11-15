@@ -2,7 +2,7 @@
 
 **Target Site:** `https://testyourmicrophone.com`  
 **Matched Property:** `sc-domain:testyourmicrophone.com`  
-**Report Generated At:** 2026-11-15T09:12:13.657Z  
+**Report Generated At:** 2026-11-15T19:21:19.666Z  
 **Total URLs Sampled:** 7  
 
 ## 1. Executive Summary
@@ -11,10 +11,15 @@
 | :--- | :--- | :--- |
 | **Indexed (Valid)** | 3 / 7 | 🟡 Review Needed |
 | **Crawled - Currently Not Indexed** | 0 | 🟢 None |
-| **Discovered - Currently Not Indexed** | 4 | 🟡 Queued for Crawling |
-| **URL is Unknown to Google** | 0 | 🟢 None |
+| **Discovered - Currently Not Indexed** | 2 | 🟡 Queued for Crawling |
+| **URL is Unknown to Google** | 2 | 🟡 Discovery Queued |
 | **Server Errors (5xx)** | 0 | 🟢 0 Detected |
 | **Sitemap Errors / Warnings** | 0 | 🟢 Healthy |
+
+### Period-over-Period Performance Changes
+
+- **Impressions Change:** +0
+- **Clicks Change:** +0
 
 > [!TIP]
 > **Domain Equity Consolidation**: Search analytics detected impressions split between `www.testyourmicrophone.com` and `testyourmicrophone.com`. A Cloudflare Pages `_redirects` rule has been placed to issue 301 permanent redirects from `www` to apex, uniting link equity upon next deployment.
@@ -23,14 +28,14 @@
 
 | Sitemap URL | Last Downloaded | Submitted URLs | Indexed URLs | Errors | Warnings |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `https://testyourmicrophone.com/sitemap.xml` | 2026-11-14T16:44:37.309Z | 3 | 0 | 0 | 0 |
+| `https://testyourmicrophone.com/sitemap.xml` | 2026-11-15T09:11:14.502Z | 7 | 0 | 0 | 0 |
 
 ## 3. URL Inspection Verdicts & Issues
 
 | URL | Coverage State | Verdict | Fetch State | Mobile Usability | Canonical Match |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `https://testyourmicrophone.com/windows-mic-test.html` | **Discovered - currently not indexed** | `NEUTRAL` | `PAGE_FETCH_STATE_UNSPECIFIED` | `VERDICT_UNSPECIFIED` | ⚠️ Mismatch |
-| `https://testyourmicrophone.com/mac-mic-test.html` | **Discovered - currently not indexed** | `NEUTRAL` | `PAGE_FETCH_STATE_UNSPECIFIED` | `VERDICT_UNSPECIFIED` | ⚠️ Mismatch |
+| `https://testyourmicrophone.com/windows-mic-test.html` | **URL is unknown to Google** | `NEUTRAL` | `PAGE_FETCH_STATE_UNSPECIFIED` | `VERDICT_UNSPECIFIED` | ⚠️ Mismatch |
+| `https://testyourmicrophone.com/mac-mic-test.html` | **URL is unknown to Google** | `NEUTRAL` | `PAGE_FETCH_STATE_UNSPECIFIED` | `VERDICT_UNSPECIFIED` | ⚠️ Mismatch |
 | `https://testyourmicrophone.com/teams-mic-test.html` | **Discovered - currently not indexed** | `NEUTRAL` | `PAGE_FETCH_STATE_UNSPECIFIED` | `VERDICT_UNSPECIFIED` | ⚠️ Mismatch |
 | `https://testyourmicrophone.com/airpods-mic-test.html` | **Discovered - currently not indexed** | `NEUTRAL` | `PAGE_FETCH_STATE_UNSPECIFIED` | `VERDICT_UNSPECIFIED` | ⚠️ Mismatch |
 
@@ -39,8 +44,8 @@
 | URL | Coverage State | Verdict | Last Crawled | Crawled As |
 | :--- | :--- | :--- | :--- | :--- |
 | `https://testyourmicrophone.com/` | Submitted and indexed | `PASS` | 2026-11-06T03:06:51Z | MOBILE |
-| `https://testyourmicrophone.com/windows-mic-test.html` | Discovered - currently not indexed | `NEUTRAL` | Pending Crawl | CRAWLING_USER_AGENT_UNSPECIFIED |
-| `https://testyourmicrophone.com/mac-mic-test.html` | Discovered - currently not indexed | `NEUTRAL` | Pending Crawl | CRAWLING_USER_AGENT_UNSPECIFIED |
+| `https://testyourmicrophone.com/windows-mic-test.html` | URL is unknown to Google | `NEUTRAL` | Pending Crawl | MOBILE |
+| `https://testyourmicrophone.com/mac-mic-test.html` | URL is unknown to Google | `NEUTRAL` | Pending Crawl | MOBILE |
 | `https://testyourmicrophone.com/teams-mic-test.html` | Discovered - currently not indexed | `NEUTRAL` | Pending Crawl | CRAWLING_USER_AGENT_UNSPECIFIED |
 | `https://testyourmicrophone.com/airpods-mic-test.html` | Discovered - currently not indexed | `NEUTRAL` | Pending Crawl | CRAWLING_USER_AGENT_UNSPECIFIED |
 | `https://testyourmicrophone.com/privacy.html` | Submitted and indexed | `PASS` | 2026-11-09T13:09:48Z | MOBILE |

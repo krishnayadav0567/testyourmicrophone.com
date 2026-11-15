@@ -4,17 +4,17 @@
   "sitemaps": [
     {
       "path": "https://testyourmicrophone.com/sitemap.xml",
-      "lastSubmitted": "2026-11-14T16:44:35.782Z",
+      "lastSubmitted": "2026-11-15T09:11:13.752Z",
       "isPending": false,
       "isSitemapsIndex": false,
       "type": "sitemap",
-      "lastDownloaded": "2026-11-14T16:44:37.309Z",
+      "lastDownloaded": "2026-11-15T09:11:14.502Z",
       "warnings": "0",
       "errors": "0",
       "contents": [
         {
           "type": "web",
-          "submitted": "3",
+          "submitted": "7",
           "indexed": "0"
         }
       ]
@@ -62,11 +62,11 @@
     },
     {
       "url": "https://testyourmicrophone.com/teams-mic-test.html",
-      "coverageState": "URL is unknown to Google",
+      "coverageState": "Discovered - currently not indexed",
       "verdict": "NEUTRAL",
       "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
-      "crawledAs": "MOBILE",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
       "lastCrawlTime": null,
       "googleCanonical": null,
       "userCanonical": null,
@@ -75,11 +75,11 @@
     },
     {
       "url": "https://testyourmicrophone.com/airpods-mic-test.html",
-      "coverageState": "URL is unknown to Google",
+      "coverageState": "Discovered - currently not indexed",
       "verdict": "NEUTRAL",
       "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
       "indexingState": "INDEXING_STATE_UNSPECIFIED",
-      "crawledAs": "MOBILE",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
       "lastCrawlTime": null,
       "googleCanonical": null,
       "userCanonical": null,
