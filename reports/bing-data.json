@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-15T07:56:58.880Z",
+  "generatedAt": "2026-11-15T19:18:07.588Z",
   "siteUrl": "https://testyourmicrophone.com/",
   "verified": true,
   "quota": {
     "__type": "UrlSubmissionQuota:#Microsoft.Bing.Webmaster.Api",
-    "DailyQuota": 86,
-    "MonthlyQuota": 1586
+    "DailyQuota": 72,
+    "MonthlyQuota": 1572
   },
   "sitemaps": [
     {
       "__type": "Feed:#Microsoft.Bing.Webmaster.Api",
       "Compressed": false,
-      "FileSize": 1144,
-      "LastCrawled": "/Date(1794729086000)/",
+      "FileSize": 1741,
+      "LastCrawled": "/Date(1794733940000)/",
       "Status": "Success",
-      "Submitted": "/Date(1794729086540)/",
+      "Submitted": "/Date(1794733939966)/",
       "Type": "Sitemap",
       "Url": "https://testyourmicrophone.com/sitemap.xml",
-      "UrlCount": 3
+      "UrlCount": 7
     }
   ],
   "crawlIssues": [],
@@ -435,6 +435,24 @@
       "DnsFailures": 0,
       "InIndex": 3,
       "InLinks": 0
+    },
+    {
+      "__type": "CrawlStats:#Microsoft.Bing.Webmaster.Api",
+      "AllOtherCodes": 0,
+      "BlockedByRobotsTxt": 0,
+      "Code2xx": 4,
+      "Code301": 0,
+      "Code302": 0,
+      "Code4xx": 0,
+      "Code5xx": 0,
+      "ConnectionTimeout": 0,
+      "ContainsMalware": 0,
+      "CrawledPages": 2,
+      "CrawlErrors": 0,
+      "Date": "/Date(1794441600000)/",
+      "DnsFailures": 0,
+      "InIndex": 4,
+      "InLinks": 0
     }
   ],
   "queryStatsCount": 56,
@@ -520,6 +538,33 @@
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
+      "Query": "how do i test my microphone on my xps windows 10 laptom"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 7,
+      "Clicks": 0,
+      "Date": "/Date(1792713600000)/",
+      "Impressions": 1,
+      "Query": "how to test microphone on my dell latitude 7320 laptop"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 5,
+      "Clicks": 0,
+      "Date": "/Date(1792713600000)/",
+      "Impressions": 1,
+      "Query": "how to test my microphone in my computer that are incorporated"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 9,
+      "Clicks": 0,
+      "Date": "/Date(1792713600000)/",
+      "Impressions": 1,
       "Query": "test microphone windows 10 online"
     },
     {
@@ -543,20 +588,11 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 7,
-      "Clicks": 0,
-      "Date": "/Date(1792713600000)/",
-      "Impressions": 1,
-      "Query": "how can i test whether my laptop microphone"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
       "AvgImpressionPosition": 5,
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
-      "Query": "how to test my microphone in my computer that are incorporated"
+      "Query": "how can i test the mic in powerpoint live"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -570,56 +606,11 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 5,
-      "Clicks": 0,
-      "Date": "/Date(1792713600000)/",
-      "Impressions": 1,
-      "Query": "how can i test the mic in powerpoint live"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 9,
-      "Clicks": 0,
-      "Date": "/Date(1792713600000)/",
-      "Impressions": 1,
-      "Query": "how do i test my microphone on my xps windows 10 laptom"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
       "AvgImpressionPosition": 7,
       "Clicks": 0,
       "Date": "/Date(1792713600000)/",
       "Impressions": 1,
-      "Query": "how to test microphone on my dell latitude 7320 laptop"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 5,
-      "Clicks": 0,
-      "Date": "/Date(1793318400000)/",
-      "Impressions": 1,
-      "Query": "how to test microphone wow"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 7,
-      "Clicks": 0,
-      "Date": "/Date(1793318400000)/",
-      "Impressions": 1,
-      "Query": "how to test your microphone"
-    },
-    {
-      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
-      "AvgClickPosition": -1,
-      "AvgImpressionPosition": 8,
-      "Clicks": 0,
-      "Date": "/Date(1793318400000)/",
-      "Impressions": 1,
-      "Query": "r input, select your microphone (internal, usb, or headset).#R##N#test the microphone by speaking and checking the test your m"
+      "Query": "how can i test whether my laptop microphone"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -633,11 +624,20 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
+      "AvgImpressionPosition": 8,
+      "Clicks": 0,
+      "Date": "/Date(1793318400000)/",
+      "Impressions": 1,
+      "Query": "test laptop microphone windows 11"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
       "AvgImpressionPosition": 9,
       "Clicks": 0,
       "Date": "/Date(1793318400000)/",
       "Impressions": 1,
-      "Query": "how to test wired microphone"
+      "Query": "how to test your microphone on your laptop"
     },
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
@@ -651,6 +651,24 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
+      "AvgImpressionPosition": 9,
+      "Clicks": 0,
+      "Date": "/Date(1793318400000)/",
+      "Impressions": 1,
+      "Query": "how to test wired microphone"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
+      "AvgImpressionPosition": 5,
+      "Clicks": 0,
+      "Date": "/Date(1793318400000)/",
+      "Impressions": 1,
+      "Query": "how to test microphone wow"
+    },
+    {
+      "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
+      "AvgClickPosition": -1,
       "AvgImpressionPosition": 6,
       "Clicks": 0,
       "Date": "/Date(1793318400000)/",
@@ -660,11 +678,11 @@
     {
       "__type": "QueryStats:#Microsoft.Bing.Webmaster.Api",
       "AvgClickPosition": -1,
-      "AvgImpressionPosition": 9,
+      "AvgImpressionPosition": 6,
       "Clicks": 0,
       "Date": "/Date(1793318400000)/",
       "Impressions": 1,
-      "Query": "how to test your microphone on your laptop"
+      "Query": "how to test my integrated microphone"
     }
   ],
   "submittedDirectly": [
@@ -697,5 +715,34 @@
       "status": "SUCCESS"
     }
   ],
-  "indexNow": null
+  "indexNow": {
+    "success": true,
+    "host": "testyourmicrophone.com",
+    "key": "8f4e2a9c1b7d450398a6b5c4d3e2f1a0",
+    "keyLocation": "https://testyourmicrophone.com/8f4e2a9c1b7d450398a6b5c4d3e2f1a0.txt",
+    "submittedCount": 7,
+    "urls": [
+      "https://testyourmicrophone.com/",
+      "https://testyourmicrophone.com/windows-mic-test.html",
+      "https://testyourmicrophone.com/mac-mic-test.html",
+      "https://testyourmicrophone.com/teams-mic-test.html",
+      "https://testyourmicrophone.com/airpods-mic-test.html",
+      "https://testyourmicrophone.com/privacy.html",
+      "https://testyourmicrophone.com/terms.html"
+    ],
+    "results": [
+      {
+        "endpoint": "https://api.indexnow.org/indexnow",
+        "status": 200,
+        "ok": true,
+        "body": ""
+      },
+      {
+        "endpoint": "https://www.bing.com/indexnow",
+        "status": 200,
+        "ok": true,
+        "body": ""
+      }
+    ]
+  }
 }

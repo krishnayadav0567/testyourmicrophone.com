@@ -1,5 +1,98 @@
 {
-  "recordedAt": "2026-11-15T07:56:46.417Z",
+  "recordedAt": "2026-11-15T09:12:13.653Z",
+  "inspections": [
+    {
+      "url": "https://testyourmicrophone.com/",
+      "coverageState": "Submitted and indexed",
+      "verdict": "PASS",
+      "pageFetchState": "SUCCESSFUL",
+      "indexingState": "INDEXING_ALLOWED",
+      "crawledAs": "MOBILE",
+      "lastCrawlTime": "2026-11-06T03:06:51Z",
+      "googleCanonical": "https://testyourmicrophone.com/",
+      "userCanonical": "https://testyourmicrophone.com/",
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
+    },
+    {
+      "url": "https://testyourmicrophone.com/windows-mic-test.html",
+      "coverageState": "Discovered - currently not indexed",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
+    },
+    {
+      "url": "https://testyourmicrophone.com/mac-mic-test.html",
+      "coverageState": "Discovered - currently not indexed",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
+    },
+    {
+      "url": "https://testyourmicrophone.com/teams-mic-test.html",
+      "coverageState": "Discovered - currently not indexed",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
+    },
+    {
+      "url": "https://testyourmicrophone.com/airpods-mic-test.html",
+      "coverageState": "Discovered - currently not indexed",
+      "verdict": "NEUTRAL",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "googleCanonical": null,
+      "userCanonical": null,
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
+    },
+    {
+      "url": "https://testyourmicrophone.com/privacy.html",
+      "coverageState": "Submitted and indexed",
+      "verdict": "PASS",
+      "pageFetchState": "SUCCESSFUL",
+      "indexingState": "INDEXING_ALLOWED",
+      "crawledAs": "MOBILE",
+      "lastCrawlTime": "2026-11-09T13:09:48Z",
+      "googleCanonical": "https://testyourmicrophone.com/privacy.html",
+      "userCanonical": "https://testyourmicrophone.com/privacy.html",
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
+    },
+    {
+      "url": "https://testyourmicrophone.com/terms.html",
+      "coverageState": "Submitted and indexed",
+      "verdict": "PASS",
+      "pageFetchState": "SUCCESSFUL",
+      "indexingState": "INDEXING_ALLOWED",
+      "crawledAs": "MOBILE",
+      "lastCrawlTime": "2026-11-04T00:33:06Z",
+      "googleCanonical": "https://testyourmicrophone.com/terms.html",
+      "userCanonical": "https://testyourmicrophone.com/terms.html",
+      "mobileVerdict": "VERDICT_UNSPECIFIED",
+      "richResultsVerdict": "PASS"
+    }
+  ],
   "searchAnalytics": {
     "summary": {
       "clicks": 0,
