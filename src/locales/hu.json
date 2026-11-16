@@ -1,0 +1,232 @@
+{
+  "code": "hu",
+  "path": "hu",
+  "name": "Magyar",
+  "englishName": "Hungarian",
+  "dir": "ltr",
+  "meta": {
+    "title": "Mikrofon teszt online – Ingyenes mikrofon ellenőrzés (PC, Mac)",
+    "description": "Tesztelje mikrofonját Windows 10, 11, PC, Mac vagy laptop rendszereken valós idejű decibelmérővel és helyi visszahallgatással. 100% biztonságos és szervermentes.",
+    "ogTitle": "Mikrofon teszt online – Ingyenes mikrofongyorsellenőrzés",
+    "ogDescription": "Gyors mikrofonteszt a böngészőben Windows, Mac, Teams, Zoom és AirPods eszközökhöz. Adatfeltöltés nélkül."
+  },
+  "ui": {
+    "startTest": "Mikrofonteszt indítása",
+    "stopTest": "Mikrofonteszt leállítása",
+    "requestingAccess": "Engedély kérése a mikrofonhoz…",
+    "showMicrophones": "Mikrofonok listázása",
+    "refreshMicrophones": "Lista frissítése",
+    "chooseMicrophone": "Válassza ki a mikrofont",
+    "allowAccessToList": "Engedélyezze a hozzáférést a listázáshoz",
+    "namesRevealedHint": "Mikrofonok észlelve. Válasszon eszközt, és indítsa el a tesztet.",
+    "noMicDetected": "Nem található mikrofon",
+    "notStarted": "Nincs elindítva",
+    "lastTested": "Utolsó teszt",
+    "notYet": "Még nem volt",
+    "yourMicrophone": "Az Ön mikrofonja",
+    "status": "Állapot",
+    "ready": "Kész",
+    "testing": "Tesztelés folyamatban",
+    "needsAttention": "Figyelmet igényel",
+    "waitingForPermission": "Engedélyre vár",
+    "listeningForSignal": "Hangjel figyelése",
+    "signalDetected": "Hangjel észlelve",
+    "testStopped": "Teszt leállítva",
+    "currentLevel": "Jelenlegi szint",
+    "peakLevel": "Csúcsszint",
+    "decibels": "Decibel (dBFS)",
+    "pitchNote": "Hangmagasság / Hangjegy",
+    "sampleRate": "Mintavételi frekvencia",
+    "channels": "Csatornák",
+    "hearMyselfOff": "Saját hangom hallgatása (kikapcsolva)",
+    "hearMyselfOn": "Saját hangom hallgatása: BE (Élő)",
+    "headphoneHint": "💡 A sípoló gerjedés elkerülése érdekében kapcsolja be a fülhallgatót a használat előtt",
+    "recordClip": "Rövid hangfelvétel készítése",
+    "stopRecording": "Felvétel leállítása",
+    "startTestBeforeRecording": "A felvétel előtt indítsa el a tesztet.",
+    "recordingStatus": "Helyi felvétel folyamatban… max. 30 másodperc.",
+    "recordingReady": "A felvétel kész — játssza le a hangminőség ellenőrzéséhez.",
+    "latestRecording": "Legutóbbi helyi felvétel",
+    "downloadClip": "Felvétel letöltése",
+    "localPrivacyLock": "Ez a teszt helyben fut a böngészőjében. Semmilyen hangadat nem kerül szerverekre.",
+    "silentDbfs": "Csend (<-60 dBFS)",
+    "errPermissionDenied": "A mikrofon engedélye megtagadva. Engedélyezze a böngésző beállításaiban, majd próbálja újra.",
+    "errNotFound": "Mikrofon nem található. Csatlakoztassa az eszközt, majd próbálja újra.",
+    "errNotReadable": "A mikrofon nem érhető el, valószínűleg egy másik alkalmazás használja.",
+    "errDefault": "A mikrofont nem sikerült elindítani. Ellenőrizze a kapcsolatot és az engedélyeket.",
+    "errNotSupported": "Ez a böngésző nem támogatja a mikrofonok listázását. Próbálja a Chrome-ot, Edge-et vagy Safarit."
+  },
+  "content": {
+    "privacyBadge": "100% Böngészőben & Helyi • Nincs adatfeltöltés",
+    "heroHeading": "Tesztelje mikrofonját",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Ellenőrizze, hogy működik-e a mikrofonja Windows, PC, Mac vagy laptop rendszereken—és hallgassa meg a saját hangját a Zoom vagy Teams megbeszélések előtt. 100% privát.",
+    "deviceHint": "Az eszközök neve rejtve marad az engedély megadásáig. A hozzáférés kizárólag a listázásra szolgál, majd azonnal leáll.",
+    "featuresLabel": "Szolgáltatások",
+    "featuresTitle": "Minden eszköz a mikrofon alapos ellenőrzéséhez.",
+    "featuresDescription": "Egyszerű eszközök a legfontosabb vizsgálatokhoz: a megfelelő mikrofont választotta-e ki, veszi-e a hangját, és tisztán szól-e a felvétel?",
+    "features": [
+      {
+        "title": "Valós idejű hanghullám",
+        "desc": "Lássa a hang azonnali visszajelzését beszéd közben. A mozgó hullámforma igazolja a hang beérkezését."
+      },
+      {
+        "title": "Eszközválasztás",
+        "desc": "Váltson egyszerűen a laptop beépített mikrofonja, USB mikrofon, webkamera vagy fejhallgató között."
+      },
+      {
+        "title": "Hallja azt, amit mások hallanak",
+        "desc": "Készítsen rövid felvételt vagy használja a késleltetésmentes visszahallgatást a hangerő beállításához."
+      },
+      {
+        "title": "Részletes hangadatok",
+        "desc": "Kövesse nyomon a mintavételezést, csatornaszámot és az észlelt modellt a hibaelhárításhoz."
+      },
+      {
+        "title": "Világos állapotok",
+        "desc": "Egyértelmű visszajelzések jelzik az engedélykérést, az aktív tesztet és a leállást."
+      },
+      {
+        "title": "Teljes adatvédelem",
+        "desc": "Minden számítás az Ön számítógépén történik. Semmilyen hangfájl nem távozik a böngészőből."
+      }
+    ],
+    "promo1Title": "Szeretné javítani a mikrofon hangzását?",
+    "promo1Desc": "Ellenőrizze a távolságot, a szoba visszhangját és a hangerőt a fontos hívás előtt.",
+    "promo1Link": "Hibaelhárítási útmutató megnyitása",
+    "promo2Title": "Nem működik a mikrofon?",
+    "promo2Desc": "Nézze át lépésről lépésre a böngészőengedélyeket, a némítógombokat és a kábeleket.",
+    "promo2Link": "Megoldás megtekintése",
+    "howLabel": "Útmutató",
+    "howTitle": "Pontos válasz öt másodperc alatt.",
+    "howDesc": "Nincs regisztráció, nincs szoftvertelepítés. Csatlakoztassa a mikrofont, engedélyezze a böngészőben, és tesztelje hívás előtt.",
+    "steps": [
+      {
+        "title": "Kattintson az indításra",
+        "desc": "Indítsa el a tesztet, amikor készen áll a mikrofonengedély megadására."
+      },
+      {
+        "title": "Engedélyezze a mikrofont",
+        "desc": "Válassza az 'Engedélyezés' (Allow) lehetőséget a felugró ablakban."
+      },
+      {
+        "title": "Beszéljen és figyelje a szintet",
+        "desc": "Beszéljen normál hangerővel, és nézze a szintjelző sávok mozgását."
+      },
+      {
+        "title": "Váltson eszközt szükség esetén",
+        "desc": "Válassza ki a headsetet vagy külső mikrofont a listából."
+      },
+      {
+        "title": "Hallgassa vissza a felvételt",
+        "desc": "Játssza le a felvételt, és győződjön meg róla, hogy a hang tisztán, torzítás nélkül szól."
+      }
+    ],
+    "faqLabel": "Gyakori kérdések (GYIK)",
+    "faqTitle": "Gyakran ismételt kérdések a mikrofontesztről",
+    "faqIntro": "Gyors válaszok az online mikrofonteszthez Windows 10/11, Mac, laptop, Teams, Zoom és AirPods esetén.",
+    "privacyLabel": "Adatvédelmi garancia",
+    "privacyTitle": "Az Ön hangja kizárólag ezen az oldalon marad.",
+    "privacyDesc": "A mikrofon csak akkor kapcsol be, amikor rákattint az indításra. A decibelszámítás és a felvétel a böngésző memóriájában fut, és soha nem kerül fel a netre.",
+    "privacyButton": "Biztonságos tesztelés",
+    "footerTagline": "Gyors és megbízható mikrofonteszt távmunkához, tanuláshoz és hívásokhoz.",
+    "footerToolsTitle": "Mikrofon eszközök",
+    "footerHelpTitle": "Súgó és útmutatók",
+    "footerAboutTitle": "Rólunk",
+    "footerLanguagesTitle": "Nyelvek (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Minden jog fenntartva.",
+    "footerSlogan": "A tisztább és érthetőbb beszélgetésekért.",
+    "footerNote": "Web Audio API technológiával készült, adatfeltöltés nélkül."
+  },
+  "faqs": [
+    {
+      "q": "Hogyan tesztelhetem a mikrofonomat online?",
+      "a": "Kattintson a 'Mikrofonteszt indítása' gombra, adja meg az engedélyt a böngészőben, és beszéljen normál hangon. A hangerőmérő azonnal reagál a hangra. Rövid hangfelvételt is készíthet és visszahallgathatja."
+    },
+    {
+      "q": "Honnan tudhatom, hogy jól működik a mikrofon?",
+      "a": "Indítsa el a tesztet és beszéljen. Ha a decibelmérő jelez és a felvétel tisztán szól, a mikrofonja tökéletesen üzemel. Ha nem mozog a skála, ellenőrizze a némítást."
+    },
+    {
+      "q": "Hogyan tesztelhetem a mikrofont Windows 10 alatt?",
+      "a": "Nyissa meg a Gépház > Rendszer > Hang menüt, és nézze meg a beviteli szintet. Vagy használja ezt az oldalt a pontos decibelértékekért."
+    },
+    {
+      "q": "Hogyan tesztelhetem a mikrofont Windows 11 alatt?",
+      "a": "Lépjen a Gépház > Rendszer > Hang menübe, válassza ki a mikrofont és indítsa el a tesztet. Vagy tesztelje közvetlenül ezen az oldalon."
+    },
+    {
+      "q": "Hogyan tesztelhetem a mikrofont Mac gépen?",
+      "a": "A Rendszerbeállítások > Hang > Bemenet menüpontban beszéljen, és figyelje a bemeneti jelszintet. Safari és Chrome böngészőben itt is azonnal tesztelheti."
+    },
+    {
+      "q": "Hogyan ellenőrizhetem a laptop beépített mikrofonját?",
+      "a": "Győződjön meg arról, hogy a billentyűzet mikrofonnémító gombja nincs bekapcsolva, indítsa el a tesztet, és beszéljen normál hangerővel a kijelző felé."
+    },
+    {
+      "q": "Hogyan ellenőrizhetem a mikrofont Zoom vagy Teams hívás előtt?",
+      "a": "A megbeszélés előtt kapcsolja be ezen az oldalon a 'Saját hangom hallgatása' funkciót. Pontosan úgy fogja hallani a hangját, ahogyan a többiek fogják hallani."
+    },
+    {
+      "q": "Hogyan tesztelhetem az AirPods vagy Bluetooth fülhallgatót?",
+      "a": "Csatlakoztassa az AirPods-ot a géphez, jelölje ki az eszközlistában, és készítsen 5 másodperces hangfelvételt a hangminőség teszteléséhez."
+    },
+    {
+      "q": "Hogyan hallhatom a hangomat úgy, ahogyan mások hallanak engem?",
+      "a": "Tegyen fel fejhallgatót, indítsa el a tesztet, és kapcsolja be a 'Saját hangom hallgatása' funkciót. Késleltetés nélkül, élőben hallhatja a saját hangját."
+    },
+    {
+      "q": "Miért nem ad hangot egyáltalán a mikrofonom?",
+      "a": "Ellenőrizze: 1. A böngésző mikrofonengedélyét; 2. A vezetéken lévő fizikai némítókapcsolót; 3. A Windows adatvédelmi beállításait; 4. Zárja be a mikrofont használó egyéb appokat."
+    },
+    {
+      "q": "Feltöltődnek a felvételeim az internetre?",
+      "a": "Egyáltalán nem. A teszt a Web Audio API-t használja, és minden műveletet helyben, a számítógép memóriájában hajt végre."
+    },
+    {
+      "q": "Tesztelhető a PC mikrofonja a Windows beállításainak megnyitása nélkül?",
+      "a": "Igen, nyissa meg a TestYourMicrophone.com oldalt. Egyetlen kattintással mérheti a dBFS decibeleket, a hangmagasságot és visszahallgathatja a felvételt."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Magyar",
+    "webAppDescription": "Tesztelje mikrofonját Windows 10, 11, PC, Mac vagy laptop rendszereken valós idejű decibelmérővel és helyi visszahallgatással. 100% biztonságos és szervermentes.",
+    "featuresList": [
+      "Valós idejű hanghullám",
+      "Eszközválasztás",
+      "Hallja azt, amit mások hallanak",
+      "Részletes hangadatok",
+      "Világos állapotok",
+      "Teljes adatvédelem"
+    ],
+    "howToName": "Mikrofon teszt online – Ingyenes mikrofon ellenőrzés (PC, Mac)",
+    "howToDescription": "Tesztelje mikrofonját Windows 10, 11, PC, Mac vagy laptop rendszereken valós idejű decibelmérővel és helyi visszahallgatással. 100% biztonságos és szervermentes.",
+    "howToSteps": [
+      {
+        "name": "Kattintson az indításra",
+        "text": "Indítsa el a tesztet, amikor készen áll a mikrofonengedély megadására.",
+        "url": "https://testyourmicrophone.com/hu/#tester"
+      },
+      {
+        "name": "Engedélyezze a mikrofont",
+        "text": "Válassza az 'Engedélyezés' (Allow) lehetőséget a felugró ablakban.",
+        "url": "https://testyourmicrophone.com/hu/#tester"
+      },
+      {
+        "name": "Beszéljen és figyelje a szintet",
+        "text": "Beszéljen normál hangerővel, és nézze a szintjelző sávok mozgását.",
+        "url": "https://testyourmicrophone.com/hu/#tester"
+      },
+      {
+        "name": "Váltson eszközt szükség esetén",
+        "text": "Válassza ki a headsetet vagy külső mikrofont a listából.",
+        "url": "https://testyourmicrophone.com/hu/#tester"
+      },
+      {
+        "name": "Hallgassa vissza a felvételt",
+        "text": "Játssza le a felvételt, és győződjön meg róla, hogy a hang tisztán, torzítás nélkül szól.",
+        "url": "https://testyourmicrophone.com/hu/#tester"
+      }
+    ]
+  }
+}

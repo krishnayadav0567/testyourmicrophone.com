@@ -82,11 +82,18 @@ export function validateLocalFiles() {
   // Validate each registered URL on disk
   for (const url of urls) {
     const pathname = new URL(url).pathname;
-    const filename = pathname === '/' ? 'index.html' : pathname.replace(/^\//, '');
-    const filePath = resolve(process.cwd(), filename);
+    const relativePath = pathname === '/'
+      ? 'index.html'
+      : (pathname.endsWith('/') ? `${pathname.replace(/^\//, '')}index.html` : pathname.replace(/^\//, ''));
+
+    // Check in dist/ first (production artifacts deployed by Cloudflare/Wrangler) or root
+    let filePath = resolve(process.cwd(), 'dist', relativePath);
+    if (!existsSync(filePath)) {
+      filePath = resolve(process.cwd(), relativePath);
+    }
 
     if (!existsSync(filePath)) {
-      results.push({ check: `File on disk: ${filename}`, status: 'FAIL', details: 'File missing from workspace' });
+      results.push({ check: `File on disk: ${relativePath}`, status: 'FAIL', details: 'File missing from dist/ and workspace' });
       failures++;
       continue;
     }
@@ -108,11 +115,17 @@ export function validateLocalFiles() {
       }
     }
 
-    if (hasCanonical && hasTitle && hasDescription && jsonLdValid) {
+    // Check hreflang tags for language pages
+    const hreflangMatches = [...html.matchAll(/<link\b[^>]*hreflang=["']([^"']+)["'][^>]*>/gi)];
+    const isLanguagePage = pathname === '/' || pathname.endsWith('/');
+    const hreflangCount = hreflangMatches.length;
+    const hreflangOk = !isLanguagePage || hreflangCount >= 30;
+
+    if (hasCanonical && hasTitle && hasDescription && jsonLdValid && hreflangOk) {
       results.push({
-        check: `Page: ${filename}`,
+        check: `Page: ${relativePath}`,
         status: 'PASS',
-        details: `Canonical match: ${canonical} | Title & Meta OK | JSON-LD Valid (${jsonLdMatches.length} schemas)`
+        details: `Canonical OK | Title & Meta OK | JSON-LD (${jsonLdMatches.length} schemas)${isLanguagePage ? ` | Hreflang (${hreflangCount} tags)` : ''}`
       });
     } else {
       const errs = [];
@@ -120,7 +133,8 @@ export function validateLocalFiles() {
       if (!hasTitle) errs.push('Missing title');
       if (!hasDescription) errs.push('Missing description');
       if (!jsonLdValid) errs.push('Invalid JSON-LD syntax');
-      results.push({ check: `Page: ${filename}`, status: 'FAIL', details: errs.join(', ') });
+      if (!hreflangOk) errs.push(`Incomplete hreflangs (found ${hreflangCount}, expected >=30)`);
+      results.push({ check: `Page: ${relativePath}`, status: 'FAIL', details: errs.join(', ') });
       failures++;
     }
   }

@@ -1,0 +1,232 @@
+{
+  "code": "fi",
+  "path": "fi",
+  "name": "Suomi",
+  "englishName": "Finnish",
+  "dir": "ltr",
+  "meta": {
+    "title": "Testaa mikrofoni netissä – Ilmainen mikrofonitesti (PC, Mac)",
+    "description": "Testaa toimiiko mikrofonisi Windows 10, 11, PC- tai Mac-tietokoneella. Reaaliaikainen desibelimittari, taajuustunnistus ja paikallinen toisto ilman palvelinlatausta.",
+    "ogTitle": "Testaa mikrofoni netissä – Ilmainen mikrofonitesti",
+    "ogDescription": "Tarkista mikrofonisi toiminta selaimessa ennen Teams-, Zoom- tai Google Meet -puhelua. 100% yksityinen."
+  },
+  "ui": {
+    "startTest": "Aloita mikrofonitesti",
+    "stopTest": "Lopeta mikrofonitesti",
+    "requestingAccess": "Pyydetään mikrofonin lupaa…",
+    "showMicrophones": "Näytä mikrofonit",
+    "refreshMicrophones": "Päivitä mikrofonilista",
+    "chooseMicrophone": "Valitse mikrofoni",
+    "allowAccessToList": "Salli käyttö nähdäksesi mikrofonit",
+    "namesRevealedHint": "Mikrofonit havaittu. Valitse laite ja aloita testi.",
+    "noMicDetected": "Mikrofonia ei havaittu",
+    "notStarted": "Ei aloitettu",
+    "lastTested": "Viimeksi testattu",
+    "notYet": "Ei vielä",
+    "yourMicrophone": "Mikrofonisi",
+    "status": "Tila",
+    "ready": "Valmis",
+    "testing": "Testataan",
+    "needsAttention": "Vaatii huomiota",
+    "waitingForPermission": "Odotetaan lupaa",
+    "listeningForSignal": "Kuunnellaan äänisignaalia",
+    "signalDetected": "Äänisignaali havaittu",
+    "testStopped": "Testi pysäytetty",
+    "currentLevel": "Nykyinen taso",
+    "peakLevel": "Huipputaso",
+    "decibels": "Desibelit (dBFS)",
+    "pitchNote": "Sävelkorkeus / Nuotti",
+    "sampleRate": "Näytteenottotaajuus",
+    "channels": "Kanavat",
+    "hearMyselfOff": "Kuuntele omaa ääntä (pois)",
+    "hearMyselfOn": "Kuuntele omaa ääntä: PÄÄLLÄ (Live)",
+    "headphoneHint": "💡 Liitä kuulokkeet ennen toiminnon käynnistämistä äänen kiertämisen estämiseksi",
+    "recordClip": "Äänitä näyte",
+    "stopRecording": "Lopeta äänitys",
+    "startTestBeforeRecording": "Aloita testi ennen äänitystä.",
+    "recordingStatus": "Äänitetään paikallisesti… enintään 30 sekuntia.",
+    "recordingReady": "Äänite valmis — toista se kuullaksesi äänesi laadun.",
+    "latestRecording": "Viimeisin paikallinen äänite",
+    "downloadClip": "Lataa äänite",
+    "localPrivacyLock": "Tämä testi käsitellään paikallisesti selaimessasi. Äänitietoja ei lähetetä palvelimille.",
+    "silentDbfs": "Hiljainen (<-60 dBFS)",
+    "errPermissionDenied": "Mikrofonin käyttö estetty. Salli mikrofoni selaimen asetuksista ja yritä uudelleen.",
+    "errNotFound": "Mikrofonia ei löytynyt. Liitä äänilaite ja yritä uudelleen.",
+    "errNotReadable": "Mikrofoni ei ole käytettävissä, toinen sovellus saattaa käyttää sitä.",
+    "errDefault": "Mikrofonia ei voitu käynnistää. Tarkista laitteen liitäntä ja luvat.",
+    "errNotSupported": "Mikrofonien luettelointia ei tueta tässä selaimessa. Käytä Chromea, Edgeä tai Safaria."
+  },
+  "content": {
+    "privacyBadge": "100% Selaimessa & Paikallinen • Ei palvelinlähetyksiä",
+    "heroHeading": "Testaa mikrofonisi",
+    "heroHeadingAccent": "verkossa",
+    "heroDescription": "Tarkista toimiiko mikrofonisi Windows-, PC-, Mac- tai kannettavalla tietokoneella—ja kuuntele miltä kuulostat ennen Zoom-, Teams- tai Google Meet -puheluita. 100% yksityinen.",
+    "deviceHint": "Laitteiden nimet pysyvät piilossa, kunnes annat luvan. Lupaa käytetään vain mikrofonien listaamiseen ja se suljetaan heti sen jälkeen.",
+    "featuresLabel": "Ominaisuudet",
+    "featuresTitle": "Kaikki mitä tarvitset mikrofonisi tarkistamiseen.",
+    "featuresDescription": "Selkeät työkalut tärkeimpiin tarkistuksiin: onko oikea mikrofoni valittuna, poimiiko se äänesi ja kuuluuko äänite puhtaasti?",
+    "features": [
+      {
+        "title": "Reaaliaikainen ääniaalto",
+        "desc": "Näe vaste heti kun puhut. Liikkuva aaltomuoto vahvistaa, että selain vastaanottaa mikrofonisi äänen."
+      },
+      {
+        "title": "Valitse äänilaite",
+        "desc": "Vaihda vaivattomasti kannettavan sisäisen mikrofonin, USB-mikrofonin, web-kameran tai kuulokemikrofonin välillä."
+      },
+      {
+        "title": "Kuule mitä muut kuulevat",
+        "desc": "Tee lyhyt äänite tai kuuntele ääntäsi reaaliajassa ilman viivettä äänenvoimakkuuden arvioimiseksi."
+      },
+      {
+        "title": "Tekniset tiedot",
+        "desc": "Tarkastele näytteenottotaajuutta, kanavia ja laitteen nimeä ongelmien selvittämiseksi."
+      },
+      {
+        "title": "Selkeät ilmoitukset",
+        "desc": "Selkeät ilmoitukset kertovat, milloin lupaa pyydetään, milloin testi on käynnissä ja milloin se on pysähtynyt."
+      },
+      {
+        "title": "Täysi yksityisyys",
+        "desc": "Kaikki analyysi tapahtuu paikallisesti laitteellasi. Mitään ääntä ei lähetetä palvelimillemme."
+      }
+    ],
+    "promo1Title": "Haluatko parantaa mikrofonisi äänenlaatua?",
+    "promo1Desc": "Tarkista mikrofonin etäisyys, huoneen kaiku ja äänenvoimakkuus ennen tärkeää puhelua.",
+    "promo1Link": "Lue vianmääritysopas",
+    "promo2Title": "Eikö mikrofoni toimi?",
+    "promo2Desc": "Käy läpi käyttöoikeudet, mykistyskytkimet ja kaapeliliitännät vaihe vaiheelta.",
+    "promo2Link": "Katso miten korjata ongelma",
+    "howLabel": "Käyttöohjeet",
+    "howTitle": "Tulos viidessä sekunnissa.",
+    "howDesc": "Ei rekisteröitymistä, ei ohjelmien latausta. Liitä mikrofoni, anna lupa ja testaa äänesi ennen etäpalaveria.",
+    "steps": [
+      {
+        "title": "Napsauta aloituspainiketta",
+        "desc": "Aloita testi, kun olet valmis antamaan selaimelle mikrofonin käyttöoikeuden."
+      },
+      {
+        "title": "Salli mikrofonin käyttö",
+        "desc": "Valitse 'Salli' (Allow) selaimen esittämässä ikkunassa."
+      },
+      {
+        "title": "Puhu ja seuraa mittaria",
+        "desc": "Puhu normaalilla äänellä ja varmista, että tasopalkit ja aaltomuoto reagoivat."
+      },
+      {
+        "title": "Vaihda mikrofonia tarvittaessa",
+        "desc": "Valitse kuulokemikrofoni tai erillinen USB-mikrofoni laitelistasta."
+      },
+      {
+        "title": "Kuuntele testiäänite",
+        "desc": "Toista äänittämäsi näyte varmistaaksesi, että äänesi kuuluu kirkkaasti ja ilman kohinaa."
+      }
+    ],
+    "faqLabel": "Usein kysytyt kysymykset",
+    "faqTitle": "Usein kysyttyä mikrofonitestistä",
+    "faqIntro": "Pikaiset vastaukset mikrofonin testaamiseen verkossa, Windows 10 & 11:ssä, Macilla, Teamsissa, Zoomissa tai AirPods-kuulokkeilla.",
+    "privacyLabel": "Tietosuojalupaus",
+    "privacyTitle": "Äänesi pysyy vain tällä sivulla.",
+    "privacyDesc": "Mikrofoni kytkeytyy päälle vain silloin, kun painat aloituspainiketta. Desibelianalyysi ja äänitykset suoritetaan tietokoneesi muistissa, eikä niitä koskaan lähetetä palvelimille.",
+    "privacyButton": "Testaa yksityisesti",
+    "footerTagline": "Nopea ja luotettava mikrofonitarkistus etätöihin, opetukseen ja striimaukseen.",
+    "footerToolsTitle": "Mikrofonityökalut",
+    "footerHelpTitle": "Ohjeet ja tuki",
+    "footerAboutTitle": "Tietoa meistä",
+    "footerLanguagesTitle": "Kielet (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Kaikki oikeudet pidätetään.",
+    "footerSlogan": "Tehty parempia puheluita varten.",
+    "footerNote": "Toteutettu Web Audio API:lla, ei palvelinlähetyksiä."
+  },
+  "faqs": [
+    {
+      "q": "Miten testaan mikrofonin netissä?",
+      "a": "Napsauta 'Aloita mikrofonitesti', salli käyttö selaimessa ja puhu tavallisella äänellä. Äänitasomittari liikkuu, kun mikrofoni havaitsee äänesi. Voit myös äänittää lyhyen näytteen ja kuunnella sen heti."
+    },
+    {
+      "q": "Mistä tietää toimiiko mikrofoni?",
+      "a": "Käynnistä testi ja puhu mikrofoniin. Jos mittari reagoi ja testiäänite kuuluu selkeästi, mikrofoni toimii. Jos signaalia ei tule, tarkista mykistyskytkin ja liitäntäkaapeli."
+    },
+    {
+      "q": "Miten testata mikrofoni Windows 10:ssä?",
+      "a": "Avaa Asetukset > Järjestelmä > Ääni ja katso mikrofonin tason ilmaisinta kohdassa 'Syöttö'. Tai käytä tätä verkkosivua suoraan desibelilukemaan."
+    },
+    {
+      "q": "Miten testata mikrofoni Windows 11:ssä?",
+      "a": "Avaa Asetukset > Ääni, valitse mikrofoni ja käynnistä syöttötesti. Voit testata sen myös suoraan tällä sivulla ilman asetusikkunoiden avaamista."
+    },
+    {
+      "q": "Miten testata mikrofoni Mac-tietokoneella?",
+      "a": "Avaa Järjestelmäasetukset > Ääni > Syöttö ja puhu nähdäksesi syöttötason liikkuvan. Voit testata myös tällä sivustolla Safarissa tai Chromessa."
+    },
+    {
+      "q": "Miten testata kannettavan tietokoneen oma mikrofoni?",
+      "a": "Varmista, ettei näppäimistön mykistyspainike ole päällä, paina tällä sivulla testipainiketta ja puhu normaalisti ruudulle päin."
+    },
+    {
+      "q": "Miten testata mikrofoni ennen Zoom- tai Teams-kokousta?",
+      "a": "Ennen kokousta avaa tämä sivu ja laita päälle 'Kuuntele omaa ääntä'. Kuulet äänesi juuri siten kuin muut kokoukseen osallistujat sen kuulevat."
+    },
+    {
+      "q": "Miten testata AirPods- tai Bluetooth-kuulokkeiden mikrofoni?",
+      "a": "Yhdistä AirPods tietokoneeseen, valitse ne laitelistasta ja aloita testi. Äänitä 5 sekuntia tarkistaaksesi äänenlaadun."
+    },
+    {
+      "q": "Miten kuulla oma ääni siten kuin muut sen kuulevat?",
+      "a": "Laita kuulokkeet päähän, aloita testi ja kytke 'Kuuntele omaa ääntä' päälle. Kuulet puheesi reaaliajassa ilman viivettä."
+    },
+    {
+      "q": "Miksi mikrofoni ei toimi lainkaan?",
+      "a": "Tarkista selaimen mikrofoniluvat, johdon fyysinen mykistyskytkin ja sulje muut sovellukset (Discord, Skype), jotka saattavat varata mikrofonin."
+    },
+    {
+      "q": "Lähetetäänkö äänitteeni internetiin?",
+      "a": "Ei koskaan. Testi käyttää Web Audio API -rajapintaa ja käsittelee kaiken paikallisesti tietokoneellasi."
+    },
+    {
+      "q": "Voiko tietokoneen mikrofonin testata avaamatta Windowsin asetuksia?",
+      "a": "Kyllä, avaa vain TestYourMicrophone.com selaimessasi. Se näyttää dBFS-desibelit, taajuuden ja toistaa äänitteen yhdellä napsautuksella."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Suomi",
+    "webAppDescription": "Testaa toimiiko mikrofonisi Windows 10, 11, PC- tai Mac-tietokoneella. Reaaliaikainen desibelimittari, taajuustunnistus ja paikallinen toisto ilman palvelinlatausta.",
+    "featuresList": [
+      "Reaaliaikainen ääniaalto",
+      "Valitse äänilaite",
+      "Kuule mitä muut kuulevat",
+      "Tekniset tiedot",
+      "Selkeät ilmoitukset",
+      "Täysi yksityisyys"
+    ],
+    "howToName": "Testaa mikrofoni netissä – Ilmainen mikrofonitesti (PC, Mac)",
+    "howToDescription": "Testaa toimiiko mikrofonisi Windows 10, 11, PC- tai Mac-tietokoneella. Reaaliaikainen desibelimittari, taajuustunnistus ja paikallinen toisto ilman palvelinlatausta.",
+    "howToSteps": [
+      {
+        "name": "Napsauta aloituspainiketta",
+        "text": "Aloita testi, kun olet valmis antamaan selaimelle mikrofonin käyttöoikeuden.",
+        "url": "https://testyourmicrophone.com/fi/#tester"
+      },
+      {
+        "name": "Salli mikrofonin käyttö",
+        "text": "Valitse 'Salli' (Allow) selaimen esittämässä ikkunassa.",
+        "url": "https://testyourmicrophone.com/fi/#tester"
+      },
+      {
+        "name": "Puhu ja seuraa mittaria",
+        "text": "Puhu normaalilla äänellä ja varmista, että tasopalkit ja aaltomuoto reagoivat.",
+        "url": "https://testyourmicrophone.com/fi/#tester"
+      },
+      {
+        "name": "Vaihda mikrofonia tarvittaessa",
+        "text": "Valitse kuulokemikrofoni tai erillinen USB-mikrofoni laitelistasta.",
+        "url": "https://testyourmicrophone.com/fi/#tester"
+      },
+      {
+        "name": "Kuuntele testiäänite",
+        "text": "Toista äänittämäsi näyte varmistaaksesi, että äänesi kuuluu kirkkaasti ja ilman kohinaa.",
+        "url": "https://testyourmicrophone.com/fi/#tester"
+      }
+    ]
+  }
+}

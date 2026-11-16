@@ -9,6 +9,8 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
+    "start": "python3 -m http.server 8080 --directory dist",
+    "dev": "python3 -m http.server 8080 --directory dist",
     "deploy": "wrangler deploy",
     "gsc:fetch": "node scripts/fetch-gsc-issues.mjs",
     "gsc:mock": "node scripts/fetch-gsc-issues.mjs --mock",

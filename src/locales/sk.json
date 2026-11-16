@@ -1,0 +1,232 @@
+{
+  "code": "sk",
+  "path": "sk",
+  "name": "Slovenčina",
+  "englishName": "Slovak",
+  "dir": "ltr",
+  "meta": {
+    "title": "Test mikrofónu online – Bezplatná skúška mikrofónu (PC, Mac)",
+    "description": "Otestujte funkčnosť mikrofónu vo Windows 10, 11, PC, Macu alebo na notebooku pomocou živého decibelomeru a okamžitého prehrávania. 100% lokálne v prehliadači.",
+    "ogTitle": "Test mikrofónu online – Skúška mikrofónu zadarmo",
+    "ogDescription": "Rýchly a bezpečný test mikrofónu v prehliadači pre Windows, Mac, Teams, Zoom a slúchadlá s meračom decibelov."
+  },
+  "ui": {
+    "startTest": "Spustiť test mikrofónu",
+    "stopTest": "Zastaviť test mikrofónu",
+    "requestingAccess": "Žiadosť o prístup k mikrofónu…",
+    "showMicrophones": "Zobraziť mikrofóny",
+    "refreshMicrophones": "Obnoviť zoznam mikrofónov",
+    "chooseMicrophone": "Vyberte mikrofón",
+    "allowAccessToList": "Povoľte prístup na zobrazenie mikrofónov",
+    "namesRevealedHint": "Mikrofóny rozpoznané. Zvoľte zariadenie a spustite test.",
+    "noMicDetected": "Nenašiel sa žiadny mikrofón",
+    "notStarted": "Nespustené",
+    "lastTested": "Posledný test",
+    "notYet": "Zatiaľ nie",
+    "yourMicrophone": "Váš mikrofón",
+    "status": "Stav",
+    "ready": "Pripravené",
+    "testing": "Prebieha test",
+    "needsAttention": "Vyžaduje pozornosť",
+    "waitingForPermission": "Čaká sa na povolenie",
+    "listeningForSignal": "Počúvanie zvukového signálu",
+    "signalDetected": "Zvukový signál rozpoznaný",
+    "testStopped": "Test zastavený",
+    "currentLevel": "Aktuálna úroveň",
+    "peakLevel": "Špičková úroveň",
+    "decibels": "Decibely (dBFS)",
+    "pitchNote": "Výška tónu / Nota",
+    "sampleRate": "Vzorkovacia frekvencia",
+    "channels": "Kanály",
+    "hearMyselfOff": "Počuť sám seba (vypnuté)",
+    "hearMyselfOn": "Počuť sám seba: ZAPNUTÉ (Živo)",
+    "headphoneHint": "💡 Pred zapnutím pripojte slúchadlá, aby ste predišli pískaniu akustickej spätnej väzby",
+    "recordClip": "Nahrať testovací záznam",
+    "stopRecording": "Zastaviť nahrávanie",
+    "startTestBeforeRecording": "Pred nahrávaním spustite test.",
+    "recordingStatus": "Nahrávanie v prehliadači… max 30 sekúnd.",
+    "recordingReady": "Záznam je pripravený — prehrajte pre kontrolu hlasu.",
+    "latestRecording": "Posledná lokálna nahrávka",
+    "downloadClip": "Stiahnuť záznam",
+    "localPrivacyLock": "Tento test prebieha lokálne vo vašom prehliadači. Žiadny zvuk sa neodosiela na servery.",
+    "silentDbfs": "Ticho (<-60 dBFS)",
+    "errPermissionDenied": "Prístup k mikrofónu bol zamietnutý. Povoľte prístup v nastaveniach prehliadača a skúste to znova.",
+    "errNotFound": "Mikrofón sa nenašiel. Pripojte vstupné zariadenie a skúste znova.",
+    "errNotReadable": "Mikrofón je nedostupný, pravdepodobne ho používa iná aplikácia.",
+    "errDefault": "Mikrofón sa nepodarilo spustiť. Skontrolujte káblové spojenie a povolenia.",
+    "errNotSupported": "Tento prehliadač nepodporuje výpis mikrofónov. Skúste Chrome, Edge alebo Safari."
+  },
+  "content": {
+    "privacyBadge": "100% V prehliadači & Lokálne • Žiadny upload na server",
+    "heroHeading": "Otestujte svoj mikrofón",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Zistite, či mikrofón funguje vo Windows, na PC, Macu alebo notebooku—a vypočujte si svoj hlas pred hovorom na Teams, Zoom alebo Google Meet. 100% súkromné.",
+    "deviceHint": "Názvy zariadení zostávajú skryté, kým neudelíte povolenie. Prístup slúži iba na načítanie zoznamu a hneď sa ukončí.",
+    "featuresLabel": "Funkcie",
+    "featuresTitle": "Všetko, čo potrebujete na spoľahlivú kontrolu mikrofónu.",
+    "featuresDescription": "Jednoduché nástroje pre najdôležitejšie overenia: je vybratý správny mikrofón, sníma váš hlas a je nahrávka čistá?",
+    "features": [
+      {
+        "title": "Zvuková vlna v reálnom čase",
+        "desc": "Sledujte okamžitú zvukovú odozvu pri rozprávaní. Pohyblivá vlna potvrdzuje príjem signálu do prehliadača."
+      },
+      {
+        "title": "Výber vstupného zariadenia",
+        "desc": "Ľahko prepínajte medzi vstavaným mikrofónom v notebooku, externým USB mikrofónom, webkamerou či headsetom."
+      },
+      {
+        "title": "Počujte to, čo počujú ostatní",
+        "desc": "Nahrajte krátky záznam alebo zapnite okamžitý odposluch bez oneskorenia a skontrolujte si hlasitosť."
+      },
+      {
+        "title": "Technické parametre",
+        "desc": "Zobrazte vzorkovaciu frekvenciu, počet kanálov a názov zariadenia pre jednoduché riešenie problémov."
+      },
+      {
+        "title": "Prehľadné stavové hlásenia",
+        "desc": "Jasné slovenské hlásenia o čakaní na povolenie, prebiehajúcom teste a zastavení."
+      },
+      {
+        "title": "Úplné súkromie",
+        "desc": "Všetko spracovanie zvuku prebieha vo vašom počítači. Žiadne zvukové nahrávky neodchádzajú na internet."
+      }
+    ],
+    "promo1Title": "Chcete zlepšiť zvuk svojho mikrofónu?",
+    "promo1Desc": "Upravte vzdialenosť, ozvenu miestnosti a hlasitosť pred dôležitým hovorom.",
+    "promo1Link": "Prečítať sprievodcu riešením problémov",
+    "promo2Title": "Mikrofón vôbec nereaguje?",
+    "promo2Desc": "Overte krok za krokom systémové oprávnenia, káble a hardvérové prepínače stlmenia.",
+    "promo2Link": "Zistiť ako to opraviť",
+    "howLabel": "Návod",
+    "howTitle": "Istý výsledok za päť sekúnd.",
+    "howDesc": "Bez registrácie a bez inštalovania programov. Zapojte mikrofón, povoľte prístup a overte zvuk pred začiatkom schôdzky.",
+    "steps": [
+      {
+        "title": "Kliknite na spustenie testu",
+        "desc": "Spustite test, keď ste pripravení udeliť prehliadaču prístup k mikrofónu."
+      },
+      {
+        "title": "Povoľte prístup k mikrofónu",
+        "desc": "Zvoľte 'Povoliť' (Allow) v dialógovom okne vášho prehliadača."
+      },
+      {
+        "title": "Hovorte a sledujte ukazovateľ",
+        "desc": "Rozprávajte normálnou hlasitosťou a sledujte reakciu stĺpcov úrovne zvuku."
+      },
+      {
+        "title": "Zmeňte mikrofón podľa potreby",
+        "desc": "Zvoľte slúchadlá alebo stolový mikrofón z rozbaľovacieho zoznamu."
+      },
+      {
+        "title": "Vypočujte si nahrávku",
+        "desc": "Spustite prehrávanie nahrávky a uistite sa, že hlas znie zreteľne a bez šumu."
+      }
+    ],
+    "faqLabel": "Často kladené otázky",
+    "faqTitle": "Najčastejšie otázky o teste mikrofónu",
+    "faqIntro": "Rýchle odpovede pre online testovanie mikrofónu vo Windows 10/11, na Macu, v Teams, Zoom alebo so slúchadlami AirPods.",
+    "privacyLabel": "Záruka súkromia",
+    "privacyTitle": "Váš zvuk zostáva výlučne na tejto stránke.",
+    "privacyDesc": "Mikrofón sa aktivuje až po kliknutí na tlačidlo spustenia. Výpočet decibelov a nahrávky prebiehajú iba v pamäti vášho prehliadača bez odosielania na servery.",
+    "privacyButton": "Testovať súkromne",
+    "footerTagline": "Rýchly a bezpečný nástroj na kontrolu mikrofónu pre prácu z domu, školu a videohovory.",
+    "footerToolsTitle": "Nástroje",
+    "footerHelpTitle": "Pomoc a návody",
+    "footerAboutTitle": "O nás",
+    "footerLanguagesTitle": "Jazyky (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Všetky práva vyhradené.",
+    "footerSlogan": "Vytvorené pre čistejšie a zrozumiteľnejšie hovory.",
+    "footerNote": "Postavené na Web Audio API, žiadne nahrávanie na server."
+  },
+  "faqs": [
+    {
+      "q": "Ako otestovať mikrofón online?",
+      "a": "Kliknite na 'Spustiť test mikrofónu', povoľte prístup v prehliadači a hovorte bežným hlasom. Merač decibelov sa pohne, akonáhle zachytí zvuk. Môžete si tiež nahrať krátku vzorku a hneď si ju vypočuť."
+    },
+    {
+      "q": "Ako zistím, či mikrofón funguje?",
+      "a": "Spustite test a rozprávajte. Ak ukazovateľ hlasitosti reaguje a skúšobná nahrávka znie čisto, mikrofón funguje. Ak nie je žiadny signál, skontrolujte tlačidlo mute."
+    },
+    {
+      "q": "Ako otestovať mikrofón vo Windows 10?",
+      "a": "Otvorte Nastavenia > Systém > Zvuk a sledujte pruh pod položkou 'Vstup'. Alebo použite túto stránku na okamžité zmeranie úrovne v decibeloch."
+    },
+    {
+      "q": "Ako otestovať mikrofón vo Windows 11?",
+      "a": "Prejdite do Nastavenia > Systém > Zvuk, vyberte svoj mikrofón a spustite test. Tu na webe vidíte zvukovú vlnu okamžite bez otvárania nastavení."
+    },
+    {
+      "q": "Ako otestovať mikrofón na Macu?",
+      "a": "V Nastaveniach systému > Zvuk > Vstup rozprávajte a sledujte vstupnú úroveň. Rovnaký test môžete spustiť priamo tu v Safari alebo Chrome."
+    },
+    {
+      "q": "Ako otestovať vstavaný mikrofón v notebooku?",
+      "a": "Uistite sa, že mikrofón nie je stlmený klávesom na klávesnici, kliknite na spustenie testu a hovorte normálnym tónom pred obrazovku."
+    },
+    {
+      "q": "Ako skontrolovať mikrofón pred Zoomom alebo Teamsom?",
+      "a": "Pred poradou otvorte tento web a zapnite 'Počuť sám seba'. Budete počuť presne to, ako vás budú počuť ostatní účastníci schôdzky."
+    },
+    {
+      "q": "Ako otestovať AirPods alebo bezdrôtový headset?",
+      "a": "Pripojte AirPods k počítaču, zvoľte ich v zozname mikrofónov a spustite test. Nahrajte 5 sekúnd reči na overenie kvality bezdrôtového zvuku."
+    },
+    {
+      "q": "Ako počuť svoj hlas tak, ako ma počujú ostatní?",
+      "a": "Nasaďte si slúchadlá, spustite test a zapnite funkciu 'Počuť sám seba'. Budete počuť svoj hlas v reálnom čase bez oneskorenia."
+    },
+    {
+      "q": "Prečo mikrofón vôbec nezaznamenáva zvuk?",
+      "a": "Skontrolujte: 1. Povolenia v prehliadači; 2. Fyzický prepínač stlmenia (mute) na kábli; 3. Nastavenia súkromia vo Windows; 4. Vypnite iné programy, ktoré blokujú mikrofón."
+    },
+    {
+      "q": "Odosielajú sa moje nahrávky na internet?",
+      "a": "V žiadnom prípade. Aplikácia využíva Web Audio API a spracúva všetko lokálne v pamäti vášho počítača."
+    },
+    {
+      "q": "Dá sa otestovať mikrofón PC bez otvárania nastavení Windows?",
+      "a": "Áno, stačí otvoriť TestYourMicrophone.com v prehliadači. Okamžite zmeria dBFS decibely, výšku tónu a prehrá záznam jedným kliknutím."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Slovenčina",
+    "webAppDescription": "Otestujte funkčnosť mikrofónu vo Windows 10, 11, PC, Macu alebo na notebooku pomocou živého decibelomeru a okamžitého prehrávania. 100% lokálne v prehliadači.",
+    "featuresList": [
+      "Zvuková vlna v reálnom čase",
+      "Výber vstupného zariadenia",
+      "Počujte to, čo počujú ostatní",
+      "Technické parametre",
+      "Prehľadné stavové hlásenia",
+      "Úplné súkromie"
+    ],
+    "howToName": "Test mikrofónu online – Bezplatná skúška mikrofónu (PC, Mac)",
+    "howToDescription": "Otestujte funkčnosť mikrofónu vo Windows 10, 11, PC, Macu alebo na notebooku pomocou živého decibelomeru a okamžitého prehrávania. 100% lokálne v prehliadači.",
+    "howToSteps": [
+      {
+        "name": "Kliknite na spustenie testu",
+        "text": "Spustite test, keď ste pripravení udeliť prehliadaču prístup k mikrofónu.",
+        "url": "https://testyourmicrophone.com/sk/#tester"
+      },
+      {
+        "name": "Povoľte prístup k mikrofónu",
+        "text": "Zvoľte 'Povoliť' (Allow) v dialógovom okne vášho prehliadača.",
+        "url": "https://testyourmicrophone.com/sk/#tester"
+      },
+      {
+        "name": "Hovorte a sledujte ukazovateľ",
+        "text": "Rozprávajte normálnou hlasitosťou a sledujte reakciu stĺpcov úrovne zvuku.",
+        "url": "https://testyourmicrophone.com/sk/#tester"
+      },
+      {
+        "name": "Zmeňte mikrofón podľa potreby",
+        "text": "Zvoľte slúchadlá alebo stolový mikrofón z rozbaľovacieho zoznamu.",
+        "url": "https://testyourmicrophone.com/sk/#tester"
+      },
+      {
+        "name": "Vypočujte si nahrávku",
+        "text": "Spustite prehrávanie nahrávky a uistite sa, že hlas znie zreteľne a bez šumu.",
+        "url": "https://testyourmicrophone.com/sk/#tester"
+      }
+    ]
+  }
+}

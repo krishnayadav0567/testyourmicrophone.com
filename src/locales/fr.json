@@ -1,0 +1,232 @@
+{
+  "code": "fr",
+  "path": "fr",
+  "name": "Français",
+  "englishName": "French",
+  "dir": "ltr",
+  "meta": {
+    "title": "Tester son micro en ligne – Test de microphone gratuit (PC & Mac)",
+    "description": "Testez votre microphone en ligne sur Windows 10, 11, PC, Mac ou ordinateur portable avec vu-mètre en direct et écoute locale. 100% privé sans enregistrement serveur.",
+    "ogTitle": "Tester son micro en ligne – Test gratuit de microphone",
+    "ogDescription": "Vérifiez le fonctionnement de votre micro sur Windows, PC, Mac, Teams ou AirPods avec mesure de décibels et retour audio instantané."
+  },
+  "ui": {
+    "startTest": "Démarrer le test du micro",
+    "stopTest": "Arrêter le test du micro",
+    "requestingAccess": "Demande d'autorisation…",
+    "showMicrophones": "Afficher les microphones",
+    "refreshMicrophones": "Actualiser les micros",
+    "chooseMicrophone": "Choisissez votre microphone",
+    "allowAccessToList": "Autoriser l'accès pour lister les micros",
+    "namesRevealedHint": "Micros détectés. Choisissez un appareil puis lancez le test.",
+    "noMicDetected": "Aucun microphone détecté",
+    "notStarted": "Non démarré",
+    "lastTested": "Dernier test",
+    "notYet": "Pas encore",
+    "yourMicrophone": "Votre microphone",
+    "status": "Statut",
+    "ready": "Prêt",
+    "testing": "En cours de test",
+    "needsAttention": "Attention requise",
+    "waitingForPermission": "En attente d'autorisation",
+    "listeningForSignal": "Écoute du signal",
+    "signalDetected": "Signal audio détecté",
+    "testStopped": "Test arrêté",
+    "currentLevel": "Niveau actuel",
+    "peakLevel": "Niveau crête",
+    "decibels": "Décibels (dBFS)",
+    "pitchNote": "Hauteur / Note",
+    "sampleRate": "Échantillonnage",
+    "channels": "Canaux",
+    "hearMyselfOff": "M'entendre (désactivé)",
+    "hearMyselfOn": "M'entendre : ACTIVÉ (Direct)",
+    "headphoneHint": "💡 Branchez un casque avant d'activer pour éviter le larsen acoustique",
+    "recordClip": "Enregistrer un extrait",
+    "stopRecording": "Arrêter l'enregistrement",
+    "startTestBeforeRecording": "Démarrez le test avant d'enregistrer.",
+    "recordingStatus": "Enregistrement local… max 30 secondes.",
+    "recordingReady": "Extrait prêt — écoutez-le pour vérifier votre voix.",
+    "latestRecording": "Dernier enregistrement local",
+    "downloadClip": "Télécharger l'extrait",
+    "localPrivacyLock": "Ce test est exécuté localement. L'accès micro est actif uniquement pendant le test.",
+    "silentDbfs": "Silencieux (<-60 dBFS)",
+    "errPermissionDenied": "Autorisation micro refusée. Autorisez l'accès dans les paramètres du navigateur et réessayez.",
+    "errNotFound": "Aucun microphone trouvé. Branchez un périphérique d'entrée et réessayez.",
+    "errNotReadable": "Le microphone n'est pas disponible, une autre application l'utilise peut-être.",
+    "errDefault": "Impossible de démarrer le microphone. Vérifiez le branchement et les autorisations.",
+    "errNotSupported": "La détection micro n'est pas supportée sur ce navigateur. Utilisez Chrome, Edge, Firefox ou Safari."
+  },
+  "content": {
+    "privacyBadge": "100% Dans le navigateur & Local • Aucun envoi vers un serveur",
+    "heroHeading": "Tester votre microphone",
+    "heroHeadingAccent": "en ligne",
+    "heroDescription": "Vérifiez si votre micro fonctionne sous Windows, PC, Mac ou ordinateur portable — et écoutez votre voix avant vos réunions WhatsApp, Teams ou Zoom. 100% privé.",
+    "deviceHint": "Les noms d'appareils restent masqués jusqu'à autorisation. L'accès sert uniquement à lister les micros puis s'arrête.",
+    "featuresLabel": "Fonctionnalités",
+    "featuresTitle": "Tout ce dont vous avez besoin pour vérifier votre micro.",
+    "featuresDescription": "Des outils simples pour les vérifications essentielles : le bon micro est-il sélectionné, capte-t-il votre voix et le son est-il net ?",
+    "features": [
+      {
+        "title": "Forme d'onde en direct",
+        "desc": "Visualisez la réaction audio dès que vous parlez. L'animation confirme la bonne réception du signal sonore."
+      },
+      {
+        "title": "Choix de l'appareil",
+        "desc": "Basculez entre micro intégré, micro USB, webcam ou micro-casque en un clic."
+      },
+      {
+        "title": "Entendez ce que les autres entendent",
+        "desc": "Enregistrez un court extrait ou activez le retour audio sans latence pour juger votre clarté sonore."
+      },
+      {
+        "title": "Informations techniques",
+        "desc": "Consultez la fréquence d'échantillonnage, le nombre de canaux et le nom du périphérique pour diagnostiquer les pannes."
+      },
+      {
+        "title": "Clarté des autorisations",
+        "desc": "Des messages clairs indiquent quand l'autorisation est requise et quand le micro est arrêté."
+      },
+      {
+        "title": "Confidentialité totale",
+        "desc": "L'analyse se fait localement dans votre navigateur. Aucun fichier audio n'est transmis à nos serveurs."
+      }
+    ],
+    "promo1Title": "Envie d'améliorer la qualité de votre micro ?",
+    "promo1Desc": "Vérifiez votre positionnement, l'écho de la pièce et les réglages d'entrée avant votre appel.",
+    "promo1Link": "Consulter le guide de dépannage",
+    "promo2Title": "Votre microphone ne fonctionne pas ?",
+    "promo2Desc": "Passez en revue les problèmes courants d'autorisations, de branchements et de boutons muet.",
+    "promo2Link": "Apprendre à le réparer",
+    "howLabel": "Mode d'emploi",
+    "howTitle": "Cinq secondes pour un diagnostic précis.",
+    "howDesc": "Aucun compte ni téléchargement nécessaire. Branchez votre micro, autorisez l'accès et vérifiez le niveau sonore avant votre visioconférence.",
+    "steps": [
+      {
+        "title": "Cliquez sur Démarrer",
+        "desc": "Lancez le test lorsque vous êtes prêt à accorder l'accès micro au navigateur."
+      },
+      {
+        "title": "Autorisez l'accès",
+        "desc": "Cliquez sur 'Autoriser' dans l'invite de votre navigateur."
+      },
+      {
+        "title": "Parlez et observez le niveau",
+        "desc": "Parlez à volume normal et vérifiez que les barres de volume réagissent."
+      },
+      {
+        "title": "Changez de micro si besoin",
+        "desc": "Sélectionnez votre casque ou micro USB dans la liste déroulante."
+      },
+      {
+        "title": "Écoutez votre enregistrement",
+        "desc": "Réécoutez l'extrait pour vérifier le timbre et l'absence de saturation."
+      }
+    ],
+    "faqLabel": "Questions fréquentes",
+    "faqTitle": "Comment tester son microphone ?",
+    "faqIntro": "Réponses rapides pour tester un micro en ligne, sous Windows 10 & 11, sur Mac, Teams, Zoom ou avec des AirPods.",
+    "privacyLabel": "Garantie de confidentialité",
+    "privacyTitle": "Votre flux audio ne quitte jamais cette page.",
+    "privacyDesc": "L'accès au micro commence uniquement après votre clic. L'analyse du volume et les enregistrements sont traités localement. Aucun son n'est transféré.",
+    "privacyButton": "Tester en toute confidentialité",
+    "footerTagline": "Le vérificateur de microphone rapide et sécurisé pour vos appels et enregistrements.",
+    "footerToolsTitle": "Outils micro",
+    "footerHelpTitle": "Aide & guides",
+    "footerAboutTitle": "À propos",
+    "footerLanguagesTitle": "Langues",
+    "footerRights": "© 2026 TestYourMicrophone.com. Tous droits réservés.",
+    "footerSlogan": "Pour des conversations plus claires.",
+    "footerNote": "Conçu avec les API Web Audio, sans aucun upload."
+  },
+  "faqs": [
+    {
+      "q": "Comment tester son micro en ligne ?",
+      "a": "Cliquez sur 'Démarrer le test du micro', acceptez l'accès demandé par votre navigateur et parlez. Le vu-mètre s'anime quand le micro capte votre voix. Vous pouvez aussi enregistrer un extrait et le réécouter."
+    },
+    {
+      "q": "Comment savoir si mon microphone fonctionne ?",
+      "a": "Lancez le test et parlez. Si le vumètre bouge et que l'enregistrement réécouté est limpide, votre micro fonctionne parfaitement. Si rien ne bouge, vérifiez le bouton muet et la sélection du périphérique."
+    },
+    {
+      "q": "Comment tester son micro sous Windows 10 ?",
+      "a": "Allez dans Paramètres > Système > Son et observez le niveau dans la section 'Entrée'. Vous pouvez aussi utiliser directement cette page pour un test en temps réel sans ouvrir les menus Windows."
+    },
+    {
+      "q": "Comment tester son micro sous Windows 11 ?",
+      "a": "Ouvrez Paramètres > Système > Son, sélectionnez votre micro dans les périphériques d'entrée et effectuez le test de signal. Ou cliquez sur Démarrer ici pour voir les décibels en direct."
+    },
+    {
+      "q": "Comment tester son micro sur Mac ?",
+      "a": "Dans Réglages Système > Son > Entrée, vérifiez que la jauge de niveau réagit lorsque vous parlez. Vous pouvez également tester votre micro ici avec enregistrement audio local."
+    },
+    {
+      "q": "Comment tester le micro d'un ordinateur portable ?",
+      "a": "Vérifiez que la touche muet du clavier n'est pas activée, démarrez le test sur cette page et parlez normalement pour voir la forme d'onde réagir."
+    },
+    {
+      "q": "Comment tester son micro pour Microsoft Teams ou Zoom ?",
+      "a": "Dans les paramètres de Teams ou Zoom sous Appareils/Audio, lancez l'appel de test. Vous pouvez également tester ce même micro ici au préalable pour écouter votre voix."
+    },
+    {
+      "q": "Comment tester le micro d'AirPods ou d'un casque Bluetooth ?",
+      "a": "Connectez vos AirPods, sélectionnez-les dans la liste des micros et lancez le test. Enregistrez un extrait de 5 secondes pour vérifier la clarté en conversation."
+    },
+    {
+      "q": "Comment s'entendre parler comme les autres nous entendent ?",
+      "a": "Mettez un casque, démarrez le test et activez l'option 'M'entendre'. Vous entendrez votre voix en direct sans aucun décalage, idéal pour contrôler l'écho et le bruit de fond."
+    },
+    {
+      "q": "Pourquoi mon micro ne fonctionne-t-il pas ?",
+      "a": "Vérifiez l'autorisation du navigateur, le bouton muet physique sur le câble et fermez les autres logiciels (Skype, Discord) qui peuvent bloquer le flux micro."
+    },
+    {
+      "q": "Mes enregistrements sont-ils envoyés sur internet ?",
+      "a": "Non. Tout est calculé dans votre navigateur grâce à la Web Audio API. Aucun flux audio n'est téléversé sur un serveur."
+    },
+    {
+      "q": "Comment tester un micro PC sans ouvrir les paramètres audio ?",
+      "a": "Ouvrez simplement TestYourMicrophone.com dans votre navigateur. Il affiche instantanément les décibels (dBFS), la fréquence vocale et offre un enregistrement local immédiat."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Français",
+    "webAppDescription": "Testez votre microphone en ligne sur Windows 10, 11, PC, Mac ou ordinateur portable avec vu-mètre en direct et écoute locale. 100% privé sans enregistrement serveur.",
+    "featuresList": [
+      "Forme d'onde en direct",
+      "Choix de l'appareil",
+      "Entendez ce que les autres entendent",
+      "Informations techniques",
+      "Clarté des autorisations",
+      "Confidentialité totale"
+    ],
+    "howToName": "Tester son micro en ligne – Test de microphone gratuit (PC & Mac)",
+    "howToDescription": "Testez votre microphone en ligne sur Windows 10, 11, PC, Mac ou ordinateur portable avec vu-mètre en direct et écoute locale. 100% privé sans enregistrement serveur.",
+    "howToSteps": [
+      {
+        "name": "Cliquez sur Démarrer",
+        "text": "Lancez le test lorsque vous êtes prêt à accorder l'accès micro au navigateur.",
+        "url": "https://testyourmicrophone.com/fr/#tester"
+      },
+      {
+        "name": "Autorisez l'accès",
+        "text": "Cliquez sur 'Autoriser' dans l'invite de votre navigateur.",
+        "url": "https://testyourmicrophone.com/fr/#tester"
+      },
+      {
+        "name": "Parlez et observez le niveau",
+        "text": "Parlez à volume normal et vérifiez que les barres de volume réagissent.",
+        "url": "https://testyourmicrophone.com/fr/#tester"
+      },
+      {
+        "name": "Changez de micro si besoin",
+        "text": "Sélectionnez votre casque ou micro USB dans la liste déroulante.",
+        "url": "https://testyourmicrophone.com/fr/#tester"
+      },
+      {
+        "name": "Écoutez votre enregistrement",
+        "text": "Réécoutez l'extrait pour vérifier le timbre et l'absence de saturation.",
+        "url": "https://testyourmicrophone.com/fr/#tester"
+      }
+    ]
+  }
+}

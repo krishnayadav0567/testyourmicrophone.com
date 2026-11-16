@@ -1,0 +1,232 @@
+{
+  "code": "tr",
+  "path": "tr",
+  "name": "Türkçe",
+  "englishName": "Turkish",
+  "dir": "ltr",
+  "meta": {
+    "title": "Mikrofon testi online – Ücretsiz mikrofon kontrolü (PC & Mac)",
+    "description": "Windows 10, 11, PC, Mac veya laptop mikrofonunuzu canlı desibel ölçer ve yerel ses kaydıyla tarayıcınızda ücretsiz test edin. 100% gizli ve güvenli.",
+    "ogTitle": "Mikrofon testi online – Ücretsiz mikrofon kontrolü",
+    "ogDescription": "Mikrofonunuzun Windows, Mac, Teams, Zoom veya kulaklıkta çalışıp çalışmadığını tarayıcınızdan anında ve güvenle test edin."
+  },
+  "ui": {
+    "startTest": "Mikrofon testini başlat",
+    "stopTest": "Mikrofon testini durdur",
+    "requestingAccess": "Mikrofon erişim izni isteniyor…",
+    "showMicrophones": "Mikrofon listesini göster",
+    "refreshMicrophones": "Mikrofonları yenile",
+    "chooseMicrophone": "Mikrofonunuzu seçin",
+    "allowAccessToList": "Mikrofonları listelemek için izin verin",
+    "namesRevealedHint": "Mikrofonlar algılandı. Bir cihaz seçip testi başlatın.",
+    "noMicDetected": "Mikrofon algılanamadı",
+    "notStarted": "Başlatılmadı",
+    "lastTested": "Son test",
+    "notYet": "Henüz yok",
+    "yourMicrophone": "Mikrofonunuz",
+    "status": "Durum",
+    "ready": "Hazır",
+    "testing": "Test ediliyor",
+    "needsAttention": "Dikkat gerekiyor",
+    "waitingForPermission": "İzin bekleniyor",
+    "listeningForSignal": "Ses sinyali dinleniyor",
+    "signalDetected": "Ses sinyali algılandı",
+    "testStopped": "Test durduruldu",
+    "currentLevel": "Mevcut seviye",
+    "peakLevel": "Zirve seviye",
+    "decibels": "Desibel (dBFS)",
+    "pitchNote": "Perde / Nota",
+    "sampleRate": "Örnekleme hızı",
+    "channels": "Kanal sayısı",
+    "hearMyselfOff": "Kendi sesimi duy (kapalı)",
+    "hearMyselfOn": "Kendi sesimi duy: AÇIK (Canlı)",
+    "headphoneHint": "💡 Yankı ve ıslık sesini önlemek için etkinleştirmeden önce kulaklık takın",
+    "recordClip": "Test kaydı al",
+    "stopRecording": "Kaydı durdur",
+    "startTestBeforeRecording": "Kayıt yapmadan önce testi başlatın.",
+    "recordingStatus": "Yerel olarak kaydediliyor… maks. 30 saniye.",
+    "recordingReady": "Kayıt tamamlandı — ses kalitenizi duymak için oynatın.",
+    "latestRecording": "En son yerel kayıt",
+    "downloadClip": "Kaydı indir",
+    "localPrivacyLock": "Bu test tarayıcınızda yerel olarak işlenir. Ses verileri hiçbir sunucuya yüklenmez.",
+    "silentDbfs": "Sessiz (<-60 dBFS)",
+    "errPermissionDenied": "Mikrofon izni reddedildi. Tarayıcı ayarlarından mikrofon iznini verip tekrar deneyin.",
+    "errNotFound": "Mikrofon bulunamadı. Lütfen bir mikrofon bağlayıp tekrar deneyin.",
+    "errNotReadable": "Mikrofon kullanılamıyor, başka bir uygulama tarafından kullanılıyor olabilir.",
+    "errDefault": "Mikrofon başlatılamadı. Cihaz bağlantısını ve sistem izinlerini kontrol edin.",
+    "errNotSupported": "Bu tarayıcıda mikrofon listeleme desteklenmiyor. Chrome, Edge veya Safari deneyin."
+  },
+  "content": {
+    "privacyBadge": "100% Tarayıcıda ve Yerel • Sunucuya Veri Gönderilmez",
+    "heroHeading": "Mikrofonunuzu test edin",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Mikrofonunuzun Windows, PC, Mac veya dizüstü bilgisayarınızda çalışıp çalışmadığını kontrol edin—ve Zoom, Teams veya Discord görüşmeleri öncesinde sesinizi dinleyin. 100% gizli.",
+    "deviceHint": "İzin verene kadar cihaz adları gizli kalır. İzin yalnızca cihazları listelemek için kullanılır ve hemen sonlandırılır.",
+    "featuresLabel": "Özellikler",
+    "featuresTitle": "Mikrofonunuzu kontrol etmek için gereken her şey.",
+    "featuresDescription": "En önemli kontroller için pratik araçlar: doğru mikrofon mu seçili, sesinizi alıyor mu ve kayıt temiz mi?",
+    "features": [
+      {
+        "title": "Gerçek zamanlı ses dalgası",
+        "desc": "Konuştuğunuz anda ses tepkisini görün. Hareketli ses dalgası tarayıcının mikrofon sinyalini aldığını doğrular."
+      },
+      {
+        "title": "Giriş cihazını seçin",
+        "desc": "Laptop dahili mikrofonu, USB mikrofon, web kamerası veya kulaklık mikrofonu arasında kolayca geçiş yapın."
+      },
+      {
+        "title": "Başkalarının duyduğu sesi dinleyin",
+        "desc": "Kısa bir kayıt yapın veya gecikmesiz canlı monitörü açarak sesinizin netliğini önceden kontrol edin."
+      },
+      {
+        "title": "Teknik mikrofon bilgileri",
+        "desc": "Sorun gidermeye yardımcı olması için örnekleme hızı, kanal sayısı ve algılanan cihaz adını görün."
+      },
+      {
+        "title": "Net durum bildirimleri",
+        "desc": "İzin istendiğinde, test çalışırken ve durdurulduğunda açık Türkçe durum mesajları."
+      },
+      {
+        "title": "Tam tarayıcı gizliliği",
+        "desc": "Tüm ses analizi cihazınızda yerel olarak yapılır. Hiçbir ses kaydı sunucularımıza iletilmez."
+      }
+    ],
+    "promo1Title": "Mikrofon ses kalitesini artırmak mı istiyorsunuz?",
+    "promo1Desc": "Önemli bir görüşmeden önce mikrofon mesafenizi, oda akustiğini ve giriş düzeyini kontrol edin.",
+    "promo1Link": "Sorun giderme rehberini oku",
+    "promo2Title": "Mikrofondan ses gelmiyor mu?",
+    "promo2Desc": "Uygulama izinlerini, sessize alma tuşlarını ve kablo bağlantılarını adım adım inceleyin.",
+    "promo2Link": "Nasıl düzeltileceğini öğrenin",
+    "howLabel": "Nasıl Kullanılır",
+    "howTitle": "Beş saniyede kesin sonuç.",
+    "howDesc": "Üyelik veya program indirme gerekmez. Mikrofonu takın, izni onaylayın ve online toplantı öncesi hemen test edin.",
+    "steps": [
+      {
+        "title": "Testi başlat butonuna tıklayın",
+        "desc": "Tarayıcıya mikrofon erişimi vermeye hazır olduğunuzda testi başlatın."
+      },
+      {
+        "title": "Mikrofon iznini onaylayın",
+        "desc": "Tarayıcınızın gösterdiği onay kutusunda 'İzin Ver' (Allow) seçeneğini seçin."
+      },
+      {
+        "title": "Konuşun ve ölçeri izleyin",
+        "desc": "Normal bir ses tonuyla konuşun ve ses seviye çubuklarının hareket ettiğini görün."
+      },
+      {
+        "title": "Gerekirse mikrofonu değiştirin",
+        "desc": "Birden fazla giriş varsa açılır menüden doğru kulaklığı veya USB mikrofonu seçin."
+      },
+      {
+        "title": "Test kaydını dinleyin",
+        "desc": "Sesinizin net, anlaşılır ve cızırtısız olduğunu teyit etmek için kaydı dinleyin."
+      }
+    ],
+    "faqLabel": "Sıkça Sorulan Sorular",
+    "faqTitle": "Mikrofon testi hakkında merak edilenler",
+    "faqIntro": "Windows 10/11, Mac, laptop, Teams, Zoom veya AirPods mikrofon testi hakkında hızlı ve pratik cevaplar.",
+    "privacyLabel": "Gizlilik Taahhüdü",
+    "privacyTitle": "Mikrofon sesiniz tamamen bu sayfada kalır.",
+    "privacyDesc": "Mikrofon erişimi yalnızca testi başlattığınızda aktif olur. Desibel ölçümü ve ses kayıtları cihazınızın belleğinde yapılır ve kesinlikle harici bir sunucuya yüklenmez.",
+    "privacyButton": "Gizli olarak test et",
+    "footerTagline": "İş görüşmeleri, online dersler ve yayınlar için hızlı ve güvenilir mikrofon test aracı.",
+    "footerToolsTitle": "Mikrofon araçları",
+    "footerHelpTitle": "Yardım ve rehberler",
+    "footerAboutTitle": "Hakkımızda",
+    "footerLanguagesTitle": "Diller (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Tüm hakları saklıdır.",
+    "footerSlogan": "Daha net ve kaliteli görüşmeler için.",
+    "footerNote": "Web Audio API ile geliştirilmiştir, ses yüklemesi yapılmaz."
+  },
+  "faqs": [
+    {
+      "q": "Online mikrofon testi nasıl yapılır?",
+      "a": "'Mikrofon testini başlat' butonuna tıklayın, tarayıcı bildiriminde izni onaylayın ve normal sesinizle konuşun. Mikrofon sesinizi algıladıkça seviye göstergesi yükselecektir. Ayrıca ses kaydı alıp hemen dinleyebilirsiniz."
+    },
+    {
+      "q": "Mikrofonumun çalışıp çalışmadığını nasıl anlarım?",
+      "a": "Testi başlatıp mikrofona doğru konuşun. Seviye göstergesi hareket ediyor ve kaydettiğiniz ses net bir şekilde çalıyorsa mikrofonunuz sorunsuz çalışıyordur. Tepki yoksa mute düğmesini kontrol edin."
+    },
+    {
+      "q": "Windows 10'da mikrofon testi nasıl yapılır?",
+      "a": "Ayarlar > Sistem > Ses bölümüne gidip 'Giriş' altındaki mikrofon seviyesine bakın. Veya doğrudan bu web sayfasını açarak anlık desibel seviyesini canlı izleyin."
+    },
+    {
+      "q": "Windows 11'de mikrofon testi nasıl yapılır?",
+      "a": "Ayarlar > Sistem > Ses menüsünden mikrofonunuzu seçip giriş testini başlatın. Ya da hiçbir ayar açmadan bu sayfada hemen test edin."
+    },
+    {
+      "q": "Mac bilgisayarda mikrofon testi nasıl yapılır?",
+      "a": "Sistem Ayarları > Ses > Giriş bölümünü açın ve konuşurken giriş seviyesi çubuğunun hareketini gözlemleyin. Bu sayfayı Safari veya Chrome'da açarak da deneyebilirsiniz."
+    },
+    {
+      "q": "Dizüstü bilgisayarın dahili mikrofonu nasıl test edilir?",
+      "a": "Klavyedeki mikrofon sessize alma (F4 vb.) tuşunun kapalı olmadığından emin olun, bu sayfadaki testi başlatın ve ekrana doğru konuşun."
+    },
+    {
+      "q": "Zoom veya Teams görüşmesi öncesinde mikrofon nasıl kontrol edilir?",
+      "a": "Görüşmeye girmeden önce bu siteyi açıp 'Kendi sesimi duy' özelliğini açın. Karşı taraftakilerin sesinizi nasıl duyacağını önceden test edin."
+    },
+    {
+      "q": "AirPods veya kablosuz Bluetooth kulaklık mikrofonu nasıl test edilir?",
+      "a": "AirPods'u bilgisayara bağlayın, cihaz listesinden AirPods mikrofonunu seçin ve testi başlatın. 5 saniyelik bir kayıt alarak konuşma kalitesini test edin."
+    },
+    {
+      "q": "Başkalarının beni nasıl duyduğunu kendim nasıl duyabilirim?",
+      "a": "Kulaklık takın, testi başlatın ve 'Kendi sesimi duy' seçeneğini açın veya kısa bir kayıt yapın. Sesinizi sıfır gecikmeyle canlı olarak duyabilirsiniz."
+    },
+    {
+      "q": "Mikrofonum neden hiç ses almıyor?",
+      "a": "Kontrol edin: 1. Tarayıcı izinleri; 2. Kulaklık kablosundaki fiziksel sessize alma (mute) mandalı; 3. Windows gizlilik ayarları; 4. Mikrofonu meşgul eden diğer programları kapatın."
+    },
+    {
+      "q": "Ses kayıtlarım internete yükleniyor mu?",
+      "a": "Kesinlikle hayır. Bu araç Web Audio API kullanarak her şeyi yalnızca bilgisayarınızın tarayıcısında yerel olarak işler."
+    },
+    {
+      "q": "Windows ayarlarını açmadan PC mikrofonunu test edebilir miyim?",
+      "a": "Evet, TestYourMicrophone.com adresini tarayıcınızda açmanız yeterlidir. Tek tıkla dBFS desibel, ses tonu ve anında oynatma sunar."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Türkçe",
+    "webAppDescription": "Windows 10, 11, PC, Mac veya laptop mikrofonunuzu canlı desibel ölçer ve yerel ses kaydıyla tarayıcınızda ücretsiz test edin. 100% gizli ve güvenli.",
+    "featuresList": [
+      "Gerçek zamanlı ses dalgası",
+      "Giriş cihazını seçin",
+      "Başkalarının duyduğu sesi dinleyin",
+      "Teknik mikrofon bilgileri",
+      "Net durum bildirimleri",
+      "Tam tarayıcı gizliliği"
+    ],
+    "howToName": "Mikrofon testi online – Ücretsiz mikrofon kontrolü (PC & Mac)",
+    "howToDescription": "Windows 10, 11, PC, Mac veya laptop mikrofonunuzu canlı desibel ölçer ve yerel ses kaydıyla tarayıcınızda ücretsiz test edin. 100% gizli ve güvenli.",
+    "howToSteps": [
+      {
+        "name": "Testi başlat butonuna tıklayın",
+        "text": "Tarayıcıya mikrofon erişimi vermeye hazır olduğunuzda testi başlatın.",
+        "url": "https://testyourmicrophone.com/tr/#tester"
+      },
+      {
+        "name": "Mikrofon iznini onaylayın",
+        "text": "Tarayıcınızın gösterdiği onay kutusunda 'İzin Ver' (Allow) seçeneğini seçin.",
+        "url": "https://testyourmicrophone.com/tr/#tester"
+      },
+      {
+        "name": "Konuşun ve ölçeri izleyin",
+        "text": "Normal bir ses tonuyla konuşun ve ses seviye çubuklarının hareket ettiğini görün.",
+        "url": "https://testyourmicrophone.com/tr/#tester"
+      },
+      {
+        "name": "Gerekirse mikrofonu değiştirin",
+        "text": "Birden fazla giriş varsa açılır menüden doğru kulaklığı veya USB mikrofonu seçin.",
+        "url": "https://testyourmicrophone.com/tr/#tester"
+      },
+      {
+        "name": "Test kaydını dinleyin",
+        "text": "Sesinizin net, anlaşılır ve cızırtısız olduğunu teyit etmek için kaydı dinleyin.",
+        "url": "https://testyourmicrophone.com/tr/#tester"
+      }
+    ]
+  }
+}

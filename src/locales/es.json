@@ -1,0 +1,232 @@
+{
+  "code": "es",
+  "path": "es",
+  "name": "Español",
+  "englishName": "Spanish",
+  "dir": "ltr",
+  "meta": {
+    "title": "Probar micrófono online – Test de micrófono gratis (PC y Mac)",
+    "description": "Aprende cómo probar tu micrófono en Windows 10, 11, PC, Mac, Teams o portátil con medidor de decibelios en vivo y reproducción local. 100% privado en tu navegador.",
+    "ogTitle": "Probar micrófono online – Test gratis de micrófono",
+    "ogDescription": "Comprueba si tu micrófono funciona en Windows, PC, Mac, Teams, laptop o AirPods con niveles en vivo y reproducción de audio local."
+  },
+  "ui": {
+    "startTest": "Iniciar prueba de micrófono",
+    "stopTest": "Detener prueba de micrófono",
+    "requestingAccess": "Solicitando acceso…",
+    "showMicrophones": "Mostrar micrófonos",
+    "refreshMicrophones": "Actualizar micrófonos",
+    "chooseMicrophone": "Elige tu micrófono",
+    "allowAccessToList": "Permite el acceso para listar micrófonos",
+    "namesRevealedHint": "Nombres visibles. Elige un micrófono y pulsa iniciar prueba.",
+    "noMicDetected": "No se detectó ningún micrófono",
+    "notStarted": "No iniciado",
+    "lastTested": "Última prueba",
+    "notYet": "Aún no",
+    "yourMicrophone": "Tu micrófono",
+    "status": "Estado",
+    "ready": "Listo",
+    "testing": "Probando",
+    "needsAttention": "Requiere atención",
+    "waitingForPermission": "Esperando permiso",
+    "listeningForSignal": "Escuchando señal",
+    "signalDetected": "Señal detectada",
+    "testStopped": "Prueba detenida",
+    "currentLevel": "Nivel actual",
+    "peakLevel": "Nivel pico",
+    "decibels": "Decibelios (dBFS)",
+    "pitchNote": "Tono / Nota",
+    "sampleRate": "Frecuencia de muestreo",
+    "channels": "Canales",
+    "hearMyselfOff": "Escucharme (desactivado)",
+    "hearMyselfOn": "Escucharme: ACTIVADO (En vivo)",
+    "headphoneHint": "💡 Conecta auriculares antes de activar para evitar eco acústico",
+    "recordClip": "Grabar un clip",
+    "stopRecording": "Detener grabación",
+    "startTestBeforeRecording": "Inicia la prueba antes de grabar.",
+    "recordingStatus": "Grabando localmente… máx. 30 segundos.",
+    "recordingReady": "Clip listo — reprodúcelo para comprobar cómo suena tu voz.",
+    "latestRecording": "Última grabación local",
+    "downloadClip": "Descargar clip",
+    "localPrivacyLock": "Esta prueba se procesa localmente. El acceso al micrófono solo está activo durante la prueba.",
+    "silentDbfs": "Silencio (<-60 dBFS)",
+    "errPermissionDenied": "Permiso de micrófono denegado. Permite el acceso en la configuración de tu navegador e inténtalo de nuevo.",
+    "errNotFound": "No se encontró ningún micrófono. Conecta un dispositivo de entrada e inténtalo de nuevo.",
+    "errNotReadable": "El micrófono no está disponible, posiblemente porque otra aplicación lo está usando.",
+    "errDefault": "No se pudo iniciar el micrófono. Revisa la conexión del dispositivo y los permisos.",
+    "errNotSupported": "La enumeración de micrófonos no está disponible en este navegador. Usa Chrome, Edge, Firefox o Safari."
+  },
+  "content": {
+    "privacyBadge": "100% En el navegador y Local • Sin subidas al servidor",
+    "heroHeading": "Prueba tu micrófono",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Comprueba si tu micrófono funciona en Windows, PC, Mac o portátil—y escucha cómo suenas antes de tus videollamadas de WhatsApp, Teams o Zoom. 100% privado.",
+    "deviceHint": "Los nombres de dispositivos permanecen ocultos hasta que das permiso. El acceso solo se usa para listar dispositivos y se detiene de inmediato.",
+    "featuresLabel": "Características",
+    "featuresTitle": "Todo lo que necesitas para revisar tu micrófono.",
+    "featuresDescription": "Herramientas sencillas para las comprobaciones clave: ¿está seleccionado el micro correcto, capta tu voz y se escucha nítido?",
+    "features": [
+      {
+        "title": "Onda de audio en tiempo real",
+        "desc": "Mira cómo responde tu audio al hablar. Una onda en movimiento confirma que el navegador recibe la señal de tu micro."
+      },
+      {
+        "title": "Elige tu dispositivo",
+        "desc": "Cambia entre micrófono integrado, micrófono USB, cámara web o auriculares con micrófono fácilmente."
+      },
+      {
+        "title": "Escucha lo que otros oyen",
+        "desc": "Graba un clip corto o activa el monitor sin latencia para escuchar tu volumen y claridad antes de tus llamadas."
+      },
+      {
+        "title": "Información técnica",
+        "desc": "Revisa la frecuencia de muestreo, canales y nombre del dispositivo para solucionar problemas rápidamente."
+      },
+      {
+        "title": "Permisos claros",
+        "desc": "Mensajes claros te indican cuándo se requiere permiso, cuándo está probando y cuándo se ha detenido."
+      },
+      {
+        "title": "Privado en tu navegador",
+        "desc": "La página analiza el audio en tu propio dispositivo. No se envían grabaciones a ningún servidor."
+      }
+    ],
+    "promo1Title": "¿Quieres mejorar el sonido de tu micrófono?",
+    "promo1Desc": "Revisa tu distancia, eco de la habitación y niveles de entrada antes de tu próxima llamada.",
+    "promo1Link": "Leer guía de solución de problemas",
+    "promo2Title": "¿El micrófono no funciona?",
+    "promo2Desc": "Sigue los pasos más comunes para solucionar permisos, cables y botones de silencio.",
+    "promo2Link": "Aprende cómo solucionarlo",
+    "howLabel": "Cómo probar tu micrófono",
+    "howTitle": "Cinco segundos para una respuesta útil.",
+    "howDesc": "No necesitas cuenta ni descargas. Conecta tu micrófono, da permiso y usa el medidor y la grabación para revisarlo antes de Zoom o Teams.",
+    "steps": [
+      {
+        "title": "Haz clic en Iniciar",
+        "desc": "Inicia la prueba cuando estés listo para dar acceso al micrófono en el navegador."
+      },
+      {
+        "title": "Permite el acceso",
+        "desc": "Elige 'Permitir' en la ventana de tu navegador."
+      },
+      {
+        "title": "Habla y observa el medidor",
+        "desc": "Di unas palabras con tu volumen normal. Las barras se moverán con tu voz."
+      },
+      {
+        "title": "Cambia de micro si es necesario",
+        "desc": "Selecciona tus auriculares o micrófono USB en la lista de entradas."
+      },
+      {
+        "title": "Graba un clip corto",
+        "desc": "Reproduce la grabación local para comprobar cómo se escucha tu voz realmente."
+      }
+    ],
+    "faqLabel": "Preguntas frecuentes",
+    "faqTitle": "¿Cómo probar mi micrófono?",
+    "faqIntro": "Respuestas rápidas para probar un micrófono en línea, en Windows 10 y 11, Mac, laptop, Teams o con AirPods.",
+    "privacyLabel": "Compromiso de privacidad",
+    "privacyTitle": "Tu señal de micrófono permanece en esta página.",
+    "privacyDesc": "El acceso al micrófono comienza únicamente al pulsar el botón de prueba. El análisis y las grabaciones se procesan localmente sin subirse a ningún servidor.",
+    "privacyButton": "Probar en privado",
+    "footerTagline": "El comprobador de micrófono rápido y seguro para llamadas, directos y grabaciones.",
+    "footerToolsTitle": "Herramientas de micro",
+    "footerHelpTitle": "Ayuda y guías",
+    "footerAboutTitle": "Acerca de",
+    "footerLanguagesTitle": "Idiomas",
+    "footerRights": "© 2026 TestYourMicrophone.com. Todos los derechos reservados.",
+    "footerSlogan": "Pensado para una mejor conversación.",
+    "footerNote": "Hecho con Web Audio APIs, sin subidas de audio."
+  },
+  "faqs": [
+    {
+      "q": "¿Cómo probar el micrófono online?",
+      "a": "Pulsa Iniciar prueba de micrófono, permite el acceso en tu navegador y habla con normalidad. El medidor en vivo se moverá al detectar sonido. También puedes grabar un clip y escucharlo al instante."
+    },
+    {
+      "q": "¿Cómo saber si el micrófono funciona?",
+      "a": "Inicia la prueba y habla. Si la barra de nivel reacciona y el clip grabado se oye con claridad, el micrófono funciona. Si no hay señal, comprueba el interruptor de silencio y la conexión."
+    },
+    {
+      "q": "¿Cómo probar el micrófono en Windows 10?",
+      "a": "En Windows 10 abre Configuración > Sistema > Sonido y observa la barra de volumen en Entrada. O haz la prueba en esta página para ver niveles en decibelios en tiempo real."
+    },
+    {
+      "q": "¿Cómo probar el micrófono en Windows 11?",
+      "a": "Ve a Configuración > Sistema > Sonido, selecciona tu micrófono bajo Entrada y haz una prueba de sonido. O pulsa Iniciar aquí para probarlo con onda de audio interactiva."
+    },
+    {
+      "q": "¿Cómo probar el micrófono en Mac?",
+      "a": "En tu Mac abre Ajustes del Sistema > Sonido > Entrada y habla para ver si sube el nivel. También puedes usar esta web para una prueba rápida con reproducción de voz."
+    },
+    {
+      "q": "¿Cómo probar el micrófono de mi portátil?",
+      "a": "Asegúrate de que no esté silenciado por teclado, haz clic en Iniciar prueba y habla con volumen normal para confirmar que la onda sonora se mueve."
+    },
+    {
+      "q": "¿Cómo probar el micrófono para Teams y Zoom?",
+      "a": "En la configuración de audio de Teams o Zoom, haz una llamada de prueba. Puedes verificar tu micro aquí primero y activar 'Escucharme' para revisar eco y volumen."
+    },
+    {
+      "q": "¿Cómo probar micrófonos de AirPods o auriculares Bluetooth?",
+      "a": "Conecta tus AirPods, elígelos en la lista de micrófonos y pulsa Iniciar prueba. Graba 5 segundos para verificar cómo sonará tu voz en una llamada."
+    },
+    {
+      "q": "¿Cómo escuchar mi micrófono tal y como me oyen los demás?",
+      "a": "Ponte auriculares, pulsa Iniciar prueba y enciende la función 'Escucharme'. Oirás tu propia voz en tiempo real con cero latencia para calibrar volumen y ruido de fondo."
+    },
+    {
+      "q": "¿Por qué no funciona mi micrófono?",
+      "a": "Revisa los permisos del navegador, el botón de silenciado en el cable o teclado y cierra otras aplicaciones de llamadas que puedan estar acaparando el micrófono."
+    },
+    {
+      "q": "¿Se sube mi voz a algún servidor?",
+      "a": "No, en absoluto. Toda la señal se procesa dentro de tu navegador mediante la Web Audio API de forma 100% privada y local."
+    },
+    {
+      "q": "¿Cómo probar el micrófono de la PC sin abrir los ajustes de Windows?",
+      "a": "Abre TestYourMicrophone.com en tu navegador. Mide decibelios (dBFS), tono de voz y te permite escuchar tu grabación al instante sin tocar paneles de control."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Español",
+    "webAppDescription": "Aprende cómo probar tu micrófono en Windows 10, 11, PC, Mac, Teams o portátil con medidor de decibelios en vivo y reproducción local. 100% privado en tu navegador.",
+    "featuresList": [
+      "Onda de audio en tiempo real",
+      "Elige tu dispositivo",
+      "Escucha lo que otros oyen",
+      "Información técnica",
+      "Permisos claros",
+      "Privado en tu navegador"
+    ],
+    "howToName": "Probar micrófono online – Test de micrófono gratis (PC y Mac)",
+    "howToDescription": "Aprende cómo probar tu micrófono en Windows 10, 11, PC, Mac, Teams o portátil con medidor de decibelios en vivo y reproducción local. 100% privado en tu navegador.",
+    "howToSteps": [
+      {
+        "name": "Haz clic en Iniciar",
+        "text": "Inicia la prueba cuando estés listo para dar acceso al micrófono en el navegador.",
+        "url": "https://testyourmicrophone.com/es/#tester"
+      },
+      {
+        "name": "Permite el acceso",
+        "text": "Elige 'Permitir' en la ventana de tu navegador.",
+        "url": "https://testyourmicrophone.com/es/#tester"
+      },
+      {
+        "name": "Habla y observa el medidor",
+        "text": "Di unas palabras con tu volumen normal. Las barras se moverán con tu voz.",
+        "url": "https://testyourmicrophone.com/es/#tester"
+      },
+      {
+        "name": "Cambia de micro si es necesario",
+        "text": "Selecciona tus auriculares o micrófono USB en la lista de entradas.",
+        "url": "https://testyourmicrophone.com/es/#tester"
+      },
+      {
+        "name": "Graba un clip corto",
+        "text": "Reproduce la grabación local para comprobar cómo se escucha tu voz realmente.",
+        "url": "https://testyourmicrophone.com/es/#tester"
+      }
+    ]
+  }
+}

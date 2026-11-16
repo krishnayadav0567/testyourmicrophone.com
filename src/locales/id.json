@@ -1,0 +1,232 @@
+{
+  "code": "id",
+  "path": "id",
+  "name": "Bahasa Indonesia",
+  "englishName": "Indonesian",
+  "dir": "ltr",
+  "meta": {
+    "title": "Tes mikrofon online – Cek mic gratis untuk PC, Mac & Laptop",
+    "description": "Uji apakah mikrofon Anda berfungsi di Windows 10, 11, PC, Mac, atau laptop dengan pengukur desibel langsung dan pemutaran audio lokal. 100% aman di peramban.",
+    "ogTitle": "Tes mikrofon online – Cek mic gratis",
+    "ogDescription": "Uji mikrofon online untuk Windows, PC, Mac, Teams, laptop, atau AirPods dengan meteran level live dan pemutaran rekaman lokal."
+  },
+  "ui": {
+    "startTest": "Mulai tes mikrofon",
+    "stopTest": "Hentikan tes mikrofon",
+    "requestingAccess": "Meminta izin akses…",
+    "showMicrophones": "Tampilkan daftar mikrofon",
+    "refreshMicrophones": "Segarkan daftar mikrofon",
+    "chooseMicrophone": "Pilih mikrofon Anda",
+    "allowAccessToList": "Izinkan akses untuk melihat mikrofon",
+    "namesRevealedHint": "Mikrofon terdeteksi. Pilih mikrofon dan mulai tes.",
+    "noMicDetected": "Tidak ada mikrofon terdeteksi",
+    "notStarted": "Belum dimulai",
+    "lastTested": "Terakhir diuji",
+    "notYet": "Belum pernah",
+    "yourMicrophone": "Mikrofon Anda",
+    "status": "Status",
+    "ready": "Siap",
+    "testing": "Sedang menguji",
+    "needsAttention": "Perlu perhatian",
+    "waitingForPermission": "Menunggu izin akses",
+    "listeningForSignal": "Mendengarkan sinyal",
+    "signalDetected": "Sinyal suara terdeteksi",
+    "testStopped": "Tes dihentikan",
+    "currentLevel": "Level saat ini",
+    "peakLevel": "Level puncak",
+    "decibels": "Desibel (dBFS)",
+    "pitchNote": "Nada / Frekuensi",
+    "sampleRate": "Sample rate",
+    "channels": "Jumlah kanal",
+    "hearMyselfOff": "Dengarkan suara sendiri (Mati)",
+    "hearMyselfOn": "Dengarkan suara sendiri: NYALA (Live)",
+    "headphoneHint": "💡 Pasang headphone sebelum mengaktifkan untuk mencegah suara dengung feedback",
+    "recordClip": "Rekam klip suara",
+    "stopRecording": "Hentikan rekaman",
+    "startTestBeforeRecording": "Mulai tes terlebih dahulu sebelum merekam.",
+    "recordingStatus": "Merekam secara lokal… maks 30 detik.",
+    "recordingReady": "Rekaman selesai — putar untuk mendengar kejernihan suara Anda.",
+    "latestRecording": "Rekaman lokal terbaru",
+    "downloadClip": "Unduh rekaman",
+    "localPrivacyLock": "Tes ini diproses secara lokal di peramban Anda. Akses mikrofon hanya aktif saat pengujian berlangsung.",
+    "silentDbfs": "Sunyi (<-60 dBFS)",
+    "errPermissionDenied": "Izin mikrofon ditolak. Berikan izin di pengaturan peramban Anda lalu coba lagi.",
+    "errNotFound": "Mikrofon tidak ditemukan. Sambungkan perangkat input dan coba lagi.",
+    "errNotReadable": "Mikrofon tidak tersedia, kemungkinan sedang dipakai oleh aplikasi lain.",
+    "errDefault": "Mikrofon gagal dimulai. Periksa sambungan kabel dan izin akses.",
+    "errNotSupported": "Daftar mikrofon tidak didukung di peramban ini. Coba gunakan Chrome, Edge, Firefox, atau Safari."
+  },
+  "content": {
+    "privacyBadge": "100% Di Peramban & Lokal • Tanpa Upload Server",
+    "heroHeading": "Uji mikrofon Anda",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Periksa apakah mikrofon Anda berfungsi di Windows, PC, Mac, atau laptop—dan dengarkan suara Anda sebelum bergabung ke panggilan Zoom, Teams, Google Meet, atau WhatsApp. 100% privat.",
+    "deviceHint": "Nama perangkat tetap disembunyikan sampai Anda memberikan izin. Izin hanya digunakan untuk mendeteksi perangkat dan langsung dihentikan.",
+    "featuresLabel": "Fitur",
+    "featuresTitle": "Semua yang Anda butuhkan untuk memeriksa mikrofon.",
+    "featuresDescription": "Alat praktis untuk pemeriksaan terpenting: apakah mic yang benar sudah dipilih, apakah suara Anda tertangkap, dan apakah hasil rekamannya terdengar jernih?",
+    "features": [
+      {
+        "title": "Bentuk gelombang real-time",
+        "desc": "Lihat respons audio bergerak seketika saat Anda berbicara untuk memastikan browser menangkap suara."
+      },
+      {
+        "title": "Pilih perangkat input",
+        "desc": "Beralih dengan mudah antara mic internal laptop, mic USB eksternal, webcam, atau headset."
+      },
+      {
+        "title": "Dengar apa yang didengar orang lain",
+        "desc": "Rekam klip pendek atau gunakan monitor tanpa jeda untuk mengecek kejelasan vokal Anda sebelum panggilan."
+      },
+      {
+        "title": "Informasi teknis mikrofon",
+        "desc": "Lihat sample rate aktif, jumlah kanal audio, dan nama perangkat yang terdeteksi untuk perbaikan kendala."
+      },
+      {
+        "title": "Status izin yang jelas",
+        "desc": "Pemberitahuan yang transparan saat izin diminta, saat tes berlangsung, dan saat mic berhenti."
+      },
+      {
+        "title": "Privasi terjamin",
+        "desc": "Semua analisis audio berlangsung langsung di peramban Anda. Tidak ada rekaman yang dikirim ke server kami."
+      }
+    ],
+    "promo1Title": "Ingin meningkatkan kualitas suara mic Anda?",
+    "promo1Desc": "Periksa jarak mic, gema ruangan, dan level volume sebelum rapat online dimulai.",
+    "promo1Link": "Baca panduan perbaikan suara",
+    "promo2Title": "Mikrofon tidak ada suara?",
+    "promo2Desc": "Ikuti langkah mudah memeriksa izin aplikasi, kabel jack, dan sakelar mute fisik.",
+    "promo2Link": "Pelajari cara mengatasinya",
+    "howLabel": "Cara Menguji",
+    "howTitle": "Hanya lima detik untuk kepastian suara Anda.",
+    "howDesc": "Tanpa perlu daftar akun atau unduh aplikasi. Pasang mic Anda, izinkan akses, dan langsung periksa sebelum rapat online.",
+    "steps": [
+      {
+        "title": "Klik tombol mulai",
+        "desc": "Mulai tes saat Anda siap memberikan izin akses mikrofon kepada peramban."
+      },
+      {
+        "title": "Izinkan akses mikrofon",
+        "desc": "Pilih 'Izinkan' (Allow) pada kotak dialog peramban Anda."
+      },
+      {
+        "title": "Bicara dan amati meteran",
+        "desc": "Bicara dengan suara biasa dan pastikan bar level volume bergerak naik turun."
+      },
+      {
+        "title": "Ganti mikrofon bila perlu",
+        "desc": "Pilih headset atau mic USB Anda dari menu tarik-turun perangkat."
+      },
+      {
+        "title": "Putar kembali rekaman",
+        "desc": "Dengarkan hasil rekaman suara untuk menilai kejernihan dan ketiadaan suara bising."
+      }
+    ],
+    "faqLabel": "Tanya Jawab (FAQ)",
+    "faqTitle": "Pertanyaan Umum Seputar Tes Mikrofon",
+    "faqIntro": "Jawaban cepat tentang cara mengetes mic online di Windows 10 & 11, Mac, laptop, Teams, Zoom, atau AirPods.",
+    "privacyLabel": "Jaminan Privasi",
+    "privacyTitle": "Suara mikrofon Anda tetap berada di halaman ini.",
+    "privacyDesc": "Akses mic hanya berjalan setelah Anda mengklik tombol mulai. Analisis decibel dan rekaman diproses di memori perangkat Anda dan tidak pernah dikirim ke server.",
+    "privacyButton": "Uji secara privat",
+    "footerTagline": "Pengecek mikrofon cepat dan aman untuk panggilan kerja, sekolah online, dan siaran langsung.",
+    "footerToolsTitle": "Alat mikrofon",
+    "footerHelpTitle": "Bantuan & panduan",
+    "footerAboutTitle": "Tentang kami",
+    "footerLanguagesTitle": "Bahasa (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Seluruh hak cipta dilindungi.",
+    "footerSlogan": "Dibuat untuk komunikasi yang lebih jernih.",
+    "footerNote": "Dibuat dengan Web Audio API, tanpa kirim data ke server."
+  },
+  "faqs": [
+    {
+      "q": "Bagaimana cara tes mikrofon online?",
+      "a": "Klik 'Mulai tes mikrofon', izinkan akses saat peramban meminta, lalu bicaralah seperti biasa. Bar pengukur desibel akan bergerak saat mic menangkap suara. Anda juga bisa merekam klip pendek."
+    },
+    {
+      "q": "Bagaimana cara tahu mikrofon saya berfungsi atau tidak?",
+      "a": "Mulai tes dan bicaralah. Jika meteran audio bergerak dan klip rekaman dapat diputar dengan suara yang jelas, mic Anda berfungsi baik. Jika tidak ada sinyal, periksa tombol mute dan colokan kabel."
+    },
+    {
+      "q": "Bagaimana cara tes mic di Windows 10?",
+      "a": "Buka Settings > System > Sound dan lihat bar volume di bawah 'Input'. Anda juga bisa langsung membuka situs ini untuk mengecek level desibel secara real-time."
+    },
+    {
+      "q": "Bagaimana cara tes mic di Windows 11?",
+      "a": "Buka Settings > System > Sound, pilih mikrofon Anda dan jalankan tes input. Atau gunakan situs ini untuk melihat visualisasi gelombang suara langsung."
+    },
+    {
+      "q": "Bagaimana cara tes mic di Mac?",
+      "a": "Buka System Settings > Sound > Input dan bicaralah untuk melihat apakah bilah input bergerak. Anda juga bisa mengujinya di sini lewat Safari atau Chrome."
+    },
+    {
+      "q": "Bagaimana cara tes mic bawaan laptop?",
+      "a": "Pastikan tombol mute keyboard tidak aktif, klik mulai tes di halaman ini, dan bicaralah dengan nada normal."
+    },
+    {
+      "q": "Bagaimana tes mic sebelum meeting Zoom atau Teams?",
+      "a": "Sebelum bergabung, buka situs ini dan aktifkan 'Dengarkan suara sendiri'. Anda bisa mendengar kualitas suara dan gema ruangan secara persis seperti yang akan didengar peserta lain."
+    },
+    {
+      "q": "Bagaimana cara tes mic AirPods atau headset Bluetooth?",
+      "a": "Sambungkan AirPods ke laptop, pilih AirPods di menu perangkat input, dan mulai tes. Rekam 5 detik untuk mendengar kejelasan suara mic nirkabel Anda."
+    },
+    {
+      "q": "Bagaimana cara mendengar suara saya persis seperti yang didengar orang lain?",
+      "a": "Gunakan headphone, mulai tes, dan nyalakan opsi 'Dengarkan suara sendiri'. Anda akan mendengar suara vokal Anda secara live tanpa jeda waktu."
+    },
+    {
+      "q": "Kenapa mikrofon saya tidak mengeluarkan suara sama sekali?",
+      "a": "Periksa: 1. Izin mikrofon di peramban; 2. Sakelar mute fisik pada kabel headset; 3. Izin privasi mikrofon di Windows/Mac; 4. Tutup aplikasi lain yang mungkin sedang memakai mic."
+    },
+    {
+      "q": "Apakah suara rekaman saya diunggah ke internet?",
+      "a": "Sama sekali tidak. Tes ini menggunakan Web Audio API murni di peramban Anda. Tidak ada data suara yang diunggah ke server mana pun."
+    },
+    {
+      "q": "Bisakah cek mic PC tanpa membuka menu pengaturan Windows?",
+      "a": "Bisa sekali. Buka TestYourMicrophone.com di browser untuk mengukur desibel (dBFS), nada vokal, dan memutar ulang rekaman secara instan tanpa ribet."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Bahasa Indonesia",
+    "webAppDescription": "Uji apakah mikrofon Anda berfungsi di Windows 10, 11, PC, Mac, atau laptop dengan pengukur desibel langsung dan pemutaran audio lokal. 100% aman di peramban.",
+    "featuresList": [
+      "Bentuk gelombang real-time",
+      "Pilih perangkat input",
+      "Dengar apa yang didengar orang lain",
+      "Informasi teknis mikrofon",
+      "Status izin yang jelas",
+      "Privasi terjamin"
+    ],
+    "howToName": "Tes mikrofon online – Cek mic gratis untuk PC, Mac & Laptop",
+    "howToDescription": "Uji apakah mikrofon Anda berfungsi di Windows 10, 11, PC, Mac, atau laptop dengan pengukur desibel langsung dan pemutaran audio lokal. 100% aman di peramban.",
+    "howToSteps": [
+      {
+        "name": "Klik tombol mulai",
+        "text": "Mulai tes saat Anda siap memberikan izin akses mikrofon kepada peramban.",
+        "url": "https://testyourmicrophone.com/id/#tester"
+      },
+      {
+        "name": "Izinkan akses mikrofon",
+        "text": "Pilih 'Izinkan' (Allow) pada kotak dialog peramban Anda.",
+        "url": "https://testyourmicrophone.com/id/#tester"
+      },
+      {
+        "name": "Bicara dan amati meteran",
+        "text": "Bicara dengan suara biasa dan pastikan bar level volume bergerak naik turun.",
+        "url": "https://testyourmicrophone.com/id/#tester"
+      },
+      {
+        "name": "Ganti mikrofon bila perlu",
+        "text": "Pilih headset atau mic USB Anda dari menu tarik-turun perangkat.",
+        "url": "https://testyourmicrophone.com/id/#tester"
+      },
+      {
+        "name": "Putar kembali rekaman",
+        "text": "Dengarkan hasil rekaman suara untuk menilai kejernihan dan ketiadaan suara bising.",
+        "url": "https://testyourmicrophone.com/id/#tester"
+      }
+    ]
+  }
+}

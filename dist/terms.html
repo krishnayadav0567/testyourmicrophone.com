@@ -44,7 +44,69 @@
     </script>
   </head>
   <body class="legal-page">
-    <header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="TestYourMicrophone.com home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>Test<span class="brand-accent">Your</span>Microphone</span></a><a class="feedback-link" href="/">Back to mic test <span aria-hidden="true">↗</span></a></div></header>
+      <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" data-brand-link aria-label="TestYourMicrophone.com home">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>Test<span class="brand-accent">Your</span>Microphone</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="/" data-home-link>Your microphone</a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-selector" id="lang-selector">
+          <button class="lang-btn" id="lang-btn" type="button" aria-expanded="false" aria-controls="lang-dropdown" aria-label="Choose language: English">
+            <span class="lang-icon" aria-hidden="true">🌐</span>
+            <span class="lang-current-label">English</span>
+            <span class="lang-arrow" aria-hidden="true">▾</span>
+          </button>
+          <div class="lang-dropdown" id="lang-dropdown" role="menu" hidden>
+            <div class="lang-dropdown-header">
+              <span class="lang-dropdown-title">Choose Language</span>
+            </div>
+            <div class="lang-search-wrap">
+              <input type="search" class="lang-search-input" id="lang-search-input" placeholder="Search language..." aria-label="Search language" autocomplete="off" />
+            </div>
+            <div class="lang-dropdown-grid">
+              <a href="/" class="lang-option is-active" hreflang="en" lang="en" aria-current="page" role="menuitem"><span class="lang-name-native">English</span></a>
+              <a href="/de/" class="lang-option" hreflang="de" lang="de" role="menuitem"><span class="lang-name-native">Deutsch</span><span class="lang-name-en">German</span></a>
+              <a href="/fr/" class="lang-option" hreflang="fr" lang="fr" role="menuitem"><span class="lang-name-native">Français</span><span class="lang-name-en">French</span></a>
+              <a href="/es/" class="lang-option" hreflang="es" lang="es" role="menuitem"><span class="lang-name-native">Español</span><span class="lang-name-en">Spanish</span></a>
+              <a href="/it/" class="lang-option" hreflang="it" lang="it" role="menuitem"><span class="lang-name-native">Italiano</span><span class="lang-name-en">Italian</span></a>
+              <a href="/nl/" class="lang-option" hreflang="nl" lang="nl" role="menuitem"><span class="lang-name-native">Nederlands</span><span class="lang-name-en">Dutch</span></a>
+              <a href="/ja/" class="lang-option" hreflang="ja" lang="ja" role="menuitem"><span class="lang-name-native">日本語</span><span class="lang-name-en">Japanese</span></a>
+              <a href="/ko/" class="lang-option" hreflang="ko" lang="ko" role="menuitem"><span class="lang-name-native">한국어</span><span class="lang-name-en">Korean</span></a>
+              <a href="/sv/" class="lang-option" hreflang="sv" lang="sv" role="menuitem"><span class="lang-name-native">Svenska</span><span class="lang-name-en">Swedish</span></a>
+              <a href="/no/" class="lang-option" hreflang="no" lang="no" role="menuitem"><span class="lang-name-native">Norsk</span><span class="lang-name-en">Norwegian</span></a>
+              <a href="/da/" class="lang-option" hreflang="da" lang="da" role="menuitem"><span class="lang-name-native">Dansk</span><span class="lang-name-en">Danish</span></a>
+              <a href="/fi/" class="lang-option" hreflang="fi" lang="fi" role="menuitem"><span class="lang-name-native">Suomi</span><span class="lang-name-en">Finnish</span></a>
+              <a href="/pl/" class="lang-option" hreflang="pl" lang="pl" role="menuitem"><span class="lang-name-native">Polski</span><span class="lang-name-en">Polish</span></a>
+              <a href="/pt/" class="lang-option" hreflang="pt" lang="pt" role="menuitem"><span class="lang-name-native">Português</span><span class="lang-name-en">Portuguese</span></a>
+              <a href="/ru/" class="lang-option" hreflang="ru" lang="ru" role="menuitem"><span class="lang-name-native">Русский</span><span class="lang-name-en">Russian</span></a>
+              <a href="/tr/" class="lang-option" hreflang="tr" lang="tr" role="menuitem"><span class="lang-name-native">Türkçe</span><span class="lang-name-en">Turkish</span></a>
+              <a href="/cs/" class="lang-option" hreflang="cs" lang="cs" role="menuitem"><span class="lang-name-native">Čeština</span><span class="lang-name-en">Czech</span></a>
+              <a href="/hu/" class="lang-option" hreflang="hu" lang="hu" role="menuitem"><span class="lang-name-native">Magyar</span><span class="lang-name-en">Hungarian</span></a>
+              <a href="/ro/" class="lang-option" hreflang="ro" lang="ro" role="menuitem"><span class="lang-name-native">Română</span><span class="lang-name-en">Romanian</span></a>
+              <a href="/el/" class="lang-option" hreflang="el" lang="el" role="menuitem"><span class="lang-name-native">Ελληνικά</span><span class="lang-name-en">Greek</span></a>
+              <a href="/sk/" class="lang-option" hreflang="sk" lang="sk" role="menuitem"><span class="lang-name-native">Slovenčina</span><span class="lang-name-en">Slovak</span></a>
+              <a href="/bg/" class="lang-option" hreflang="bg" lang="bg" role="menuitem"><span class="lang-name-native">Български</span><span class="lang-name-en">Bulgarian</span></a>
+              <a href="/hr/" class="lang-option" hreflang="hr" lang="hr" role="menuitem"><span class="lang-name-native">Hrvatski</span><span class="lang-name-en">Croatian</span></a>
+              <a href="/uk/" class="lang-option" hreflang="uk" lang="uk" role="menuitem"><span class="lang-name-native">Українська</span><span class="lang-name-en">Ukrainian</span></a>
+              <a href="/zh-cn/" class="lang-option" hreflang="zh-cn" lang="zh-cn" role="menuitem"><span class="lang-name-native">简体中文</span><span class="lang-name-en">Chinese (Simplified)</span></a>
+              <a href="/zh-tw/" class="lang-option" hreflang="zh-tw" lang="zh-tw" role="menuitem"><span class="lang-name-native">繁體中文</span><span class="lang-name-en">Chinese (Traditional)</span></a>
+              <a href="/ar/" class="lang-option" hreflang="ar" lang="ar" role="menuitem"><span class="lang-name-native">العربية</span><span class="lang-name-en">Arabic</span></a>
+              <a href="/he/" class="lang-option" hreflang="he" lang="he" role="menuitem"><span class="lang-name-native">עברית</span><span class="lang-name-en">Hebrew</span></a>
+              <a href="/th/" class="lang-option" hreflang="th" lang="th" role="menuitem"><span class="lang-name-native">ไทย</span><span class="lang-name-en">Thai</span></a>
+              <a href="/vi/" class="lang-option" hreflang="vi" lang="vi" role="menuitem"><span class="lang-name-native">Tiếng Việt</span><span class="lang-name-en">Vietnamese</span></a>
+              <a href="/id/" class="lang-option" hreflang="id" lang="id" role="menuitem"><span class="lang-name-native">Bahasa Indonesia</span><span class="lang-name-en">Indonesian</span></a>
+              <a href="/hi/" class="lang-option" hreflang="hi" lang="hi" role="menuitem"><span class="lang-name-native">हिन्दी</span><span class="lang-name-en">Hindi</span></a>
+            </div>
+          </div>
+        </div>
+        <a class="feedback-link" href="/">Back to mic test <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </header>
     <main class="container legal-main"><p class="section-label">Terms of use</p><h1>Use the tool as a helpful check, not a certification.</h1><p class="legal-lead">By using TestYourMicrophone.com, you agree to use the site lawfully and understand the limits of browser-based microphone testing.</p><div class="legal-content"><h2>What the tool does</h2><p>The site provides a browser-based microphone check with a live input meter, available input device list, basic stream details, and an optional local recording. Results can vary by browser, device, operating system, permissions, network environment, and audio hardware.</p><h2>No guarantee of hardware performance</h2><p>A moving meter confirms that the browser received an audio signal; it does not certify professional audio quality, driver health, frequency response, noise floor, or suitability for a particular meeting or recording workflow.</p><h2>Your responsibility</h2><p>You are responsible for choosing the correct microphone, granting permission, handling downloaded recordings, and following applicable laws when recording yourself or others. Do not use a recording feature to capture another person without appropriate consent.</p><h2>Availability</h2><p>The site is provided as-is and may change, become unavailable, or behave differently as browsers and microphone APIs evolve. We are not responsible for decisions made solely from the tool’s results.</p><h2>Contact</h2><p>For questions or feedback, email <a class="text-link" href="mailto:hello@testyourmicrophone.com">hello@testyourmicrophone.com</a>.</p><a class="legal-back" href="/">← Back to TestYourMicrophone.com</a></div></main>
   </body>
 </html>

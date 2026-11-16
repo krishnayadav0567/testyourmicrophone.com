@@ -1,0 +1,232 @@
+{
+  "code": "hr",
+  "path": "hr",
+  "name": "Hrvatski",
+  "englishName": "Croatian",
+  "dir": "ltr",
+  "meta": {
+    "title": "Test mikrofona online – Besplatna provjera mikrofona (PC, Mac)",
+    "description": "Testirajte mikrofon na Windows 10, 11, PC-u, Macu ili prijenosnom računalu uz mjerač decibela u stvarnom vremenu i trenutnu reprodukciju. 100% privatno u pregledniku.",
+    "ogTitle": "Test mikrofona online – Besplatna provjera zvuka",
+    "ogDescription": "Provjerite radi li vaš mikrofon na računalu, Macu, Teamsima ili Zoomu uz live mjerač glasnoće i lokalno snimanje."
+  },
+  "ui": {
+    "startTest": "Pokreni test mikrofona",
+    "stopTest": "Zaustavi test mikrofona",
+    "requestingAccess": "Traženje dopuštenja za mikrofon…",
+    "showMicrophones": "Prikaži popis mikrofona",
+    "refreshMicrophones": "Osvježi popis",
+    "chooseMicrophone": "Odaberite svoj mikrofon",
+    "allowAccessToList": "Dopustite pristup za prikaz mikrofona",
+    "namesRevealedHint": "Mikrofoni pronađeni. Odaberite uređaj i pokrenite test.",
+    "noMicDetected": "Nije pronađen nijedan mikrofon",
+    "notStarted": "Nije pokrenuto",
+    "lastTested": "Zadnji test",
+    "notYet": "Još nije",
+    "yourMicrophone": "Vaš mikrofon",
+    "status": "Status",
+    "ready": "Spremno",
+    "testing": "Testiranje u tijeku",
+    "needsAttention": "Potrebna provjera",
+    "waitingForPermission": "Čeka se dopuštenje",
+    "listeningForSignal": "Osluškuje se zvučni signal",
+    "signalDetected": "Zvučni signal prepoznat",
+    "testStopped": "Test zaustavljen",
+    "currentLevel": "Trenutna razina",
+    "peakLevel": "Vršna razina",
+    "decibels": "Decibeli (dBFS)",
+    "pitchNote": "Visina tona / Nota",
+    "sampleRate": "Frekvencija uzorkovanja",
+    "channels": "Kanali",
+    "hearMyselfOff": "Čuj vlastiti glas (isključeno)",
+    "hearMyselfOn": "Čuj vlastiti glas: UKLJUČENO (Uživo)",
+    "headphoneHint": "💡 Spojite slušalice prije uključivanja kako biste izbjegli mikrofoniju (zujanje i jeku)",
+    "recordClip": "Snimi kratki zapis",
+    "stopRecording": "Zaustavi snimanje",
+    "startTestBeforeRecording": "Pokrenite test prije snimanja.",
+    "recordingStatus": "Lokalno snimanje u tijeku… maks. 30 sekundi.",
+    "recordingReady": "Snimka je spremna — reproducirajte je kako biste provjerili glas.",
+    "latestRecording": "Zadnja lokalna snimka",
+    "downloadClip": "Preuzmi snimku",
+    "localPrivacyLock": "Ovaj se test obrađuje lokalno u vašem pregledniku. Audio se ne šalje na poslužitelje.",
+    "silentDbfs": "Tišina (<-60 dBFS)",
+    "errPermissionDenied": "Pristup mikrofonu je odbijen. Omogućite pristup u postavkama preglednika i pokušajte ponovno.",
+    "errNotFound": "Mikrofon nije pronađen. Povežite mikrofon i pokušajte opet.",
+    "errNotReadable": "Mikrofon nije dostupan, vjerojatno ga koristi druga aplikacija.",
+    "errDefault": "Mikrofon se nije mogao pokrenuti. Provjerite vezu i dopuštenja.",
+    "errNotSupported": "Popis mikrofona nije podržan u ovom pregledniku. Pokušajte s Chromeom, Edgeom ili Safarijem."
+  },
+  "content": {
+    "privacyBadge": "100% U pregledniku & Lokalno • Bez slanja na poslužitelje",
+    "heroHeading": "Testirajte svoj mikrofon",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Provjerite radi li vam mikrofon na Windowsima, PC-u, Macu ili laptopu—i poslušajte kako zvučite prije poziva na Zoomu, Teamsima ili Google Meetu. 100% privatno.",
+    "deviceHint": "Nazivi uređaja ostaju skriveni dok ne date dopuštenje. Pristup se koristi samo za očitavanje popisa i odmah se prekida.",
+    "featuresLabel": "Značajke",
+    "featuresTitle": "Sve što vam je potrebno za brzu i točnu provjeru mikrofona.",
+    "featuresDescription": "Jednostavni alati za ključne provjere: je li odabran pravi mikrofon, hvata li vaš glas i zvuči li snimka čisto?",
+    "features": [
+      {
+        "title": "Zvučni val u stvarnom vremenu",
+        "desc": "Pogledajte zvučnu reakciju čim progovorite. Pokretni val potvrđuje da preglednik prima signal."
+      },
+      {
+        "title": "Jednostavan odabir uređaja",
+        "desc": "Lako se prebacujte između ugrađenog mikrofona, USB mikrofona, web kamere ili slušalica."
+      },
+      {
+        "title": "Čujte ono što drugi čuju",
+        "desc": "Snimite kratki isječak ili uključite praćenje bez kašnjenja kako biste procijenili glasnoću."
+      },
+      {
+        "title": "Tehnički audio podaci",
+        "desc": "Provjerite frekvenciju uzorkovanja, broj kanala i naziv uređaja za lakše uklanjanje smetnji."
+      },
+      {
+        "title": "Jasne obavijesti o stanju",
+        "desc": "Razumljive poruke o čekanju dopuštenja, aktivnom testu i završetku rada."
+      },
+      {
+        "title": "Potpuna privatnost",
+        "desc": "Cjelokupna obrada obavlja se na vašem računalu. Nijedna snimka ne odlazi na vanjske poslužitelje."
+      }
+    ],
+    "promo1Title": "Želite poboljšati zvuk svog mikrofona?",
+    "promo1Desc": "Provjerite udaljenost od mikrofona, jeku u sobi i glasnoću prije važnog sastanka.",
+    "promo1Link": "Pročitajte vodič za rješavanje problema",
+    "promo2Title": "Mikrofon uopće ne daje zvuk?",
+    "promo2Desc": "Provjerite dopuštenja, kabele i prekidače za isključivanje zvuka korak po korak.",
+    "promo2Link": "Saznajte kako to popraviti",
+    "howLabel": "Upute za rad",
+    "howTitle": "Pouzdana provjera za manje od pet sekundi.",
+    "howDesc": "Bez registracije i bez instalacije programa. Spojite mikrofon, odobrite pristup i provjerite zvuk prije videopoziva.",
+    "steps": [
+      {
+        "title": "Kliknite na pokretanje testa",
+        "desc": "Započnite kada ste spremni dodijeliti pregledniku pristup mikrofonu."
+      },
+      {
+        "title": "Dopustite pristup mikrofonu",
+        "desc": "Odaberite 'Dopusti' (Allow) u dijaloškom okviru vašeg preglednika."
+      },
+      {
+        "title": "Govorite i promatrajte mjerač",
+        "desc": "Govorite normalnim glasom i gledajte kako trake razine zvuka reagiraju."
+      },
+      {
+        "title": "Promijenite mikrofon ako je potrebno",
+        "desc": "Odaberite svoje slušalice ili vanjski mikrofon s padajućeg popisa."
+      },
+      {
+        "title": "Preslušajte probnu snimku",
+        "desc": "Pustite snimljeni isječak kako biste provjerili zvuči li vam glas jasno i bez šumova."
+      }
+    ],
+    "faqLabel": "Česta pitanja",
+    "faqTitle": "Najčešća pitanja o provjeri mikrofona",
+    "faqIntro": "Brzi odgovori za testiranje mikrofona online, na Windows 10 i 11, Macu, Teamsima, Zoomu ili AirPods slušalicama.",
+    "privacyLabel": "Jamstvo privatnosti",
+    "privacyTitle": "Vaš zvuk ostaje isključivo na ovoj stranici.",
+    "privacyDesc": "Mikrofon se uključuje tek nakon što kliknete na gumb za početak. Mjerenje decibela i snimanje odvijaju se u memoriji vašeg računala i nikad se ne šalju na internet.",
+    "privacyButton": "Testirajte privatno",
+    "footerTagline": "Brz i siguran ispitivač mikrofona za posao, nastavu na daljinu i razgovore.",
+    "footerToolsTitle": "Alati za mikrofon",
+    "footerHelpTitle": "Pomoć i upute",
+    "footerAboutTitle": "O nama",
+    "footerLanguagesTitle": "Jezici (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Sva prava pridržana.",
+    "footerSlogan": "Osmišljeno za jasnije i bolje glasovne pozive.",
+    "footerNote": "Izrađeno uz Web Audio API, bez prijenosa datoteka na poslužitelj."
+  },
+  "faqs": [
+    {
+      "q": "Kako testirati mikrofon online?",
+      "a": "Kliknite na 'Pokreni test mikrofona', odobrite pristup u pregledniku i govorite uobičajenim tonom. Mjerač decibela pomaknut će se čim registrira zvuk. Također možete snimiti kratki isječak i odmah ga preslušati."
+    },
+    {
+      "q": "Kako znati radi li mi mikrofon ispravno?",
+      "a": "Pokrenite test i govorite. Ako indikator reagira i probna se snimka jasno reproducira, mikrofon radi normalno. Ako nema pomaka, provjerite tipku za utišavanje (mute)."
+    },
+    {
+      "q": "Kako provjeriti mikrofon u sustavu Windows 10?",
+      "a": "Otvorite Postavke > Sustav > Zvuk i pogledajte traku ispod stavke 'Ulaz'. Ili upotrijebite ovu stranicu za izravno očitanje u decibelima."
+    },
+    {
+      "q": "Kako provjeriti mikrofon u sustavu Windows 11?",
+      "a": "Idite na Postavke > Sustav > Zvuk, odaberite mikrofon i pokrenite test ulaza. Ili ga provjerite ovdje bez otvaranja izbornika sustava."
+    },
+    {
+      "q": "Kako provjeriti mikrofon na Mac računalu?",
+      "a": "Otvorite Postavke sustava > Zvuk > Ulaz i govorite kako biste provjerili pomiče li se traka ulazne razine. Možete testirati i ovdje u Safariju ili Chromeu."
+    },
+    {
+      "q": "Kako testirati ugrađeni mikrofon na prijenosnom računalu?",
+      "a": "Provjerite da tipka za utišavanje mikrofona na tipkovnici nije uključena, kliknite na pokretanje testa i govorite normalnim glasom prema zaslonu."
+    },
+    {
+      "q": "Kako provjeriti mikrofon prije sastanka na Zoomu ili Teamsima?",
+      "a": "Prije početka sastanka posjetite ovu stranicu i uključite 'Čuj vlastiti glas'. Čut ćete točno onako kako će vas čuti drugi sudionici poziva."
+    },
+    {
+      "q": "Kako testirati AirPods ili bežične Bluetooth slušalice?",
+      "a": "Povežite AirPods s računalom, odaberite ih na popisu mikrofona i započnite test. Snimite 5 sekundi govora kako biste provjerili kvalitetu zvuka."
+    },
+    {
+      "q": "Kako čuti svoj glas onako kako ga drugi čuju?",
+      "a": "Stavite slušalice, pokrenite test i uključite opciju 'Čuj vlastiti glas'. Čut ćete svoj glas u stvarnom vremenu bez ikakvog kašnjenja."
+    },
+    {
+      "q": "Zašto mikrofon uopće ne reagira na govor?",
+      "a": "Provjerite: 1. Dopuštenja u pregledniku; 2. Prekidač za mute na kabelu slušalica; 3. Postavke privatnosti u Windowsima; 4. Zatvorite druge aplikacije koje koriste mikrofon."
+    },
+    {
+      "q": "Šalju li se moje snimke na internet?",
+      "a": "Nikako. Aplikacija koristi Web Audio API i sve obrađuje isključivo lokalno na vašem uređaju."
+    },
+    {
+      "q": "Mogu li provjeriti PC mikrofon bez ulaska u postavke Windowsa?",
+      "a": "Da, samo otvorite TestYourMicrophone.com u pregledniku. On odmah mjeri decibele (dBFS), visinu tona i nudi preslušavanje jednim klikom."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Hrvatski",
+    "webAppDescription": "Testirajte mikrofon na Windows 10, 11, PC-u, Macu ili prijenosnom računalu uz mjerač decibela u stvarnom vremenu i trenutnu reprodukciju. 100% privatno u pregledniku.",
+    "featuresList": [
+      "Zvučni val u stvarnom vremenu",
+      "Jednostavan odabir uređaja",
+      "Čujte ono što drugi čuju",
+      "Tehnički audio podaci",
+      "Jasne obavijesti o stanju",
+      "Potpuna privatnost"
+    ],
+    "howToName": "Test mikrofona online – Besplatna provjera mikrofona (PC, Mac)",
+    "howToDescription": "Testirajte mikrofon na Windows 10, 11, PC-u, Macu ili prijenosnom računalu uz mjerač decibela u stvarnom vremenu i trenutnu reprodukciju. 100% privatno u pregledniku.",
+    "howToSteps": [
+      {
+        "name": "Kliknite na pokretanje testa",
+        "text": "Započnite kada ste spremni dodijeliti pregledniku pristup mikrofonu.",
+        "url": "https://testyourmicrophone.com/hr/#tester"
+      },
+      {
+        "name": "Dopustite pristup mikrofonu",
+        "text": "Odaberite 'Dopusti' (Allow) u dijaloškom okviru vašeg preglednika.",
+        "url": "https://testyourmicrophone.com/hr/#tester"
+      },
+      {
+        "name": "Govorite i promatrajte mjerač",
+        "text": "Govorite normalnim glasom i gledajte kako trake razine zvuka reagiraju.",
+        "url": "https://testyourmicrophone.com/hr/#tester"
+      },
+      {
+        "name": "Promijenite mikrofon ako je potrebno",
+        "text": "Odaberite svoje slušalice ili vanjski mikrofon s padajućeg popisa.",
+        "url": "https://testyourmicrophone.com/hr/#tester"
+      },
+      {
+        "name": "Preslušajte probnu snimku",
+        "text": "Pustite snimljeni isječak kako biste provjerili zvuči li vam glas jasno i bez šumova.",
+        "url": "https://testyourmicrophone.com/hr/#tester"
+      }
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "code": "no",
+  "path": "no",
+  "name": "Norsk",
+  "englishName": "Norwegian",
+  "dir": "ltr",
+  "meta": {
+    "title": "Test mikrofon online – Gratis mikrofontest for PC & Mac",
+    "description": "Sjekk om mikrofonen fungerer på Windows 10, 11, PC, Mac eller bærbar datamaskin med sanntids decibelmåler og lokal avspilling. 100% privat i nettleseren.",
+    "ogTitle": "Test mikrofon online – Gratis mikrofontest",
+    "ogDescription": "Enkel og sikker mikrofontest i nettleseren for PC, Mac, Teams, Zoom og AirPods. Ingen serveropplasting."
+  },
+  "ui": {
+    "startTest": "Start mikrofontest",
+    "stopTest": "Stopp mikrofontest",
+    "requestingAccess": "Ber om mikrofontilgang…",
+    "showMicrophones": "Vis mikrofoner",
+    "refreshMicrophones": "Oppdater mikrofoner",
+    "chooseMicrophone": "Velg din mikrofon",
+    "allowAccessToList": "Gi tilgang for å liste mikrofoner",
+    "namesRevealedHint": "Mikrofoner oppdaget. Velg enhet og start testen.",
+    "noMicDetected": "Ingen mikrofon funnet",
+    "notStarted": "Ikke startet",
+    "lastTested": "Sist testet",
+    "notYet": "Ikke ennå",
+    "yourMicrophone": "Din mikrofon",
+    "status": "Status",
+    "ready": "Klar",
+    "testing": "Tester",
+    "needsAttention": "Krever oppmerksomhet",
+    "waitingForPermission": "Venter på tillatelse",
+    "listeningForSignal": "Lytter etter lydsignal",
+    "signalDetected": "Lydsignal oppdaget",
+    "testStopped": "Test stoppet",
+    "currentLevel": "Gjeldende nivå",
+    "peakLevel": "Toppnivå",
+    "decibels": "Desibel (dBFS)",
+    "pitchNote": "Tonehøyde / Note",
+    "sampleRate": "Samplingsfrekvens",
+    "channels": "Kanaler",
+    "hearMyselfOff": "Hør meg selv (av)",
+    "hearMyselfOn": "Hør meg selv: PÅ (Direkte)",
+    "headphoneHint": "💡 Koble til hodetelefoner før du aktiverer for å unngå hyling",
+    "recordClip": "Ta opp lydklipp",
+    "stopRecording": "Stopp opptak",
+    "startTestBeforeRecording": "Start testen før du gjør opptak.",
+    "recordingStatus": "Tar opp lokalt… maks 30 sekunder.",
+    "recordingReady": "Opptak klart — spill av for å sjekke stemmen din.",
+    "latestRecording": "Siste lokale opptak",
+    "downloadClip": "Last ned opptak",
+    "localPrivacyLock": "Denne testen behandles lokalt i nettleseren. Ingen lyd sendes til eksterne servere.",
+    "silentDbfs": "Stille (<-60 dBFS)",
+    "errPermissionDenied": "Mikrofontilgang ble avvist. Gi tillatelse i nettleserens innstillinger og prøv igjen.",
+    "errNotFound": "Ingen mikrofon funnet. Koble til en mikrofon og prøv på nytt.",
+    "errNotReadable": "Mikrofonen er utilgjengelig, et annet program kan bruke den.",
+    "errDefault": "Kunne ikke starte mikrofonen. Sjekk tilkobling og tillatelser.",
+    "errNotSupported": "Mikrofonliste støttes ikke i denne nettleseren. Prøv Chrome, Edge eller Safari."
+  },
+  "content": {
+    "privacyBadge": "100% I nettleseren & Lokalt • Ingen serveropplasting",
+    "heroHeading": "Test mikrofonen din",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Sjekk om mikrofonen fungerer på Windows, PC, Mac eller bærbar PC—og hør stemmen din før samtalen på Teams, Zoom eller Google Meet starter. 100% privat.",
+    "deviceHint": "Enhetsnavn holdes skjult til du gir tillatelse. Tilgangen brukes kun til å finne mikrofoner og stoppes umiddelbart.",
+    "featuresLabel": "Funksjoner",
+    "featuresTitle": "Alt du trenger for å sjekke mikrofonen din.",
+    "featuresDescription": "Enkle og nøyaktige verktøy: er riktig mikrofon valgt, fanger den opp stemmen din og høres opptaket klart ut?",
+    "features": [
+      {
+        "title": "Sanntids lydbølge",
+        "desc": "Se responsen med en gang du snakker. En bevegelig bølge bekrefter at nettleseren mottar lydsignalet."
+      },
+      {
+        "title": "Velg enhet enkelt",
+        "desc": "Bytt fritt mellom innebygd mikrofon, USB-mikrofon, webkamera eller hodesett."
+      },
+      {
+        "title": "Hør hva andre hører",
+        "desc": "Gjør et kort opptak eller slå på direkte lytting for å vurdere volum og romklang."
+      },
+      {
+        "title": "Tekniske detaljer",
+        "desc": "Sjekk samplingsrate, kanaler og enhetsnavn for enkel feilsøking."
+      },
+      {
+        "title": "Tydelig status",
+        "desc": "Lettforståelige meldinger viser når tillatelse trengs, når testen kjører og når den stopper."
+      },
+      {
+        "title": "Fullt personvern",
+        "desc": "All lydbehandling skjer lokalt i nettleseren. Ingenting overføres til internett."
+      }
+    ],
+    "promo1Title": "Vil du forbedre mikrofonlyden din?",
+    "promo1Desc": "Sjekk mikrofonplassering, akustikk og volum før neste videosamtale.",
+    "promo1Link": "Les feilsøkingsguiden",
+    "promo2Title": "Fungerer ikke mikrofonen?",
+    "promo2Desc": "Sjekk tillatelser, kabler og dempeknapper trinn for trinn.",
+    "promo2Link": "Se hvordan du fikser det",
+    "howLabel": "Bruksanvisning",
+    "howTitle": "Sikkert svar på under fem sekunder.",
+    "howDesc": "Ingen registrering, ingen nedlasting. Koble til mikrofonen, gi tilgang og sjekk lyden før samtalen begynner.",
+    "steps": [
+      {
+        "title": "Klikk start test",
+        "desc": "Start når du er klar til å gi nettleseren mikrofontilgang."
+      },
+      {
+        "title": "Gi tillatelse",
+        "desc": "Trykk 'Tillat' i dialogboksen som vises i nettleseren."
+      },
+      {
+        "title": "Snakk og se måleren",
+        "desc": "Snakk i normalt volum og se at nivåmåleren og lydbølgene reagerer."
+      },
+      {
+        "title": "Bytt mikrofon ved behov",
+        "desc": "Velg hodesettet eller USB-mikrofonen din fra listen."
+      },
+      {
+        "title": "Lytt til opptaket",
+        "desc": "Spill av opptaket for å kontrollere at stemmen er tydelig og uten støy."
+      }
+    ],
+    "faqLabel": "Ofte stilte spørsmål",
+    "faqTitle": "Ofte stilte spørsmål om mikrofontesting",
+    "faqIntro": "Raske svar for testing av mikrofon online, på Windows 10 & 11, Mac, Teams, Zoom eller AirPods.",
+    "privacyLabel": "Personverngaranti",
+    "privacyTitle": "Lydsignalet forblir på denne siden.",
+    "privacyDesc": "Mikrofonen aktiveres kun når du trykker på startknappen. All desibelberegning og opptak skjer lokalt i nettleseren og lastes aldri opp til servere.",
+    "privacyButton": "Test privat",
+    "footerTagline": "Rask og trygg mikrofonsjekk for videomøter, nettkurs og opptak.",
+    "footerToolsTitle": "Mikrofonverktøy",
+    "footerHelpTitle": "Hjelp og veiledning",
+    "footerAboutTitle": "Om oss",
+    "footerLanguagesTitle": "Språk (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Alle rettigheter forbeholdt.",
+    "footerSlogan": "Bygget for klarere samtaler.",
+    "footerNote": "Laget med Web Audio API, ingen opplasting."
+  },
+  "faqs": [
+    {
+      "q": "Hvordan teste mikrofonen på nett?",
+      "a": "Klikk på 'Start mikrofontest', gi tillatelse i nettleseren og snakk vanlig. Volummåleren vil bevege seg når mikrofonen registrerer stemmen din."
+    },
+    {
+      "q": "Hvordan sjekke om mikrofonen fungerer?",
+      "a": "Start testen og snakk inn i mikrofonen. Hvis måleren beveger seg og et testopptak spilles av klart, fungerer alt som det skal. Hvis ikke, sjekk mute-knappen."
+    },
+    {
+      "q": "Hvordan teste mikrofon i Windows 10?",
+      "a": "Gå til Innstillinger > System > Lyd og se på inndatamåleren under 'Inndata'. Eller bruk denne nettsiden for umiddelbar desibelvisning."
+    },
+    {
+      "q": "Hvordan teste mikrofon i Windows 11?",
+      "a": "Åpne Innstillinger > Lyd, velg mikrofonen og kjør inndatatesten. Du kan også teste den her på siden uten å åpne menyer."
+    },
+    {
+      "q": "Hvordan teste mikrofon på Mac?",
+      "a": "Gå til Systeminnstillinger > Lyd > Inndata og snakk for å se at inndatanivået reagerer. Du kan også teste direkte her i Safari eller Chrome."
+    },
+    {
+      "q": "Hvordan teste mikrofonen på en bærbar PC?",
+      "a": "Sjekk at mikrofonen ikke er dempet på tastaturet, trykk på start test på denne siden og snakk med vanlig stemme."
+    },
+    {
+      "q": "Hvordan teste mikrofonen før Zoom eller Teams?",
+      "a": "Før møtet starter, gå inn på denne nettsiden og skru på 'Hør meg selv' for å høre nøyaktig hvordan andre deltakere vil høre deg."
+    },
+    {
+      "q": "Hvordan teste AirPods eller trådløse hodetelefoner?",
+      "a": "Koble AirPods til datamaskinen, velg dem i enhetslisten og start testen. Spill inn et 5-sekunders klipp for å sjekke talekvaliteten."
+    },
+    {
+      "q": "Hvordan høre meg selv slik andre hører meg?",
+      "a": "Koble til hodetelefoner, start testen og aktiver 'Hør meg selv'. Da hører du din egen stemme i sanntid uten forsinkelse."
+    },
+    {
+      "q": "Hvorfor kommer det ingen lyd fra mikrofonen?",
+      "a": "Sjekk nettlesertillatelser, fysiske dempeknapper på ledningen og lukk andre programmer som kan låse mikrofonen."
+    },
+    {
+      "q": "Blir opptakene mine sendt til internett?",
+      "a": "Nei, absolutt ikke. Alt behandles lokalt i datamaskinens nettleser med Web Audio API."
+    },
+    {
+      "q": "Kan jeg teste PC-mikrofonen uten å åpne Windows-innstillinger?",
+      "a": "Ja, bare åpne TestYourMicrophone.com i nettleseren for direkte dBFS-måling og lydavspilling med ett klikk."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Norsk",
+    "webAppDescription": "Sjekk om mikrofonen fungerer på Windows 10, 11, PC, Mac eller bærbar datamaskin med sanntids decibelmåler og lokal avspilling. 100% privat i nettleseren.",
+    "featuresList": [
+      "Sanntids lydbølge",
+      "Velg enhet enkelt",
+      "Hør hva andre hører",
+      "Tekniske detaljer",
+      "Tydelig status",
+      "Fullt personvern"
+    ],
+    "howToName": "Test mikrofon online – Gratis mikrofontest for PC & Mac",
+    "howToDescription": "Sjekk om mikrofonen fungerer på Windows 10, 11, PC, Mac eller bærbar datamaskin med sanntids decibelmåler og lokal avspilling. 100% privat i nettleseren.",
+    "howToSteps": [
+      {
+        "name": "Klikk start test",
+        "text": "Start når du er klar til å gi nettleseren mikrofontilgang.",
+        "url": "https://testyourmicrophone.com/no/#tester"
+      },
+      {
+        "name": "Gi tillatelse",
+        "text": "Trykk 'Tillat' i dialogboksen som vises i nettleseren.",
+        "url": "https://testyourmicrophone.com/no/#tester"
+      },
+      {
+        "name": "Snakk og se måleren",
+        "text": "Snakk i normalt volum og se at nivåmåleren og lydbølgene reagerer.",
+        "url": "https://testyourmicrophone.com/no/#tester"
+      },
+      {
+        "name": "Bytt mikrofon ved behov",
+        "text": "Velg hodesettet eller USB-mikrofonen din fra listen.",
+        "url": "https://testyourmicrophone.com/no/#tester"
+      },
+      {
+        "name": "Lytt til opptaket",
+        "text": "Spill av opptaket for å kontrollere at stemmen er tydelig og uten støy.",
+        "url": "https://testyourmicrophone.com/no/#tester"
+      }
+    ]
+  }
+}

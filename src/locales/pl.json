@@ -1,0 +1,232 @@
+{
+  "code": "pl",
+  "path": "pl",
+  "name": "Polski",
+  "englishName": "Polish",
+  "dir": "ltr",
+  "meta": {
+    "title": "Test mikrofonu online – Sprawdź mikrofon za darmo (PC, Mac)",
+    "description": "Sprawdź działanie mikrofonu w Windows 10, 11, PC, Mac lub laptopie za pomocą darmowego miernika decybeli na żywo i odsłuchu nagrania. 100% prywatnie w przeglądarce.",
+    "ogTitle": "Test mikrofonu online – Sprawdź mikrofon za darmo",
+    "ogDescription": "Przetestuj mikrofon online w Windows, PC, Mac, Teams, laptopie lub słuchawkach z miernikiem głośności na żywo i natychmiastowym odsłuchem."
+  },
+  "ui": {
+    "startTest": "Rozpocznij test mikrofonu",
+    "stopTest": "Zatrzymaj test mikrofonu",
+    "requestingAccess": "Prośba o dostęp do mikrofonu…",
+    "showMicrophones": "Pokaż listę mikrofonów",
+    "refreshMicrophones": "Odśwież listę mikrofonów",
+    "chooseMicrophone": "Wybierz swój mikrofon",
+    "allowAccessToList": "Zezwól na dostęp, aby wyświetlić mikrofony",
+    "namesRevealedHint": "Wykryto mikrofony. Wybierz urządzenie i rozpocznij test.",
+    "noMicDetected": "Nie wykryto żadnego mikrofonu",
+    "notStarted": "Nie rozpoczęto",
+    "lastTested": "Ostatnio testowano",
+    "notYet": "Jeszcze nie",
+    "yourMicrophone": "Twój mikrofon",
+    "status": "Status",
+    "ready": "Gotowy",
+    "testing": "Testowanie w toku",
+    "needsAttention": "Wymaga uwagi",
+    "waitingForPermission": "Oczekiwanie na zgodę",
+    "listeningForSignal": "Nasłuchiwanie sygnału",
+    "signalDetected": "Wykryto sygnał audio",
+    "testStopped": "Test zatrzymany",
+    "currentLevel": "Aktualny poziom",
+    "peakLevel": "Poziom szczytowy",
+    "decibels": "Decybele (dBFS)",
+    "pitchNote": "Wysokość tonu / Nuta",
+    "sampleRate": "Częstotliwość próbkowania",
+    "channels": "Kanały",
+    "hearMyselfOff": "Słuchaj własnego głosu (wył.)",
+    "hearMyselfOn": "Słuchaj własnego głosu: WŁ. (Na żywo)",
+    "headphoneHint": "💡 Podłącz słuchawki przed włączeniem, aby uniknąć sprzężenia akustycznego (pisku)",
+    "recordClip": "Nagraj próbkę głosu",
+    "stopRecording": "Zatrzymaj nagrywanie",
+    "startTestBeforeRecording": "Rozpocznij test przed nagrywaniem.",
+    "recordingStatus": "Nagrywanie lokalne… maks. 30 sekund.",
+    "recordingReady": "Nagranie gotowe — odtwórz, aby ocenić jakość swojego głosu.",
+    "latestRecording": "Ostatnie nagranie lokalne",
+    "downloadClip": "Pobierz nagranie",
+    "localPrivacyLock": "Test jest przetwarzany lokalnie w Twojej przeglądarce. Dostęp do mikrofonu jest aktywny tylko podczas testu.",
+    "silentDbfs": "Cisza (<-60 dBFS)",
+    "errPermissionDenied": "Odmówiono dostępu do mikrofonu. Zezwól na dostęp w ustawieniach przeglądarki i spróbuj ponownie.",
+    "errNotFound": "Nie znaleziono mikrofonu. Podłącz urządzenie i spróbuj ponownie.",
+    "errNotReadable": "Mikrofon jest niedostępny, prawdopodobnie używa go inna aplikacja.",
+    "errDefault": "Nie udało się uruchomić mikrofonu. Sprawdź połączenie kabla i uprawnienia.",
+    "errNotSupported": "Wykrywanie mikrofonów nie jest obsługiwane w tej przeglądarce. Użyj Chrome, Edge lub Safari."
+  },
+  "content": {
+    "privacyBadge": "100% W przeglądarce & Lokalnie • Brak wysyłania na serwer",
+    "heroHeading": "Przetestuj swój mikrofon",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Sprawdź, czy Twój mikrofon działa w systemie Windows, na komputerze PC, Mac lub laptopie — i posłuchaj swojego głosu przed rozmową na Zoom, Teams lub Discord. 100% prywatnie.",
+    "deviceHint": "Nazwy urządzeń pozostają ukryte do momentu wyrażenia zgody. Dostęp jest używany tylko do wylistowania mikrofonów i natychmiast zatrzymywany.",
+    "featuresLabel": "Funkcje",
+    "featuresTitle": "Wszystko, czego potrzebujesz do sprawdzenia mikrofonu.",
+    "featuresDescription": "Proste narzędzia do kluczowych testów: czy wybrano właściwy mikrofon, czy reaguje na Twój głos i czy nagranie brzmi czysto?",
+    "features": [
+      {
+        "title": "Fala dźwiękowa w czasie rzeczywistym",
+        "desc": "Zobacz natychmiastową reakcję dźwięku, gdy mówisz. Animowany wykres potwierdza odbiór sygnału przez przeglądarkę."
+      },
+      {
+        "title": "Wybór urządzenia wejściowego",
+        "desc": "Przełączaj się łatwo między mikrofonem wbudowanym w laptopie, mikrofonem USB, kamerką internetową lub zestawem słuchawkowym."
+      },
+      {
+        "title": "Usłysz to, co słyszą inni",
+        "desc": "Nagraj krótką próbkę lub włącz odsłuch bez opóźnień, aby ocenić głośność i czystość mowy przed ważnym spotkaniem."
+      },
+      {
+        "title": "Szczegółowe dane techniczne",
+        "desc": "Sprawdź częstotliwość próbkowania, liczbę kanałów oraz wykrytą nazwę urządzenia, aby łatwiej diagnozować usterki."
+      },
+      {
+        "title": "Przejrzyste komunikaty",
+        "desc": "Czytelne statusy informują, kiedy potrzebna jest zgoda, kiedy trwa test i kiedy mikrofon został wyłączony."
+      },
+      {
+        "title": "Pełna prywatność w przeglądarce",
+        "desc": "Analiza odbywa się lokalnie na Twoim komputerze. Żadne nagranie nie jest przesyłane na nasze serwery."
+      }
+    ],
+    "promo1Title": "Chcesz poprawić jakość dźwięku mikrofonu?",
+    "promo1Desc": "Sprawdź odległość od ust, echo w pokoju i poziom głośności wejścia przed rozmową.",
+    "promo1Link": "Przeczytaj poradnik rozwiązywania problemów",
+    "promo2Title": "Mikrofon nie reaguje?",
+    "promo2Desc": "Sprawdź krok po kroku uprawnienia przeglądarki, kabel połączeniowy i przycisk wyciszenia.",
+    "promo2Link": "Dowiedz się jak to naprawić",
+    "howLabel": "Instrukcja krok po kroku",
+    "howTitle": "Pewna diagnoza w pięć sekund.",
+    "howDesc": "Bez rejestracji i bez instalowania aplikacji. Podłącz mikrofon, zezwól na dostęp i sprawdź jakość dźwięku przed wideokonferencją.",
+    "steps": [
+      {
+        "title": "Kliknij przycisk testu",
+        "desc": "Rozpocznij test, gdy będziesz gotowy udzielić przeglądarce uprawnień do mikrofonu."
+      },
+      {
+        "title": "Zezwól na dostęp",
+        "desc": "Kliknij 'Zezwól' (Allow) w oknie komunikatu przeglądarki."
+      },
+      {
+        "title": "Mów i obserwuj miernik",
+        "desc": "Powiedz kilka słów z normalną głośnością i sprawdź, czy wskaźnik poziomu reaguje na Twój głos."
+      },
+      {
+        "title": "Zmień mikrofon w razie potrzeby",
+        "desc": "Wybierz swoje słuchawki lub mikrofon studyjny USB z rozwijanej listy."
+      },
+      {
+        "title": "Odsłuchaj nagranie testowe",
+        "desc": "Odtwórz zarejestrowany klip, aby ocenić brzmienie, głośność i brak zniekształceń."
+      }
+    ],
+    "faqLabel": "Często zadawane pytania (FAQ)",
+    "faqTitle": "Najczęstsze pytania o test mikrofonu",
+    "faqIntro": "Szybkie odpowiedzi dotyczące sprawdzania mikrofonu online, w Windows 10 i 11, na Macu, Teams, Zoom lub słuchawkach AirPods.",
+    "privacyLabel": "Gwarancja prywatności",
+    "privacyTitle": "Twój strumień audio pozostaje wyłącznie na tej stronie.",
+    "privacyDesc": "Mikrofon uruchamia się tylko wtedy, gdy klikniesz przycisk rozpoczęcia testu. Pomiar decybeli i nagrywanie odbywają się w pamięci Twojego urządzenia bez wysyłania jakichkolwiek danych na zewnątrz.",
+    "privacyButton": "Testuj prywatnie",
+    "footerTagline": "Szybkie, bezpieczne i dokładne narzędzie do sprawdzania mikrofonu przed pracą i nauką zdalną.",
+    "footerToolsTitle": "Narzędzia mikrofonowe",
+    "footerHelpTitle": "Pomoc i poradniki",
+    "footerAboutTitle": "O nas",
+    "footerLanguagesTitle": "Języki (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Wszelkie prawa zastrzeżone.",
+    "footerSlogan": "Stworzone dla lepszej jakości rozmów.",
+    "footerNote": "Oparte na Web Audio API, bez wysyłania plików na serwer."
+  },
+  "faqs": [
+    {
+      "q": "Jak przetestować mikrofon online?",
+      "a": "Kliknij 'Rozpocznij test mikrofonu', zezwól na dostęp w przeglądarce i powiedz kilka słów. Pasek głośności poruszy się, gdy mikrofon odbierze Twój głos. Możesz również nagrać krótki klip i natychmiast go odsłuchać."
+    },
+    {
+      "q": "Jak sprawdzić, czy mikrofon działa?",
+      "a": "Uruchom test i zacznij mówić. Jeśli miernik poziomu reaguje, a nagrana próbka odtwarza się wyraźnie, mikrofon działa poprawnie. Jeśli nic się nie dzieje, sprawdź fizyczny wyłącznik mute i kabel."
+    },
+    {
+      "q": "Jak sprawdzić mikrofon w Windows 10?",
+      "a": "Otwórz Ustawienia > System > Dźwięk i spójrz na pasek poziomu pod nagłówkiem 'Wejście'. Możesz też skorzystać z tej strony, aby zobaczyć dokładny pomiar w decybelach."
+    },
+    {
+      "q": "Jak sprawdzić mikrofon w Windows 11?",
+      "a": "Przejdź do Ustawienia > System > Dźwięk, wybierz swój mikrofon i wykonaj test wejścia. Na tej stronie sprawdzisz go od razu bez otwierania paneli systemowych."
+    },
+    {
+      "q": "Jak przetestować mikrofon na komputerze Mac?",
+      "a": "Otwórz Ustawienia systemowe > Dźwięk > Wejście i mów, aby sprawdzić czy porusza się wskaźnik poziomu wejściowego. Możesz też przetestować go tutaj w Safari lub Chrome."
+    },
+    {
+      "q": "Jak sprawdzić wbudowany mikrofon w laptopie?",
+      "a": "Upewnij się, że mikrofon nie jest wyciszony klawiszem funkcyjnym na klawiaturze, kliknij 'Rozpocznij test' na tej stronie i mów naturalnym głosem."
+    },
+    {
+      "q": "Jak sprawdzić mikrofon przed spotkaniem na Zoom lub Teams?",
+      "a": "Przed dołączeniem do spotkania wejdź na tę stronę i włącz opcję 'Słuchaj własnego głosu'. Usłyszysz dokładnie to, co usłyszą inni uczestnicy wideokonferencji."
+    },
+    {
+      "q": "Jak przetestować mikrofon w słuchawkach AirPods lub Bluetooth?",
+      "a": "Połącz słuchawki z komputerem, wybierz je z listy urządzeń i kliknij start. Nagraj 5 sekund, aby ocenić jakość bezprzewodowego przesyłu głosu."
+    },
+    {
+      "q": "Jak usłyszeć swój głos dokładnie tak, jak słyszą go inni?",
+      "a": "Załóż słuchawki, rozpocznij test i włącz funkcję 'Słuchaj własnego głosu' lub nagraj próbkę. Usłyszysz swój głos na żywo z zerowym opóźnieniem."
+    },
+    {
+      "q": "Dlaczego mikrofon w ogóle nie odbiera dźwięku?",
+      "a": "Sprawdź: 1. Uprawnienia w przeglądarce; 2. Przełącznik wyciszenia (mute) na kablu; 3. Ustawienia prywatności mikrofonu w Windows; 4. Zamknij inne programy, które mogą blokować mikrofon."
+    },
+    {
+      "q": "Czy moje nagrania są przesyłane przez internet?",
+      "a": "Absolutnie nie. Aplikacja korzysta z Web Audio API i przetwarza cały dźwięk wyłącznie lokalnie w pamięci RAM Twojego komputera."
+    },
+    {
+      "q": "Czy można sprawdzić mikrofon PC bez wchodzenia w ustawienia Windows?",
+      "a": "Tak, wystarczy wejść na TestYourMicrophone.com. Strona natychmiast mierzy poziom dBFS, wysokość głosu i umożliwia bezpośredni odsłuch."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Polski",
+    "webAppDescription": "Sprawdź działanie mikrofonu w Windows 10, 11, PC, Mac lub laptopie za pomocą darmowego miernika decybeli na żywo i odsłuchu nagrania. 100% prywatnie w przeglądarce.",
+    "featuresList": [
+      "Fala dźwiękowa w czasie rzeczywistym",
+      "Wybór urządzenia wejściowego",
+      "Usłysz to, co słyszą inni",
+      "Szczegółowe dane techniczne",
+      "Przejrzyste komunikaty",
+      "Pełna prywatność w przeglądarce"
+    ],
+    "howToName": "Test mikrofonu online – Sprawdź mikrofon za darmo (PC, Mac)",
+    "howToDescription": "Sprawdź działanie mikrofonu w Windows 10, 11, PC, Mac lub laptopie za pomocą darmowego miernika decybeli na żywo i odsłuchu nagrania. 100% prywatnie w przeglądarce.",
+    "howToSteps": [
+      {
+        "name": "Kliknij przycisk testu",
+        "text": "Rozpocznij test, gdy będziesz gotowy udzielić przeglądarce uprawnień do mikrofonu.",
+        "url": "https://testyourmicrophone.com/pl/#tester"
+      },
+      {
+        "name": "Zezwól na dostęp",
+        "text": "Kliknij 'Zezwól' (Allow) w oknie komunikatu przeglądarki.",
+        "url": "https://testyourmicrophone.com/pl/#tester"
+      },
+      {
+        "name": "Mów i obserwuj miernik",
+        "text": "Powiedz kilka słów z normalną głośnością i sprawdź, czy wskaźnik poziomu reaguje na Twój głos.",
+        "url": "https://testyourmicrophone.com/pl/#tester"
+      },
+      {
+        "name": "Zmień mikrofon w razie potrzeby",
+        "text": "Wybierz swoje słuchawki lub mikrofon studyjny USB z rozwijanej listy.",
+        "url": "https://testyourmicrophone.com/pl/#tester"
+      },
+      {
+        "name": "Odsłuchaj nagranie testowe",
+        "text": "Odtwórz zarejestrowany klip, aby ocenić brzmienie, głośność i brak zniekształceń.",
+        "url": "https://testyourmicrophone.com/pl/#tester"
+      }
+    ]
+  }
+}

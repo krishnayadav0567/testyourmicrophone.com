@@ -19,3 +19,5 @@ service-account*.json
 *.log
 .cache/
 tmp/
+__pycache__/
+*.pyc

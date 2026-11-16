@@ -1,0 +1,232 @@
+{
+  "code": "en",
+  "path": "",
+  "name": "English",
+  "englishName": "English",
+  "dir": "ltr",
+  "meta": {
+    "title": "How to Test your microphone | Free Mic Test",
+    "description": "Learn how to Test your microphone on Windows 10, Windows 11, PC, Mac, Teams, or a laptop with a free live mic test and local playback.",
+    "ogTitle": "How to Test your microphone | Free Mic Test",
+    "ogDescription": "Test a microphone online on Windows, PC, Mac, Teams, laptop, or AirPods with live levels and local playback."
+  },
+  "ui": {
+    "startTest": "Start microphone test",
+    "stopTest": "Stop microphone test",
+    "requestingAccess": "Requesting access…",
+    "showMicrophones": "Show microphones",
+    "refreshMicrophones": "Refresh microphones",
+    "chooseMicrophone": "Choose your microphone",
+    "allowAccessToList": "Allow access to list microphones",
+    "namesRevealedHint": "Names revealed. Choose a microphone, then start the test.",
+    "noMicDetected": "No microphone detected",
+    "notStarted": "Not started",
+    "lastTested": "Last tested",
+    "notYet": "Not yet",
+    "yourMicrophone": "Your microphone",
+    "status": "Status",
+    "ready": "Ready",
+    "testing": "Testing",
+    "needsAttention": "Needs attention",
+    "waitingForPermission": "Waiting for permission",
+    "listeningForSignal": "Listening for signal",
+    "signalDetected": "Signal detected",
+    "testStopped": "Test stopped",
+    "currentLevel": "Current level",
+    "peakLevel": "Peak level",
+    "decibels": "Decibels (dBFS)",
+    "pitchNote": "Pitch / Note",
+    "sampleRate": "Sample rate",
+    "channels": "Channels",
+    "hearMyselfOff": "Hear myself (off)",
+    "hearMyselfOn": "Hear myself: ON (Live)",
+    "headphoneHint": "💡 Connect headphones before enabling to avoid speaker acoustic feedback",
+    "recordClip": "Record a clip",
+    "stopRecording": "Stop recording",
+    "startTestBeforeRecording": "Start the test before recording.",
+    "recordingStatus": "Recording locally… max 30 seconds.",
+    "recordingReady": "Clip ready — play it back to hear your mic.",
+    "latestRecording": "Latest local recording",
+    "downloadClip": "Download clip",
+    "localPrivacyLock": "This test is processed locally. Microphone access is only active while testing.",
+    "silentDbfs": "Silent (<-60 dBFS)",
+    "errPermissionDenied": "Microphone permission was denied. Allow microphone access in your browser settings, then try again.",
+    "errNotFound": "No microphone was found. Connect an input device and try again.",
+    "errNotReadable": "The microphone is unavailable, possibly because another app is using it. Close other audio apps and try again.",
+    "errDefault": "The microphone could not be started. Check your device connection and browser permissions, then try again.",
+    "errNotSupported": "Microphone listing is not available in this browser. Try a recent version of Chrome, Edge, Firefox, or Safari over HTTPS or localhost."
+  },
+  "content": {
+    "privacyBadge": "100% In-Browser & Local • No Server Uploads",
+    "heroHeading": "Test your microphone",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Check whether your microphone works on Windows, PC, Mac, or laptop—and hear how you sound before your WhatsApp, Teams, or Zoom calls. 100% private in-browser testing.",
+    "deviceHint": "Device names stay hidden until you allow access. Access is used only to list devices, then stopped immediately.",
+    "featuresLabel": "Features",
+    "featuresTitle": "Everything you need to check your microphone.",
+    "featuresDescription": "Simple tools for the checks that matter most: is the right mic selected, is it picking up your voice, and does the recording sound usable?",
+    "features": [
+      {
+        "title": "Real-time waveform",
+        "desc": "See your audio input respond as you speak. A moving waveform confirms that the browser is receiving your microphone signal."
+      },
+      {
+        "title": "Choose your device",
+        "desc": "Switch between a built-in mic, USB microphone, webcam, or headset input from the devices available to your browser."
+      },
+      {
+        "title": "Hear what others hear",
+        "desc": "Make a short browser recording or use the zero-latency loopback monitor to hear your exact voice, volume, and clarity before your calls."
+      },
+      {
+        "title": "Microphone information",
+        "desc": "Review the active sample rate, channel count, and detected device label to help troubleshoot setup issues."
+      },
+      {
+        "title": "Permission clarity",
+        "desc": "Clear status messages explain when permission is needed, when the test is running, and when the microphone has stopped."
+      },
+      {
+        "title": "Private in your browser",
+        "desc": "The page analyzes the live stream locally. No microphone audio is sent to our server for this test."
+      }
+    ],
+    "promo1Title": "Want to improve your microphone sound?",
+    "promo1Desc": "Check your positioning, room setup, input selection, and browser permissions before your next call.",
+    "promo1Link": "Read the troubleshooting guide",
+    "promo2Title": "Microphone not working?",
+    "promo2Desc": "Work through the most common permission, connection, and device-selection issues step by step.",
+    "promo2Link": "Learn how to fix it",
+    "howLabel": "How to test your microphone",
+    "howTitle": "Five seconds to a useful answer.",
+    "howDesc": "You do not need an account or a download. Connect your microphone, allow access, and use the meter and short recording to check it before a Zoom, Teams, Meet, or Discord call.",
+    "steps": [
+      {
+        "title": "Click the test button",
+        "desc": "Start the test when you are ready to give this page microphone access."
+      },
+      {
+        "title": "Allow microphone access",
+        "desc": "Choose Allow in your browser prompt. The browser controls when a site can use your mic."
+      },
+      {
+        "title": "Speak and watch the meter",
+        "desc": "Say a few words at your normal volume. The level bars should move as you speak."
+      },
+      {
+        "title": "Switch input devices if needed",
+        "desc": "Use the device list to select your headset, USB microphone, or another available input."
+      },
+      {
+        "title": "Record a short clip",
+        "desc": "Play the local recording back to check how your voice actually sounds."
+      }
+    ],
+    "faqLabel": "Microphone FAQs",
+    "faqTitle": "How do I test my microphone?",
+    "faqIntro": "Find quick answers for how to test a microphone online, on Windows 10 and 11, on a PC, Mac, laptop, Microsoft Teams, or with AirPods.",
+    "privacyLabel": "A precise privacy promise",
+    "privacyTitle": "Your microphone stream stays on this page.",
+    "privacyDesc": "Microphone access starts only after you click the test button and approve the browser prompt. Level analysis and recordings happen locally in your browser. Stop the test when you are done; the page stops its audio tracks and does not upload your recording.",
+    "privacyButton": "Test privately",
+    "footerTagline": "A fast, focused microphone checker for calls, recordings, and everyday troubleshooting.",
+    "footerToolsTitle": "Microphone tools",
+    "footerHelpTitle": "Help & guides",
+    "footerAboutTitle": "About",
+    "footerLanguagesTitle": "Languages",
+    "footerRights": "© 2026 TestYourMicrophone.com. All rights reserved.",
+    "footerSlogan": "Built for a better call.",
+    "footerNote": "Made with browser APIs, no upload required."
+  },
+  "faqs": [
+    {
+      "q": "How to test microphone online?",
+      "a": "Click Start microphone test, allow microphone access when your browser asks, and speak normally. The live meter should move as your microphone picks up sound. You can also record a short clip and play it back locally."
+    },
+    {
+      "q": "How to test if microphone is working?",
+      "a": "Start the microphone test, allow browser access, and speak into the microphone. If the level meter responds and a recorded clip plays back clearly, the microphone is working. If there is no signal, check the selected input, mute switch, and device connection."
+    },
+    {
+      "q": "How to test microphone Windows 10?",
+      "a": "To test microphone Windows 10, open Settings, choose System, then Sound, and select your microphone under Input to check the input level. You can also use this online microphone test: click Start microphone test, allow access, speak, and confirm that the live meter responds."
+    },
+    {
+      "q": "How to test microphone Windows 11?",
+      "a": "To test microphone Windows 11, open Settings, go to System, then Sound, and choose your microphone under Input. Test the signal, or click Start microphone test on this page and speak to see the live level meter respond."
+    },
+    {
+      "q": "How to test microphone on Mac?",
+      "a": "To test microphone on Mac, open System Settings, select Sound, and choose the microphone under Input. You can also use this page to allow browser access, watch the live meter, and play back a short local recording."
+    },
+    {
+      "q": "How to test microphone on laptop?",
+      "a": "Make sure the laptop microphone is not muted, click Start microphone test, and allow access in your browser. Speak at a normal volume and confirm that the level meter moves. If you use a headset or USB microphone, select it from the input device list."
+    },
+    {
+      "q": "How to test microphone in Teams and Zoom?",
+      "a": "Open Microsoft Teams or Zoom Settings, choose Audio/Devices, select your microphone, and run the test call. You can test the same microphone here first by checking the live meter and local recording."
+    },
+    {
+      "q": "How to test AirPods or wireless microphone?",
+      "a": "Connect your AirPods or Bluetooth headset, choose them as the input device, and click Start microphone test. Speak normally and confirm the live meter moves, then record a 5-second clip to hear playback quality."
+    },
+    {
+      "q": "How do I test my microphone to hear what other people hear?",
+      "a": "Connect headphones, click Start microphone test, and turn on the 'Hear myself' loopback monitor. You will hear your voice in real time with zero latency, allowing you to check background noise, echo, and volume balance."
+    },
+    {
+      "q": "Why is my microphone not working?",
+      "a": "Check browser permission, the selected input device, the physical mute switch, and the cable or Bluetooth connection. Close other apps that may be locking the microphone, then reload this page and try again."
+    },
+    {
+      "q": "Can I test my microphone without uploading audio?",
+      "a": "Yes. This microphone test processes the live stream locally in your browser using the Web Audio API. Audio is never sent to any server, and recordings remain completely private on your device."
+    },
+    {
+      "q": "How do I test my PC microphone locally without opening Windows sound settings?",
+      "a": "Open TestYourMicrophone.com in your browser. It uses the Web Audio API to test your microphone locally on your device with a live decibel (dBFS) meter, pitch detector, and instant playback with zero configuration required."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - English",
+    "webAppDescription": "Learn how to Test your microphone on Windows 10, Windows 11, PC, Mac, Teams, or a laptop with a free live mic test and local playback.",
+    "featuresList": [
+      "Real-time waveform",
+      "Choose your device",
+      "Hear what others hear",
+      "Microphone information",
+      "Permission clarity",
+      "Private in your browser"
+    ],
+    "howToName": "How to Test your microphone | Free Mic Test",
+    "howToDescription": "Learn how to Test your microphone on Windows 10, Windows 11, PC, Mac, Teams, or a laptop with a free live mic test and local playback.",
+    "howToSteps": [
+      {
+        "name": "Click the test button",
+        "text": "Start the test when you are ready to give this page microphone access.",
+        "url": "https://testyourmicrophone.com/#tester"
+      },
+      {
+        "name": "Allow microphone access",
+        "text": "Choose Allow in your browser prompt. The browser controls when a site can use your mic.",
+        "url": "https://testyourmicrophone.com/#tester"
+      },
+      {
+        "name": "Speak and watch the meter",
+        "text": "Say a few words at your normal volume. The level bars should move as you speak.",
+        "url": "https://testyourmicrophone.com/#tester"
+      },
+      {
+        "name": "Switch input devices if needed",
+        "text": "Use the device list to select your headset, USB microphone, or another available input.",
+        "url": "https://testyourmicrophone.com/#tester"
+      },
+      {
+        "name": "Record a short clip",
+        "text": "Play the local recording back to check how your voice actually sounds.",
+        "url": "https://testyourmicrophone.com/#tester"
+      }
+    ]
+  }
+}

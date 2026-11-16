@@ -1,0 +1,232 @@
+{
+  "code": "nl",
+  "path": "nl",
+  "name": "Nederlands",
+  "englishName": "Dutch",
+  "dir": "ltr",
+  "meta": {
+    "title": "Microfoon testen online – Gratis microfoontest (Windows, Mac, PC)",
+    "description": "Test je microfoon online voor Windows 10, 11, PC, Mac of laptop met live decibelmeter, pitchdetectie en directe afspeelopname. 100% lokaal en privé in je browser.",
+    "ogTitle": "Microfoon testen online – Gratis microfoontest",
+    "ogDescription": "Controleer of je microfoon werkt op Windows, PC, Mac, Teams, laptop of AirPods met live niveaumeter en lokale audio-weergave."
+  },
+  "ui": {
+    "startTest": "Microfoontest starten",
+    "stopTest": "Microfoontest stoppen",
+    "requestingAccess": "Toegang aanvragen…",
+    "showMicrophones": "Microfoons tonen",
+    "refreshMicrophones": "Microfoons vernieuwen",
+    "chooseMicrophone": "Kies je microfoon",
+    "allowAccessToList": "Toegang toestaan om microfoons te tonen",
+    "namesRevealedHint": "Namen zichtbaar. Kies een microfoon en start de test.",
+    "noMicDetected": "Geen microfoon gedetecteerd",
+    "notStarted": "Niet gestart",
+    "lastTested": "Laatst getest",
+    "notYet": "Nog niet",
+    "yourMicrophone": "Jouw microfoon",
+    "status": "Status",
+    "ready": "Klaar",
+    "testing": "Test actief",
+    "needsAttention": "Aandacht vereist",
+    "waitingForPermission": "Wachten op toestemming",
+    "listeningForSignal": "Luisteren naar signaal",
+    "signalDetected": "Signaal gedetecteerd",
+    "testStopped": "Test gestopt",
+    "currentLevel": "Huidig niveau",
+    "peakLevel": "Piekniveau",
+    "decibels": "Decibels (dBFS)",
+    "pitchNote": "Toonhoogte / Noot",
+    "sampleRate": "Samplefrequentie",
+    "channels": "Kanalen",
+    "hearMyselfOff": "Mezelf horen (uit)",
+    "hearMyselfOn": "Mezelf horen: AAN (Live)",
+    "headphoneHint": "💡 Sluit een hoofdtelefoon aan om akoestische feedback te voorkomen",
+    "recordClip": "Clip opnemen",
+    "stopRecording": "Opname stoppen",
+    "startTestBeforeRecording": "Start eerst de test voor je opneemt.",
+    "recordingStatus": "Lokaal opnemen… max 30 seconden.",
+    "recordingReady": "Clip klaar — speel af om je stemkwaliteit te horen.",
+    "latestRecording": "Laatste lokale opname",
+    "downloadClip": "Clip downloaden",
+    "localPrivacyLock": "Deze test wordt lokaal verwerkt. Microfoontoegang is alleen actief tijdens het testen.",
+    "silentDbfs": "Stil (<-60 dBFS)",
+    "errPermissionDenied": "Microfoontoegang geweigerd. Geef toestemming in je browserinstellingen en probeer opnieuw.",
+    "errNotFound": "Geen microfoon gevonden. Sluit een invoerapparaat aan en probeer opnieuw.",
+    "errNotReadable": "De microfoon is niet beschikbaar, mogelijk omdat een ander programma deze gebruikt.",
+    "errDefault": "De microfoon kon niet worden gestart. Controleer aansluiting en rechten.",
+    "errNotSupported": "Microfoonoverzicht niet ondersteund in deze browser. Gebruik Chrome, Edge, Firefox of Safari."
+  },
+  "content": {
+    "privacyBadge": "100% In browser & Lokaal • Geen server-uploads",
+    "heroHeading": "Test je microfoon",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Controleer of je microfoon werkt op Windows, PC, Mac of laptop—en hoor hoe je klinkt vóór je WhatsApp-, Teams- of Zoom-gesprek. 100% privé in je browser.",
+    "deviceHint": "Apparaatnamen blijven verborgen tot je toestemming geeft. Toegang dient alleen om apparaten te tonen en stopt daarna direct.",
+    "featuresLabel": "Functies",
+    "featuresTitle": "Alles wat je nodig hebt om je microfoon te controleren.",
+    "featuresDescription": "Eenvoudige hulpmiddelen voor de belangrijkste checks: is de juiste microfoon geselecteerd, pikt hij je stem op en klinkt de opname zuiver?",
+    "features": [
+      {
+        "title": "Realtime golfvorm",
+        "desc": "Zie direct audiorespons zodra je spreekt. Een bewegende golfvorm bevestigt de signaalontvangst."
+      },
+      {
+        "title": "Kies je apparaat",
+        "desc": "Schakel eenvoudig tussen ingebouwde microfoon, USB-microfoon, webcam of headset."
+      },
+      {
+        "title": "Hoor wat anderen horen",
+        "desc": "Maak een korte opname of gebruik de latentievrije loopback-monitor om je stemgeluid te controleren."
+      },
+      {
+        "title": "Microfoongegevens",
+        "desc": "Bekijk actieve samplefrequentie, aantal kanalen en apparaatnaam om instellingen te verifiëren."
+      },
+      {
+        "title": "Duidelijke rechten",
+        "desc": "Heldere meldingen laten zien wanneer toegang nodig is en wanneer de microfoon gestopt is."
+      },
+      {
+        "title": "Privé in je browser",
+        "desc": "De analyse gebeurt lokaal op je toestel. Er wordt geen audio naar servers verstuurd."
+      }
+    ],
+    "promo1Title": "Wil je je microfoongeluid verbeteren?",
+    "promo1Desc": "Controleer microfoonpositie, kamerakoestiek en instellingen voor je volgende vergadering.",
+    "promo1Link": "Probleemoplossing bekijken",
+    "promo2Title": "Microfoon werkt niet?",
+    "promo2Desc": "Doorloop stap voor stap de meest voorkomende oorzaken bij rechten, kabels en muteknoppen.",
+    "promo2Link": "Ontdek hoe je het oplost",
+    "howLabel": "Hoe werkt het?",
+    "howTitle": "Binnen vijf seconden een duidelijk antwoord.",
+    "howDesc": "Geen account of download nodig. Sluit je microfoon aan, geef toegang en test met de meter en korte opname voor je Zoom- of Teams-gesprek.",
+    "steps": [
+      {
+        "title": "Klik op de testknop",
+        "desc": "Start de test zodra je klaar bent om microfoontoegang te verlenen."
+      },
+      {
+        "title": "Geef toegang",
+        "desc": "Klik op 'Toestaan' in de melding van je browser."
+      },
+      {
+        "title": "Spreek en kijk naar de meter",
+        "desc": "Spreek op normaal volume en controleer of de volumebalken reageren."
+      },
+      {
+        "title": "Wissel van apparaat indien nodig",
+        "desc": "Kies je headset of USB-microfoon uit de lijst."
+      },
+      {
+        "title": "Beluister je opname",
+        "desc": "Speel de lokale testopname af om te controleren hoe je echt klinkt."
+      }
+    ],
+    "faqLabel": "Veelgestelde vragen",
+    "faqTitle": "Hoe test ik mijn microfoon?",
+    "faqIntro": "Snelle antwoorden voor het testen van een microfoon online, op Windows 10 & 11, Mac, laptop, Teams of met AirPods.",
+    "privacyLabel": "Privacybelofte",
+    "privacyTitle": "Je microfoongeluid blijft op deze pagina.",
+    "privacyDesc": "Microfoontoegang start alleen nadat je op de knop klikt. Niveaumeting en opnames gebeuren lokaal in je browser. Er worden geen gegevens geüpload.",
+    "privacyButton": "Privé testen",
+    "footerTagline": "De snelle, gerichte microfoontest voor vergaderingen, opnames en probleemoplossing.",
+    "footerToolsTitle": "Microfoontools",
+    "footerHelpTitle": "Hulp & handleidingen",
+    "footerAboutTitle": "Over ons",
+    "footerLanguagesTitle": "Talen",
+    "footerRights": "© 2026 TestYourMicrophone.com. Alle rechten voorbehouden.",
+    "footerSlogan": "Gemaakt voor een beter gesprek.",
+    "footerNote": "Ontwikkeld met browser Web Audio APIs, geen uploads."
+  },
+  "faqs": [
+    {
+      "q": "Hoe test ik mijn microfoon online?",
+      "a": "Klik op 'Microfoontest starten', geef toestemming in je browser en spreek op normaal volume. De live meter beweegt zodra geluid wordt waargenomen. Je kunt ook een korte clip opnemen en direct afluisteren."
+    },
+    {
+      "q": "Hoe weet ik of mijn microfoon werkt?",
+      "a": "Start de test en praat. Als de niveaumeter reageert en een testopname helder klinkt, werkt je microfoon prima. Zo niet, controleer de muteknop en het gekozen invoerapparaat."
+    },
+    {
+      "q": "Hoe test ik mijn microfoon op Windows 10?",
+      "a": "Open Instellingen > Systeem > Geluid en controleer de volumebalk onder 'Invoer'. Of gebruik deze pagina voor een snelle realtime decibelmeting."
+    },
+    {
+      "q": "Hoe test ik mijn microfoon op Windows 11?",
+      "a": "Ga naar Instellingen > Systeem > Geluid, kies je microfoon en test het signaal. Of start de test hier om de golfvorm live te zien reageren."
+    },
+    {
+      "q": "Hoe test ik mijn microfoon op een Mac?",
+      "a": "Open Systeeminstellingen > Geluid > Invoer en praat om te zien of het invoerniveau beweegt. Of test hier direct in de browser met lokale weergave."
+    },
+    {
+      "q": "Hoe test ik de microfoon van mijn laptop?",
+      "a": "Zorg dat de laptopmicrofoon niet gedempt is met een toets op het toetsenbord, klik op test starten en praat op normaal volume."
+    },
+    {
+      "q": "Hoe test ik mijn microfoon voor Teams en Zoom?",
+      "a": "Start in de instellingen van Teams of Zoom een testoproep. Je kunt dezelfde microfoon hier ook eerst testen en met 'Mezelf horen' achtergrondgeluid beoordelen."
+    },
+    {
+      "q": "Hoe test ik AirPods of een draadloze headset?",
+      "a": "Verbind je AirPods, kies ze in de apparatenlijst en start de test. Neem 5 seconden op om direct te horen hoe je tijdens een gesprek klinkt."
+    },
+    {
+      "q": "Hoe hoor ik mijn eigen microfoon zoals anderen mij horen?",
+      "a": "Zet een hoofdtelefoon op, start de test en zet 'Mezelf horen' aan. Je hoort jezelf direct zonder vertraging om volume en echo nauwkeurig af te stemmen."
+    },
+    {
+      "q": "Waarom werkt mijn microfoon niet?",
+      "a": "Controleer je browserrechten, de fysieke muteknop op het snoer en sluit andere apps af die de microfoon mogelijk vergrendelen."
+    },
+    {
+      "q": "Wordt mijn audio geüpload naar een server?",
+      "a": "Nee, absoluut niet. Deze test gebruikt de Web Audio API en verwerkt alle geluidsdata 100% lokaal in je eigen browser."
+    },
+    {
+      "q": "Hoe test ik mijn pc-microfoon zonder Windows-instellingen te openen?",
+      "a": "Open TestYourMicrophone.com in je browser. Het meet direct dBFS-decibels en stemfrequentie met directe afspeeloptie zonder systeemschermen te openen."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Nederlands",
+    "webAppDescription": "Test je microfoon online voor Windows 10, 11, PC, Mac of laptop met live decibelmeter, pitchdetectie en directe afspeelopname. 100% lokaal en privé in je browser.",
+    "featuresList": [
+      "Realtime golfvorm",
+      "Kies je apparaat",
+      "Hoor wat anderen horen",
+      "Microfoongegevens",
+      "Duidelijke rechten",
+      "Privé in je browser"
+    ],
+    "howToName": "Microfoon testen online – Gratis microfoontest (Windows, Mac, PC)",
+    "howToDescription": "Test je microfoon online voor Windows 10, 11, PC, Mac of laptop met live decibelmeter, pitchdetectie en directe afspeelopname. 100% lokaal en privé in je browser.",
+    "howToSteps": [
+      {
+        "name": "Klik op de testknop",
+        "text": "Start de test zodra je klaar bent om microfoontoegang te verlenen.",
+        "url": "https://testyourmicrophone.com/nl/#tester"
+      },
+      {
+        "name": "Geef toegang",
+        "text": "Klik op 'Toestaan' in de melding van je browser.",
+        "url": "https://testyourmicrophone.com/nl/#tester"
+      },
+      {
+        "name": "Spreek en kijk naar de meter",
+        "text": "Spreek op normaal volume en controleer of de volumebalken reageren.",
+        "url": "https://testyourmicrophone.com/nl/#tester"
+      },
+      {
+        "name": "Wissel van apparaat indien nodig",
+        "text": "Kies je headset of USB-microfoon uit de lijst.",
+        "url": "https://testyourmicrophone.com/nl/#tester"
+      },
+      {
+        "name": "Beluister je opname",
+        "text": "Speel de lokale testopname af om te controleren hoe je echt klinkt.",
+        "url": "https://testyourmicrophone.com/nl/#tester"
+      }
+    ]
+  }
+}

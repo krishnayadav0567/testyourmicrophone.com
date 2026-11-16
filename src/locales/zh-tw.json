@@ -1,0 +1,232 @@
+{
+  "code": "zh-tw",
+  "path": "zh-tw",
+  "name": "繁體中文",
+  "englishName": "Chinese (Traditional)",
+  "dir": "ltr",
+  "meta": {
+    "title": "麥克風線上測試 – 免費麥克風聲音及收音測試 (PC/Mac)",
+    "description": "在瀏覽器中免費測試 Windows 10、Windows 11、PC、Mac 或筆記型電腦的麥克風收音。即時分貝波形、音調偵測與錄音試聽，確保通話音質清晰。",
+    "ogTitle": "麥克風線上測試 – 免費麥克風收音檢測工具",
+    "ogDescription": "免安裝軟體，直接在瀏覽器中確認麥克風音量與錄音品質。本機處理，絕不外傳。"
+  },
+  "ui": {
+    "startTest": "開始麥克風測試",
+    "stopTest": "停止麥克風測試",
+    "requestingAccess": "正在請求麥克風權限…",
+    "showMicrophones": "顯示麥克風清單",
+    "refreshMicrophones": "重新整理麥克風清單",
+    "chooseMicrophone": "選擇您的麥克風",
+    "allowAccessToList": "允許權限以顯示麥克風清單",
+    "namesRevealedHint": "已偵測到麥克風。請選擇裝置後點擊開始測試。",
+    "noMicDetected": "未偵測到麥克風裝置",
+    "notStarted": "尚未開始",
+    "lastTested": "上次測試",
+    "notYet": "尚未測試",
+    "yourMicrophone": "目前麥克風",
+    "status": "狀態",
+    "ready": "準備就緒",
+    "testing": "測試中",
+    "needsAttention": "需要注意",
+    "waitingForPermission": "等待麥克風權限",
+    "listeningForSignal": "正在接收聲音訊號",
+    "signalDetected": "已偵測到聲音訊號",
+    "testStopped": "測試已停止",
+    "currentLevel": "目前音量",
+    "peakLevel": "峰值音量",
+    "decibels": "分貝值 (dBFS)",
+    "pitchNote": "音調 / 音高",
+    "sampleRate": "取樣率",
+    "channels": "聲道數",
+    "hearMyselfOff": "即時監聽自己的聲音 (關閉)",
+    "hearMyselfOn": "即時監聽自己的聲音: 開啟 (耳返監聽)",
+    "headphoneHint": "💡 開啟前請戴上耳機，避免喇叭與麥克風產生回音嘯叫",
+    "recordClip": "錄製測試音訊",
+    "stopRecording": "停止錄音",
+    "startTestBeforeRecording": "錄音前請先點擊開始測試。",
+    "recordingStatus": "正在瀏覽器中錄製… 最長30秒",
+    "recordingReady": "錄音完成 — 點擊播放即可試聽您的真實收音。",
+    "latestRecording": "最新本機錄音",
+    "downloadClip": "下載錄音檔",
+    "localPrivacyLock": "本測試完全在瀏覽器本機端處理，音訊絕不上傳至任何伺服器。",
+    "silentDbfs": "靜音 (<-60 dBFS)",
+    "errPermissionDenied": "麥克風權限已被拒絕。請在瀏覽器設定中允許使用麥克風後再試。",
+    "errNotFound": "找不到麥克風，請確認裝置是否已插好。",
+    "errNotReadable": "麥克風無法啟動，可能有其他應用程式正在佔用。",
+    "errDefault": "無法啟動麥克風，請檢查硬體連線及系統權限。",
+    "errNotSupported": "目前瀏覽器不支援麥克風列舉，建議使用 Chrome、Edge 或 Safari。"
+  },
+  "content": {
+    "privacyBadge": "100% 瀏覽器本機運算 • 零資料上傳",
+    "heroHeading": "線上測試您的麥克風",
+    "heroHeadingAccent": "免費檢測",
+    "heroDescription": "檢查 Windows、PC、Mac 或筆電麥克風是否正常運作。在參加 Google Meet、Zoom、Teams 或 LINE 通話前確認聲音效果。100% 隱私安全。",
+    "deviceHint": "在您授權前，裝置名稱將保持隱藏。麥克風權限僅用於列出裝置清單並立即停止。",
+    "featuresLabel": "特色功能",
+    "featuresTitle": "麥克風檢測所需工具，一次備齊。",
+    "featuresDescription": "快速完成最關鍵的檢測：是否選對收音裝置、能否感應聲音、錄音音質是否清晰乾淨。",
+    "features": [
+      {
+        "title": "即時動態聲波",
+        "desc": "說話時聲波即時跳動反饋，確認瀏覽器確實收到麥克風收音訊號。"
+      },
+      {
+        "title": "多裝置隨選切換",
+        "desc": "在筆電內建麥克風、USB 專業麥克風、網路攝影機或耳機麥克風間自由切換。"
+      },
+      {
+        "title": "確認對方聽到的聲音",
+        "desc": "錄製短音檔或開啟零延遲耳返，開會前確認說話音量與咬字清晰度。"
+      },
+      {
+        "title": "專業音訊規格",
+        "desc": "顯示取樣率、聲道數與辨識到的麥克風型號，方便排查故障。"
+      },
+      {
+        "title": "狀態一目了然",
+        "desc": "清晰的中文狀態指示，顯示等待授權、測試中或已停止。"
+      },
+      {
+        "title": "本機隱私保證",
+        "desc": "頁面透過瀏覽器 Web Audio API 運算，音訊絕不上傳至伺服器。"
+      }
+    ],
+    "promo1Title": "想提升麥克風收音品質？",
+    "promo1Desc": "在視訊通話前，調整說話距離、房間迴音與麥克風增益。",
+    "promo1Link": "查看故障排除指南",
+    "promo2Title": "麥克風收不到聲音？",
+    "promo2Desc": "檢查系統授權、硬體靜音開關與接頭接觸問題。",
+    "promo2Link": "了解修復方法",
+    "howLabel": "使用說明",
+    "howTitle": "五秒內掌握收音狀況。",
+    "howDesc": "免註冊、免下載。插上麥克風，允許瀏覽器權限，馬上開始測試。",
+    "steps": [
+      {
+        "title": "點擊開始測試",
+        "desc": "準備給予瀏覽器暫時麥克風存取權限後點擊按鈕。"
+      },
+      {
+        "title": "允許麥克風存取",
+        "desc": "在瀏覽器跳出的提示中選取'允許'。"
+      },
+      {
+        "title": "正常說話查看電平",
+        "desc": "以平常音量說話，觀察量表與動態波形反應。"
+      },
+      {
+        "title": "切換正確麥克風",
+        "desc": "若外接多個收音裝置，可從下拉選單選取正確設備。"
+      },
+      {
+        "title": "試聽測試錄音",
+        "desc": "回放剛剛錄下的聲音，確認沒有破音或過大背景雜音。"
+      }
+    ],
+    "faqLabel": "常見問題",
+    "faqTitle": "麥克風測試常見問題",
+    "faqIntro": "快速了解如何在 Windows 10/11、Mac、筆記型電腦、Google Meet、Zoom、Teams 或 AirPods 上測試麥克風。",
+    "privacyLabel": "嚴格隱私承諾",
+    "privacyTitle": "您的麥克風音訊僅保留在此頁面。",
+    "privacyDesc": "麥克風只在您點擊測試後才會啟用。音量計算與錄音完全在裝置記憶體中進行，絕不傳送到外部伺服器。",
+    "privacyButton": "安全私密測試",
+    "footerTagline": "專為視訊會議、線上教學、直播打造的快速麥克風測試工具。",
+    "footerToolsTitle": "麥克風工具",
+    "footerHelpTitle": "說明與指南",
+    "footerAboutTitle": "關於我們",
+    "footerLanguagesTitle": "語言 (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. 版權所有。",
+    "footerSlogan": "為您帶來更清晰順暢的通話品質。",
+    "footerNote": "採用 Web Audio API 技術建置，無音訊上傳。"
+  },
+  "faqs": [
+    {
+      "q": "如何線上測試麥克風？",
+      "a": "點擊'開始麥克風測試'，在瀏覽器彈窗中按下'允許'，然後對著麥克風說話。當動態量表跳動時，表示麥克風已正常收音。"
+    },
+    {
+      "q": "如何確認麥克風是否正常運作？",
+      "a": "開始測試後對麥克風說話，若音量表有反應且錄音回放清晰，代表運作正常。若毫無反應，請檢查靜音鍵與插頭。"
+    },
+    {
+      "q": "Windows 10 如何測試麥克風？",
+      "a": "開啟'設定' > '系統' > '音效'，在'輸入'下方查看測試麥克風量表。亦可直接使用本網頁查看即時分貝數。"
+    },
+    {
+      "q": "Windows 11 如何測試麥克風？",
+      "a": "至'設定' > '系統' > '音效'，選取麥克風裝置進行輸入測試，或使用本站即時波形工具免開設定。"
+    },
+    {
+      "q": "Mac 怎麼測試麥克風？",
+      "a": "開啟 Mac 的'系統設定' > '聲音' > '輸入'，確認說話時輸入音量表會跳動。也可使用本網頁在 Safari 或 Chrome 中直接測試。"
+    },
+    {
+      "q": "筆記型電腦內建麥克風怎麼測？",
+      "a": "確認鍵盤上的麥克風靜音鍵（例如 F4 鍵）未開啟，點擊開始測試後對著螢幕正常說話即可。"
+    },
+    {
+      "q": "開 Google Meet、Zoom 或 Teams 前如何確認聲音？",
+      "a": "建議會議前使用本站'即時監聽'功能，戴上耳機聽聽自己的音量大小與周圍雜音是否適中。"
+    },
+    {
+      "q": "AirPods 或藍牙耳機麥克風如何測試？",
+      "a": "將 AirPods 連線至電腦，在選單中選擇 AirPods 麥克風，錄製 5 秒測試片段回放即可評估收音效果。"
+    },
+    {
+      "q": "如何聽到別人聽到的我的聲音？",
+      "a": "戴上耳機開啟'即時監聽'，或錄製一段聲音試聽。即可完全模擬通話對方聽到的聲音體驗。"
+    },
+    {
+      "q": "為什麼麥克風完全沒聲音？",
+      "a": "請確認：1. 瀏覽器麥克風授權；2. 線控實體靜音開關；3. 作業系統隱私設定；4. 關閉其他佔用麥克風的通訊軟體。"
+    },
+    {
+      "q": "測試錄音會被傳到網路上嗎？",
+      "a": "完全不會。本站透過 HTML5 Web Audio API 本機運算，錄音只存於暫存記憶體，關閉分頁即永久銷毀。"
+    },
+    {
+      "q": "如何在不開系統設定下測試 PC 麥克風？",
+      "a": "直接開啟 TestYourMicrophone.com，即可免安裝獲得 dBFS 分貝、音高檢測及即時錄音試聽功能。"
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - 繁體中文",
+    "webAppDescription": "在瀏覽器中免費測試 Windows 10、Windows 11、PC、Mac 或筆記型電腦的麥克風收音。即時分貝波形、音調偵測與錄音試聽，確保通話音質清晰。",
+    "featuresList": [
+      "即時動態聲波",
+      "多裝置隨選切換",
+      "確認對方聽到的聲音",
+      "專業音訊規格",
+      "狀態一目了然",
+      "本機隱私保證"
+    ],
+    "howToName": "麥克風線上測試 – 免費麥克風聲音及收音測試 (PC/Mac)",
+    "howToDescription": "在瀏覽器中免費測試 Windows 10、Windows 11、PC、Mac 或筆記型電腦的麥克風收音。即時分貝波形、音調偵測與錄音試聽，確保通話音質清晰。",
+    "howToSteps": [
+      {
+        "name": "點擊開始測試",
+        "text": "準備給予瀏覽器暫時麥克風存取權限後點擊按鈕。",
+        "url": "https://testyourmicrophone.com/zh-tw/#tester"
+      },
+      {
+        "name": "允許麥克風存取",
+        "text": "在瀏覽器跳出的提示中選取'允許'。",
+        "url": "https://testyourmicrophone.com/zh-tw/#tester"
+      },
+      {
+        "name": "正常說話查看電平",
+        "text": "以平常音量說話，觀察量表與動態波形反應。",
+        "url": "https://testyourmicrophone.com/zh-tw/#tester"
+      },
+      {
+        "name": "切換正確麥克風",
+        "text": "若外接多個收音裝置，可從下拉選單選取正確設備。",
+        "url": "https://testyourmicrophone.com/zh-tw/#tester"
+      },
+      {
+        "name": "試聽測試錄音",
+        "text": "回放剛剛錄下的聲音，確認沒有破音或過大背景雜音。",
+        "url": "https://testyourmicrophone.com/zh-tw/#tester"
+      }
+    ]
+  }
+}

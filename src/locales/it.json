@@ -1,0 +1,232 @@
+{
+  "code": "it",
+  "path": "it",
+  "name": "Italiano",
+  "englishName": "Italian",
+  "dir": "ltr",
+  "meta": {
+    "title": "Prova microfono online – Test microfono gratuito (PC, Mac, Windows)",
+    "description": "Verifica se il tuo microfono funziona su Windows 10, 11, PC, Mac o portatile con misuratore di decibel in tempo reale e riascolto immediato. 100% sicuro nel browser.",
+    "ogTitle": "Prova microfono online – Test microfono gratis",
+    "ogDescription": "Testa il microfono online per Windows, PC, Mac, Teams, laptop o AirPods con livelli live e registrazione audio locale."
+  },
+  "ui": {
+    "startTest": "Avvia test microfono",
+    "stopTest": "Interrompi test microfono",
+    "requestingAccess": "Richiesta autorizzazione…",
+    "showMicrophones": "Mostra microfoni",
+    "refreshMicrophones": "Aggiorna microfoni",
+    "chooseMicrophone": "Scegli il tuo microfono",
+    "allowAccessToList": "Consenti accesso per elencare i microfoni",
+    "namesRevealedHint": "Dispositivi rilevati. Scegli il microfono e avvia il test.",
+    "noMicDetected": "Nessun microfono rilevato",
+    "notStarted": "Non avviato",
+    "lastTested": "Ultimo test",
+    "notYet": "Non ancora",
+    "yourMicrophone": "Il tuo microfono",
+    "status": "Stato",
+    "ready": "Pronto",
+    "testing": "Test in corso",
+    "needsAttention": "Richiede attenzione",
+    "waitingForPermission": "In attesa di autorizzazione",
+    "listeningForSignal": "In ascolto del segnale",
+    "signalDetected": "Segnale rilevato",
+    "testStopped": "Test interrotto",
+    "currentLevel": "Livello attuale",
+    "peakLevel": "Livello di picco",
+    "decibels": "Decibel (dBFS)",
+    "pitchNote": "Altezza / Nota",
+    "sampleRate": "Frequenza di campionamento",
+    "channels": "Canali",
+    "hearMyselfOff": "Ascolta la mia voce (disattivato)",
+    "hearMyselfOn": "Ascolta la mia voce: ATTIVO (Live)",
+    "headphoneHint": "💡 Collega le cuffie per evitare fischi da feedback acustico",
+    "recordClip": "Registra una clip",
+    "stopRecording": "Ferma registrazione",
+    "startTestBeforeRecording": "Avvia il test prima di registrare.",
+    "recordingStatus": "Registrazione locale in corso… max 30 secondi.",
+    "recordingReady": "Clip pronta — ascoltala per valutare la tua voce.",
+    "latestRecording": "Ultima registrazione locale",
+    "downloadClip": "Scarica clip",
+    "localPrivacyLock": "Questo test viene elaborato localmente. L'accesso al microfono è attivo solo durante il test.",
+    "silentDbfs": "Silenzio (<-60 dBFS)",
+    "errPermissionDenied": "Autorizzazione microfono negata. Consenti l'accesso nelle impostazioni del browser e riprova.",
+    "errNotFound": "Nessun microfono trovato. Collega un dispositivo di ingresso e riprova.",
+    "errNotReadable": "Il microfono non è disponibile, probabilmente un'altra applicazione lo sta occupando.",
+    "errDefault": "Impossibile avviare il microfono. Controlla il collegamento e i permessi.",
+    "errNotSupported": "Rilevamento microfoni non supportato su questo browser. Prova Chrome, Edge, Firefox o Safari."
+  },
+  "content": {
+    "privacyBadge": "100% Nel browser & Locale • Nessun upload su server",
+    "heroHeading": "Prova il tuo microfono",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Verifica se il microfono funziona su Windows, PC, Mac o portatile e ascolta la tua voce prima delle chiamate WhatsApp, Teams o Zoom. 100% privato.",
+    "deviceHint": "I nomi dei dispositivi rimangono nascosti fino all'autorizzazione. L'accesso serve solo a elencarli e termina subito.",
+    "featuresLabel": "Funzionalità",
+    "featuresTitle": "Tutto ciò che serve per controllare il tuo microfono.",
+    "featuresDescription": "Strumenti essenziali per le verifiche fondamentali: il microfono selezionato riceve la voce e la registrazione è nitida?",
+    "features": [
+      {
+        "title": "Forma d'onda in tempo reale",
+        "desc": "Visualizza la risposta audio istantanea quando parli per confermare che il browser riceve il segnale."
+      },
+      {
+        "title": "Scegli il dispositivo",
+        "desc": "Passa facilmente tra microfono integrato, microfono USB, webcam o cuffie con microfono."
+      },
+      {
+        "title": "Ascolta come ti sentono",
+        "desc": "Registra un breve clip o attiva il monitor a latenza zero per verificare volume e chiarezza vocale."
+      },
+      {
+        "title": "Informazioni tecniche",
+        "desc": "Controlla frequenza di campionamento, numero di canali e nome del dispositivo per diagnosticare problemi."
+      },
+      {
+        "title": "Permessi chiari",
+        "desc": "Indicatori visivi ti mostrano esattamente quando il microfono è in uso e quando si è arrestato."
+      },
+      {
+        "title": "Privato nel browser",
+        "desc": "L'analisi audio viene svolta nel tuo browser. Nessun file audio viene inviato ai nostri server."
+      }
+    ],
+    "promo1Title": "Vuoi migliorare la resa del tuo microfono?",
+    "promo1Desc": "Regola distanza, posizionamento e livelli di ingresso prima del prossimo incontro online.",
+    "promo1Link": "Leggi la guida alla risoluzione",
+    "promo2Title": "Il microfono non si sente?",
+    "promo2Desc": "Controlla passo dopo passo permessi, cavi di collegamento e pulsanti di silenziamento.",
+    "promo2Link": "Scopri come risolvere",
+    "howLabel": "Come effettuare il test",
+    "howTitle": "Cinque secondi per una risposta sicura.",
+    "howDesc": "Nessun account e nessun software da installare. Collega il microfono, consenti l'accesso e controlla il volume prima della chiamata.",
+    "steps": [
+      {
+        "title": "Clicca su Avvia",
+        "desc": "Avvia il test quando sei pronto a concedere l'accesso al microfono."
+      },
+      {
+        "title": "Consenti l'accesso",
+        "desc": "Seleziona 'Consenti' nella finestra di dialogo del browser."
+      },
+      {
+        "title": "Parla e osserva il vumetro",
+        "desc": "Parla con voce normale e verifica che le barre di volume si muovano."
+      },
+      {
+        "title": "Seleziona l'ingresso corretto",
+        "desc": "Scegli il tuo auricolare o microfono USB dal menu a tendina."
+      },
+      {
+        "title": "Ascolta la registrazione",
+        "desc": "Riascolta la clip registrata per verificare la chiarezza della tua voce."
+      }
+    ],
+    "faqLabel": "Domande frequenti",
+    "faqTitle": "Come testare il microfono?",
+    "faqIntro": "Risposte rapide su come testare un microfono online, su Windows 10 e 11, Mac, Teams, Zoom o con AirPods.",
+    "privacyLabel": "Impegno per la privacy",
+    "privacyTitle": "Il flusso audio del microfono resta in questa pagina.",
+    "privacyDesc": "L'accesso al microfono si attiva solo dopo aver premuto il pulsante. L'elaborazione del segnale e le registrazioni avvengono localmente nel browser senza alcun invio dati.",
+    "privacyButton": "Testa privatamente",
+    "footerTagline": "Il test del microfono veloce e sicuro per chiamate, lezioni e riunioni di lavoro.",
+    "footerToolsTitle": "Strumenti microfono",
+    "footerHelpTitle": "Guide e supporto",
+    "footerAboutTitle": "Informazioni",
+    "footerLanguagesTitle": "Lingue",
+    "footerRights": "© 2026 TestYourMicrophone.com. Tutti i diritti riservati.",
+    "footerSlogan": "Progettato per chiamate perfette.",
+    "footerNote": "Sviluppato con Web Audio API, nessun caricamento su server."
+  },
+  "faqs": [
+    {
+      "q": "Come testare il microfono online?",
+      "a": "Clicca su 'Avvia test microfono', consenti l'accesso nel browser e parla normalmente. Il misuratore si muoverà non appena rileva il suono. Puoi anche registrare una breve clip e riascoltarla."
+    },
+    {
+      "q": "Come capire se il microfono funziona?",
+      "a": "Avvia il test e parla. Se la barra di livello oscilla e la registrazione è chiara, il microfono è funzionante. Se non c'è segnale, controlla il tasto muto e il dispositivo selezionato."
+    },
+    {
+      "q": "Come testare il microfono su Windows 10?",
+      "a": "In Windows 10 apri Impostazioni > Sistema > Audio e controlla la barra sotto Ingresso. Oppure usa direttamente questo strumento online per vedere i decibel dal vivo."
+    },
+    {
+      "q": "Come testare il microfono su Windows 11?",
+      "a": "Apri Impostazioni > Sistema > Audio, scegli il tuo microfono e fai clic su Verifica. In alternativa prova qui per avere la forma d'onda istantanea."
+    },
+    {
+      "q": "Come testare il microfono su Mac?",
+      "a": "Vai in Impostazioni di Sistema > Suono > Ingresso e controlla che il livello si muova mentre parli. Puoi anche provare questo test online con registrazione vocale immediata."
+    },
+    {
+      "q": "Come testare il microfono del portatile?",
+      "a": "Verifica che il microfono non sia silenziato dal tasto sulla tastiera, fai clic su Avvia test e parla normalmente per vedere la reazione del vumetro."
+    },
+    {
+      "q": "Come testare il microfono per Teams e Zoom?",
+      "a": "Nelle impostazioni di Teams o Zoom, esegui una chiamata di prova. Puoi testare lo stesso microfono qui prima della riunione e attivare 'Ascolta la mia voce' per regolare l'audio."
+    },
+    {
+      "q": "Come testare gli AirPods o le cuffie wireless?",
+      "a": "Connetti gli AirPods, selezionali dal menu dei microfoni e clicca Avvia test. Registra 5 secondi per valutare la resa vocale esatta."
+    },
+    {
+      "q": "Come ascoltare la mia voce per sapere come mi sentono gli altri?",
+      "a": "Indossa le cuffie, premi Avvia test e attiva 'Ascolta la mia voce'. Sentirai la tua voce in tempo reale a latenza zero per calibrare volume e rumori ambientali."
+    },
+    {
+      "q": "Perché il microfono non funziona?",
+      "a": "Controlla i permessi del browser, il pulsante di silenziamento hardware sul cavo e chiudi altri programmi che potrebbero bloccare l'accesso al microfono."
+    },
+    {
+      "q": "Le mie registrazioni vengono caricate su internet?",
+      "a": "No, mai. Il test sfrutta le Web Audio API ed elabora l'audio al 100% all'interno del tuo browser in modo strettamente privato."
+    },
+    {
+      "q": "Come testare il microfono del PC senza aprire le impostazioni di Windows?",
+      "a": "Apri TestYourMicrophone.com nel browser. Misura all'istante decibel (dBFS), frequenza vocale e riproduce la tua registrazione senza aprire pannelli di controllo."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Italiano",
+    "webAppDescription": "Verifica se il tuo microfono funziona su Windows 10, 11, PC, Mac o portatile con misuratore di decibel in tempo reale e riascolto immediato. 100% sicuro nel browser.",
+    "featuresList": [
+      "Forma d'onda in tempo reale",
+      "Scegli il dispositivo",
+      "Ascolta come ti sentono",
+      "Informazioni tecniche",
+      "Permessi chiari",
+      "Privato nel browser"
+    ],
+    "howToName": "Prova microfono online – Test microfono gratuito (PC, Mac, Windows)",
+    "howToDescription": "Verifica se il tuo microfono funziona su Windows 10, 11, PC, Mac o portatile con misuratore di decibel in tempo reale e riascolto immediato. 100% sicuro nel browser.",
+    "howToSteps": [
+      {
+        "name": "Clicca su Avvia",
+        "text": "Avvia il test quando sei pronto a concedere l'accesso al microfono.",
+        "url": "https://testyourmicrophone.com/it/#tester"
+      },
+      {
+        "name": "Consenti l'accesso",
+        "text": "Seleziona 'Consenti' nella finestra di dialogo del browser.",
+        "url": "https://testyourmicrophone.com/it/#tester"
+      },
+      {
+        "name": "Parla e osserva il vumetro",
+        "text": "Parla con voce normale e verifica che le barre di volume si muovano.",
+        "url": "https://testyourmicrophone.com/it/#tester"
+      },
+      {
+        "name": "Seleziona l'ingresso corretto",
+        "text": "Scegli il tuo auricolare o microfono USB dal menu a tendina.",
+        "url": "https://testyourmicrophone.com/it/#tester"
+      },
+      {
+        "name": "Ascolta la registrazione",
+        "text": "Riascolta la clip registrata per verificare la chiarezza della tua voce.",
+        "url": "https://testyourmicrophone.com/it/#tester"
+      }
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "code": "de",
+  "path": "de",
+  "name": "Deutsch",
+  "englishName": "German",
+  "dir": "ltr",
+  "meta": {
+    "title": "Mikrofon testen online – Kostenloser Mikrofon-Test (PC, Mac, Windows)",
+    "description": "Testen Sie Ihr Mikrofon online für Windows 10, 11, PC, Mac oder Laptop mit Pegelmesser, Sofort-Wiedergabe und Tonhöhenerkennung. 100% privat im Browser.",
+    "ogTitle": "Mikrofon testen online – Kostenloser Mikrofontest",
+    "ogDescription": "Mikrofon online prüfen für Windows, PC, Mac, Teams, Laptop oder AirPods mit Live-Pegel und lokaler Audio-Wiedergabe."
+  },
+  "ui": {
+    "startTest": "Mikrofontest starten",
+    "stopTest": "Mikrofontest stoppen",
+    "requestingAccess": "Zugriff wird angefordert…",
+    "showMicrophones": "Mikrofone anzeigen",
+    "refreshMicrophones": "Mikrofone aktualisieren",
+    "chooseMicrophone": "Wählen Sie Ihr Mikrofon",
+    "allowAccessToList": "Zugriff erlauben, um Mikrofone aufzulisten",
+    "namesRevealedHint": "Namen angezeigt. Mikrofon auswählen und Test starten.",
+    "noMicDetected": "Kein Mikrofon erkannt",
+    "notStarted": "Nicht gestartet",
+    "lastTested": "Zuletzt getestet",
+    "notYet": "Noch nicht",
+    "yourMicrophone": "Ihr Mikrofon",
+    "status": "Status",
+    "ready": "Bereit",
+    "testing": "Test läuft",
+    "needsAttention": "Achtung erforderlich",
+    "waitingForPermission": "Warte auf Erlaubnis",
+    "listeningForSignal": "Höre Signal ab",
+    "signalDetected": "Signal erkannt",
+    "testStopped": "Test beendet",
+    "currentLevel": "Aktueller Pegel",
+    "peakLevel": "Spitzenpegel",
+    "decibels": "Dezibel (dBFS)",
+    "pitchNote": "Tonhöhe / Note",
+    "sampleRate": "Abtastrate",
+    "channels": "Kanäle",
+    "hearMyselfOff": "Mich selbst hören (aus)",
+    "hearMyselfOn": "Mich selbst hören: AN (Live)",
+    "headphoneHint": "💡 Bitte Kopfhörer anschließen, um akustische Rückkopplungen zu vermeiden",
+    "recordClip": "Clip aufnehmen",
+    "stopRecording": "Aufnahme beenden",
+    "startTestBeforeRecording": "Starten Sie zuerst den Test vor der Aufnahme.",
+    "recordingStatus": "Lokale Aufnahme läuft… max. 30 Sekunden.",
+    "recordingReady": "Clip fertig – jetzt abspielen und Klang prüfen.",
+    "latestRecording": "Letzte lokale Aufnahme",
+    "downloadClip": "Clip herunterladen",
+    "localPrivacyLock": "Dieser Test wird lokal verarbeitet. Mikrofonzugriff ist nur während des Tests aktiv.",
+    "silentDbfs": "Stille (<-60 dBFS)",
+    "errPermissionDenied": "Mikrofon-Berechtigung verweigert. Erlauben Sie den Zugriff in den Browsereinstellungen und versuchen Sie es erneut.",
+    "errNotFound": "Kein Mikrofon gefunden. Bitte Eingabegerät anschließen und erneut versuchen.",
+    "errNotReadable": "Das Mikrofon ist nicht verfügbar, da möglicherweise eine andere App darauf zugreift.",
+    "errDefault": "Das Mikrofon konnte nicht gestartet werden. Bitte Geräteverbindung prüfen.",
+    "errNotSupported": "Mikrofon-Auflistung in diesem Browser nicht verfügbar. Bitte Chrome, Edge, Firefox oder Safari nutzen."
+  },
+  "content": {
+    "privacyBadge": "100% Im Browser & Lokal • Kein Server-Upload",
+    "heroHeading": "Mikrofon testen",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Prüfen Sie, ob Ihr Mikrofon unter Windows, PC, Mac oder Laptop funktioniert – und hören Sie sich vor Ihren WhatsApp-, Teams- oder Zoom-Anrufen selbst an. 100% privat im Browser.",
+    "deviceHint": "Gerätenamen bleiben verborgen, bis Sie den Zugriff erlauben. Der Zugriff dient nur zum Auflisten und wird sofort beendet.",
+    "featuresLabel": "Funktionen",
+    "featuresTitle": "Alles, was Sie zum Prüfen Ihres Mikrofons benötigen.",
+    "featuresDescription": "Einfache Werkzeuge für die wichtigsten Kontrollen: Ist das richtige Mikrofon gewählt, empfängt es Ihre Stimme und klingt die Aufnahme klar?",
+    "features": [
+      {
+        "title": "Echtzeit-Wellenform",
+        "desc": "Sehen Sie die Audio-Reaktion, sobald Sie sprechen. Eine animierte Wellenform bestätigt das eingehende Signal."
+      },
+      {
+        "title": "Gerät auswählen",
+        "desc": "Wechseln Sie flexibel zwischen integriertem Mikrofon, USB-Mikrofon, Webcam oder Headset."
+      },
+      {
+        "title": "Hören, was andere hören",
+        "desc": "Nutzen Sie den latenzfreien Loopback-Monitor oder eine Testaufnahme, um Ihre Stimme genau wie Ihre Gesprächspartner zu hören."
+      },
+      {
+        "title": "Mikrofon-Informationen",
+        "desc": "Prüfen Sie Abtastrate, Kanalanzahl und den genauen Gerätenamen zur Fehlerdiagnose."
+      },
+      {
+        "title": "Klare Berechtigungen",
+        "desc": "Eindeutige Statusanzeigen informieren über Berechtigungsanfragen, aktiven Test und Beendigung."
+      },
+      {
+        "title": "Privat im Browser",
+        "desc": "Die Analyse erfolgt komplett lokal auf Ihrem Gerät. Keine Audiodaten werden an Server übertragen."
+      }
+    ],
+    "promo1Title": "Möchten Sie Ihren Mikrofon-Klang verbessern?",
+    "promo1Desc": "Überprüfen Sie Ausrichtung, Raumakustik, Eingabeauswahl und Berechtigungen vor dem nächsten Meeting.",
+    "promo1Link": "Fehlerbehebungs-Leitfaden lesen",
+    "promo2Title": "Mikrofon funktioniert nicht?",
+    "promo2Desc": "Gehen Sie Schritt für Schritt die häufigsten Ursachen bei Berechtigungen, Schaltern und Treibern durch.",
+    "promo2Link": "Jetzt Lösung finden",
+    "howLabel": "Anleitung",
+    "howTitle": "In fünf Sekunden zu einem klaren Ergebnis.",
+    "howDesc": "Kein Account und kein Download erforderlich. Mikrofon anschließen, Zugriff gewähren und vor dem Zoom- oder Teams-Call kurz testen.",
+    "steps": [
+      {
+        "title": "Test starten",
+        "desc": "Klicken Sie auf den Button, um den Mikrofontest im Browser zu beginnen."
+      },
+      {
+        "title": "Zugriff erlauben",
+        "desc": "Klicken Sie im Browser-Fenster auf 'Erlauben', um die Eingabe freizugeben."
+      },
+      {
+        "title": "Sprechen und Pegel prüfen",
+        "desc": "Sprechen Sie in normaler Lautstärke und beobachten Sie den Ausschlag des Pegelmessers."
+      },
+      {
+        "title": "Eingabegerät wechseln",
+        "desc": "Wählen Sie bei Bedarf Ihr Headset oder USB-Mikrofon aus der Geräteliste aus."
+      },
+      {
+        "title": "Kurze Aufnahme abhören",
+        "desc": "Spielen Sie die lokale Testaufnahme ab, um Ihre Klangqualität objektiv zu prüfen."
+      }
+    ],
+    "faqLabel": "Mikrofon FAQ",
+    "faqTitle": "Häufige Fragen zum Mikrofontest",
+    "faqIntro": "Schnelle Antworten zum Testen eines Mikrofons online, unter Windows 10 & 11, auf Mac, Laptop, Teams, Zoom oder mit AirPods.",
+    "privacyLabel": "Datenschutzversprechen",
+    "privacyTitle": "Ihre Audiodaten bleiben vollständig auf Ihrem Gerät.",
+    "privacyDesc": "Der Mikrofonzugriff startet nur nach Ihrer ausdrücklichen Bestätigung. Die Signalmessung und Aufnahme erfolgen rein lokal im Browser. Es findet keinerlei Übertragung an externe Server statt.",
+    "privacyButton": "Privat testen",
+    "footerTagline": "Der schnelle, fokussierte Mikrofontest für Meetings, Streams und Fehlerbehebung.",
+    "footerToolsTitle": "Mikrofon-Tools",
+    "footerHelpTitle": "Hilfe & Anleitungen",
+    "footerAboutTitle": "Über uns",
+    "footerLanguagesTitle": "Sprachen",
+    "footerRights": "© 2026 TestYourMicrophone.com. Alle Rechte vorbehalten.",
+    "footerSlogan": "Für beste Gesprächsqualität.",
+    "footerNote": "Entwickelt mit Web Audio API, keine Server-Uploads."
+  },
+  "faqs": [
+    {
+      "q": "Wie teste ich mein Mikrofon online?",
+      "a": "Klicken Sie auf 'Mikrofontest starten', erlauben Sie den Zugriff im Browser und sprechen Sie normal. Der Live-Pegelmesser bewegt sich, sobald Schallwellen empfangen werden. Sie können auch einen kurzen Clip aufnehmen und direkt abspielen."
+    },
+    {
+      "q": "Wie prüfe ich, ob mein Mikrofon funktioniert?",
+      "a": "Starten Sie den Test und sprechen Sie ins Mikrofon. Reagiert der Ausschlag und ist eine Testaufnahme klar verständlich, funktioniert alles einwandfrei. Bleibt der Pegel stumm, prüfen Sie Stummschalter, Kabel und Geräteeinstellungen."
+    },
+    {
+      "q": "Wie teste ich mein Mikrofon unter Windows 10?",
+      "a": "Unter Windows 10 öffnen Sie Einstellungen > System > Sound und prüfen den Eingabepegel unter 'Eingabe'. Noch schneller geht es hier im Browser: Test starten, sprechen und den Live-Pegel beobachten."
+    },
+    {
+      "q": "Wie teste ich mein Mikrofon unter Windows 11?",
+      "a": "Öffnen Sie Einstellungen > System > Sound und wählen Sie Ihr Mikrofon unter Eingabegeräten aus. Führen Sie dort den Test durch oder nutzen Sie diesen kostenlosen Online-Test mit Dezibelanzeige."
+    },
+    {
+      "q": "Wie teste ich mein Mikrofon auf dem Mac?",
+      "a": "Öffnen Sie auf dem Mac Systemeinstellungen > Ton > Eingabe und beobachten Sie den Eingangspegel beim Sprechen. Alternativ nutzen Sie diese Webseite für einen sofortigen Browser-Test mit lokaler Aufnahme."
+    },
+    {
+      "q": "Wie teste ich mein Laptop-Mikrofon?",
+      "a": "Stellen Sie sicher, dass das interne Mikrofon nicht per Taste stummgeschaltet ist, klicken Sie auf 'Mikrofontest starten' und erlauben Sie den Zugriff. Sprechen Sie in normaler Zimmerlautstärke."
+    },
+    {
+      "q": "Wie teste ich das Mikrofon für Microsoft Teams und Zoom?",
+      "a": "In Teams oder Zoom unter Einstellungen > Audio den Gerätetest starten. Sie können Ihr Mikrofon aber auch direkt hier vorab testen und mit 'Mich selbst hören' Klang und Hall prüfen."
+    },
+    {
+      "q": "Wie teste ich AirPods oder ein Bluetooth-Headset?",
+      "a": "Verbinden Sie die AirPods mit Ihrem Computer, wählen Sie diese im Dropdown als Eingabegerät aus und starten Sie den Test. Eine kurze 5-Sekunden-Aufnahme zeigt Ihnen sofort die Sprachqualität."
+    },
+    {
+      "q": "Wie höre ich mein Mikrofon so, wie andere mich hören?",
+      "a": "Schließen Sie Kopfhörer an, starten Sie den Test und aktivieren Sie den Schalter 'Mich selbst hören'. Sie hören Ihre Stimme in Echtzeit ohne Latenz und können Lautstärke und Raumhall perfekt einschätzen."
+    },
+    {
+      "q": "Warum funktioniert mein Mikrofon nicht?",
+      "a": "Prüfen Sie die Browser-Berechtigung, den Hardwareschalter am Kabel/Headset und vergewissern Sie sich, dass keine andere Anwendung (z.B. Discord oder Skype) das Mikrofon blockiert."
+    },
+    {
+      "q": "Werden meine Sprachaufnahmen hochgeladen?",
+      "a": "Nein, niemals. Dieser Test verwendet die moderne Web Audio API und verarbeitet alle Signale zu 100% lokal auf Ihrem Rechner. Es werden keine Audiodaten an Server übertragen."
+    },
+    {
+      "q": "Wie teste ich mein PC-Mikrofon ohne Windows-Einstellungen zu öffnen?",
+      "a": "Rufen Sie TestYourMicrophone.com auf. Der Test misst sofort dBFS-Pegel, Frequenzen und Tonhöhe lokal in Ihrem Webbrowser – ganz ohne Treiber- oder Systemmenüs."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Deutsch",
+    "webAppDescription": "Testen Sie Ihr Mikrofon online für Windows 10, 11, PC, Mac oder Laptop mit Pegelmesser, Sofort-Wiedergabe und Tonhöhenerkennung. 100% privat im Browser.",
+    "featuresList": [
+      "Echtzeit-Wellenform",
+      "Gerät auswählen",
+      "Hören, was andere hören",
+      "Mikrofon-Informationen",
+      "Klare Berechtigungen",
+      "Privat im Browser"
+    ],
+    "howToName": "Mikrofon testen online – Kostenloser Mikrofon-Test (PC, Mac, Windows)",
+    "howToDescription": "Testen Sie Ihr Mikrofon online für Windows 10, 11, PC, Mac oder Laptop mit Pegelmesser, Sofort-Wiedergabe und Tonhöhenerkennung. 100% privat im Browser.",
+    "howToSteps": [
+      {
+        "name": "Test starten",
+        "text": "Klicken Sie auf den Button, um den Mikrofontest im Browser zu beginnen.",
+        "url": "https://testyourmicrophone.com/de/#tester"
+      },
+      {
+        "name": "Zugriff erlauben",
+        "text": "Klicken Sie im Browser-Fenster auf 'Erlauben', um die Eingabe freizugeben.",
+        "url": "https://testyourmicrophone.com/de/#tester"
+      },
+      {
+        "name": "Sprechen und Pegel prüfen",
+        "text": "Sprechen Sie in normaler Lautstärke und beobachten Sie den Ausschlag des Pegelmessers.",
+        "url": "https://testyourmicrophone.com/de/#tester"
+      },
+      {
+        "name": "Eingabegerät wechseln",
+        "text": "Wählen Sie bei Bedarf Ihr Headset oder USB-Mikrofon aus der Geräteliste aus.",
+        "url": "https://testyourmicrophone.com/de/#tester"
+      },
+      {
+        "name": "Kurze Aufnahme abhören",
+        "text": "Spielen Sie die lokale Testaufnahme ab, um Ihre Klangqualität objektiv zu prüfen.",
+        "url": "https://testyourmicrophone.com/de/#tester"
+      }
+    ]
+  }
+}

@@ -2,6 +2,9 @@
   "use strict";
 
   const $ = (selector) => document.querySelector(selector);
+  const i18n = window.__TYM_I18N__ || {};
+  const t = (key, fallback) => (i18n[key] !== undefined && i18n[key] !== "" ? i18n[key] : fallback);
+
   const startButton = $("#start-test");
   const startButtonLabel = $("#start-test-label");
   const recordButton = $("#record-button");
@@ -47,6 +50,9 @@
   const backToHome = $("#back-to-home");
   const themeColor = $("[data-theme-color]");
   const revealSections = [...document.querySelectorAll("[data-reveal]")];
+  const langSelector = $("#lang-selector");
+  const langBtn = $("#lang-btn");
+  const langDropdown = $("#lang-dropdown");
 
   let stream = null;
   let audioContext = null;
@@ -135,8 +141,8 @@
   }
 
   function updateStartButtonForHomeSelection() {
-    if (homeDeviceId && selectedHomeLabel()) startButtonLabel.textContent = `Test ${selectedHomeLabel()}`;
-    else if (!startButton.disabled) startButtonLabel.textContent = "Start microphone test";
+    if (homeDeviceId && selectedHomeLabel()) startButtonLabel.textContent = `${t("startTest", "Test")} ${selectedHomeLabel()}`;
+    else if (!startButton.disabled) startButtonLabel.textContent = t("startTest", "Start microphone test");
   }
 
   function requestTestStart() {
@@ -199,7 +205,7 @@
   function showError(message) {
     errorBox.hidden = false;
     errorBox.textContent = message;
-    setPermissionState("error", "Needs attention");
+    setPermissionState("error", t("needsAttention", "Needs attention"));
   }
 
   function clearError() {
@@ -234,7 +240,7 @@
     peakLevel.textContent = "—";
     if (dbfsLevel) dbfsLevel.textContent = "—";
     if (frequencyValue) frequencyValue.textContent = "—";
-    signalLabel.textContent = "Waiting for permission";
+    signalLabel.textContent = t("waitingForPermission", "Waiting for permission");
     if (canvasCtx && audioVisualizer) {
       canvasCtx.clearRect(0, 0, audioVisualizer.width, audioVisualizer.height);
     }
@@ -251,7 +257,7 @@
       loopbackButton.classList.remove("is-active");
       loopbackButton.setAttribute("aria-pressed", "false");
       loopbackButton.disabled = true;
-      if (loopbackLabel) loopbackLabel.textContent = "Hear myself (off)";
+      if (loopbackLabel) loopbackLabel.textContent = t("hearMyselfOff", "Hear myself (off)");
     }
     if (source) { source.disconnect(); source = null; }
     if (audioContext) { audioContext.close().catch(() => {}); audioContext = null; }
@@ -291,10 +297,10 @@
     homeDeviceId = deviceId;
     homeDeviceLabel = label;
     if (!homeDeviceId) {
-      detectedDevice.textContent = "Not started";
-      liveDeviceName.textContent = "Not started";
+      detectedDevice.textContent = t("notStarted", "Not started");
+      liveDeviceName.textContent = t("notStarted", "Not started");
     } else {
-      const displayLabel = selectedHomeLabel() || homeDeviceLabel || "Selected microphone";
+      const displayLabel = selectedHomeLabel() || homeDeviceLabel || t("yourMicrophone", "Selected microphone");
       detectedDevice.textContent = displayLabel;
     }
     updateStartButtonForHomeSelection();
@@ -303,35 +309,35 @@
   async function loadHomeDevices() {
     if (loadingHomeDevices) return;
     if (!navigator.mediaDevices?.getUserMedia) {
-      homeDeviceHint.textContent = "Microphone access is not available in this browser. Try a recent version of Chrome, Edge, Firefox, or Safari over HTTPS or localhost.";
+      homeDeviceHint.textContent = t("errNotSupported", "Microphone access is not available in this browser. Try a recent version of Chrome, Edge, Firefox, or Safari over HTTPS or localhost.");
       return;
     }
     loadingHomeDevices = true;
     loadDevicesButton.disabled = true;
-    loadDevicesLabel.textContent = "Requesting access…";
-    homeDeviceHint.textContent = "Requesting one-time access to reveal microphone names.";
+    loadDevicesLabel.textContent = t("requestingAccess", "Requesting access…");
+    homeDeviceHint.textContent = t("requestingAccess", "Requesting one-time access to reveal microphone names.");
     let previewStream = null;
     try {
       previewStream = await navigator.mediaDevices.getUserMedia({ audio: true });
       const microphones = await listMicrophones();
-      fillSelect(homeDeviceSelect, microphones, "No microphone detected");
+      fillSelect(homeDeviceSelect, microphones, t("noMicDetected", "No microphone detected"));
       if (microphones.length) {
         setHomeSelection(microphones[0].deviceId, formatDeviceLabel(microphones[0].label, 0));
-        homeDeviceHint.textContent = "Names revealed. Choose a microphone, then start the test.";
+        homeDeviceHint.textContent = t("namesRevealedHint", "Names revealed. Choose a microphone, then start the test.");
       } else {
         setHomeSelection("", "");
-        homeDeviceHint.textContent = "No microphone was found. Connect an input device and try again.";
+        homeDeviceHint.textContent = t("errNotFound", "No microphone was found. Connect an input device and try again.");
       }
     } catch (error) {
       const name = error?.name;
       homeDeviceHint.textContent = name === "NotAllowedError" || name === "PermissionDeniedError"
-        ? "Microphone permission was denied. Allow access, then try again."
-        : error?.message || "The microphone list could not be loaded. Check the device connection and try again.";
+        ? t("errPermissionDenied", "Microphone permission was denied. Allow access, then try again.")
+        : error?.message || t("errDefault", "The microphone list could not be loaded. Check the device connection and try again.");
     } finally {
       if (previewStream) previewStream.getTracks().forEach((track) => track.stop());
       loadingHomeDevices = false;
       loadDevicesButton.disabled = false;
-      loadDevicesLabel.textContent = homeDeviceSelect.options.length ? "Refresh microphones" : "Show microphones";
+      loadDevicesLabel.textContent = homeDeviceSelect.options.length ? t("refreshMicrophones", "Refresh microphones") : t("showMicrophones", "Show microphones");
     }
   }
 
@@ -378,7 +384,7 @@
     // Decibels (dBFS) calculation
     const dbfs = rms > 0.0001 ? Math.max(-60, Math.min(0, 20 * Math.log10(rms))) : -60;
     if (dbfsLevel) {
-      dbfsLevel.textContent = dbfs > -58 ? `${dbfs.toFixed(1)} dBFS` : "Silent (<-60 dBFS)";
+      dbfsLevel.textContent = dbfs > -58 ? `${dbfs.toFixed(1)} dBFS` : t("silentDbfs", "Silent (<-60 dBFS)");
     }
 
     // Pitch / frequency detection
@@ -428,7 +434,7 @@
     levelValue.textContent = `${level}%`;
     currentLevel.textContent = `${level}%`;
     peakLevel.textContent = `${Math.round(peak)}%`;
-    signalLabel.textContent = level > 4 ? "Signal detected" : "Listening for signal";
+    signalLabel.textContent = level > 4 ? t("signalDetected", "Signal detected") : t("listeningForSignal", "Listening for signal");
     animationFrame = requestAnimationFrame(drawMeter);
   }
 
@@ -457,23 +463,23 @@
       monitorGain.gain.setTargetAtTime(1.0, audioContext.currentTime, 0.05);
       loopbackButton?.classList.add("is-active");
       loopbackButton?.setAttribute("aria-pressed", "true");
-      if (loopbackLabel) loopbackLabel.textContent = "Hear myself: ON (Live)";
+      if (loopbackLabel) loopbackLabel.textContent = t("hearMyselfOn", "Hear myself: ON (Live)");
     } else {
       monitorGain.gain.setTargetAtTime(0, audioContext.currentTime, 0.05);
       loopbackButton?.classList.remove("is-active");
       loopbackButton?.setAttribute("aria-pressed", "false");
-      if (loopbackLabel) loopbackLabel.textContent = "Hear myself (off)";
+      if (loopbackLabel) loopbackLabel.textContent = t("hearMyselfOff", "Hear myself (off)");
     }
   }
 
   async function startTest(deviceId = "") {
     if (!navigator.mediaDevices?.getUserMedia) {
-      showError("Microphone access is not available in this browser. Try a recent version of Chrome, Edge, Firefox, or Safari over HTTPS or localhost.");
+      showError(t("errNotSupported", "Microphone access is not available in this browser. Try a recent version of Chrome, Edge, Firefox, or Safari over HTTPS or localhost."));
       return;
     }
     clearError();
     startButton.disabled = true;
-    startButtonLabel.textContent = "Requesting access…";
+    startButtonLabel.textContent = t("requestingAccess", "Requesting access…");
     try {
       const audio = deviceId ? { deviceId: { exact: deviceId } } : true;
       stream = await navigator.mediaDevices.getUserMedia({ audio });
@@ -481,17 +487,17 @@
       const settings = track.getSettings ? track.getSettings() : {};
       await createAudioGraph();
       peak = 0;
-      setPermissionState("running", "Testing");
+      setPermissionState("running", t("testing", "Testing"));
       startButton.classList.add("is-stop");
-      startButtonLabel.textContent = "Stop microphone test";
+      startButtonLabel.textContent = t("stopTest", "Stop microphone test");
       startButton.disabled = false;
       recordButton.disabled = false;
-      recordButtonLabel.textContent = "Record a clip";
+      recordButtonLabel.textContent = t("recordClip", "Record a clip");
       if (loopbackButton) loopbackButton.disabled = false;
-      signalLabel.textContent = "Listening for signal";
-      const deviceLabel = track.label || selectedHomeLabel() || "Microphone access granted";
+      signalLabel.textContent = t("listeningForSignal", "Listening for signal");
+      const deviceLabel = track.label || selectedHomeLabel() || t("yourMicrophone", "Microphone access granted");
       detectedDevice.textContent = deviceLabel;
-      liveDeviceName.textContent = `Testing: ${deviceLabel}`;
+      liveDeviceName.textContent = `${t("testing", "Testing")}: ${deviceLabel}`;
       homeDeviceId = settings.deviceId || deviceId || homeDeviceId;
       homeDeviceLabel = deviceLabel;
       lastTested.textContent = formatTime(new Date());
@@ -504,15 +510,15 @@
     } catch (error) {
       stopAudioResources();
       startButton.disabled = false;
-      startButtonLabel.textContent = "Start microphone test";
+      startButtonLabel.textContent = t("startTest", "Start microphone test");
       const name = error?.name;
       const message = name === "NotAllowedError" || name === "PermissionDeniedError"
-        ? "Microphone permission was denied. Allow microphone access in your browser settings, then try again."
+        ? t("errPermissionDenied", "Microphone permission was denied. Allow microphone access in your browser settings, then try again.")
         : name === "NotFoundError"
-          ? "No microphone was found. Connect an input device and try again."
+          ? t("errNotFound", "No microphone was found. Connect an input device and try again.")
           : name === "NotReadableError"
-            ? "The microphone is unavailable, possibly because another app is using it. Close other audio apps and try again."
-            : "The microphone could not be started. Check your device connection and browser permissions, then try again.";
+            ? t("errNotReadable", "The microphone is unavailable, possibly because another app is using it. Close other audio apps and try again.")
+            : t("errDefault", "The microphone could not be started. Check your device connection and browser permissions, then try again.");
       showError(message);
     }
   }
@@ -521,22 +527,22 @@
     if (recorder && recorder.state === "recording") recorder.stop();
     stopAudioResources();
     navigator.mediaDevices?.removeEventListener?.("devicechange", handleDeviceChange);
-    setPermissionState("ready", "Ready");
+    setPermissionState("ready", t("ready", "Ready"));
     startButton.classList.remove("is-stop");
-    startButtonLabel.textContent = "Start microphone test";
+    startButtonLabel.textContent = t("startTest", "Start microphone test");
     recordButton.disabled = true;
     if (loopbackButton) {
       loopbackButton.classList.remove("is-active");
       loopbackButton.setAttribute("aria-pressed", "false");
       loopbackButton.disabled = true;
-      if (loopbackLabel) loopbackLabel.textContent = "Hear myself (off)";
+      if (loopbackLabel) loopbackLabel.textContent = t("hearMyselfOff", "Hear myself (off)");
     }
-    signalLabel.textContent = "Test stopped";
-    liveDeviceName.textContent = "Not started";
+    signalLabel.textContent = t("testStopped", "Test stopped");
+    liveDeviceName.textContent = t("notStarted", "Not started");
     sampleRate.textContent = "—";
     channelCount.textContent = "—";
     resetMeter();
-    recordingStatus.textContent = "Start the test before recording.";
+    recordingStatus.textContent = t("startTestBeforeRecording", "Start the test before recording.");
   }
 
   async function handleDeviceChange() {
@@ -557,7 +563,7 @@
 
   function stopRecordingUi() {
     recordButton.classList.remove("is-recording");
-    recordButtonLabel.textContent = "Record a clip";
+    recordButtonLabel.textContent = t("recordClip", "Record a clip");
     clearTimeout(recordingTimer);
     recordingTimer = null;
   }
@@ -572,15 +578,15 @@
     audioPreviewWrap.classList.remove("is-empty");
     downloadRecording.classList.remove("is-disabled");
     downloadRecording.setAttribute("aria-disabled", "false");
-    recordingDuration.textContent = `${Math.max(1, Math.round((Date.now() - recordingStartedAt) / 1000))} sec clip`;
-    recordingStatus.textContent = "Clip ready — play it back to hear your mic.";
+    recordingDuration.textContent = `${Math.max(1, Math.round((Date.now() - recordingStartedAt) / 1000))} sec`;
+    recordingStatus.textContent = t("recordingReady", "Clip ready — play it back to hear your mic.");
     stopRecordingUi();
   }
 
   function startRecording() {
     if (!stream) return;
     if (!window.MediaRecorder) {
-      recordingStatus.textContent = "Recording is not supported in this browser.";
+      recordingStatus.textContent = t("errNotSupported", "Recording is not supported in this browser.");
       return;
     }
     try {
@@ -592,11 +598,11 @@
       recorder.addEventListener("stop", finishRecording, { once: true });
       recorder.start();
       recordButton.classList.add("is-recording");
-      recordButtonLabel.textContent = "Stop recording";
-      recordingStatus.textContent = "Recording locally… max 30 seconds.";
+      recordButtonLabel.textContent = t("stopRecording", "Stop recording");
+      recordingStatus.textContent = t("recordingStatus", "Recording locally… max 30 seconds.");
       recordingTimer = setTimeout(() => { if (recorder?.state === "recording") recorder.stop(); }, 30000);
     } catch {
-      recordingStatus.textContent = "This browser could not start a local recording.";
+      recordingStatus.textContent = t("errDefault", "This browser could not start a local recording.");
     }
   }
 
@@ -636,6 +642,71 @@
   mobileNav.addEventListener("click", (event) => {
     if (event.target.closest("a")) { mobileNav.classList.remove("is-open"); menuToggle.setAttribute("aria-expanded", "false"); }
   });
+
+  // Language Dropdown & Navigation Persistence
+  if (langBtn && langDropdown) {
+    const langSearchInput = $("#lang-search-input");
+
+    langBtn.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const isOpen = !langDropdown.hidden;
+      langDropdown.hidden = isOpen;
+      langBtn.setAttribute("aria-expanded", String(!isOpen));
+      if (!isOpen && langSearchInput) {
+        setTimeout(() => langSearchInput.focus(), 50);
+      }
+    });
+
+    if (langSearchInput) {
+      langSearchInput.addEventListener("input", (e) => {
+        const query = e.target.value.trim().toLowerCase();
+        const options = langDropdown.querySelectorAll(".lang-option");
+        options.forEach((opt) => {
+          const text = opt.textContent.toLowerCase();
+          opt.style.display = text.includes(query) ? "" : "none";
+        });
+      });
+      langSearchInput.addEventListener("click", (e) => e.stopPropagation());
+      langSearchInput.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          langDropdown.hidden = true;
+          langBtn.setAttribute("aria-expanded", "false");
+          langBtn.focus();
+        }
+      });
+    }
+
+    document.addEventListener("click", (event) => {
+      if (!langSelector?.contains(event.target)) {
+        langDropdown.hidden = true;
+        langBtn.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !langDropdown.hidden) {
+        langDropdown.hidden = true;
+        langBtn.setAttribute("aria-expanded", "false");
+        langBtn.focus();
+      }
+    });
+
+    langDropdown.addEventListener("click", (event) => {
+      const opt = event.target.closest(".lang-option");
+      if (opt) {
+        const code = opt.getAttribute("hreflang") || "en";
+        try { localStorage.setItem("tym_lang", code); } catch {}
+      }
+    });
+  }
+
+  // Cross-page Language State & Route Preservation
+  (() => {
+    try {
+      const pageLang = document.documentElement.lang || "en";
+      localStorage.setItem("tym_lang", pageLang);
+    } catch {}
+  })();
 
   setView("home");
   setupScrollReveal();

@@ -1,0 +1,232 @@
+{
+  "code": "vi",
+  "path": "vi",
+  "name": "Tiếng Việt",
+  "englishName": "Vietnamese",
+  "dir": "ltr",
+  "meta": {
+    "title": "Kiểm tra micro online – Test mic miễn phí trên máy tính (PC, Mac)",
+    "description": "Kiểm tra micro của bạn trên Windows 10, 11, PC, Mac hoặc laptop với thước đo decibel trực tiếp và ghi âm phát lại tức thì. 100% bảo mật cục bộ trên trình duyệt.",
+    "ogTitle": "Kiểm tra micro online – Test mic miễn phí",
+    "ogDescription": "Kiểm tra micro hoạt động trên Windows, PC, Mac, Teams, Zoom, laptop hoặc tai nghe với đồng hồ đo mức âm thanh trực tiếp."
+  },
+  "ui": {
+    "startTest": "Bắt đầu kiểm tra micro",
+    "stopTest": "Dừng kiểm tra micro",
+    "requestingAccess": "Đang yêu cầu quyền truy cập…",
+    "showMicrophones": "Hiển thị danh sách micro",
+    "refreshMicrophones": "Làm mới danh sách micro",
+    "chooseMicrophone": "Chọn micro của bạn",
+    "allowAccessToList": "Cho phép truy cập để xem micro",
+    "namesRevealedHint": "Đã phát hiện thiết bị. Chọn micro và nhấn bắt đầu kiểm tra.",
+    "noMicDetected": "Không tìm thấy micro nào",
+    "notStarted": "Chưa bắt đầu",
+    "lastTested": "Lần thử gần nhất",
+    "notYet": "Chưa thử",
+    "yourMicrophone": "Micro của bạn",
+    "status": "Trạng thái",
+    "ready": "Sẵn sàng",
+    "testing": "Đang kiểm tra",
+    "needsAttention": "Cần chú ý",
+    "waitingForPermission": "Đang chờ cấp quyền",
+    "listeningForSignal": "Đang lắng nghe tín hiệu",
+    "signalDetected": "Đã phát hiện tín hiệu âm thanh",
+    "testStopped": "Đã dừng kiểm tra",
+    "currentLevel": "Mức âm lượng hiện tại",
+    "peakLevel": "Mức âm lượng đỉnh",
+    "decibels": "Decibel (dBFS)",
+    "pitchNote": "Cao độ / Nốt nhạc",
+    "sampleRate": "Tần số lấy mẫu",
+    "channels": "Số kênh âm thanh",
+    "hearMyselfOff": "Nghe lại giọng mình (Tắt)",
+    "hearMyselfOn": "Nghe lại giọng mình: BẬT (Trực tiếp)",
+    "headphoneHint": "💡 Vui lòng cắm tai nghe trước khi bật để tránh tiếng rít phản hồi âm thanh",
+    "recordClip": "Ghi âm đoạn ngắn",
+    "stopRecording": "Dừng ghi âm",
+    "startTestBeforeRecording": "Bắt đầu kiểm tra trước khi ghi âm.",
+    "recordingStatus": "Đang ghi âm cục bộ… tối đa 30 giây.",
+    "recordingReady": "Bản ghi hoàn tất — nghe lại để kiểm tra chất lượng giọng nói.",
+    "latestRecording": "Bản ghi âm cục bộ gần nhất",
+    "downloadClip": "Tải bản ghi về",
+    "localPrivacyLock": "Kiểm tra được xử lý cục bộ trên thiết bị. Quyền micro chỉ hoạt động trong lúc kiểm tra.",
+    "silentDbfs": "Yên lặng (<-60 dBFS)",
+    "errPermissionDenied": "Quyền truy cập micro bị từ chối. Hãy cho phép trong cài đặt trình duyệt và thử lại.",
+    "errNotFound": "Không tìm thấy micro. Hãy cắm thiết bị thu âm và thử lại.",
+    "errNotReadable": "Micro đang bị ứng dụng khác chiếm quyền sử dụng.",
+    "errDefault": "Không thể khởi động micro. Vui lòng kiểm tra kết nối và quyền truy cập.",
+    "errNotSupported": "Trình duyệt không hỗ trợ liệt kê thiết bị. Hãy thử Chrome, Edge hoặc Safari."
+  },
+  "content": {
+    "privacyBadge": "100% Trong trình duyệt & Cục bộ • Không gửi dữ liệu lên máy chủ",
+    "heroHeading": "Kiểm tra micro của bạn",
+    "heroHeadingAccent": "trực tuyến",
+    "heroDescription": "Kiểm tra xem micro của bạn có hoạt động tốt trên Windows, PC, Mac hoặc laptop hay không—và nghe thử giọng mình trước khi vào cuộc gọi Zoom, Teams hoặc Zalo. 100% riêng tư.",
+    "deviceHint": "Tên thiết bị sẽ được ẩn cho đến khi bạn cấp quyền. Quyền truy cập chỉ dùng để liệt kê micro rồi dừng ngay.",
+    "featuresLabel": "Tính năng",
+    "featuresTitle": "Mọi công cụ bạn cần để kiểm tra micro chuẩn xác.",
+    "featuresDescription": "Công cụ đơn giản cho những kiểm tra quan trọng nhất: đã chọn đúng mic chưa, có bắt được tiếng không và âm thanh có rõ ràng không?",
+    "features": [
+      {
+        "title": "Dạng sóng thời gian thực",
+        "desc": "Thấy sóng âm phản hồi ngay khi nói. Đồ thị chuyển động xác nhận trình duyệt đang thu tín hiệu micro của bạn."
+      },
+      {
+        "title": "Chọn thiết bị linh hoạt",
+        "desc": "Dễ dàng chuyển đổi giữa mic tích hợp laptop, mic USB, webcam hoặc tai nghe có mic."
+      },
+      {
+        "title": "Nghe như người khác nghe",
+        "desc": "Ghi âm đoạn ngắn hoặc bật giám sát không độ trễ để tự đánh giá âm lượng và độ trong trẻo của giọng nói."
+      },
+      {
+        "title": "Thông số kỹ thuật chi tiết",
+        "desc": "Xem tần số lấy mẫu, số kênh và tên thiết bị giúp bạn khắc phục sự cố âm thanh nhanh chóng."
+      },
+      {
+        "title": "Trạng thái rõ ràng",
+        "desc": "Thông báo trực quan cho biết khi nào cần cấp quyền, khi nào đang đo và khi nào đã dừng."
+      },
+      {
+        "title": "Riêng tư tuyệt đối",
+        "desc": "Mọi phân tích diễn ra ngay trên máy của bạn. Tuyệt đối không có dữ liệu âm thanh nào được tải lên máy chủ."
+      }
+    ],
+    "promo1Title": "Bạn muốn cải thiện chất lượng âm thanh micro?",
+    "promo1Desc": "Kiểm tra khoảng cách nói, tiếng vang phòng và độ nhạy trước cuộc gọi quan trọng.",
+    "promo1Link": "Đọc hướng dẫn khắc phục sự cố",
+    "promo2Title": "Micro không hoạt động?",
+    "promo2Desc": "Từng bước kiểm tra quyền ứng dụng, nút gạt tắt mic và cổng cắm jack âm thanh.",
+    "promo2Link": "Xem cách sửa lỗi",
+    "howLabel": "Cách kiểm tra",
+    "howTitle": "Chỉ 5 giây để có câu trả lời chuẩn xác.",
+    "howDesc": "Không cần tạo tài khoản hay cài đặt phần mềm. Cắm micro, cấp quyền và kiểm tra ngay trước cuộc họp trực tuyến.",
+    "steps": [
+      {
+        "title": "Bấm nút bắt đầu",
+        "desc": "Bắt đầu kiểm tra khi bạn sẵn sàng cấp quyền micro cho trình duyệt."
+      },
+      {
+        "title": "Cho phép truy cập micro",
+        "desc": "Chọn 'Cho phép' trên thông báo xuất hiện ở góc trên trình duyệt."
+      },
+      {
+        "title": "Nói và xem thước đo",
+        "desc": "Nói bằng âm lượng bình thường và quan sát thanh đo mức âm thanh chuyển động."
+      },
+      {
+        "title": "Đổi micro nếu cần",
+        "desc": "Chọn tai nghe hoặc mic rời trong danh sách thiết bị nếu có nhiều cổng vào."
+      },
+      {
+        "title": "Ghi âm và nghe lại",
+        "desc": "Bấm nghe lại bản ghi để cảm nhận chính xác âm thanh phát ra có bị rè hay nhỏ không."
+      }
+    ],
+    "faqLabel": "Câu hỏi thường gặp",
+    "faqTitle": "Các câu hỏi phổ biến khi kiểm tra micro",
+    "faqIntro": "Câu trả lời nhanh giúp bạn kiểm tra mic online, trên Windows 10 & 11, Mac, laptop, Teams, Zoom hoặc AirPods.",
+    "privacyLabel": "Cam kết bảo mật",
+    "privacyTitle": "Dữ liệu âm thanh chỉ nằm lại trên trang này.",
+    "privacyDesc": "Quyền thu âm chỉ kích hoạt khi bạn bấm kiểm tra. Quá trình phân tích decibel và ghi âm diễn ra hoàn toàn trong bộ nhớ máy tính của bạn và không bao giờ gửi ra ngoài.",
+    "privacyButton": "Kiểm tra an toàn",
+    "footerTagline": "Công cụ kiểm tra micro nhanh chóng, tin cậy cho học tập, họp hành và livestream.",
+    "footerToolsTitle": "Công cụ micro",
+    "footerHelpTitle": "Hỗ trợ & Hướng dẫn",
+    "footerAboutTitle": "Về chúng tôi",
+    "footerLanguagesTitle": "Ngôn ngữ (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Mọi quyền được bảo lưu.",
+    "footerSlogan": "Cho chất lượng cuộc gọi tốt hơn.",
+    "footerNote": "Xây dựng bằng Web Audio API, không gửi dữ liệu lên máy chủ."
+  },
+  "faqs": [
+    {
+      "q": "Làm thế nào để kiểm tra micro trực tuyến?",
+      "a": "Bấm vào 'Bắt đầu kiểm tra micro', chọn 'Cho phép' khi trình duyệt hỏi và nói bình thường vào mic. Thước đo âm lượng sẽ dao động khi nhận được tiếng nói."
+    },
+    {
+      "q": "Làm sao để biết micro của tôi có hoạt động hay không?",
+      "a": "Bắt đầu kiểm tra và nói vào mic. Nếu thước đo decibel chuyển động và bản ghi phát lại rõ ràng thì mic hoạt động tốt. Nếu không có tín hiệu, hãy kiểm tra nút gạt tắt mic trên dây."
+    },
+    {
+      "q": "Cách kiểm tra micro trên Windows 10?",
+      "a": "Vào Cài đặt (Settings) > Hệ thống (System) > Âm thanh (Sound) và nhìn vạch đo ở mục 'Input'. Hoặc dùng ngay trang web này để xem mức decibel trực tiếp."
+    },
+    {
+      "q": "Cách kiểm tra micro trên Windows 11?",
+      "a": "Mở Cài đặt > Âm thanh, chọn thiết bị micro và bấm kiểm tra tín hiệu. Hoặc sử dụng công cụ online này để xem sóng âm thanh sinh động."
+    },
+    {
+      "q": "Cách kiểm tra micro trên máy Mac?",
+      "a": "Trên Mac mở Cài đặt hệ thống > Âm thanh > Đầu vào (Input) và nói để xem vạch tín hiệu. Bạn cũng có thể mở trang này trên Safari hoặc Chrome để kiểm tra tức thì."
+    },
+    {
+      "q": "Kiểm tra micro tích hợp trên laptop như thế nào?",
+      "a": "Kiểm tra xem phím tắt tắt mic trên bàn phím có bật đèn không, sau đó bấm bắt đầu kiểm tra trên trang này và nói chuyện bình thường."
+    },
+    {
+      "q": "Kiểm tra micro trước khi họp Zoom hay Google Meet?",
+      "a": "Trước giờ họp, vào trang này bật tính năng 'Nghe lại giọng mình' để nghe thử âm thanh thực tế và kiểm tra xem phòng có bị vang hay ồn không."
+    },
+    {
+      "q": "Cách kiểm tra micro tai nghe AirPods hoặc tai nghe Bluetooth?",
+      "a": "Kết nối AirPods với máy tính, chọn AirPods trong danh sách thiết bị và bấm bắt đầu. Ghi âm thử 5 giây để kiểm tra độ rõ ràng của micro không dây."
+    },
+    {
+      "q": "Làm sao để nghe giọng mình giống như người khác nghe?",
+      "a": "Cắm tai nghe vào tai, bấm bắt đầu và bật 'Nghe lại giọng mình'. Bạn sẽ nghe thấy tiếng mình nói theo thời gian thực không độ trễ."
+    },
+    {
+      "q": "Tại sao micro của tôi không thu được tiếng?",
+      "a": "Hãy kiểm tra: 1. Quyền micro trên trình duyệt; 2. Nút tắt mic vật lý trên tai nghe; 3. Cài đặt quyền riêng tư của Windows; 4. Tắt các ứng dụng khác đang chiếm mic."
+    },
+    {
+      "q": "Âm thanh ghi âm có bị tải lên mạng không?",
+      "a": "Tuyệt đối không. Trang web sử dụng Web Audio API để xử lý mọi dữ liệu hoàn toàn cục bộ trên máy tính của bạn và tự hủy ngay khi đóng tab."
+    },
+    {
+      "q": "Có thể kiểm tra mic PC mà không cần mở cài đặt Windows không?",
+      "a": "Có. Mở TestYourMicrophone.com trên trình duyệt để đo ngay mức decibel (dBFS), cao độ và nghe lại đoạn ghi âm mà không cần mở bảng điều khiển phức tạp."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Tiếng Việt",
+    "webAppDescription": "Kiểm tra micro của bạn trên Windows 10, 11, PC, Mac hoặc laptop với thước đo decibel trực tiếp và ghi âm phát lại tức thì. 100% bảo mật cục bộ trên trình duyệt.",
+    "featuresList": [
+      "Dạng sóng thời gian thực",
+      "Chọn thiết bị linh hoạt",
+      "Nghe như người khác nghe",
+      "Thông số kỹ thuật chi tiết",
+      "Trạng thái rõ ràng",
+      "Riêng tư tuyệt đối"
+    ],
+    "howToName": "Kiểm tra micro online – Test mic miễn phí trên máy tính (PC, Mac)",
+    "howToDescription": "Kiểm tra micro của bạn trên Windows 10, 11, PC, Mac hoặc laptop với thước đo decibel trực tiếp và ghi âm phát lại tức thì. 100% bảo mật cục bộ trên trình duyệt.",
+    "howToSteps": [
+      {
+        "name": "Bấm nút bắt đầu",
+        "text": "Bắt đầu kiểm tra khi bạn sẵn sàng cấp quyền micro cho trình duyệt.",
+        "url": "https://testyourmicrophone.com/vi/#tester"
+      },
+      {
+        "name": "Cho phép truy cập micro",
+        "text": "Chọn 'Cho phép' trên thông báo xuất hiện ở góc trên trình duyệt.",
+        "url": "https://testyourmicrophone.com/vi/#tester"
+      },
+      {
+        "name": "Nói và xem thước đo",
+        "text": "Nói bằng âm lượng bình thường và quan sát thanh đo mức âm thanh chuyển động.",
+        "url": "https://testyourmicrophone.com/vi/#tester"
+      },
+      {
+        "name": "Đổi micro nếu cần",
+        "text": "Chọn tai nghe hoặc mic rời trong danh sách thiết bị nếu có nhiều cổng vào.",
+        "url": "https://testyourmicrophone.com/vi/#tester"
+      },
+      {
+        "name": "Ghi âm và nghe lại",
+        "text": "Bấm nghe lại bản ghi để cảm nhận chính xác âm thanh phát ra có bị rè hay nhỏ không.",
+        "url": "https://testyourmicrophone.com/vi/#tester"
+      }
+    ]
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "code": "ro",
+  "path": "ro",
+  "name": "Română",
+  "englishName": "Romanian",
+  "dir": "ltr",
+  "meta": {
+    "title": "Test microfon online – Verificare microfon gratuit (PC & Mac)",
+    "description": "Verifică dacă microfonul tău funcționează pe Windows 10, 11, PC, Mac sau laptop cu măsurător de decibeli în direct și redare audio instantanee. 100% privat în browser.",
+    "ogTitle": "Test microfon online – Verificare gratuită microfon",
+    "ogDescription": "Verifică funcționarea microfonului în browser pentru PC, Mac, Teams, Zoom sau căști cu decibelmetru live."
+  },
+  "ui": {
+    "startTest": "Pornește testul de microfon",
+    "stopTest": "Oprește testul de microfon",
+    "requestingAccess": "Se solicită accesul la microfon…",
+    "showMicrophones": "Afișează microfoanele",
+    "refreshMicrophones": "Reîmprospătează lista",
+    "chooseMicrophone": "Alegeți microfonul",
+    "allowAccessToList": "Permiteți accesul pentru a afișa microfoanele",
+    "namesRevealedHint": "Microfoane detectate. Alegeți dispozitivul și porniți testul.",
+    "noMicDetected": "Nu a fost detectat niciun microfon",
+    "notStarted": "Neînceput",
+    "lastTested": "Ultimul test",
+    "notYet": "Nu încă",
+    "yourMicrophone": "Microfonul tău",
+    "status": "Stare",
+    "ready": "Pregătit",
+    "testing": "Se testează",
+    "needsAttention": "Necesită atenție",
+    "waitingForPermission": "Se așteaptă permisiunea",
+    "listeningForSignal": "Se ascultă semnalul audio",
+    "signalDetected": "Semnal audio detectat",
+    "testStopped": "Test oprit",
+    "currentLevel": "Nivel curent",
+    "peakLevel": "Nivel maxim",
+    "decibels": "Decibeli (dBFS)",
+    "pitchNote": "Înălțime / Notă",
+    "sampleRate": "Rată de eșantionare",
+    "channels": "Canale",
+    "hearMyselfOff": "Mă aud pe mine (oprit)",
+    "hearMyselfOn": "Mă aud pe mine: PORNIT (Live)",
+    "headphoneHint": "💡 Conectați căștile înainte de activare pentru a evita microfonia (ecou ascuțit)",
+    "recordClip": "Înregistrează un clip",
+    "stopRecording": "Oprește înregistrarea",
+    "startTestBeforeRecording": "Porniți testul înainte de a înregistra.",
+    "recordingStatus": "Se înregistrează local… max 30 secunde.",
+    "recordingReady": "Înregistrare gata — ascultați pentru a verifica claritatea vocii.",
+    "latestRecording": "Ultima înregistrare locală",
+    "downloadClip": "Descarcă înregistrarea",
+    "localPrivacyLock": "Testul este procesat local în browser. Niciun fișier audio nu se trimite la server.",
+    "silentDbfs": "Liniște (<-60 dBFS)",
+    "errPermissionDenied": "Accesul la microfon a fost refuzat. Permiteți accesul în setările browserului și încercați din nou.",
+    "errNotFound": "Nu a fost găsit niciun microfon. Conectați un microfon și reîncercați.",
+    "errNotReadable": "Microfonul nu este disponibil, este posibil să fie folosit de o altă aplicație.",
+    "errDefault": "Microfonul nu a putut fi pornit. Verificați conexiunea și permisiunile.",
+    "errNotSupported": "Detectarea microfoanelor nu este suportată în acest browser. Folosiți Chrome, Edge sau Safari."
+  },
+  "content": {
+    "privacyBadge": "100% În browser & Local • Fără încărcare pe server",
+    "heroHeading": "Testează-ți microfonul",
+    "heroHeadingAccent": "online",
+    "heroDescription": "Verifică dacă microfonul funcționează pe Windows, PC, Mac sau laptop—și ascultă cum suni înainte de apelurile pe Zoom, Teams sau Google Meet. 100% confidențial.",
+    "deviceHint": "Numele dispozitivelor rămân ascunse până când permiteți accesul. Accesul este utilizat doar pentru detectare și se oprește imediat.",
+    "featuresLabel": "Funcții",
+    "featuresTitle": "Tot ce ai nevoie pentru verificarea microfonului.",
+    "featuresDescription": "Unelte simple pentru verificările de bază: este selectat microfonul corect, îți preia vocea și înregistrarea sună clar?",
+    "features": [
+      {
+        "title": "Unda sonoră în timp real",
+        "desc": "Vezi reacția sunetului imediat ce vorbești. O undă vizuală dinamică confirmă recepția semnalului audio."
+      },
+      {
+        "title": "Schimbare ușoară de microfon",
+        "desc": "Comută între microfonul integrat al laptopului, microfon USB extern, cameră web sau căști cu microfon."
+      },
+      {
+        "title": "Auzi ce aud ceilalți",
+        "desc": "Înregistrează un clip scurt sau activează monitorizarea fără întârziere pentru a-ți evalua claritatea vocii."
+      },
+      {
+        "title": "Detalii tehnice audio",
+        "desc": "Află rata de eșantionare, canalele și denumirea dispozitivului pentru depanarea problemelor de sunet."
+      },
+      {
+        "title": "Notificări clare",
+        "desc": "Mesaje simple în limba română pentru solicitarea permisiunii, desfășurarea testului și oprire."
+      },
+      {
+        "title": "Confidențialitate absolută",
+        "desc": "Toate calculele au loc în browserul tău. Nicio înregistrare nu ajunge pe serverele noastre."
+      }
+    ],
+    "promo1Title": "Vrei să îmbunătățești calitatea sunetului?",
+    "promo1Desc": "Verifică distanța față de microfon, ecoul camerei și volumul de intrare înainte de apel.",
+    "promo1Link": "Citește ghidul de depanare",
+    "promo2Title": "Microfonul nu se aude deloc?",
+    "promo2Desc": "Parcurge pas cu pas verificarea permisiunilor de sistem, mufelor jack și butoanelor de mute.",
+    "promo2Link": "Află cum se rezolvă",
+    "howLabel": "Instrucțiuni",
+    "howTitle": "Răspuns sigur în cinci secunde.",
+    "howDesc": "Fără cont și fără instalare de programe. Conectează microfonul, acordă permisiunea și testează sunetul înainte de ședința online.",
+    "steps": [
+      {
+        "title": "Apasă pe butonul de start",
+        "desc": "Începe testul când ești gata să acorzi browserului permisiunea de acces la microfon."
+      },
+      {
+        "title": "Permite accesul la microfon",
+        "desc": "Alege 'Permite' (Allow) în caseta de dialog a browserului tău."
+      },
+      {
+        "title": "Vorbește și privește indicatorul",
+        "desc": "Vorbește cu voce normală și observă barele de volum și forma de undă."
+      },
+      {
+        "title": "Schimbă microfonul dacă e cazul",
+        "desc": "Alege căștile sau microfonul extern din meniul derulant al dispozitivelor."
+      },
+      {
+        "title": "Ascultă înregistrarea de test",
+        "desc": "Redă sunetul înregistrat pentru a te asigura că vocea ta este clară și fără zgomot de fond."
+      }
+    ],
+    "faqLabel": "Întrebări frecvente",
+    "faqTitle": "Întrebări frecvente despre testarea microfonului",
+    "faqIntro": "Răspunsuri rapide pentru testarea microfonului online, în Windows 10/11, pe Mac, Teams, Zoom sau căști AirPods.",
+    "privacyLabel": "Garanția confidențialității",
+    "privacyTitle": "Vocea ta rămâne doar pe această pagină.",
+    "privacyDesc": "Microfonul funcționează numai după ce apeși pe butonul de test. Calculul decibelilor și înregistrările se execută local în memoria computerului tău și nu sunt încărcate pe internet.",
+    "privacyButton": "Testează în mod privat",
+    "footerTagline": "Verificatorul de microfon rapid și sigur pentru ședințe online, cursuri și streaming.",
+    "footerToolsTitle": "Instrumente audio",
+    "footerHelpTitle": "Ajutor și ghiduri",
+    "footerAboutTitle": "Despre noi",
+    "footerLanguagesTitle": "Limbi (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. Toate drepturile rezervate.",
+    "footerSlogan": "Creat pentru apeluri mai clare și fără griji.",
+    "footerNote": "Construit cu Web Audio API, fără trimitere de date pe server."
+  },
+  "faqs": [
+    {
+      "q": "Cum se testează microfonul online?",
+      "a": "Apasă pe 'Pornește testul de microfon', permite accesul în browser și vorbește normal. Bara de decibeli se va mișca imediat ce captează sunet. Poți de asemenea să înregistrezi un clip scurt."
+    },
+    {
+      "q": "Cum știu dacă microfonul meu funcționează?",
+      "a": "Pornește testul și vorbește. Dacă indicatorul de volum reacționează și înregistrarea de test se aude clar, microfonul e în regulă. Dacă nu, verifică butonul de mute de pe cablu."
+    },
+    {
+      "q": "Cum testez microfonul în Windows 10?",
+      "a": "Deschide Setări > Sistem > Sunet și privește bara de volum de sub 'Intrare'. Sau folosește acest site pentru afișarea instantanee a decibelilor."
+    },
+    {
+      "q": "Cum testez microfonul în Windows 11?",
+      "a": "Mergi la Setări > Sistem > Sunet, selectează microfonul și rulează testul de intrare. Sau testează-l direct aici fără setări suplimentare."
+    },
+    {
+      "q": "Cum testez microfonul pe Mac?",
+      "a": "Deschide Configurări de sistem > Sunet > Intrare și vorbește pentru a vedea indicatorul. Poți efectua același test direct aici pe Safari sau Chrome."
+    },
+    {
+      "q": "Cum testez microfonul încorporat al laptopului?",
+      "a": "Asigură-te că tasta de oprire a microfonului de pe tastatură nu este activă, pornește testul pe această pagină și vorbește normal în fața ecranului."
+    },
+    {
+      "q": "Cum verific microfonul înainte de Zoom sau Teams?",
+      "a": "Înainte de începerea ședinței, intră pe acest site și activează 'Mă aud pe mine'. Vei auzi exact cum te vor auzi ceilalți participanți la apel."
+    },
+    {
+      "q": "Cum testez căștile AirPods sau căștile wireless Bluetooth?",
+      "a": "Conectează căștile AirPods la computer, alege-le din lista de microfoane și începe testul. Înregistrează 5 secunde pentru a testa claritatea fără fir."
+    },
+    {
+      "q": "Cum pot auzi propria voce exact așa cum o aud ceilalți?",
+      "a": "Pune-ți căștile pe urechi, pornește testul și activează opțiunea 'Mă aud pe mine'. Îți vei auzi vocea în direct, în timp real, fără nicio întârziere."
+    },
+    {
+      "q": "De ce nu intră niciun sunet în microfon?",
+      "a": "Verifică: 1. Permisiunea din browser; 2. Comutatorul fizic de mute de pe căști; 3. Setările de confidențialitate Windows; 4. Închide alte aplicații care blochează microfonul."
+    },
+    {
+      "q": "Se încarcă înregistrările mele pe internet?",
+      "a": "Categoric nu. Testul funcționează 100% în browser prin intermediul Web Audio API, asigurând confidențialitate completă."
+    },
+    {
+      "q": "Pot testa microfonul fără să intru în setările Windows?",
+      "a": "Da, trebuie doar să deschizi TestYourMicrophone.com. Măsoară decibelii (dBFS), tonalitatea vocii și permite redarea cu un simplu clic."
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - Română",
+    "webAppDescription": "Verifică dacă microfonul tău funcționează pe Windows 10, 11, PC, Mac sau laptop cu măsurător de decibeli în direct și redare audio instantanee. 100% privat în browser.",
+    "featuresList": [
+      "Unda sonoră în timp real",
+      "Schimbare ușoară de microfon",
+      "Auzi ce aud ceilalți",
+      "Detalii tehnice audio",
+      "Notificări clare",
+      "Confidențialitate absolută"
+    ],
+    "howToName": "Test microfon online – Verificare microfon gratuit (PC & Mac)",
+    "howToDescription": "Verifică dacă microfonul tău funcționează pe Windows 10, 11, PC, Mac sau laptop cu măsurător de decibeli în direct și redare audio instantanee. 100% privat în browser.",
+    "howToSteps": [
+      {
+        "name": "Apasă pe butonul de start",
+        "text": "Începe testul când ești gata să acorzi browserului permisiunea de acces la microfon.",
+        "url": "https://testyourmicrophone.com/ro/#tester"
+      },
+      {
+        "name": "Permite accesul la microfon",
+        "text": "Alege 'Permite' (Allow) în caseta de dialog a browserului tău.",
+        "url": "https://testyourmicrophone.com/ro/#tester"
+      },
+      {
+        "name": "Vorbește și privește indicatorul",
+        "text": "Vorbește cu voce normală și observă barele de volum și forma de undă.",
+        "url": "https://testyourmicrophone.com/ro/#tester"
+      },
+      {
+        "name": "Schimbă microfonul dacă e cazul",
+        "text": "Alege căștile sau microfonul extern din meniul derulant al dispozitivelor.",
+        "url": "https://testyourmicrophone.com/ro/#tester"
+      },
+      {
+        "name": "Ascultă înregistrarea de test",
+        "text": "Redă sunetul înregistrat pentru a te asigura că vocea ta este clară și fără zgomot de fond.",
+        "url": "https://testyourmicrophone.com/ro/#tester"
+      }
+    ]
+  }
+}

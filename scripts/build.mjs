@@ -2,6 +2,7 @@ import { cp, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { buildAllLanguages } from './build-i18n.mjs';
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputDirectory = path.join(projectRoot, 'dist');
@@ -36,5 +37,8 @@ const assetsDir = path.join(projectRoot, 'assets');
 if (existsSync(assetsDir)) {
   await cp(assetsDir, path.join(outputDirectory, 'assets'), { recursive: true });
 }
+
+// Generate static multilingual versions for 32 languages + sitemap.xml
+await buildAllLanguages();
 
 console.log(`✔ Built static distribution in ${path.relative(projectRoot, outputDirectory)}/`);

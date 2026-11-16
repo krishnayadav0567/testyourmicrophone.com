@@ -1,0 +1,232 @@
+{
+  "code": "zh-cn",
+  "path": "zh-cn",
+  "name": "简体中文",
+  "englishName": "Chinese (Simplified)",
+  "dir": "ltr",
+  "meta": {
+    "title": "麦克风在线测试 – 免费麦克风声音与动作测试 (PC/Mac/Win)",
+    "description": "在线测试 Windows 10、Windows 11、PC、Mac 或笔记本电脑的麦克风。实时分贝电平表、音调检测及即时录音回放，开会通话前快速确认声音效果。",
+    "ogTitle": "麦克风在线测试 – 免费麦克风检测工具",
+    "ogDescription": "无需安装软件，直接在浏览器中测试麦克风音量与清晰度。数据本地处理，绝不上传服务器。"
+  },
+  "ui": {
+    "startTest": "开始麦克风测试",
+    "stopTest": "停止麦克风测试",
+    "requestingAccess": "正在请求麦克风权限…",
+    "showMicrophones": "显示麦克风列表",
+    "refreshMicrophones": "刷新麦克风列表",
+    "chooseMicrophone": "选择您的麦克风",
+    "allowAccessToList": "允许权限以列出麦克风",
+    "namesRevealedHint": "已检测到麦克风。请选择设备后点击开始测试。",
+    "noMicDetected": "未检测到麦克风设备",
+    "notStarted": "未开始",
+    "lastTested": "上次测试",
+    "notYet": "尚未测试",
+    "yourMicrophone": "当前麦克风",
+    "status": "状态",
+    "ready": "准备就绪",
+    "testing": "测试中",
+    "needsAttention": "需要注意",
+    "waitingForPermission": "等待麦克风权限",
+    "listeningForSignal": "正在接收音频信号",
+    "signalDetected": "已检测到声音信号",
+    "testStopped": "测试已停止",
+    "currentLevel": "当前音量",
+    "peakLevel": "峰值音量",
+    "decibels": "分贝值 (dBFS)",
+    "pitchNote": "音调 / 音高",
+    "sampleRate": "采样率",
+    "channels": "声道数",
+    "hearMyselfOff": "实时监听自己的声音 (关)",
+    "hearMyselfOn": "实时监听自己的声音: 开 (直播监听)",
+    "headphoneHint": "💡 开启前请戴上耳机，以防止扬声器与麦克风产生回音啸叫",
+    "recordClip": "录制测试片段",
+    "stopRecording": "停止录音",
+    "startTestBeforeRecording": "录音前请先点击开始测试。",
+    "recordingStatus": "正在本地录制… 最长30秒",
+    "recordingReady": "录音完成 — 点击播放即可听到自己的真实声音。",
+    "latestRecording": "最新本地录音",
+    "downloadClip": "下载录音音频",
+    "localPrivacyLock": "此测试完全在浏览器本地处理。麦克风仅在测试时激活，不会上传任何数据。",
+    "silentDbfs": "静音 (<-60 dBFS)",
+    "errPermissionDenied": "麦克风权限被拒绝。请在浏览器地址栏设置中允许麦克风访问后重试。",
+    "errNotFound": "未找到麦克风，请检查设备是否连接妥当。",
+    "errNotReadable": "麦克风无法启动，可能其他应用程序正在占用该设备。",
+    "errDefault": "麦克风未能启动，请检查设备连接及系统权限。",
+    "errNotSupported": "当前浏览器不支持麦克风枚举，推荐使用 Chrome、Edge 或 Safari。"
+  },
+  "content": {
+    "privacyBadge": "100% 浏览器本地运行 • 零数据上传服务器",
+    "heroHeading": "在线测试您的麦克风",
+    "heroHeadingAccent": "免费检测",
+    "heroDescription": "检测 Windows、PC、Mac 或笔记本电脑麦克风是否正常工作。在进入腾讯会议、Zoom、Teams 或微信语音前试听真实音质。100% 私密安全。",
+    "deviceHint": "在您授权之前，设备名称保持隐藏。麦克风权限仅用于读取设备列表并会立即释放。",
+    "featuresLabel": "功能亮点",
+    "featuresTitle": "麦克风检测所需的一切功能，一应俱全。",
+    "featuresDescription": "轻松搞定最关键的检查：是否选对了麦克风、能否拾取声音、录音听起来是否清晰无杂音。",
+    "features": [
+      {
+        "title": "实时动态声波",
+        "desc": "说话时声波跳动反馈，直观确认浏览器已正常接收到麦克风音频信号。"
+      },
+      {
+        "title": "多设备自由切换",
+        "desc": "在笔记本内置麦克风、USB 麦克风、外置摄像头或耳机耳麦之间一键切换。"
+      },
+      {
+        "title": "听听别人眼中的你",
+        "desc": "录制一段声音或开启零延迟耳返监听，在开会前确认你的音量大小和讲话清晰度。"
+      },
+      {
+        "title": "专业音频参数",
+        "desc": "查看实时采样率、声道数及识别到的设备型号，辅助排查硬件及驱动故障。"
+      },
+      {
+        "title": "状态清晰直观",
+        "desc": "权限等待中、测试运行中或已停止均有明确中文状态指示，一目了然。"
+      },
+      {
+        "title": "本地隐私保障",
+        "desc": "页面使用现代浏览器音频 API 本地计算，音频流绝对不会发送到任何云端服务器。"
+      }
+    ],
+    "promo1Title": "想进一步提升麦克风音质？",
+    "promo1Desc": "在重要会议前，检查说话距离、房间回音、防喷罩和输入增益。",
+    "promo1Link": "查看故障排查指南",
+    "promo2Title": "麦克风没有声音？",
+    "promo2Desc": "手把手排查系统权限、硬件静音开关与连接插头松动问题。",
+    "promo2Link": "了解如何解决",
+    "howLabel": "使用步骤",
+    "howTitle": "五秒内获得明确答案。",
+    "howDesc": "无需注册账号，无需下载客户端。连接麦克风，点击允许，开会前快速自检。",
+    "steps": [
+      {
+        "title": "点击开始测试",
+        "desc": "准备好授予浏览器临时麦克风权限后，点击按钮开始。"
+      },
+      {
+        "title": "允许麦克风权限",
+        "desc": "在浏览器弹出的权限提示中选择'允许'。"
+      },
+      {
+        "title": "正常说话观察电平",
+        "desc": "以正常说话音量发声，观察彩色电平表与波形跳动。"
+      },
+      {
+        "title": "按需切换输入设备",
+        "desc": "如果连接了外接耳机或声卡，从下拉列表中选择对应设备。"
+      },
+      {
+        "title": "试听测试录音",
+        "desc": "回放刚才录制的声音片段，确认音量饱满、没有底噪爆音。"
+      }
+    ],
+    "faqLabel": "常见问题解答",
+    "faqTitle": "麦克风测试常见问题",
+    "faqIntro": "快速了解如何在 Windows 10/11、Mac、笔记本电脑、腾讯会议、Zoom、Teams 或 AirPods 上测试麦克风。",
+    "privacyLabel": "隐私安全承诺",
+    "privacyTitle": "您的麦克风音频仅保留在此页面内。",
+    "privacyDesc": "麦克风仅在您明确点击测试后开始工作。音量分贝计算和测试录音全部在您设备的浏览器内存中进行，绝不上传到任何远程服务器。",
+    "privacyButton": "安全私密测试",
+    "footerTagline": "为通话、网课、会议和直播量身定制的快速麦克风检测工具。",
+    "footerToolsTitle": "麦克风工具",
+    "footerHelpTitle": "帮助与指引",
+    "footerAboutTitle": "关于我们",
+    "footerLanguagesTitle": "语言 (Languages)",
+    "footerRights": "© 2026 TestYourMicrophone.com. 保留所有权利。",
+    "footerSlogan": "助您拥有更清晰顺畅的通话体验。",
+    "footerNote": "基于 Web Audio API 构建，绝无音频上传。"
+  },
+  "faqs": [
+    {
+      "q": "如何在线测试麦克风？",
+      "a": "点击'开始麦克风测试'，在浏览器弹窗中点击'允许'访问麦克风，然后正常说话。如果页面上的分贝波形跳动，说明麦克风正在工作。您还可以录制一段语音试听。"
+    },
+    {
+      "q": "如何判断麦克风是否正常工作？",
+      "a": "启动测试并对麦克风说话，如果音量电平表有起伏，且录制的测试片段回放声音清晰，则麦克风完好。若无反应，请检查静音按键及插孔连接。"
+    },
+    {
+      "q": "Windows 10 如何测试麦克风？",
+      "a": "在 Win10 中打开'设置' > '系统' > '声音'，在'输入'下查看麦克风电平指示条。也可以直接打开本网页进行更直观的分贝测试。"
+    },
+    {
+      "q": "Windows 11 如何测试麦克风？",
+      "a": "进入'设置' > '系统' > '声音'，选择输入麦克风并点击'开始测试'。或者直接使用本站免安装工具实时查看分贝波形。"
+    },
+    {
+      "q": "Mac 电脑如何测试麦克风？",
+      "a": "在苹果 Mac 上打开'系统设置' > '声音' > '输入'，对着麦克风说话观察输入音量表。使用本网站也能在 Safari 或 Chrome 中即时测试。"
+    },
+    {
+      "q": "笔记本电脑自带麦克风怎么测？",
+      "a": "先确认键盘上的麦克风物理静音快捷键（如 F4/F8/Fn）未开启，然后在本页面点击开始测试，对着屏幕说话即可。"
+    },
+    {
+      "q": "开腾讯会议、Zoom 或 Teams 前如何确认声音？",
+      "a": "建议在参会前打开本站，戴上耳机开启'实时监听'功能，即可听见自己发出的声音，确认有无房间回音和杂音。"
+    },
+    {
+      "q": "AirPods 或蓝牙耳机麦克风如何测试？",
+      "a": "将 AirPods 与电脑连接，在设备下拉列表中选择 AirPods 麦克风，点击开始测试并录制 5 秒钟，回放即可判断蓝牙拾音质量。"
+    },
+    {
+      "q": "如何听到别人听到的自己的声音？",
+      "a": "戴上耳机，点击开始测试并开启'实时监听'，或者录制一段语音点击播放。这能让你体验到与通话对方完全一致的声音效果。"
+    },
+    {
+      "q": "为什么麦克风没有声音输入？",
+      "a": "请检查：1. 浏览器麦克风权限；2. 耳机线控上的静音开关；3. 系统隐私设置是否禁止应用访问麦克风；4. 关闭可能占用麦克风的其他软件。"
+    },
+    {
+      "q": "测试录音会上传到互联网上吗？",
+      "a": "绝对不会。本网站完全利用 HTML5 Web Audio API 在您的设备本地执行计算和临时存储，关闭网页后数据即刻清除。"
+    },
+    {
+      "q": "如何在不打开系统设置的情况下测试 PC 麦克风？",
+      "a": "直接打开 TestYourMicrophone.com 即可。它能立即测算 dBFS 分贝、基频音高，并提供免配置的本地录音试听功能。"
+    }
+  ],
+  "schemas": {
+    "webAppName": "TestYourMicrophone.com - 简体中文",
+    "webAppDescription": "在线测试 Windows 10、Windows 11、PC、Mac 或笔记本电脑的麦克风。实时分贝电平表、音调检测及即时录音回放，开会通话前快速确认声音效果。",
+    "featuresList": [
+      "实时动态声波",
+      "多设备自由切换",
+      "听听别人眼中的你",
+      "专业音频参数",
+      "状态清晰直观",
+      "本地隐私保障"
+    ],
+    "howToName": "麦克风在线测试 – 免费麦克风声音与动作测试 (PC/Mac/Win)",
+    "howToDescription": "在线测试 Windows 10、Windows 11、PC、Mac 或笔记本电脑的麦克风。实时分贝电平表、音调检测及即时录音回放，开会通话前快速确认声音效果。",
+    "howToSteps": [
+      {
+        "name": "点击开始测试",
+        "text": "准备好授予浏览器临时麦克风权限后，点击按钮开始。",
+        "url": "https://testyourmicrophone.com/zh-cn/#tester"
+      },
+      {
+        "name": "允许麦克风权限",
+        "text": "在浏览器弹出的权限提示中选择'允许'。",
+        "url": "https://testyourmicrophone.com/zh-cn/#tester"
+      },
+      {
+        "name": "正常说话观察电平",
+        "text": "以正常说话音量发声，观察彩色电平表与波形跳动。",
+        "url": "https://testyourmicrophone.com/zh-cn/#tester"
+      },
+      {
+        "name": "按需切换输入设备",
+        "text": "如果连接了外接耳机或声卡，从下拉列表中选择对应设备。",
+        "url": "https://testyourmicrophone.com/zh-cn/#tester"
+      },
+      {
+        "name": "试听测试录音",
+        "text": "回放刚才录制的声音片段，确认音量饱满、没有底噪爆音。",
+        "url": "https://testyourmicrophone.com/zh-cn/#tester"
+      }
+    ]
+  }
+}
