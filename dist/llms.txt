@@ -1,0 +1,20 @@
+# Test Your Microphone
+
+> Free, private, client-side microphone testing tool for Windows 10/11, Mac, iPhone, and Android. Measures volume level in real-time decibels (dBFS), detects audio pitch and frequency, provides local playback to hear yourself speak, and requires zero software installation or audio uploads.
+
+## Tools & Specialized Tests
+
+- [Microphone Test](https://testyourmicrophone.com/): Free online microphone test for all devices and browsers with real-time dBFS visualizer, pitch detection, and instant playback.
+- [Windows Mic Test](https://testyourmicrophone.com/windows-mic-test.html): Free microphone test for Windows 10, Windows 11, and PC laptops. Test Realtek, USB, or wireless headsets instantly with live dBFS meter.
+- [Mac Mic Test](https://testyourmicrophone.com/mac-mic-test.html): Online microphone test for Mac, MacBook Pro, MacBook Air, and iMac. Check macOS microphone permissions and audio clarity.
+- [Teams & Zoom Mic Test](https://testyourmicrophone.com/teams-mic-test.html): Check and troubleshoot your microphone before Teams, Zoom, or Google Meet calls to avoid audio issues.
+- [AirPods Mic Test](https://testyourmicrophone.com/airpods-mic-test.html): Test AirPods, AirPods Pro, and Bluetooth wireless headsets. Check audio levels, microphone stability, and sound quality.
+
+## Documentation & Legal
+
+- [Privacy Policy](https://testyourmicrophone.com/privacy.html): 100% client-side Web Audio API processing; audio streams never leave your device.
+- [Terms of Service](https://testyourmicrophone.com/terms.html): Terms and conditions for using TestYourMicrophone.com.
+
+## Multilingual Support
+
+Available across 32 native languages with localized guides: English, Spanish, German, French, Italian, Portuguese, Czech, Polish, Russian, Turkish, Greek, Arabic, Hindi, Japanese, Chinese, and more. Complete hreflang alternate URLs are published in the sitemap: https://testyourmicrophone.com/sitemap.xml

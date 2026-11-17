@@ -186,6 +186,14 @@
     {
       "q": "How do I test my PC microphone locally without opening Windows sound settings?",
       "a": "Open TestYourMicrophone.com in your browser. It uses the Web Audio API to test your microphone locally on your device with a live decibel (dBFS) meter, pitch detector, and instant playback with zero configuration required."
+    },
+    {
+      "q": "How to test Realtek microphone on Windows?",
+      "a": "Select your Realtek microphone or headset in the device list and click Start microphone test. If your volume is quiet, open the Realtek Audio Console to raise the microphone boost slider (+10dB to +20dB) and verify your physical mute switch is off."
+    },
+    {
+      "q": "How to test microphone using CMD or PowerShell?",
+      "a": "Press Win + R, type 'mmsys.cpl' and press Enter to launch Windows Sound control panel from the command line, then speak while watching the green volume meter. For an instant test with real-time dBFS and pitch meters, open TestYourMicrophone.com in your browser."
     }
   ],
   "schemas": {
